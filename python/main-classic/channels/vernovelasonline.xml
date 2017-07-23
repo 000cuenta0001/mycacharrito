@@ -1,4 +1,5 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<!--- By EpNiebla -->
 <channel>
 	<id>vernovelasonline</id>
 	<name>Ver Novelas Online</name>
@@ -16,7 +17,7 @@
 	<changes>
             <change>
                     <date>28/06/2017</date>
-			        <autor></autor>
+			        <autor>Intel1</autor>
                     <description>Primera version</description>
             </change>        
 	</changes>

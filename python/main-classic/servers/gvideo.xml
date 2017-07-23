@@ -44,6 +44,6 @@
 		<visible>false</visible>
 	</settings>
 	<thumbnail>https://s11.postimg.org/giobzkprz/logo-google1.png</thumbnail>
-	<update_url>https://raw.githubusercontent.com/pelisalacarta-ce/pelisalacarta-ce/master/python/main-classic/servers/</update_url>
+	<update_url>https://raw.githubusercontent.com/tvalacarta/pelisalacarta/master/python/main-classic/servers/</update_url>
 	<version>1</version>
 </server>

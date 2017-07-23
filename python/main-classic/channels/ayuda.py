@@ -3,6 +3,7 @@
 # pelisalacarta - XBMC Plugin
 # ayuda - Videos de ayuda y tutoriales para pelisalacarta
 # http://blog.tvalacarta.info/plugin-xbmc/pelisalacarta/
+# contribuci?n de jurrabi
 # ----------------------------------------------------------------------
 import os
 
@@ -51,6 +52,10 @@ def mainlist(item):
         itemlist.append(Item(channel=item.channel, action="", title="FAQ:",
                              thumbnail=get_thumbnail_path("thumb_ayuda.png"),
                              folder=False))
+        itemlist.append(Item(channel=item.channel, action="faq",
+                             title="    - ¿Como reportar un error?",
+                             thumbnail=get_thumbnail_path("thumb_ayuda.png"),
+                             folder=False, extra="report_error"))
         itemlist.append(Item(channel=item.channel, action="faq",
                              title="    - ¿Se pueden filtrar los enlaces?",
                              thumbnail=get_thumbnail_path("thumb_ayuda.png"),
@@ -195,7 +200,7 @@ def faq(item):
                 "En caso de que funcione la página web puede que no seas el primero"
                 " en haberlo visto y que el canal este arreglado. "
                 "Puedes mirar en 'mimediacenter.info/foro/' o en el "
-                "repositorio de GitHub (github.com/pelisalacarta-ce/pelisalacarta-ce). "
+                "repositorio de GitHub (github.com/tvalacarta/pelisalacarta). "
                 "Si no encuentras el canal arreglado puedes reportar un "
                 "problema en el foro.")
 
@@ -240,15 +245,28 @@ def faq(item):
             from channels import buscador
             buscador.settings("")
 
+    elif item.extra == "report_error":
+        title = "pelisalacarta - FAQ - %s" % item.title[6:]
+        text = ("Para reportar un problema en 'mimediacenter.info/foro/' es necesario:\n"
+                "  - Versión que usas de pelisalacarta.\n"
+                "  - Versión que usas de kodi, plex, mediaserver, etc.\n"
+                "  - Nombre del skin (en el caso que uses Kodi) y si se "
+                "te ha resuelto el problema si al usar el skin por defecto.\n"
+                "  - Agregar el log en modo detallado, una vez hecho esto, "
+                "zipea el log y lo puedes adjuntar en un post.\n"
+                "  - Descripción del problema y algún caso de prueba.")
+
+        return TextBox("DialogTextViewer.xml", os.getcwd(), "Default", title=title, text=text)
+
     else:
         platformtools.dialog_ok("pelisalacarta",
                                 "Tu problema/duda parece no tener una respuesta sencilla. "
-                                "")
+                                "Puedes acudir a 'mimediacenter.info/foro/' en busca de ayuda.")
 
 
 def get_thumbnail_path(thumb_name):
     import urlparse
-    web_path = "https://raw.githubusercontent.com/pelisalacarta-ce/media/master/pelisalacarta/squares/"
+    web_path = "http://media.tvalacarta.info/pelisalacarta/squares/"
     return urlparse.urljoin(web_path, thumb_name)
 
 

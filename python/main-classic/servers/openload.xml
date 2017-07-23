@@ -3,17 +3,17 @@
 	<active>true</active>
 	<changes>
 		<change>
-			<autor></autor>
+			<autor>Cmos</autor>
 			<date>12/05/2017</date>
 			<description>Corregido por cambios en el servidor</description>
 		</change>
 		<change>
-			<autor></autor>
+			<autor>Cmos</autor>
 			<date>07/02/2017</date>
 			<description>Corregido por cambios en el servidor y adaptado al uso de httptools</description>
 		</change>
 		<change>
-			<autor></autor>
+			<autor>Cmos</autor>
 			<date>11/01/2017</date>
 			<description>Reparado por cambios en el servidor</description>
 		</change>
@@ -54,7 +54,7 @@
 		<type>list</type>
 		<visible>false</visible>
 	</settings>
-	<thumbnail>https://raw.githubusercontent.com/pelisalacarta-ce/media/master/servers/server_openload.png</thumbnail>
-	<update_url>https://raw.githubusercontent.com/pelisalacarta-ce/pelisalacarta-ce/master/python/main-classic/servers/</update_url>
+	<thumbnail>http://media.tvalacarta.info/servers/server_openload.png</thumbnail>
+	<update_url>https://raw.githubusercontent.com/tvalacarta/pelisalacarta/master/python/main-classic/servers/</update_url>
 	<version>12</version>
 </server>

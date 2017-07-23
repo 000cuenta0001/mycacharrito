@@ -3,7 +3,7 @@
 	<active>true</active>
 	<changes>
 		<change>
-			<autor></autor>
+			<autor>Cmos</autor>
 			<date>22/04/2017</date>
 			<description>Nuevo conector</description>
 		</change>
@@ -44,6 +44,6 @@
 		<visible>false</visible>
 	</settings>
 	<thumbnail>http://i.imgur.com/o8XR8fL.png</thumbnail>
-	<update_url>https://raw.githubusercontent.com/pelisalacarta-ce/pelisalacarta-ce/master/python/main-classic/servers/</update_url>
+	<update_url>https://raw.githubusercontent.com/tvalacarta/pelisalacarta/master/python/main-classic/servers/</update_url>
 	<version>2</version>
 </server>

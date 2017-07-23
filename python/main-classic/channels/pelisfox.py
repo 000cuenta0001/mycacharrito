@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 # ------------------------------------------------------------
-# Canal (PelisFox)
+# Canal (PelisFox) por Hernan_Ar_c
 # ------------------------------------------------------------
 
 import urlparse, urllib2, urllib, re

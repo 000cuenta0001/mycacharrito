@@ -168,13 +168,13 @@ def findvideos(item):
                     itemlist.append(item.clone(url=s[0][1], action="play", folder=False, server=s[0][2],
                                            title="Ver %s en %s%s" % (capitulo.strip(), s[0][2].capitalize(), idioma),
                                            thumbnail2=item.thumbnail,
-                                           thumbnail="https://raw.githubusercontent.com/pelisalacarta-ce/media/master/servers/server_" + s[0][2] + ".png"))
+                                           thumbnail="http://media.tvalacarta.info/servers/server_" + s[0][2] + ".png"))
         else:
             for s in servertools.findvideos(data):
                 itemlist.append(item.clone(url=s[1], action="play", folder=False, server=s[2],
                                        title="Ver en %s%s" % (s[2].capitalize(), idioma),
                                        thumbnail2=item.thumbnail,
-                                       thumbnail="https://raw.githubusercontent.com/pelisalacarta-ce/media/master/servers/server_" + s[2] + ".png"))
+                                       thumbnail="http://media.tvalacarta.info/servers/server_" + s[2] + ".png"))
 
 
     # Insertar items "Buscar trailer" y "Añadir a la biblioteca"

@@ -32,7 +32,7 @@ import jsontools
 import logger
 
 
-DEFAULT_UPDATE_URL = "https://raw.githubusercontent.com/pelisalacarta-ce/pelisalacarta-ce/master/python/main-classic/channels/"
+DEFAULT_UPDATE_URL = "https://raw.githubusercontent.com/tvalacarta/pelisalacarta/develop/python/main-classic/channels/"
 dict_channels_parameters = dict()
 
 

@@ -11,26 +11,26 @@
          
             <change>
                     <date>10/12/2016</date>
-			        <autor></autor>
+			        <autor>Neno1978</autor>
                     <description>Reparado fanart y thumbs y correción código.Adaptado a Infoplus</description>
             </change>        
             <change> 
                     <date>04/04/2017</date>
-			        <autor></autor>
+			        <autor>Neno1978</autor>
                     <description>Migración a Httptools</description>
             </change>
             <change>
                     <date>28/06/2017</date>
-                    <autor></autor>
+                    <autor>Neno1978</autor>
                     <description>Correciones código.Algunas mejoras</description>
             </change>
     </changes>
 
 
 	<fanart></fanart>
-	<thumbnail>https://raw.githubusercontent.com/pelisalacarta-ce/media/master/pelisalacarta/squares/cuelgame.png</thumbnail>
-	<bannermenu>https://raw.githubusercontent.com/pelisalacarta-ce/media/master/pelisalacarta/bannermenu/cuelgame.png</bannermenu>
-	<update_url>https://raw.githubusercontent.com/pelisalacarta-ce/pelisalacarta-ce/master/python/main-classic/channels/</update_url>
+	<thumbnail>http://media.tvalacarta.info/pelisalacarta/squares/cuelgame.png</thumbnail>
+	<bannermenu>http://media.tvalacarta.info/pelisalacarta/bannermenu/cuelgame.png</bannermenu>
+	<update_url>https://raw.githubusercontent.com/tvalacarta/pelisalacarta/master/python/main-classic/channels/</update_url>
 	
 
 	<categories>

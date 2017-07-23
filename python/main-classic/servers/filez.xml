@@ -3,12 +3,12 @@
 	<active>true</active>
 	<changes>
 		<change>
-			<autor></autor>
+			<autor>Cmos</autor>
 			<date>12/04/2017</date>
 			<description>Corregido por cambios</description>
 		</change>
 		<change>
-			<autor></autor>
+			<autor>Cmos</autor>
 			<date>27/02/2017</date>
 			<description>Primera versión</description>
 		</change>
@@ -49,6 +49,6 @@
 		<visible>false</visible>
 	</settings>
 	<thumbnail>http://i.imgur.com/HasfjUH.png</thumbnail>
-	<update_url>https://raw.githubusercontent.com/pelisalacarta-ce/pelisalacarta-ce/master/python/main-classic/servers/</update_url>
+	<update_url>https://raw.githubusercontent.com/tvalacarta/pelisalacarta/master/python/main-classic/servers/</update_url>
 	<version>4</version>
 </server>

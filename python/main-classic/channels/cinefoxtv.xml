@@ -9,26 +9,26 @@
 
     <fanart></fanart>
     <thumbnail>https://s28.postimg.org/lytn2q1tp/cinefoxtv.png</thumbnail>
-    <bannermenu>https://raw.githubusercontent.com/pelisalacarta-ce/media/master/pelisalacarta/bannermenu/cinefoxtv.png</bannermenu>
+    <bannermenu>http://media.tvalacarta.info/pelisalacarta/bannermenu/cinefoxtv.png</bannermenu>
 
-    <update_url>https://raw.githubusercontent.com/pelisalacarta-ce/pelisalacarta-ce/master/python/main-classic/channels/
+    <update_url>https://raw.githubusercontent.com/tvalacarta/pelisalacarta/master/python/main-classic/channels/
     </update_url>
     <version>3</version>
 
     <changes>
         <change>
             <date>22/05/2017</date>
-            <autor></autor>
+            <autor>Hernan_ar_c</autor>
             <description>fix por cambio en la estructura</description>
         </change>
         <change>
             <date>15/03/2017</date>
-            <autor></autor>
+            <autor>SeiTaN</autor>
             <description>limpieza código</description>
         </change>
         <change>
             <date>09/02/2017</date>
-            <autor></autor>
+            <autor>Hernan_Ar_c</autor>
             <description>First release.</description>
         </change>
     </changes>

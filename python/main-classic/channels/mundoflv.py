@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 # ------------------------------------------------------------
-# Canal (mundoflv) 
+# Canal (mundoflv) por Hernan_Ar_c
 # ------------------------------------------------------------
 
 import urlparse, urllib2, urllib, re
@@ -631,7 +631,7 @@ def findvideos(item):
 
     for videoitem in itemlist:
         videoitem.infoLabels = item.infoLabels
-        videoitem.thumbnail = "https://raw.githubusercontent.com/pelisalacarta-ce/media/master/servers/server_%s.png" % videoitem.server
+        videoitem.thumbnail = "http://media.tvalacarta.info/servers/server_%s.png" % videoitem.server
 
     # Requerido para AutoPlay
 

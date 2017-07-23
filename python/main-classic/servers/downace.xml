@@ -3,7 +3,7 @@
 	<active>true</active>
 	<changes>
 		<change>
-			<autor></autor>
+			<autor>Intel1</autor>
 			<date>12/07/2017</date>
 			<description>Versión inicial</description>
 		</change>
@@ -44,6 +44,6 @@
 		<visible>false</visible>
 	</settings>
 	<thumbnail>https://s12.postimg.org/4n9fmdy7x/logo-downace.png</thumbnail>
-	<update_url>https://raw.githubusercontent.com/pelisalacarta-ce/pelisalacarta-ce/master/python/main-classic/servers/</update_url>
+	<update_url>https://raw.githubusercontent.com/tvalacarta/pelisalacarta/master/python/main-classic/servers/</update_url>
 	<version>1</version>
 </server>

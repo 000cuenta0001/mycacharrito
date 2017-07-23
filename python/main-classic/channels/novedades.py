@@ -54,7 +54,7 @@ color1, color2, color3 = perfil[__perfil__]
 list_newest = []
 channels_id_name = {}
 
-plugin_media_url = "https://raw.githubusercontent.com/pelisalacarta-ce/media/master/pelisalacarta/"
+plugin_media_url = "http://media.tvalacarta.info/pelisalacarta/"
 
 
 def mainlist(item, thumbnail_type="squares"):

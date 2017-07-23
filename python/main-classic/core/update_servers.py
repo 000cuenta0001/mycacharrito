@@ -32,7 +32,7 @@ from core import config
 from core import scrapertools
 from core import servertools
 
-remote_url = "https://raw.githubusercontent.com/pelisalacarta-ce/pelisalacarta-ce/master/python/main-classic/servers/"
+remote_url = "https://raw.githubusercontent.com/tvalacarta/pelisalacarta/master/python/main-classic/servers/"
 local_folder = os.path.join( config.get_runtime_path(), "servers" )
 
 ### Procedures

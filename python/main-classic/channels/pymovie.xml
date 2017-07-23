@@ -11,23 +11,23 @@
 	<thumbnail>https://s27.postimg.org/hvmvz7vab/pymovie.png</thumbnail>
 	<bannermenu>https://s28.postimg.org/3k0wjnwul/pymovie_banner.png</bannermenu>
 	
-	<update_url>https://raw.githubusercontent.com/pelisalacarta-ce/pelisalacarta-ce/master/python/main-classic/channels/</update_url>
+	<update_url>https://raw.githubusercontent.com/tvalacarta/pelisalacarta/master/python/main-classic/channels/</update_url>
 	<version>4</version>
 
 	<changes>
 		<change>
 				<date>25/05/2017</date>
-				<autor></autor>
+				<autor>Hernan_ar_c</autor>
 				<description>cambios esteticos</description>
 	   	</change>
 		<change>
 			<date>15/03/2017</date>
-			<autor></autor>
+			<autor>SeiTaN</autor>
 			<description>limpieza código</description>
 		</change>
 		<change>
 			<date>04/01/2017</date>
-			<autor></autor>
+			<autor>Hernan_Ar_c</autor>
 			<description>Release.</description>
 		</change>
 	</changes>

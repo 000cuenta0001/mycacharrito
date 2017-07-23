@@ -11,17 +11,17 @@
    <thumbnail>https://s13.postimg.org/d042quw9j/ultrapeliculashd.png</thumbnail>
    <bannermenu>https://s9.postimg.org/5yxsq205r/ultrapeliculashd_banner.png</bannermenu>
 
-   <update_url>https://raw.githubusercontent.com/pelisalacarta-ce/pelisalacarta-ce/master/python/main-classic/channels/</update_url>
+   <update_url>https://raw.githubusercontent.com/tvalacarta/pelisalacarta/master/python/main-classic/channels/</update_url>
    <version>3</version>
    <changes>
        <change>
 				<date>25/05/2017</date>
-				<autor></autor>
+				<autor>Hernan_ar_c</autor>
 				<description>cambios esteticos</description>
        </change>
        <change>
                 <date>09/05/2017</date>
-                <autor></autor>
+                <autor>Hernan_ar_c</autor>
                 <description>Fix por cambio de estructra de la pagina</description>
        </change>
    </changes>

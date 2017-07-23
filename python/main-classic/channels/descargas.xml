@@ -8,26 +8,26 @@
 	<language>es</language>
 
 	<fanart></fanart>
-	<thumbnail>https://raw.githubusercontent.com/pelisalacarta-ce/media/master/pelisalacarta/squares/descargas.png</thumbnail>
-	<bannermenu>https://raw.githubusercontent.com/pelisalacarta-ce/media/master/pelisalacarta/bannermenu/descargas.png</bannermenu>
+	<thumbnail>http://media.tvalacarta.info/pelisalacarta/squares/descargas.png</thumbnail>
+	<bannermenu>http://media.tvalacarta.info/pelisalacarta/bannermenu/descargas.png</bannermenu>
 
-	<update_url>https://raw.githubusercontent.com/pelisalacarta-ce/pelisalacarta-ce/master/python/main-classic/channels/</update_url>
+	<update_url>https://raw.githubusercontent.com/tvalacarta/pelisalacarta/master/python/main-classic/channels/</update_url>
 	<version>3</version>
 
 	<changes>
 		<change>
 			<date>15/03/2017</date>
-			<autor></autor>
+			<autor>SeiTaN</autor>
 			<description>limpieza código</description>
 		</change>
 		<change>
 			<date>12/03/17</date>
-			<autor></autor>
+			<autor>divadr</autor>
 			<description>Añadidas mas opciones de configuracion y corregidos fallos</description>
 		</change>
 		<change>
 			<date>12/01/17</date>
-			<autor></autor>
+			<autor>divadr</autor>
 			<description></description>
 		</change>
 	</changes>

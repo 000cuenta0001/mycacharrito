@@ -11,12 +11,12 @@
    <thumbnail>https://s30.postimg.org/kilh4lr4x/pelisgratis.png</thumbnail>
    <bannermenu>https://s15.postimg.org/nztottswb/pelisgratis-banner.png</bannermenu>
 
-   <update_url>https://raw.githubusercontent.com/pelisalacarta-ce/pelisalacarta-ce/master/python/main-classic/channels/</update_url>
+   <update_url>https://raw.githubusercontent.com/tvalacarta/pelisalacarta/master/python/main-classic/channels/</update_url>
    <version>1</version>
    <changes>
       <change>
          <date>26/05/2017</date>
-         <autor></autor>
+         <autor>Hernan_ar_c</autor>
          <description>First release</description>
       </change>
    </changes>

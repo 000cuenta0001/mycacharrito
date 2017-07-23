@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
 # ------------------------------------------------------------
 # pelisalacarta
-# modulo para AutoPlay de pelisalacarta 
+# modulo para AutoPlay de pelisalacarta por Hernan_ar_c
 # http://blog.tvalacarta.info/plugin-xbmc/pelisalacarta/
 # ------------------------------------------------------------
 

@@ -23,10 +23,10 @@ def mainlist(item):
     itemlist = list()
     itemlist.append(Item(channel=item.channel, action="peliculas", title="Películas",
                          category="Biblioteca de películas",
-                         thumbnail="https://raw.githubusercontent.com/pelisalacarta-ce/media/master/pelisalacarta/squares/thumb_biblioteca_peliculas.png"))
+                         thumbnail="http://media.tvalacarta.info/pelisalacarta/squares/thumb_biblioteca_peliculas.png"))
     itemlist.append(Item(channel=item.channel, action="series", title="Series",
                          category="Biblioteca de series",
-                         thumbnail="https://raw.githubusercontent.com/pelisalacarta-ce/media/master/pelisalacarta/squares/thumb_biblioteca_series.png"))
+                         thumbnail="http://media.tvalacarta.info/pelisalacarta/squares/thumb_biblioteca_series.png"))
 
     return itemlist
 

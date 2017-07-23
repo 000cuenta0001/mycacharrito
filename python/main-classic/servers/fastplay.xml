@@ -3,27 +3,27 @@
 	<active>true</active>
 	<changes>
 		<change>
-			<autor></autor>
+			<autor>Intel1</autor>
 			<date>14/06/2017</date>
 			<description>Patrón reparado</description>
 		</change>
 		<change>
-			<autor></autor>
+			<autor>Intel1</autor>
 			<date>07/06/2017</date>
 			<description>Reparado detección de subtitulos</description>
 		</change>
 		<change>
-			<autor></autor>
+			<autor>Intel1</autor>
 			<date>05/06/2017</date>
 			<description>Enlaces a videos encriptados</description>
 		</change>
 		<change>
-			<autor></autor>
+			<autor>Intel1</autor>
 			<date>29/05/2017</date>
 			<description>Detección de subtítulos y reparado detección de resolución de videos</description>
 		</change>
 		<change>
-			<autor></autor>
+			<autor>Cmos</autor>
 			<date>16/02/2017</date>
 			<description>Primera versión</description>
 		</change>
@@ -64,6 +64,6 @@
 		<visible>false</visible>
 	</settings>
 	<thumbnail>http://i.imgur.com/vHDcd6Y.png?1</thumbnail>
-	<update_url>https://raw.githubusercontent.com/pelisalacarta-ce/pelisalacarta-ce/master/python/main-classic/servers/</update_url>
+	<update_url>https://raw.githubusercontent.com/tvalacarta/pelisalacarta/master/python/main-classic/servers/</update_url>
 	<version>6</version>
 </server>

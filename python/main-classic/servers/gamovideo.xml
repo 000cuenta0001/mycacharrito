@@ -3,27 +3,27 @@
 	<active>true</active>
 	<changes>
 		<change>
-			<autor></autor>
+			<autor>Intel1</autor>
 			<date>07/07/17</date>
 			<description>Actualizado get_url_video</description>
 		</change>
 		<change>
-			<autor></autor>
+			<autor>Cmos</autor>
 			<date>09/05/17</date>
 			<description>Arreglado con el cambio de user agent</description>
 		</change>
 		<change>
-			<autor></autor>
+			<autor>Intel1</autor>
 			<date>24/04/17</date>
 			<description>Detectado mensaje:video se está procesando</description>
 		</change>
 		<change>
-			<autor></autor>
+			<autor>Cmos</autor>
 			<date>23/03/17</date>
 			<description>Arreglado con el cambio de user agent</description>
 		</change>
 		<change>
-			<autor></autor>
+			<autor>Cmos</autor>
 			<date>07/11/16</date>
 			<description>Modificado orden de los videos</description>
 		</change>
@@ -63,7 +63,7 @@
 		<type>list</type>
 		<visible>false</visible>
 	</settings>
-	<thumbnail>https://raw.githubusercontent.com/pelisalacarta-ce/media/master/servers/server_gamovideo.png</thumbnail>
-	<update_url>https://raw.githubusercontent.com/pelisalacarta-ce/pelisalacarta-ce/master/python/main-classic/servers/</update_url>
+	<thumbnail>http://media.tvalacarta.info/servers/server_gamovideo.png</thumbnail>
+	<update_url>https://raw.githubusercontent.com/tvalacarta/pelisalacarta/master/python/main-classic/servers/</update_url>
 	<version>7</version>
 </server>

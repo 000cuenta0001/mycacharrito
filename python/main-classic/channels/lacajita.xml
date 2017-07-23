@@ -11,7 +11,7 @@
 	<changes>
 		<change>
 			<date>16/05/2017</date>
-			<autor></autor>
+			<autor>Cmos</autor>
 			<description>Primera version</description>
 		</change>
 	</changes>
@@ -19,7 +19,7 @@
 	<fanart></fanart>
 	<thumbnail>http://i.imgur.com/LVdupxc.png</thumbnail>
 	<bannermenu></bannermenu>
-	<update_url>https://raw.githubusercontent.com/pelisalacarta-ce/pelisalacarta-ce/master/python/main-classic/channels/</update_url>
+	<update_url>https://raw.githubusercontent.com/tvalacarta/pelisalacarta/master/python/main-classic/channels/</update_url>
 
 	<categories>
 		<category>movie</category>

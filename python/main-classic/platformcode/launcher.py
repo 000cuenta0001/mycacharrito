@@ -76,8 +76,40 @@ def run(item=None):
         if item.action == "getmainlist":
             import channelselector
 
-            config.set_setting("plugin_updates_available", 0)
-            itemlist = channelselector.getmainlist()
+            # Check for updates only on first screen
+            if config.get_setting("check_for_plugin_updates") == True:
+                logger.info("Check for plugin updates enabled")
+                from core import updater
+
+                try:
+                    config.set_setting("plugin_updates_available", 0)
+                    new_published_version_tag , number_of_updates = updater.get_available_updates()
+
+                    config.set_setting("plugin_updates_available", number_of_updates)
+                    itemlist = channelselector.getmainlist()
+
+                    if new_published_version_tag!="":
+
+                        platformtools.dialog_notification(new_published_version_tag+" disponible",
+                                                "Ya puedes descargar la nueva versión del plugin\n"
+                                                "desde el listado principal")
+
+                        itemlist = channelselector.getmainlist()
+                        itemlist.insert(0, Item(title="Descargar version "+new_published_version_tag, version=new_published_version_tag, channel="updater",
+                                                action="update", thumbnail=channelselector.get_thumb("squares","thumb_actualizar.png")))
+                except:
+                    import traceback
+                    logger.error(traceback.format_exc())
+                    platformtools.dialog_ok("No se puede conectar", "No ha sido posible comprobar",
+                                            "si hay actualizaciones")
+                    logger.error("Fallo al verificar la actualización")
+                    config.set_setting("plugin_updates_available", 0)
+                    itemlist = channelselector.getmainlist()
+
+            else:
+                logger.info("Check for plugin updates disabled")
+                config.set_setting("plugin_updates_available", 0)
+                itemlist = channelselector.getmainlist()
 
             platformtools.render_items(itemlist, item)
 

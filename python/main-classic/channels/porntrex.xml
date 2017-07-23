@@ -10,14 +10,14 @@
 	<changes>
 		<change>
 			<date>29/04/2017</date>
-			<autor></autor>
+			<autor>Cmos</autor>
 			<description>Primera versión</description>
 		</change>
 	</changes>
 	<fanart></fanart>
 	<thumbnail>http://i.imgur.com/n8SUCE9.png?1</thumbnail>
 	<bannermenu></bannermenu>
-	<update_url>https://raw.githubusercontent.com/pelisalacarta-ce/pelisalacarta-ce/master/python/main-classic/channels/</update_url>
+	<update_url>https://raw.githubusercontent.com/tvalacarta/pelisalacarta/master/python/main-classic/channels/</update_url>
 
 	<categories>
 		<category>adult</category>

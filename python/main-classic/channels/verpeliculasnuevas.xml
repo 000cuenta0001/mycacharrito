@@ -15,32 +15,32 @@
 	<thumbnail>https://s27.postimg.org/atgs5erab/verpeliculasnuevas.png</thumbnail>
 	<bannermenu>https://s23.postimg.org/4uyyz6w4b/verpeliculasnuevas_banner.png</bannermenu>
 
-	<update_url>https://raw.githubusercontent.com/pelisalacarta-ce/pelisalacarta-ce/master/python/main-classic/channels/</update_url>
+	<update_url>https://raw.githubusercontent.com/tvalacarta/pelisalacarta/master/python/main-classic/channels/</update_url>
 	<version>6</version>
 	<changes>
 		<change>
 				<date>23/06/2017</date>
-				<autor></autor>
+				<autor>super_berny</autor>
 				<description>añadidos servidores favoritos en find_videos</description>
 	   	</change>
 		<change>
 				<date>06/06/2017</date>
-				<autor></autor>
+				<autor>Hernan_ar_c</autor>
 				<description>compatibilidad con AutoPlay</description>
 	   	</change>
 		<change>
 				<date>25/05/2017</date>
-				<autor></autor>
+				<autor>Hernan_ar_c</autor>
 				<description>cambios esteticos</description>
 	   	</change>
 		<change>
 			<date>15/03/2017</date>
-			<autor></autor>
+			<autor>SeiTaN</autor>
 			<description>limpieza código</description>
 		</change>
 		<change>
 			<date>06/01/2017</date>
-			<autor></autor>
+			<autor>Hernan_Ar_c</autor>
 			<description>Release.</description>
 		</change>
 	</changes>

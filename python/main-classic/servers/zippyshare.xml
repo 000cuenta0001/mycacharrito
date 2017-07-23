@@ -3,12 +3,12 @@
 	<active>true</active>
 	<changes>
 		<change>
-			<autor></autor>
+			<autor>Cmos</autor>
 			<date>03/03/2017</date>
 			<description>Corregido por cambios en el servidor y añadido como free</description>
 		</change>
 		<change>
-			<autor></autor>
+			<autor>divadres</autor>
 			<date>25/03/2016</date>
 			<description>Versión inicial</description>
 		</change>
@@ -50,7 +50,7 @@
 		<type>list</type>
 		<visible>false</visible>
 	</settings>
-	<thumbnail>https://raw.githubusercontent.com/pelisalacarta-ce/media/master/servers/server_zippyshare.png</thumbnail>
-	<update_url>https://raw.githubusercontent.com/pelisalacarta-ce/pelisalacarta-ce/master/python/main-classic/servers/</update_url>
+	<thumbnail>http://media.tvalacarta.info/servers/server_zippyshare.png</thumbnail>
+	<update_url>https://raw.githubusercontent.com/tvalacarta/pelisalacarta/master/python/main-classic/servers/</update_url>
 	<version>3</version>
 </server>

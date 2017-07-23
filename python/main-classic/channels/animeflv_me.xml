@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <channel>
 	<id>animeflv_me</id>
 	<name>Animeflv.ME</name>
@@ -11,18 +11,23 @@
 	<thumbnail>http://i.imgur.com/x9AdvBx.png</thumbnail>
 	<bannermenu>http://i.imgur.com/dTZwCPq.png</bannermenu>
 
-	<update_url>https://raw.githubusercontent.com/pelisalacarta-ce/pelisalacarta-ce/master/python/main-classic/channels/</update_url>
-	<version>12</version>
+	<update_url>https://raw.githubusercontent.com/tvalacarta/pelisalacarta/master/python/main-classic/channels/</update_url>
+	<version>13</version>
 	
     <changes>
 		<change>
+			<date>19/07/2017</date>
+			<autor>viktormax3</autor>
+			<description>Mejoras de compatibilidad con plex y mediaserver (renumbertools)</description>
+		</change>	
+		<change>
 			<date>15/03/2017</date>
-			<autor></autor>
+			<autor>SeiTaN</autor>
 			<description>limpieza código</description>
 		</change>
 		<change>
 			<date>05/01/2017</date>
-			<autor></autor>
+			<autor>GinSakata</autor>
 			<description>
 				Actualizada url de la opción Novedades
 				Arreglado un error que impedia que se mostrara un solo resultado al realizar busquedas
@@ -31,7 +36,7 @@
 		</change>
 		<change>
 			<date>01/07/2016</date>
-			<autor></autor>
+			<autor>SeiTaN</autor>
 			<description>nuevo canal</description>
 		</change>
 	</changes>

@@ -3,7 +3,7 @@
 	<active>true</active>
 	<changes>
 		<change>
-			<autor></autor>
+			<autor>Intel1</autor>
 			<date>13/06/2017</date>
 			<description>Actualizado patrón del get_video()</description>
 		</change>
@@ -49,6 +49,6 @@
 		<visible>false</visible>
 	</settings>
 	<thumbnail>https://s31.postimg.org/ijne6piij/filescdn.png</thumbnail>
-	<update_url>https://raw.githubusercontent.com/pelisalacarta-ce/pelisalacarta-ce/master/python/main-classic/servers/</update_url>
+	<update_url>https://raw.githubusercontent.com/tvalacarta/pelisalacarta/master/python/main-classic/servers/</update_url>
 	<version>3</version>
 </server>

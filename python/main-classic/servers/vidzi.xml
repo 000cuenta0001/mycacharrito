@@ -3,17 +3,17 @@
 	<active>true</active>
 	<changes>
 		<change>
-			<autor></autor>
+			<autor>Intel11</autor>
 			<date>21/07/2017</date>
 			<description>Actualizado mensaje de archivo borrado</description>
 		</change>
 		<change>
-			<autor></autor>
+			<autor>Cmos</autor>
 			<date>22/04/2017</date>
 			<description>Corregido por cambios</description>
 		</change>
 		<change>
-			<autor></autor>
+			<autor>divadr</autor>
 			<date>25/03/2016</date>
 			<description>Versión incial</description>
 		</change>
@@ -57,7 +57,7 @@
 		<type>list</type>
 		<visible>false</visible>
 	</settings>
-	<thumbnail>https://raw.githubusercontent.com/pelisalacarta-ce/media/servers/server_vidzi.png</thumbnail>
-	<update_url>https://raw.githubusercontent.com/pelisalacarta-ce/pelisalacarta-ce/master/python/main-classic/servers/</update_url>
+	<thumbnail>http://media.tvalacarta.info/servers/server_vidzi.png</thumbnail>
+	<update_url>https://raw.githubusercontent.com/tvalacarta/pelisalacarta/master/python/main-classic/servers/</update_url>
 	<version>4</version>
 </server>

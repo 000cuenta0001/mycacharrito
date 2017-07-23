@@ -3,6 +3,8 @@
 # pelisalacarta - XBMC Plugin
 # Canal para seriesyonkis
 # http://blog.tvalacarta.info/plugin-xbmc/pelisalacarta/
+# Por Truenon y Jesus, modificada por Boludiko
+# v11
 # ------------------------------------------------------------
 import re
 import urllib

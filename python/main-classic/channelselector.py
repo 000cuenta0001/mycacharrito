@@ -271,12 +271,12 @@ def get_thumbnail_path(preferred_thumb=""):
         if thumbnail_type == "":
             thumbnail_type = 2
         if thumbnail_type == 0:
-            web_path = "https://raw.githubusercontent.com/pelisalacarta-ce/media/master/pelisalacarta/posters/"
+            web_path = "http://media.tvalacarta.info/pelisalacarta/posters/"
         elif thumbnail_type == 1:
-            web_path = "https://raw.githubusercontent.com/pelisalacarta-ce/media/master/pelisalacarta/banners/"
+            web_path = "http://media.tvalacarta.info/pelisalacarta/banners/"
         elif thumbnail_type == 2:
-            web_path = "https://raw.githubusercontent.com/pelisalacarta-ce/media/master/pelisalacarta/squares/"
+            web_path = "http://media.tvalacarta.info/pelisalacarta/squares/"
     else:
-        web_path = "https://raw.githubusercontent.com/pelisalacarta-ce/media/master/pelisalacarta/" + preferred_thumb + "/"
+        web_path = "http://media.tvalacarta.info/pelisalacarta/" + preferred_thumb + "/"
 
     return web_path

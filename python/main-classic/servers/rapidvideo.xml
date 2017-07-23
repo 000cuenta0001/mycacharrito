@@ -3,17 +3,17 @@
 	<active>true</active>
 	<changes>
 		<change>
-			<autor></autor>
+			<autor>Cmos</autor>
 			<date>09/05/2017</date>
 			<description>Ampliado regex para detección de enlaces</description>
 		</change>
 		<change>
-			<autor></autor>
+			<autor>Cmos</autor>
 			<date>29/04/2017</date>
 			<description>Corregido, usa proxy en caso de error con https</description>
 		</change>
 		<change>
-			<autor></autor>
+			<autor>divadr</autor>
 			<date>25/03/2016</date>
 			<description>Versión inicial</description>
 		</change>
@@ -53,7 +53,7 @@
 		<type>list</type>
 		<visible>false</visible>
 	</settings>
-	<thumbnail>https://raw.githubusercontent.com/pelisalacarta-ce/media/master/servers/server_rapidvideo.png</thumbnail>
-	<update_url>https://raw.githubusercontent.com/pelisalacarta-ce/pelisalacarta-ce/master/python/main-classic/servers/</update_url>
+	<thumbnail>http://media.tvalacarta.info/servers/server_rapidvideo.png</thumbnail>
+	<update_url>https://raw.githubusercontent.com/tvalacarta/pelisalacarta/master/python/main-classic/servers/</update_url>
 	<version>5</version>
 </server>

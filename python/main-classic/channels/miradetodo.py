@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 # ------------------------------------------------------------
-# Canal (Miradetodo)
+# Canal (Miradetodo) por Hernan_Ar_c
 # ------------------------------------------------------------
 
 import re
@@ -373,7 +373,7 @@ def findvideos(item):
                      title = item.contentTitle + ' (%s) %s' %(quality, language)
                 videoitem.title = title
                 videoitem.channel = item.channel
-                videoitem.thumbnail = 'https://raw.githubusercontent.com/pelisalacarta-ce/media/master/servers/server_%s.png' % videoitem.server
+                videoitem.thumbnail = 'http://media.tvalacarta.info/servers/server_%s.png' % videoitem.server
                 videoitem.quality = item.quality
 
 

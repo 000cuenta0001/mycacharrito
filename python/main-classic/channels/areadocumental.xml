@@ -10,12 +10,12 @@
 	<changes>
 		<change>
 			<date>15/03/2017</date>
-			<autor></autor>
+			<autor>SeiTaN</autor>
 			<description>limpieza código</description>
 		</change>
 		<change>
 			<date>16/02/2017</date>
-			<autor></autor>
+			<autor>Cmos</autor>
 			<description>Canal reparado ya que no funcionaban los enlaces</description>
 		</change>
 		<change>
@@ -26,9 +26,9 @@
 	</changes>
 
 	<fanart></fanart>
-	<bannermenu>https://raw.githubusercontent.com/pelisalacarta-ce/media/master/pelisalacarta/bannermenu/areadocumental.png</bannermenu>
-	<thumbnail>https://raw.githubusercontent.com/pelisalacarta-ce/media/master/pelisalacarta/squares/areadocumental.png</thumbnail>
-	<update_url>https://raw.githubusercontent.com/pelisalacarta-ce/pelisalacarta-ce/master/python/main-classic/channels/</update_url>
+	<bannermenu>http://media.tvalacarta.info/pelisalacarta/bannermenu/areadocumental.png</bannermenu>
+	<thumbnail>http://media.tvalacarta.info/pelisalacarta/squares/areadocumental.png</thumbnail>
+	<update_url>https://raw.githubusercontent.com/tvalacarta/pelisalacarta/master/python/main-classic/channels/</update_url>
 
 	<categories>
 		<category>documentary</category>

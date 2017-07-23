@@ -71,7 +71,7 @@ def opciones(item):
 
 def get_thumbnail_path(thumb_name):
     import urlparse
-    web_path = "https://raw.githubusercontent.com/pelisalacarta-ce/media/master/pelisalacarta/squares/"
+    web_path = "http://media.tvalacarta.info/pelisalacarta/squares/"
     return urlparse.urljoin(web_path, thumb_name)
 
 

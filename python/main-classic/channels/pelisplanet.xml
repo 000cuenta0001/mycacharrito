@@ -11,13 +11,13 @@
     <thumbnail>https://raw.githubusercontent.com/Inter95/tvguia/master/thumbnails/pelisplanet.png</thumbnail>
     <bannermenu>https://raw.githubusercontent.com/Inter95/tvguia/master/thumbnails/pelisplanetbaner.png</bannermenu>
 
-    <update_url>https://raw.githubusercontent.com/pelisalacarta-ce/pelisalacarta-ce/master/python/main-classic/channels/</update_url>
+    <update_url>https://raw.githubusercontent.com/tvalacarta/pelisalacarta/master/python/main-classic/channels/</update_url>
     <version>5</version>
 
     <changes>
         <change>
             <date>12/06/17</date>
-            <autor></autor>
+            <autor>Inter95</autor>
             <description>Canal nuevo</description>
         </change>
     </changes>

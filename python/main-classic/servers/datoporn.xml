@@ -3,17 +3,17 @@
 	<active>true</active>
 	<changes>
 		<change>
-			<autor></autor>
+			<autor>Cmos</autor>
 			<date>13/05/2017</date>
 			<description>Corregido orden y calidades</description>
 		</change>
 		<change>
-			<autor></autor>
+			<autor>Cmos</autor>
 			<date>21/02/2017</date>
 			<description>Corregido y añadida opcion m3u8</description>
 		</change>
 		<change>
-			<autor></autor>
+			<autor>Cmos</autor>
 			<date>28/07/2016</date>
 			<description>Versión inicial</description>
 		</change>
@@ -54,6 +54,6 @@
 		<visible>false</visible>
 	</settings>
 	<thumbnail>http://i.imgur.com/tBSWudd.png?1</thumbnail>
-	<update_url>https://raw.githubusercontent.com/pelisalacarta-ce/pelisalacarta-ce/master/python/main-classic/servers/</update_url>
+	<update_url>https://raw.githubusercontent.com/tvalacarta/pelisalacarta/master/python/main-classic/servers/</update_url>
 	<version>5</version>
 </server>

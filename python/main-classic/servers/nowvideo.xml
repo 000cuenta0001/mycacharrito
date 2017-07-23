@@ -3,12 +3,12 @@
 	<active>true</active>
 	<changes>
 		<change>
-			<autor></autor>
+			<autor>Cmos</autor>
 			<date>03/03/2017</date>
 			<description>Corregido por cambios en el servidor y limpieza de código</description>
 		</change>
 		<change>
-			<autor></autor>
+			<autor>divadres</autor>
 			<date>25/03/2016</date>
 			<description>Versión inicial</description>
 		</change>
@@ -75,7 +75,7 @@
 		<type>text</type>
 		<visible>true</visible>
 	</settings>
-	<thumbnail>https://raw.githubusercontent.com/pelisalacarta-ce/media/master/servers/server_nowvideo.png</thumbnail>
-	<update_url>https://raw.githubusercontent.com/pelisalacarta-ce/pelisalacarta-ce/master/python/main-classic/servers/</update_url>
+	<thumbnail>http://media.tvalacarta.info/servers/server_nowvideo.png</thumbnail>
+	<update_url>https://raw.githubusercontent.com/tvalacarta/pelisalacarta/master/python/main-classic/servers/</update_url>
 	<version>6</version>
 </server>

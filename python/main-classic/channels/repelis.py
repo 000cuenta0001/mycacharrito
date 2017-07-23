@@ -1,7 +1,10 @@
 # -*- coding: utf-8 -*-
 # -----------------------------------------------------------------
 # pelisalacarta - XBMC Plugin
-# Canal para Repelis
+# Canal para Repelis - Por Kampanita-2015 
+# ( con ayuda de neno1978, DrZ3r0, y robalo )
+# 4/9/2015
+# http://blog.tvalacarta.info/plugin-xbmc/pelisalacarta/
 # -----------------------------------------------------------------
 import re
 import urlparse

@@ -2,6 +2,7 @@
 # ------------------------------------------------------------
 # pelisalacarta - XBMC Plugin
 # Canal para Descargasmix
+# Por SeiTaN, robalo y Cmos
 # http://blog.tvalacarta.info/plugin-xbmc/pelisalacarta/
 # ------------------------------------------------------------
 import re

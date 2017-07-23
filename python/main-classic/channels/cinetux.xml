@@ -11,30 +11,30 @@
 	<changes>
 		<change>
 			<date>14/07/2017</date>
-			<autor></autor>
+			<autor>Intel1</autor>
 			<description>Actualizado por cambio de estructura en la página</description>
 		</change>
 		<change>
 			<date>12/05/2017</date>
-			<autor></autor>
+			<autor>Cmos</autor>
 			<description>Arreglada paginación y enlaces directos</description>
 		</change>
 		<change>
 			<date>16/02/2017</date>
-			<autor></autor>
+			<autor>Cmos</autor>
 			<description>Adaptado a httptools y añadidos enlaces directos</description>
 		</change>
 		<change>
 			<date>08/07/2016</date>
-			<autor></autor>
+			<autor>Cmos</autor>
 			<description>Correciones y adaptaciones a la nueva version</description>
 		</change>
 	</changes>
 
 	<fanart></fanart>
-	<thumbnail>https://raw.githubusercontent.com/pelisalacarta-ce/media/master/pelisalacarta/squares/cinetux.png</thumbnail>
-	<bannermenu>https://raw.githubusercontent.com/pelisalacarta-ce/media/master/pelisalacarta/bannermenu/cinetux.png</bannermenu>
-	<update_url>https://raw.githubusercontent.com/pelisalacarta-ce/pelisalacarta-ce/master/python/main-classic/channels/</update_url>
+	<thumbnail>http://media.tvalacarta.info/pelisalacarta/squares/cinetux.png</thumbnail>
+	<bannermenu>http://media.tvalacarta.info/pelisalacarta/bannermenu/cinetux.png</bannermenu>
+	<update_url>https://raw.githubusercontent.com/tvalacarta/pelisalacarta/master/python/main-classic/channels/</update_url>
 
 	<categories>
 		<category>latino</category>

@@ -3,7 +3,7 @@
 	<active>true</active>
 	<changes>
 		<change>
-			<autor></autor>
+			<autor>Cmos</autor>
 			<date>12/05/2017</date>
 			<description>Se añade libreria jscrypto para que funcione en cualquier sistema y deteccion enlaces rtmpe</description>
 		</change>
@@ -89,6 +89,6 @@
 		<visible>true</visible>
 	</settings>
 	<thumbnail>http://i.imgur.com/SglkLAb.png?1</thumbnail>
-	<update_url>https://raw.githubusercontent.com/pelisalacarta-ce/pelisalacarta-ce/master/python/main-classic/servers/</update_url>
+	<update_url>https://raw.githubusercontent.com/tvalacarta/pelisalacarta/master/python/main-classic/servers/</update_url>
 	<version>3</version>
 </server>

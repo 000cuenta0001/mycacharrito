@@ -3,22 +3,22 @@
 	<active>true</active>
 	<changes>
 		<change>
-			<autor></autor>
+			<autor>Intel1</autor>
 			<date>22/06/2017</date>
 			<description>Actualizado mensaje de archivo borrado</description>
 		</change>
 		<change>
-			<autor></autor>
+			<autor>Cmos</autor>
 			<date>09/05/2017</date>
 			<description>Corregido, ha cambiado la web desde la que extraer los enlaces</description>
 		</change>
 		<change>
-			<autor></autor>
+			<autor>Cmos</autor>
 			<date>28/01/2017</date>
 			<description>Mejorada detección de enlaces caídos, adaptado a los últimos cambios</description>
 		</change>
 		<change>
-			<autor></autor>
+			<autor>kampanita</autor>
 			<date>07/09/2015</date>
 			<description>Version inicial</description>
 		</change>
@@ -58,7 +58,7 @@
 		<type>list</type>
 		<visible>false</visible>
 	</settings>
-	<thumbnail>https://raw.githubusercontent.com/pelisalacarta-ce/media/master/servers/server_okru.png</thumbnail>
-	<update_url>https://raw.githubusercontent.com/pelisalacarta-ce/pelisalacarta-ce/master/python/main-classic/servers/</update_url>
+	<thumbnail>http://media.tvalacarta.info/servers/server_okru.png</thumbnail>
+	<update_url>https://raw.githubusercontent.com/tvalacarta/pelisalacarta/master/python/main-classic/servers/</update_url>
 	<version>5</version>
 </server>

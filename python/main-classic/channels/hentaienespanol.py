@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 # ------------------------------------------------------------
-# Canal (hentaienespanol) 
+# Canal (hentaienespanol) por Hernan_Ar_c
 # ------------------------------------------------------------
 
 import re

@@ -3,6 +3,7 @@
 # pelisalacarta - XBMC Plugin
 # Canal para xhamster
 # http://blog.tvalacarta.info/plugin-xbmc/pelisalacarta/
+# Por boludiko
 # ------------------------------------------------------------
 import re
 import sys

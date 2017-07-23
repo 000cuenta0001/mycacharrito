@@ -31,13 +31,13 @@ import config
 import scrapertools
 
 def get_current_plugin_version():
-    return 4301
+    return 4300
 
 def get_current_plugin_version_tag():
-    return "Community Edition"
+    return "4.3.0-beta1"
 
 def get_current_plugin_date():
-    return "22/07/2017"
+    return "30/06/2017"
 
 def get_current_channels_version():
     f = open(os.path.join(config.get_runtime_path(), "channels", "version.xml"))

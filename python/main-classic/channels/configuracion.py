@@ -313,7 +313,83 @@ def get_all_versions(item):
 
     itemlist = []
 
+    # Lee la versión local
+    from core import versiontools
+
+    # Descarga la lista de versiones
+    from core import api
+    api_response = api.plugins_get_all_packages()
+
+    if api_response["error"]:
+        platformtools.dialog_ok("Error", "Se ha producido un error al descargar la lista de versiones")
+        return
+
+    for entry in api_response["body"]:
+
+        if entry["package"] == "plugin":
+            title = "pelisalacarta " + entry["tag"] + " (Publicada " + entry["date"] + ")"
+            local_version_number = versiontools.get_current_plugin_version()
+        elif entry["package"] == "channels":
+            title = "Canales (Publicada " + entry["date"] + ")"
+            local_version_number = versiontools.get_current_channels_version()
+        elif entry["package"] == "servers":
+            title = "Servidores (Publicada "+entry["date"]+")"
+            local_version_number = versiontools.get_current_servers_version()
+        else:
+            title = entry["package"]+" (Publicada "+entry["date"]+")"
+            local_version_number = None
+
+        title_color = ""
+
+        if local_version_number is None:
+            title = title
+
+        elif entry["version"] == local_version_number:
+            title += " ACTUAL"
+
+        elif entry["version"] > local_version_number:
+            title_color = "yellow"
+
+        else:
+            title_color = "0xFF666666"
+
+        itemlist.append(Item(channel=CHANNELNAME, title=title, url=entry["url"],
+                             filename=entry["filename"], package=entry["package"],
+                             version=str(entry["version"]), text_color=title_color,
+                             action="download_and_install_package", folder=False))
+
     return itemlist
+
+
+def download_and_install_package(item):
+    logger.info()
+
+    from core import updater
+    from core import versiontools
+
+    if item.package == "plugin":
+        if int(item.version) < versiontools.get_current_plugin_version():
+            if not platformtools.dialog_yesno("Instalando versión anterior",
+                                              "¿Seguro que quieres instalar una versión anterior?"):
+                return
+        elif int(item.version) == versiontools.get_current_plugin_version():
+            if not platformtools.dialog_yesno("Reinstalando versión actual",
+                                              "¿Seguro que quieres reinstalar la misma versión que ya tienes?"):
+                return
+        elif int(item.version) > versiontools.get_current_plugin_version():
+            if not platformtools.dialog_yesno("Instalando nueva versión",
+                                              "¿Seguro que quieres instalar esta nueva versión?"):
+                return
+    else:
+        if not platformtools.dialog_yesno("Instalando paquete", "¿Seguro que quieres instalar este paquete?"):
+            return
+
+    local_file_name = os.path.join(config.get_data_path(), item.filename)
+    updater.download_and_install(item.url, local_file_name)
+
+    if config.is_xbmc() and config.get_system_platform() != "xbox":
+        import xbmc
+        xbmc.executebuiltin("Container.Refresh")
 
 
 def settings(item):
@@ -487,7 +563,7 @@ def backups(item):
 
 def get_thumbnail_path(thumb_name):
     import urlparse
-    web_path = "https://raw.githubusercontent.com/pelisalacarta-ce/media/master/pelisalacarta/squares/"
+    web_path = "http://media.tvalacarta.info/pelisalacarta/squares/"
     return urlparse.urljoin(web_path, thumb_name)
 
 

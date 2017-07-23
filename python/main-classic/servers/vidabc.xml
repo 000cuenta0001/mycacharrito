@@ -4,24 +4,24 @@
 	<changes>
 		<change>
 			<autor></autor>
-			<autor></autor>
+			<autor>Intel1</autor>
 			<date>22/06/17</date>
 			<description>Detectado archivo borrado</description>
 		</change>
 		<change>
 			<autor></autor>
-			<autor></autor>
+			<autor>Intel1</autor>
 			<date>05/06/17</date>
 			<description>Detectado que el archivo se está procesando</description>
 		</change>
 		<change>
 			<autor></autor>
-			<autor></autor>
+			<autor>Intel1</autor>
 			<date>10/05/17</date>
 			<description>Reparado por robalo, yo solo lo subí al github</description>
 		</change>
 		<change>
-			<autor></autor>
+			<autor>Cmos</autor>
 			<date>24/12/2016</date>
 			<description>Versión incial</description>
 		</change>
@@ -61,7 +61,7 @@
 		<type>list</type>
 		<visible>false</visible>
 	</settings>
-	<thumbnail>https://raw.githubusercontent.com/pelisalacarta-ce/media/master/servers/server_vidabc.png</thumbnail>
-	<update_url>https://raw.githubusercontent.com/pelisalacarta-ce/pelisalacarta-ce/master/python/main-classic/servers/</update_url>
+	<thumbnail>http://media.tvalacarta.info/servers/server_vidabc.png</thumbnail>
+	<update_url>https://raw.githubusercontent.com/tvalacarta/pelisalacarta/master/python/main-classic/servers/</update_url>
 	<version>5</version>
 </server>

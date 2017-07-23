@@ -10,13 +10,13 @@
 	<fanart></fanart>
 	<thumbnail>http://imgur.com/sLaXHvp.png</thumbnail>
 	<bannermenu></bannermenu>
-	<update_url>https://raw.githubusercontent.com/pelisalacarta-ce/pelisalacarta-ce/master/python/main-classic/channels/</update_url>
+	<update_url>https://raw.githubusercontent.com/tvalacarta/pelisalacarta/master/python/main-classic/channels/</update_url>
     
     <version>1</version>
     <changes>
         <change>
           <date>26/04/2017</date>
-          <autor></autor>
+          <autor>Neno1978</autor>
           <description>Release</description>
         </change>
     </changes>

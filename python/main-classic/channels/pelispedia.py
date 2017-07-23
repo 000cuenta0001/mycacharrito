@@ -87,7 +87,7 @@ def mainlist(item):
 
     itemlist.append(Item(channel=__channel__, action="settings", title="Configuración", text_color=color1,
                          fanart=fanart_host,text_blod=True,
-                         thumbnail="https://raw.githubusercontent.com/pelisalacarta-ce/media/master/pelisalacarta/squares/thumb_configuracion_0.png"))
+                         thumbnail="http://media.tvalacarta.info/pelisalacarta/squares/thumb_configuracion_0.png"))
 
     return itemlist
 

@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 # ------------------------------------------------------------
-# Canal (doomtv)
+# Canal (doomtv) por Hernan_Ar_c
 # ------------------------------------------------------------
 
 import urlparse, urllib2, urllib, re
@@ -383,7 +383,7 @@ def get_url(item):
             videoitem.title = item.contentTitle + ' (' + videoitem.server + ')'
             videoitem.language ='latino'
             videoitem.quality ='default'
-            thumbnail = 'https://raw.githubusercontent.com/pelisalacarta-ce/media/master/servers/server_%s.png' % videoitem.server
+            thumbnail = 'http://media.tvalacarta.info/servers/server_%s.png' % videoitem.server
     return itemlist
 
 

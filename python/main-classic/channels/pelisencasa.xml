@@ -11,7 +11,7 @@
    <thumbnail>https://s14.postimg.org/iqiq0bxn5/pelisencasa.png</thumbnail>
    <bannermenu>https://s18.postimg.org/j775ehbg9/pelisencasa_banner.png</bannermenu>
 
-   <update_url>https://raw.githubusercontent.com/pelisalacarta-ce/pelisalacarta-ce/master/python/main-classic/channels/</update_url>
+   <update_url>https://raw.githubusercontent.com/tvalacarta/pelisalacarta/master/python/main-classic/channels/</update_url>
    <version>1</version>
    <date>17/03/2017</date>
    <changes>First release</changes>

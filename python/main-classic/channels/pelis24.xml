@@ -11,18 +11,18 @@
 	<thumbnail>https://github.com/master-1970/resources/raw/master/images/squares/pelis24.PNG</thumbnail>
 	<bannermenu>https://github.com/master-1970/resources/raw/master/images/bannermenu/pelis24.png</bannermenu>
 
-	<update_url>https://raw.githubusercontent.com/pelisalacarta-ce/pelisalacarta-ce/master/python/main-classic/channels/</update_url>
+	<update_url>https://raw.githubusercontent.com/tvalacarta/pelisalacarta/master/python/main-classic/channels/</update_url>
 	<version>9</version>
 
 	<changes>
 		<change>
 			<date>27/04/17</date>
-			<autor></autor>
+			<autor>super_berny</autor>
 			<description>Adaptación por cambio de dominio y estructura</description>
 		</change>
 		<change>
 			<date>01/07/2016</date>
-			<autor></autor>
+			<autor>SeiTaN</autor>
 			<description>Eliminado código innecesario</description>
 		</change>
 	</changes>
