@@ -109,7 +109,7 @@ def itemlist_update(item):
 
 def render_items(itemlist, parent_item):
     """
-    FunciÃ³n encargada de mostrar el itemlist en kodi, se pasa como parametros el itemlist y el item del que procede
+    Función encargada de mostrar el itemlist en kodi, se pasa como parametros el itemlist y el item del que procede
     @type itemlist: list
     @param itemlist: lista de elementos a mostrar
 
@@ -145,7 +145,7 @@ def render_items(itemlist, parent_item):
         if item.text_italic:
             item.title = '[I]%s[/I]' % item.title
 
-        # AÃ±ade headers a las imagenes si estan en un servidor con cloudflare
+        # Añade headers a las imagenes si estan en un servidor con cloudflare
         from core import httptools
         item.thumbnail = httptools.get_url_headers(item.thumbnail)
         item.fanart = httptools.get_url_headers(item.fanart)
@@ -165,16 +165,16 @@ def render_items(itemlist, parent_item):
         else:
             listitem.setProperty('fanart_image', os.path.join(config.get_runtime_path(), "fanart.jpg"))
 
-        # TODO: Â¿Se puede eliminar esta linea? yo no he visto que haga ningun efecto.
+        # TODO: ¿Se puede eliminar esta linea? yo no he visto que haga ningun efecto.
         xbmcplugin.setPluginFanart(int(sys.argv[1]), os.path.join(config.get_runtime_path(), "fanart.jpg"))
 
-        # AÃ±adimos los infoLabels
+        # Añadimos los infoLabels
         set_infolabels(listitem, item)
 
         # Montamos el menu contextual
         context_commands = set_context_commands(item, parent_item)
 
-        # AÃ±adimos el item
+        # Añadimos el item
         if config.get_platform() == "boxee":
             xbmcplugin.addDirectoryItem(handle=int(sys.argv[1]), url='%s?%s' % (sys.argv[0], item.tourl()),
                                         listitem=listitem, isFolder=item.folder)
@@ -278,14 +278,14 @@ def set_infolabels(listitem, item, player=False):
     elif not player:
         listitem.setInfo("video", {"Title": item.title})
 
-    # AÃ±adido para Kodi Krypton (v17)
+    # Añadido para Kodi Krypton (v17)
     if config.get_platform(True)['num_version'] >= 17.0:
         listitem.setArt({"poster": item.thumbnail})
 
 
 def set_context_commands(item, parent_item):
     """
-    FunciÃ³n para generar los menus contextuales.
+    Función para generar los menus contextuales.
         1. Partiendo de los datos de item.context
              a. Metodo antiguo item.context tipo str separando las opciones por "|" (ejemplo: item.context = "1|2|3")
                 (solo predefinidos)
@@ -294,19 +294,19 @@ def set_context_commands(item, parent_item):
                     item.context = ["1","2","3"]
 
                 - dict(): Se cargara el item actual modificando los campos que se incluyan en el dict() en caso de
-                    modificar los campos channel y action estos serÃ¡n guardados en from_channel y from_action.
+                    modificar los campos channel y action estos serán guardados en from_channel y from_action.
                     item.context = [{"title":"Nombre del menu", "action": "action del menu",
                                         "channel":"channel del menu"}, {...}]
 
-        2. AÃ±adiendo opciones segun criterios
-            Se pueden aÃ±adir opciones al menu contextual a items que cumplan ciertas condiciones.
+        2. Añadiendo opciones segun criterios
+            Se pueden añadir opciones al menu contextual a items que cumplan ciertas condiciones.
 
 
-        3. AÃ±adiendo opciones a todos los items
-            Se pueden aÃ±adir opciones al menu contextual para todos los items
+        3. Añadiendo opciones a todos los items
+            Se pueden añadir opciones al menu contextual para todos los items
 
-        4. Se pueden deshabilitar las opciones del menu contextual aÃ±adiendo un comando 'no_context' al item.context.
-            Las opciones que Kodi, el skin u otro aÃ±adido aÃ±ada al menu contextual no se pueden deshabilitar.
+        4. Se pueden deshabilitar las opciones del menu contextual añadiendo un comando 'no_context' al item.context.
+            Las opciones que Kodi, el skin u otro añadido añada al menu contextual no se pueden deshabilitar.
 
     @param item: elemento que contiene los menu contextuales
     @type item: item
@@ -347,11 +347,11 @@ def set_context_commands(item, parent_item):
                 context_commands.append(
                     (command["title"], "XBMC.RunPlugin(%s?%s)" % (sys.argv[0], item.clone(**command).tourl())))
 
-    # Opciones segun criterios, solo si el item no es un tag (etiqueta), ni es "AÃ±adir a la biblioteca", etc...
+    # Opciones segun criterios, solo si el item no es un tag (etiqueta), ni es "Añadir a la biblioteca", etc...
     if item.action and item.action not in ["add_pelicula_to_library", "add_serie_to_library", "buscartrailer"]:
         # Mostrar informacion: si el item tiene plot suponemos q es una serie, temporada, capitulo o pelicula
         if item.infoLabels['plot'] and (num_version_xbmc < 17.0 or item.contentType == 'season'):
-            context_commands.append(("InformaciÃ³n", "XBMC.Action(Info)"))
+            context_commands.append(("Información", "XBMC.Action(Info)"))
 
         # ExtendedInfo: Si esta instalado el addon y se cumplen una serie de condiciones
         if xbmc.getCondVisibility('System.HasAddon(script.extendedinfo)') \
@@ -399,7 +399,7 @@ def set_context_commands(item, parent_item):
             context_commands.append(("Ir al Menu Principal", "XBMC.Container.Refresh (%s?%s)" %
                                      (sys.argv[0], Item(channel=item.channel, action="mainlist").tourl())))
 
-        # AÃ±adir a Favoritos
+        # Añadir a Favoritos
         if num_version_xbmc < 17.0 and \
                 ((item.channel not in ["favoritos", "biblioteca", "ayuda", ""] or item.action in ["update_biblio"]) and
                  not parent_item.channel == "favoritos"):
@@ -409,14 +409,14 @@ def set_context_commands(item, parent_item):
                                                               from_action=item.action).tourl())))
 
         if item.channel != "biblioteca":
-            # AÃ±adir Serie a la biblioteca
+            # Añadir Serie a la biblioteca
             if item.action in ["episodios", "get_episodios"] and item.contentSerieName:
-                context_commands.append(("AÃ±adir Serie a Biblioteca", "XBMC.RunPlugin(%s?%s)" %
+                context_commands.append(("Añadir Serie a Biblioteca", "XBMC.RunPlugin(%s?%s)" %
                                          (sys.argv[0], item.clone(action="add_serie_to_library",
                                                                   from_action=item.action).tourl())))
-            # AÃ±adir Pelicula a Biblioteca
+            # Añadir Pelicula a Biblioteca
             elif item.action in ["detail", "findvideos"] and item.contentType == 'movie' and item.contentTitle:
-                context_commands.append(("AÃ±adir Pelicula a Biblioteca", "XBMC.RunPlugin(%s?%s)" %
+                context_commands.append(("Añadir Pelicula a Biblioteca", "XBMC.RunPlugin(%s?%s)" %
                                          (sys.argv[0], item.clone(action="add_pelicula_to_library",
                                                                   from_action=item.action).tourl())))
 
@@ -450,9 +450,9 @@ def set_context_commands(item, parent_item):
                                                                       from_channel=item.channel,
                                                                       from_action=item.action).tourl())))
 
-        # Abrir configuraciÃ³n
+        # Abrir configuración
         if parent_item.channel not in ["configuracion", "novedades", "buscador"]:
-            context_commands.append(("Abrir ConfiguraciÃ³n", "XBMC.Container.Update(%s?%s)" %
+            context_commands.append(("Abrir Configuración", "XBMC.Container.Update(%s?%s)" %
                                      (sys.argv[0], Item(channel="configuracion", action="mainlist").tourl())))
 
         # Buscar Trailer
@@ -460,7 +460,7 @@ def set_context_commands(item, parent_item):
             context_commands.append(("Buscar Trailer", "XBMC.RunPlugin(%s?%s)" % (sys.argv[0], item.clone(
                                      channel="trailertools", action="buscartrailer", contextual=True).tourl())))
 
-    # AÃ±adir SuperFavourites al menu contextual (1.0.53 o superior necesario)
+    # Añadir SuperFavourites al menu contextual (1.0.53 o superior necesario)
     sf_file_path = xbmc.translatePath("special://home/addons/plugin.program.super.favourites/LaunchSFMenu.py")
     check_sf = os.path.exists(sf_file_path)
     if check_sf and xbmc.getCondVisibility('System.HasAddon("plugin.program.super.favourites")'):
@@ -488,12 +488,12 @@ def play_video(item, strm=False):
     default_action = config.get_setting("default_action")
     logger.info("default_action=%s" % default_action)
 
-    # Abre el diÃ¡logo de selecciÃ³n para ver las opciones disponibles
+    # Abre el diálogo de selección para ver las opciones disponibles
     opciones, video_urls, seleccion, salir = get_dialogo_opciones(item, default_action, strm)
     if salir:
         return
 
-    # se obtienen la opciÃ³n predeterminada de la configuraciÃ³n del addon
+    # se obtienen la opción predeterminada de la configuración del addon
     seleccion = get_seleccion(default_action, opciones, seleccion, video_urls)
     if seleccion < 0:  # Cuadro cancelado
         return
@@ -501,7 +501,7 @@ def play_video(item, strm=False):
     logger.info("seleccion=%d" % seleccion)
     logger.info("seleccion=%s" % opciones[seleccion])
 
-    # se ejecuta la opcion disponible, jdwonloader, descarga, favoritos, aÃ±adir a la biblioteca... SI NO ES PLAY
+    # se ejecuta la opcion disponible, jdwonloader, descarga, favoritos, añadir a la biblioteca... SI NO ES PLAY
     salir = set_opcion(item, seleccion, opciones, video_urls)
     if salir:
         return
@@ -511,14 +511,14 @@ def play_video(item, strm=False):
     if mediaurl == "":
         return
 
-    # se obtiene la informaciÃ³n del video.
+    # se obtiene la información del video.
     if not item.contentThumbnail:
         xlistitem = xbmcgui.ListItem(path=mediaurl, thumbnailImage=item.thumbnail)
     else:
          xlistitem = xbmcgui.ListItem(path=mediaurl, thumbnailImage=item.contentThumbnail)
     set_infolabels(xlistitem, item, True)
 
-    # si se trata de un vÃ­deo en formato mpd, se configura el listitem para reproducirlo
+    # si se trata de un vídeo en formato mpd, se configura el listitem para reproducirlo
     # con el addon inpustreamaddon implementado en Kodi 17
     if mpd:
         xlistitem.setProperty('inputstreamaddon', 'inputstream.adaptive')
@@ -534,7 +534,7 @@ def stop_video():
 def get_seleccion(default_action, opciones, seleccion, video_urls):
     # preguntar
     if default_action == 0:
-        # "Elige una opciÃ³n"
+        # "Elige una opción"
         seleccion = dialog_select(config.get_localized_string(30163), opciones)
     # Ver en calidad baja
     elif default_action == 1:
@@ -562,11 +562,11 @@ def show_channel_settings(list_controls=None, dict_values=None, caption="", call
     @type dict_values: dict
     @param caption: titulo de la ventana
     @type caption: str
-    @param callback: funciÃ³n que se llama tras cerrarse la ventana.
+    @param callback: función que se llama tras cerrarse la ventana.
     @type callback: str
-    @param item: item para el que se muestra la ventana de configuraciÃ³n.
+    @param item: item para el que se muestra la ventana de configuración.
     @type item: Item
-    @param custom_button: botÃ³n personalizado, que se muestra junto a "OK" y "Cancelar".
+    @param custom_button: botón personalizado, que se muestra junto a "OK" y "Cancelar".
     @type custom_button: dict
 
     @return: devuelve la ventana con los elementos
@@ -580,10 +580,10 @@ def show_channel_settings(list_controls=None, dict_values=None, caption="", call
 
 def show_video_info(data, caption="", item=None, scraper=Tmdb):
     """
-    Muestra una ventana con la info del vÃ­deo. Opcionalmente se puede indicar el titulo de la ventana mendiante
+    Muestra una ventana con la info del vídeo. Opcionalmente se puede indicar el titulo de la ventana mendiante
     el argumento 'caption'.
 
-    Si se pasa un item como argumento 'data' usa el scrapper Tmdb para buscar la info del vÃ­deo
+    Si se pasa un item como argumento 'data' usa el scrapper Tmdb para buscar la info del vídeo
         En caso de peliculas:
             Coge el titulo de los siguientes campos (en este orden)
                   1. contentTitle (este tiene prioridad 1)
@@ -598,12 +598,12 @@ def show_video_info(data, caption="", item=None, scraper=Tmdb):
 
             Aqui hay dos opciones posibles:
                   1. Tenemos Temporada y episodio
-                    Muestra la informaciÃ³n del capitulo concreto
+                    Muestra la información del capitulo concreto
                   2. NO Tenemos Temporada y episodio
                     En este caso muestra la informacion generica de la serie
 
     Si se pasa como argumento 'data' un  objeto InfoLabels(ver item.py) muestra en la ventana directamente
-    la informaciÃ³n pasada (sin usar el scrapper)
+    la información pasada (sin usar el scrapper)
         Formato:
             En caso de peliculas:
                 infoLabels({
@@ -642,11 +642,11 @@ def show_video_info(data, caption="", item=None, scraper=Tmdb):
     llamaran a la funcion 'callback' del canal desde donde se realiza la llamada pasandole como parametros el elemento
     actual (InfoLabels()) o None respectivamente.
 
-    @param data: informaciÃ³n para obtener datos del scraper.
+    @param data: información para obtener datos del scraper.
     @type data: item, InfoLabels, list(InfoLabels)
     @param caption: titulo de la ventana.
     @type caption: str
-    @param item: elemento del que se va a mostrar la ventana de informaciÃ³n
+    @param item: elemento del que se va a mostrar la ventana de información
     @type item: Item
     @param scraper: scraper que tiene los datos de las peliculas o series a mostrar en la ventana.
     @type scraper: Scraper
@@ -663,7 +663,7 @@ def show_recaptcha(key, referer):
 
 
 def alert_no_disponible_server(server):
-    # 'El vÃ­deo ya no estÃ¡ en %s' , 'Prueba en otro servidor o en otro canal'
+    # 'El vídeo ya no está en %s' , 'Prueba en otro servidor o en otro canal'
     dialog_ok(config.get_localized_string(30055), (config.get_localized_string(30057) % server),
               config.get_localized_string(30058))
 
@@ -685,7 +685,7 @@ def handle_wait(time_to_wait, title, text):
         secs += 1
         percent = increment * secs
         secs_left = str((time_to_wait - secs))
-        remaining_display = ' Espera ' + secs_left + ' segundos para que comience el vÃ­deo...'
+        remaining_display = ' Espera ' + secs_left + ' segundos para que comience el vídeo...'
         espera.update(percent, ' ' + text, remaining_display)
         xbmc.sleep(1000)
         if espera.iscanceled():
@@ -716,10 +716,10 @@ def get_dialogo_opciones(item, default_action, strm):
     if item.server == "":
         item.server = "directo"
 
-    # Si no es el modo normal, no muestra el diÃ¡logo porque cuelga XBMC
+    # Si no es el modo normal, no muestra el diálogo porque cuelga XBMC
     muestra_dialogo = (config.get_setting("player_mode") == 0 and not strm)
 
-    # Extrae las URL de los vÃ­deos, y si no puedes verlo te dice el motivo
+    # Extrae las URL de los vídeos, y si no puedes verlo te dice el motivo
     # Permitir varias calidades para server "directo"
     if item.video_urls:
         video_urls, puedes, motivo = item.video_urls, True, ""
@@ -728,7 +728,7 @@ def get_dialogo_opciones(item, default_action, strm):
             item.server, item.url, item.password, muestra_dialogo)
 
     seleccion = 0
-    # Si puedes ver el vÃ­deo, presenta las opciones
+    # Si puedes ver el vídeo, presenta las opciones
     if puedes:
         for video_url in video_urls:
             opciones.append(config.get_localized_string(30151) + " " + video_url[0])
@@ -744,11 +744,11 @@ def get_dialogo_opciones(item, default_action, strm):
                 # "Quitar de favoritos"
                 opciones.append(config.get_localized_string(30154))
             else:
-                # "AÃ±adir a favoritos"
+                # "Añadir a favoritos"
                 opciones.append(config.get_localized_string(30155))
 
             if not strm and item.contentType == 'movie':
-                # "AÃ±adir a Biblioteca"
+                # "Añadir a Biblioteca"
                 opciones.append(config.get_localized_string(30161))
 
             if config.get_setting("jdownloader_enabled") == True:
@@ -763,17 +763,17 @@ def get_dialogo_opciones(item, default_action, strm):
             # "Buscar Trailer"
             opciones.append(config.get_localized_string(30162))
 
-    # Si no puedes ver el vÃ­deo te informa
+    # Si no puedes ver el vídeo te informa
     else:
         if item.server != "":
             if "<br/>" in motivo:
-                dialog_ok("No puedes ver ese vÃ­deo porque...", motivo.split("<br/>")[0], motivo.split("<br/>")[1],
+                dialog_ok("No puedes ver ese vídeo porque...", motivo.split("<br/>")[0], motivo.split("<br/>")[1],
                           item.url)
             else:
-                dialog_ok("No puedes ver ese vÃ­deo porque...", motivo, item.url)
+                dialog_ok("No puedes ver ese vídeo porque...", motivo, item.url)
         else:
-            dialog_ok("No puedes ver ese vÃ­deo porque...", "El servidor donde estÃ¡ alojado no estÃ¡",
-                      "soportado en pelisalacarta todavÃ­a", item.url)
+            dialog_ok("No puedes ver ese vídeo porque...", "El servidor donde está alojado no está",
+                      "soportado en pelisalacarta todavía", item.url)
 
         if item.channel == "favoritos":
             # "Quitar de favoritos"
@@ -789,10 +789,10 @@ def set_opcion(item, seleccion, opciones, video_urls):
     logger.info()
     # logger.debug(item.tostring('\n'))
     salir = False
-    # No ha elegido nada, lo mÃ¡s probable porque haya dado al ESC
+    # No ha elegido nada, lo más probable porque haya dado al ESC
     # TODO revisar
     if seleccion == -1:
-        # Para evitar el error "Uno o mÃ¡s elementos fallaron" al cancelar la selecciÃ³n desde fichero strm
+        # Para evitar el error "Uno o más elementos fallaron" al cancelar la selección desde fichero strm
         listitem = xbmcgui.ListItem(item.title, iconImage="DefaultVideo.png", thumbnailImage=item.thumbnail)
         xbmcplugin.setResolvedUrl(int(sys.argv[1]), False, listitem)
 
@@ -824,14 +824,14 @@ def set_opcion(item, seleccion, opciones, video_urls):
         favoritos.delFavourite(item)
         salir = True
 
-    # "AÃ±adir a favoritos":
+    # "Añadir a favoritos":
     elif opciones[seleccion] == config.get_localized_string(30155):
         from channels import favoritos
         item.from_channel = "favoritos"
         favoritos.addFavourite(item)
         salir = True
 
-    # "AÃ±adir a Biblioteca":  # Library
+    # "Añadir a Biblioteca":  # Library
     elif opciones[seleccion] == config.get_localized_string(30161):
         titulo = item.fulltitle
         if titulo == "":
@@ -863,7 +863,7 @@ def get_video_seleccionado(item, seleccion, video_urls):
     wait_time = 0
     mpd = False
 
-    # Ha elegido uno de los vÃ­deos
+    # Ha elegido uno de los vídeos
     if seleccion < len(video_urls):
         mediaurl = video_urls[seleccion][1]
         if len(video_urls[seleccion]) > 4:
@@ -877,7 +877,7 @@ def get_video_seleccionado(item, seleccion, video_urls):
             wait_time = video_urls[seleccion][2]
         view = True
 
-    # Si no hay mediaurl es porque el vÃ­deo no estÃ¡ :)
+    # Si no hay mediaurl es porque el vídeo no está :)
     logger.info("mediaurl=" + mediaurl)
     if mediaurl == "":
         if item.server == "unknown":
@@ -887,7 +887,7 @@ def get_video_seleccionado(item, seleccion, video_urls):
 
     # Si hay un tiempo de espera (como en megaupload), lo impone ahora
     if wait_time > 0:
-        continuar = handle_wait(wait_time, item.server, "Cargando vÃ­deo...")
+        continuar = handle_wait(wait_time, item.server, "Cargando vídeo...")
         if not continuar:
             mediaurl = ""
 
@@ -920,7 +920,7 @@ def set_player(item, xlistitem, mediaurl, view, strm):
 
         elif config.get_setting("player_mode") == 0 or \
                 (config.get_setting("player_mode") == 3 and mediaurl.startswith("rtmp")):
-            # AÃ±adimos el listitem a una lista de reproducciÃ³n (playlist)
+            # Añadimos el listitem a una lista de reproducción (playlist)
             playlist = xbmc.PlayList(xbmc.PLAYLIST_VIDEO)
             playlist.clear()
             playlist.add(mediaurl, xlistitem)
@@ -957,7 +957,7 @@ def set_player(item, xlistitem, mediaurl, view, strm):
 
     # TODO MIRAR DE QUITAR VIEW
     if item.subtitle != "" and view:
-        logger.info("SubtÃ­tulos externos: " + item.subtitle)
+        logger.info("Subtítulos externos: " + item.subtitle)
         xbmc.sleep(2000)
         xbmc.Player().setSubtitles(item.subtitle)
 
@@ -971,40 +971,40 @@ def play_torrent(item, xlistitem, mediaurl):
     logger.info()
     # Opciones disponibles para Reproducir torrents
     torrent_options = list()
-    torrent_options.append(["Cliente interno (necesario libtorrent)"])
-    torrent_options.append(["Cliente interno MCT (necesario libtorrent)"])
 
-    # Plugins externos se pueden aÃ±adir otros
+    # Plugins externos se pueden añadir otros
     if xbmc.getCondVisibility('System.HasAddon("plugin.video.xbmctorrent")'):
         torrent_options.append(["Plugin externo: xbmctorrent", "plugin://plugin.video.xbmctorrent/play/%s"])
+    if xbmc.getCondVisibility('System.HasAddon("plugin.video.torrenter")'):
+        torrent_options.append(["Plugin externo: torrenter",
+                                "plugin://plugin.video.torrenter/?action=playSTRM&url=%s"])
     if xbmc.getCondVisibility('System.HasAddon("plugin.video.pulsar")'):
         torrent_options.append(["Plugin externo: pulsar", "plugin://plugin.video.pulsar/play?uri=%s"])
     if xbmc.getCondVisibility('System.HasAddon("plugin.video.quasar")'):
         torrent_options.append(["Plugin externo: quasar", "plugin://plugin.video.quasar/play?uri=%s"])
     if xbmc.getCondVisibility('System.HasAddon("plugin.video.stream")'):
         torrent_options.append(["Plugin externo: stream", "plugin://plugin.video.stream/play/%s"])
-    if xbmc.getCondVisibility('System.HasAddon("plugin.video.torrenter")'):
-        torrent_options.append(["Plugin externo: torrenter",
-                                "plugin://plugin.video.torrenter/?action=playSTRM&url=%s"])
     if xbmc.getCondVisibility('System.HasAddon("plugin.video.torrentin")'):
         torrent_options.append(["Plugin externo: torrentin", "plugin://plugin.video.torrentin/?uri=%s&image="])
 
-    if len(torrent_options) > 1:
+    if len(torrent_options) > 0:
         seleccion = dialog_select("Abrir torrent con...", [opcion[0] for opcion in torrent_options])
     else:
-        seleccion = 0
+        seleccion = 1
 
     # Plugins externos
-    if seleccion > 1:
+    if seleccion == 0:
         mediaurl = urllib.quote_plus(item.url)
         xbmc.executebuiltin("PlayMedia(" + torrent_options[seleccion][1] % mediaurl + ")")
-
     if seleccion == 1:
+        mediaurl = urllib.quote_plus(item.url)
+        xbmc.executebuiltin("PlayMedia(" + torrent_options[seleccion][1] % mediaurl + ")")
+    if seleccion == 2:
         from platformcode import mct
         mct.play(mediaurl, xlistitem, subtitle=item.subtitle, item=item)
 
     # Reproductor propio (libtorrent)
-    if seleccion == 0:
+    if seleccion == 2:
         import time
         played = False
         debug = (config.get_setting("debug") == True)
@@ -1052,7 +1052,7 @@ def play_torrent(item, xlistitem, mediaurl):
                 if progreso.iscanceled():
                     progreso.close()
                     if s.buffer == 100:
-                        if dialog_yesno("Pelisalacarta - Torrent", "Â¿Deseas iniciar la reproduccion?"):
+                        if dialog_yesno("Pelisalacarta - Torrent", "¿Deseas iniciar la reproduccion?"):
                             played = False
                             progreso = dialog_progress("Pelisalacarta - Torrent", "")
                             progreso.update(s.buffer, txt, txt2, txt3)
@@ -1061,7 +1061,7 @@ def play_torrent(item, xlistitem, mediaurl):
                             break
 
                     else:
-                        if dialog_yesno("Pelisalacarta - Torrent", "Â¿Deseas cancelar el proceso?"):
+                        if dialog_yesno("Pelisalacarta - Torrent", "¿Deseas cancelar el proceso?"):
                             progreso = dialog_progress("Pelisalacarta - Torrent", "")
                             break
 
