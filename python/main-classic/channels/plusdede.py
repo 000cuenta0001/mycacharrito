@@ -1,8 +1,7 @@
 # -*- coding: utf-8 -*-
 # ------------------------------------------------------------
 # pelisalacarta - XBMC Plugin
-# Canal para plusdede portado de Pordede (Cmos)
-# Autor Willyn
+# Canal Plusdede
 # https://blog.tvalacarta.info/plugin-xbmc/pelisalacarta/
 # ------------------------------------------------------------
 
@@ -10,6 +9,10 @@ import os
 import re
 import sys
 import urlparse
+import xbmcgui
+import urllib
+import urllib2
+import time
 
 from core import config
 from core import httptools
@@ -31,21 +34,23 @@ color1, color2, color3 = ['0xFFB10021','0xFFB10021','0xFFB10004']
 def login():
 
     url_origen = "https://www.plusdede.com/login?popup=1"
-    data = httptools.downloadpage(url_origen).data
+    data = httptools.downloadpage(url_origen,follow_redirects=True).data
     logger.debug("dataPLUSDEDE="+data)
-    if config.get_setting("plusdedeuser", "plusdede") in data:
+    if re.search(r'(?i)%s' % config.get_setting("plusdedeuser", "plusdede"), data):
         return True
-    
-    token = scrapertools.find_single_match(data, '_token" content="([^"]+)"')
-    post = "_token="+token+"&email="+config.get_setting("plusdedeuser", "plusdede")+"&password="+config.get_setting("plusdedepassword", "plusdede")+"&popup=1"
+
+    token = scrapertools.find_single_match(data, '<input name="_token" type="hidden" value="([^"]+)"')
+
+    post = "_token="+str(token)+"&email="+str(config.get_setting("plusdedeuser", "plusdede"))+"&password="+str(config.get_setting("plusdedepassword", "plusdede"))+"&app=2131296469"
     #logger.debug("dataPLUSDEDE_POST="+post)
     url = "https://www.plusdede.com/"
     headers = {"Referer": url, "X-Requested-With": "XMLHttpRequest", "X-CSRF-TOKEN": token}
-    data = httptools.downloadpage("https://www.plusdede.com/login", post=post, headers=headers, replace_headers=True).data
-    logger.debug("dataPLUSDEDE="+data)
+    data = httptools.downloadpage("https://www.plusdede.com/login", post=post, headers=headers, replace_headers=False).data
+    logger.debug("PLUSDEDE_DATA="+data)
     if "redirect" in data:
         return True
-    return False
+    else:
+        return False
 
 
 def mainlist(item):
@@ -882,7 +887,8 @@ def plusdede_check(item):
         data = httptools.downloadpage(url_temp, post="id="+item.idtemp, headers=headers, replace_headers=True).data.strip()
         logger.debug("URL_PLUSDEDECHECK_DATA"+url_temp)
         logger.debug("PLUSDEDECHECK_DATA="+data)
-        dialog = xbmcgui.Dialog()
+        dialog = platformtools
+        dialog.ok = platformtools.dialog_ok
         if data == "1":
             if item.valor != "nothing":
                dialog.ok('SUCCESS', 'Marca realizada con éxito!')
@@ -890,12 +896,8 @@ def plusdede_check(item):
                 dialog.ok('SUCCESS', 'Marca eliminada con éxito!')
         elif item.valor== "unfollow":
             dialog.ok('SUCCESS', 'Has dejado de seguir esta lista!')
-            import xbmc
-            platformtools.itemlist_refresh()
         elif item.valor== "follow":
             dialog.ok('SUCCESS', 'Has comenzado a seguir esta lista!')
-            import xbmc
-            platformtools.itemlist_refresh()
         elif item.tipo_esp == "add_list":
             dialog.ok('SUCCESS', 'Añadido a la lista!')
         else:
