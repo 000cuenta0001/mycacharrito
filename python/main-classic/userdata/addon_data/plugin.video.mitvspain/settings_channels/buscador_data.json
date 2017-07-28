@@ -1,0 +1,20 @@
+{
+    "settings": {
+        "last_search": true, 
+        "multithread": true, 
+        "result_mode": 0, 
+        "saved_searches_limit": 0, 
+        "saved_searches_list": [
+            "bronce", 
+            "dragon", 
+            "fargo", 
+            "extant", 
+            "moto", 
+            "zoo", 
+            "señor", 
+            "guar", 
+            "comancheria", 
+            "formula"
+        ]
+    }
+}

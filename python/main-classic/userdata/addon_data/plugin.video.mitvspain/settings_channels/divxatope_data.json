@@ -1,0 +1,7 @@
+{
+    "settings": {
+        "include_in_global_search": false, 
+        "include_in_newest_peliculas": true, 
+        "include_in_newest_series": true
+    }
+}

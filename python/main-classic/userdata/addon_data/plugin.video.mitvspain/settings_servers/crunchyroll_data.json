@@ -1,0 +1,10 @@
+{
+    "settings": {
+        "black_list": false, 
+        "password": "", 
+        "premium": false, 
+        "sub": 0, 
+        "user": "", 
+        "white_list": false
+    }
+}
