@@ -19,7 +19,7 @@
         "sync_trakt_watched": false, 
         "tvdb_retry_eng": true, 
         "updatelibrary": 1, 
-        "updatelibrary_last_check": "2017-07-25", 
+        "updatelibrary_last_check": "2017-07-28", 
         "updatelibrary_wait": 0, 
         "updatetvshows_interval": 0, 
         "watched_setting": 3, 
