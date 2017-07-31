@@ -1,3 +1,0 @@
-# MiTvSpain
-
-## Classic python version
