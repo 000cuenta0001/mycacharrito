@@ -144,8 +144,9 @@
     <setting id="stormtvaccount" value="false" />
     <setting id="stormtvpassword" value="" />
     <setting id="stormtvuser" value="" />
-    <setting id="subtitle_name" value="(str, &apos;Rey Arturo La leyenda de Excalibur ( [COLOR teal][B]SUB LAT [B][COLOR]) ([COLOR orange]72[COLOR])&apos;)" />
+    <setting id="subtitle_name" value="(str, &apos;[COLOR 0xFF2E9AFE]Secretos y mentiras 2x03[COLOR]&apos;)" />
     <setting id="thumbnail_type" value="2" />
+    <setting id="torrent_action" value="3" />
     <setting id="torrentestrenosaccount" value="false" />
     <setting id="torrentestrenospassword" value="" />
     <setting id="torrentestrenosuser" value="" />

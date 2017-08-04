@@ -9,7 +9,7 @@
 .enlacesmix.com	TRUE	/	FALSE	1523989624	__cfduid	d4ceb7a7c76942563bb5595fbd959f07e1492453624
 .fastcontentdelivery.com	TRUE	/	FALSE	1532192544	__cfduid	d563041ca62f19c727c50a7ae1a95df981500656544
 .filez.tv	TRUE	/	FALSE	1523972482	__cfduid	d6201b28860483a8a2aa554429edfa8421492436482
-.flashx.tv	TRUE	/	FALSE	1532192567	__cfduid	d5e2af0810353bbc61b83e095a63989d71500656567
+.flashx.tv	TRUE	/	FALSE	1533165082	__cfduid	d788f7acfe099fa3bf61295ca3c689e661501629082
 .flashx.tv	TRUE	/	FALSE		lang	1
 .gamovideo.com	TRUE	/	FALSE	1519385391	__cfduid	d0ffb614ce57b9346f45b5788c24aa8ec1487849391
 .gamovideo.com	TRUE	/	FALSE		lang	3
@@ -26,9 +26,9 @@
 .pelispedia.tv	TRUE	/	FALSE	1519154384	__cfduid	dcb6c2c8c62d44d3d2a952ba92a90ff0b1487618384
 .pelispedia.vip	TRUE	/	FALSE	1520124377	__cfduid	d4ae20580adde42829d54ceec7b0f672d1488588377
 .pelisplus.tv	TRUE	/	FALSE	1521983966	__cfduid	dfbb2b85c8f959d4cbc9a3fa64da56bb21490447966
-.playmax.mx	TRUE	/	FALSE	1515532036	playmax_dg44ins9_k	5fc31868727eee80
-.playmax.mx	TRUE	/	FALSE	1515532036	playmax_dg44ins9_sid	bd825a13f3bbd22c3635c2e504de1f66
-.playmax.mx	TRUE	/	FALSE	1515532036	playmax_dg44ins9_u	108251
+.playmax.mx	TRUE	/	TRUE	2132350790	playmax_dg44ins9_k	e6f121a6625d7fce
+.playmax.mx	TRUE	/	TRUE	2132350790	playmax_dg44ins9_sid	63284d72c95c9187f36c8352f26e217a
+.playmax.mx	TRUE	/	TRUE	2132350790	playmax_dg44ins9_u	108251
 .pordede.com	TRUE	/	FALSE		PHPSESSID	f9e0sdfkupn96kas6t5kr9vno7
 .powvideo.net	TRUE	/	FALSE	1517165498	__cfduid	dc88595168700cac86c110b2f2d449b061485629498
 .powvideo.net	TRUE	/	FALSE		lang	4
@@ -46,6 +46,7 @@
 .uptobox.com	TRUE	/	FALSE	1521977611	__cfduid	de358d5c298245ea3a3c4d063db4f44a31490441611
 .uptobox.com	TRUE	/	FALSE	1501917413	aff	3773590
 .uptobox.com	TRUE	/	FALSE		lang	spanish
+.vidoza.net	TRUE	/	FALSE	1533164769	__cfduid	d05f4e2760971ad5325139919314f4b691501628769
 .wopelis.com	TRUE	/	FALSE	1530716267	__cfduid	dfccb6cac5a2f4568c1f4d92f0a0f39961499180267
 .youtube.com	TRUE	/	FALSE	2145916800	CONSENT	WP.25f769.260cc3
 .youtube.com	TRUE	/	FALSE	1513939585	PREF	f1=50000000
@@ -53,6 +54,8 @@
 .youtube.com	TRUE	/	FALSE		YSC	htNz9Ib703I
 .zstream.to	TRUE	/	FALSE	1521809623	__cfduid	d5fb96dd20ec1e1821abd64f4138b9e011490273623
 ddmix.net	FALSE	/	FALSE		PHPSESSID	bobhc03dtgulf1hu9flvpovhv5
+ddmix.net	FALSE	/	FALSE	1501876925	wfvt_2000700906	5984cbb59c569
+ddmix.net	FALSE	/	FALSE	1501877002	wfvt_579004689	5984cc0299c5b
 de.hideproxy.me	FALSE	/	FALSE		c[ddmix.net][/][__cfduid]	d52fafe7d87dad051c6f6d335935876f01492452963
 de.hideproxy.me	FALSE	/	FALSE		c[descargasmix.com][/][__cfduid]	def84304ed7748a96775b9e1ea2c5ca081492452963
 de.hideproxy.me	FALSE	/	FALSE		s	pc1dvcko13702iv047mlotklg5
@@ -60,7 +63,7 @@ desmix.net	FALSE	/	FALSE		PHPSESSID	p2neumo3hqv5dovbkq560r9om2
 embed.nowvideo.sx	FALSE	/	FALSE	1893459661	aff	71611
 embed.nowvideo.sx	FALSE	/	FALSE		cpo	1
 hdfull.tv	FALSE	/	FALSE		PHPSESSID	gdapjmghuqr30mknjpp5m6ego1
-hdfull.tv	FALSE	/	FALSE	1503590594	language	es
+hdfull.tv	FALSE	/	FALSE	1504220653	language	es
 metiscs.com	FALSE	/	FALSE		PHPSESSID	us0pgvs8elc6jtgmffj315c504
 newpct1.com	FALSE	/	FALSE		PHPSESSID	uueqavr9pmnesljjh26f3s5h80
 nl.hideproxy.me	FALSE	/	FALSE		c[ddmix.net][/][__cfduid]	d64207e0109ccee9fb835453c7df36e6f1492452973
@@ -82,3 +85,5 @@ www.nowvideo.sx	FALSE	/	FALSE	1893459661	aff	85738
 www.nowvideo.sx	FALSE	/	FALSE		cpo	1
 www.pelisplus.tv	FALSE	/	FALSE		PHPSESSID	0e764b57ea8eecfcf1fe4c840454d065
 www.plusdede.com	FALSE	/	FALSE		PHPSESSID	t2qp7aktvkvsu4m159vh92k6q7
+www.plusdede.com	FALSE	/	FALSE	1573629456	XSRF-TOKEN	eyJpdiI6Ilh0ZFYwR0lRcDBJM3huM1RZRm9JYWc9PSIsInZhbHVlIjoiSGY0Qk5jM01mRzI4UjM4Y0xZcU50dXlOaTV3VW1jTEhNd1pFaUk5cVNVZVBQQytDaUt4ZzUwVERtaCtobHhPeFhiZDRZRFdQcldpZzZnNkRrd0VuVXc9PSIsIm1hYyI6IjY2MDI1NDZiYzUwNWNmODg5MzA2Mzc1YzYzMDlmOWJmZTM5OWJlNjE0OGMxZTcyMGRhNmRiOTUwN2U0MzAyMGQifQ%3D%3D
+www.plusdede.com	FALSE	/	FALSE	1573629456	cakephp_session	eyJpdiI6IlE5Q3lYXC9zb1d5NUlHVHpMd0lLTTJBPT0iLCJ2YWx1ZSI6Inl4TGorUFB1NnVGcXpFa0xmNkFvaGtkVGYyOWxwSGxDaEhqS2lcL2tTKzRCRkdyMzhneEM5NkFVcHFiZGJIQkIxS2JyRmxiaEorREZDXC92Z2Z5emN0Z1E9PSIsIm1hYyI6IjcxNGU2ODlmMDZiMTY2NTFhM2NhOTNjYWIyMWMzNGNjNDIyZmQwOTBjODMxMDc0N2I4YmI0YzQ4Yzk2YmQzOGQifQ%3D%3D

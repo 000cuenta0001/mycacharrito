@@ -30,6 +30,15 @@
                     "error": 0, 
                     "sucess": 1
                 }
+            }, 
+            "20170802": {
+                "find_videos": {
+                    "found": 1
+                }, 
+                "resolve": {
+                    "error": 0, 
+                    "sucess": 1
+                }
             }
         }, 
         "gamovideo": {
@@ -139,6 +148,15 @@
                 "resolve": {
                     "error": 0, 
                     "sucess": 2
+                }
+            }, 
+            "20170802": {
+                "find_videos": {
+                    "found": 1
+                }, 
+                "resolve": {
+                    "error": 0, 
+                    "sucess": 1
                 }
             }
         }, 
@@ -351,6 +369,24 @@
                     "error": 0, 
                     "sucess": 5
                 }
+            }, 
+            "20170802": {
+                "find_videos": {
+                    "found": 1
+                }, 
+                "resolve": {
+                    "error": 0, 
+                    "sucess": 1
+                }
+            }, 
+            "20170804": {
+                "find_videos": {
+                    "found": 1
+                }, 
+                "resolve": {
+                    "error": 0, 
+                    "sucess": 1
+                }
             }
         }, 
         "powvideo": {
@@ -450,6 +486,15 @@
                 }, 
                 "resolve": {
                     "error": 1, 
+                    "sucess": 2
+                }
+            }, 
+            "20170802": {
+                "find_videos": {
+                    "found": 2
+                }, 
+                "resolve": {
+                    "error": 0, 
                     "sucess": 2
                 }
             }
@@ -617,6 +662,15 @@
                 "resolve": {
                     "error": 0, 
                     "sucess": 2
+                }
+            }, 
+            "20170802": {
+                "find_videos": {
+                    "found": 2
+                }, 
+                "resolve": {
+                    "error": 1, 
+                    "sucess": 1
                 }
             }
         }, 
@@ -966,6 +1020,33 @@
                     "error": 0, 
                     "sucess": 1
                 }
+            }, 
+            "20170802": {
+                "find_videos": {
+                    "found": 1
+                }, 
+                "resolve": {
+                    "error": 0, 
+                    "sucess": 3
+                }
+            }, 
+            "20170803": {
+                "find_videos": {
+                    "found": 0
+                }, 
+                "resolve": {
+                    "error": 0, 
+                    "sucess": 4
+                }
+            }, 
+            "20170804": {
+                "find_videos": {
+                    "found": 1
+                }, 
+                "resolve": {
+                    "error": 0, 
+                    "sucess": 1
+                }
             }
         }, 
         "uptobox": {
@@ -975,6 +1056,17 @@
                 }, 
                 "resolve": {
                     "error": 1, 
+                    "sucess": 1
+                }
+            }
+        }, 
+        "vidoza": {
+            "20170802": {
+                "find_videos": {
+                    "found": 1
+                }, 
+                "resolve": {
+                    "error": 0, 
                     "sucess": 1
                 }
             }
