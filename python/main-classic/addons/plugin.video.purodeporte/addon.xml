@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addon id="plugin.video.purodeporte" name="[COLOR aqua]Puro Deporte[/COLOR]" version="0.0.1" provider-name="Bad-Max">
+  <requires>
+   <import addon="xbmc.python" version="2.1.0"/>
+   <import addon="script.module.t0mm0.common" version="1.0.0"/>
+   <import addon="script.module.beautifulsoup" version="3.2.1"/>
+   <import addon="script.common.plugin.cache"/>	
+   <import addon="script.module.dateutil" version="2.4.2"/>	
+   <import addon="script.module.requests"/> 
+   <import addon="script.module.mctools"/>
+   <import addon="program.plexus"/>
+   <import addon="plugin.video.SportsDevil"/>
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="default.py">
+        <provides>video</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary lang="en">Acceso a algunas de las mejores Webs de Deportes en Español</summary>
+    <description>[COLOR white]Acceso a algunas de las mejores Webs de Deportes en Español... Necesario para su correcto funcionamiento, tener instalados los Addons [COLOR yellow][B] Plexus [COLOR white]y [COLOR red] SportsDevil[COLOR white]  ....By Bad-Max.[/B][/COLOR]</description>
+    <platform>all</platform>
+  </extension>
+</addon>

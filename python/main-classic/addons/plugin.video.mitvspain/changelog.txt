@@ -1,0 +1,41 @@
+MiTvSpain V.1.1.11
+
+04/08/2017
+
+Reparada opcion elegir gestor de torrente para versiones de Kodi y Smpc inferiores a 17.3
+
+Añadidos canales:
+				pepecine
+				bajui2
+				locopelis
+				
+MiTvSpain V.1.1.10
+
+05/08/2017
+
+Añadida opcion elegir gestor de torrente desde configuración, añadida opcion actualizacion de canales automaticos.
+
+
+
+
+MiTvSpain v.1.1.9
+
+
+Reparados: Bugs Internos del Addon, 
+PlayPornX, 
+Xtheatre, 
+Metaserie, 
+Cinefox,  
+
+
+
+
+MiTvSpain v.1.1.8
+
+01/08/2017
+
+	Reparados: allcalidad
+		   cinetux
+		   plusdede
+		   mejortorrent
+	           playmax
