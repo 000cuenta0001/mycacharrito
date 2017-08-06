@@ -1,0 +1,15 @@
+<html>
+<head>
+	<title>403 Forbidden</title>
+<script type="text/javascript">
+//<![CDATA[
+try{if (!window.CloudFlare) {var CloudFlare=[{verbose:0,p:0,byc:0,owlid:"cf",bag2:1,mirage2:0,oracle:0,paths:{cloudflare:"/cdn-cgi/nexp/dok3v=1613a3a185/"},atok:"3eca486e1d4055afbf7c320f80c2d799",petok:"76adc8e7cd3998f5231b43a336dcc58eef9684c2-1499934276-1800",adblock:1,betok:"3ab0f3d8fd5f6da543d682ccc815410fec03fe2a-1499934276-120",zone:"pelispedia.tv",rocket:"0",apps:0}];!function(a,b){a=document.createElement("script"),b=document.getElementsByTagName("script")[0],a.async=!0,a.src="//ajax.cloudflare.com/cdn-cgi/nexp/dok3v=85b614c0f6/cloudflare.min.js",b.parentNode.insertBefore(a,b)}()}}catch(e){};
+//]]>
+</script>
+</head>
+<body>
+
+<p>Directory access is forbidden.</p>
+
+</body>
+</html>

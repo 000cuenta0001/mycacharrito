@@ -1,0 +1,31 @@
+{
+    "settings": {
+        "ask_channel": false, 
+        "everyday_delay": 1, 
+        "library_mode": 0, 
+        "mark_as_watched": true, 
+        "max_links": 0, 
+        "no_pile_on_seasons": 1, 
+        "original_title_folder": 0, 
+        "quit_channel_name": false, 
+        "replace_VD": false, 
+        "scraper_movies": 0, 
+        "scraper_tvshows": 0, 
+        "search_new_content": 0, 
+        "show_all_seasons": true, 
+        "sync_trakt_new_tvshow": false, 
+        "sync_trakt_new_tvshow_wait": true, 
+        "sync_trakt_notification": true, 
+        "sync_trakt_watched": false, 
+        "tvdb_retry_eng": true, 
+        "updatelibrary": 1, 
+        "updatelibrary_last_check": "2017-08-06", 
+        "updatelibrary_wait": 0, 
+        "updatetvshows_interval": 0, 
+        "watched_setting": 3, 
+        "white_list_order": false, 
+        "window_type": 0, 
+        "xbmc_host": "", 
+        "xbmc_puerto": ""
+    }
+}
