@@ -1,0 +1,6 @@
+{
+    "settings": {
+        "include_in_newest_infantiles": false, 
+        "include_in_newest_peliculas": true
+    }
+}

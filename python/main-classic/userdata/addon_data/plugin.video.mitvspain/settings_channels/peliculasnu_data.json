@@ -1,0 +1,8 @@
+{
+    "settings": {
+        "include_in_global_search": true, 
+        "include_in_newest_peliculas": true, 
+        "modo_grafico": true, 
+        "perfil": 2
+    }
+}

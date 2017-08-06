@@ -1,0 +1,16 @@
+{
+    "created": 1501938245.397635, 
+    "data": {
+        "streamcloud": {
+            "20170805": {
+                "find_videos": {
+                    "found": 1
+                }, 
+                "resolve": {
+                    "error": 0, 
+                    "sucess": 1
+                }
+            }
+        }
+    }
+}
