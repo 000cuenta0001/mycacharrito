@@ -1,8 +1,0 @@
-{
-    "settings": {
-        "include_in_newest_peliculas": true, 
-        "modo_grafico": true, 
-        "orden_episodios": false, 
-        "perfil": 0
-    }
-}
