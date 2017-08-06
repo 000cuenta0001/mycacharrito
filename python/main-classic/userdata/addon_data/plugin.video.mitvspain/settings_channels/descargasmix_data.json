@@ -1,8 +1,0 @@
-{
-    "settings": {
-        "host": "https://ddmix.net", 
-        "modo_grafico": true, 
-        "perfil": 2, 
-        "url_error": false
-    }
-}

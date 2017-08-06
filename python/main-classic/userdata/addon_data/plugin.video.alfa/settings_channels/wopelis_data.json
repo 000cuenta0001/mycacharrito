@@ -1,8 +1,0 @@
-{
-    "settings": {
-        "cookie": "=", 
-        "include_in_global_search": true, 
-        "include_in_newest_peliculas": true, 
-        "include_in_newest_series": true
-    }
-}
