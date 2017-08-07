@@ -1,0 +1,25 @@
+[B]1.1.4[/B]
+- Fixed New Episodes List
+
+[B]1.1.3[/B]
+- Pubfilm fix
+- Kingmovies fix
+- Juicy Codes decoder
+- show unaired seasons/episodes 
+
+[B]1.1.2[/B]
+- Trakt workaround in tools for Leia
+- Update translations
+- Code cosmetics
+
+[B]1.1.1[/B]
+- Trakt fixes
+- Updates existing providers
+- Added new provider
+
+[B]1.1.0[/B]
+- Official Release
+- Fix trakt support
+- Updated existing providers
+- Added new providers
+- Artwork (thanks to jokstergfx)
