@@ -23,7 +23,7 @@
     <setting id="DOWNLOAD_FOLDER" value="special://profile/addon_data/plugin.program.super.favourites/downloads" />
     <setting id="DOWNLOAD_ON_STD" value="true" />
     <setting id="DUMMY" value="" />
-    <setting id="FOLDER" value="special://profile/addon_data/plugin.program.super.favourites/" />
+    <setting id="FOLDER" value="" />
     <setting id="HOTKEY" value="None" />
     <setting id="IMPORT_RESET" value="false" />
     <setting id="INHERIT" value="true" />
@@ -66,7 +66,7 @@
     <setting id="STARTUP_TXT" value="[COLOR chartreuse][B]Please enter the startup message[CR]you would like to display[/B][/COLOR]" />
     <setting id="STRIPNUMBERS" value="true" />
     <setting id="SYNOPSRECOMMEND" value="true" />
-    <setting id="VERSION" value="1.0.43" />
+    <setting id="VERSION" value="1.0.56.rus" />
     <setting id="VIEWTYPE" value="0" />
     <setting id="WHITELIST" value="" />
 </settings>

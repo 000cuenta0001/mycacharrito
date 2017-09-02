@@ -23,6 +23,7 @@
     <setting id="resolve_stop" value="true" />
     <setting id="server_stats" value="true" />
     <setting id="settings_path" value="(str, &apos;special://profile/addon_data/plugin.video.alfa/settings_channels&apos;)" />
+    <setting id="subtitle_name" value="[COLOR 0xFF2E9AFE]Narcos 3x01 La estrategia del cabecilla[COLOR]" />
     <setting id="thumbnail_type" value="2" />
     <setting id="videolibrary_kodi" value="false" />
     <setting id="videolibrary_kodi_flag" value="0" />
