@@ -9,8 +9,8 @@
     <setting id="channel_language" value="all" />
     <setting id="debug" value="true" />
     <setting id="default_action" value="2" />
-    <setting id="downloadlistpath" value="/var/media/sda1-usb-MXT-USB_Storage_" />
-    <setting id="downloadpath" value="/var/media/sda1-usb-MXT-USB_Storage_" />
+    <setting id="downloadlistpath" value="special://profile/addon_data/plugin.video.alfa/downloads/list" />
+    <setting id="downloadpath" value="special://profile/addon_data/plugin.video.alfa/downloads" />
     <setting id="extended_info" value="false" />
     <setting id="folder_movies" value="CINE" />
     <setting id="folder_tvshows" value="SERIES" />
@@ -23,9 +23,10 @@
     <setting id="resolve_stop" value="true" />
     <setting id="server_stats" value="true" />
     <setting id="settings_path" value="(str, &apos;special://profile/addon_data/plugin.video.alfa/settings_channels&apos;)" />
-    <setting id="subtitle_name" value="[COLOR 0xFF2E9AFE]Narcos 3x01 La estrategia del cabecilla[COLOR]" />
+    <setting id="shortcut_key" value="" />
+    <setting id="subtitle_name" value="[COLOR 0xFF2E9AFE]Shooter 2x08 Ese sera el dia[COLOR]" />
     <setting id="thumbnail_type" value="2" />
-    <setting id="videolibrary_kodi" value="false" />
+    <setting id="videolibrary_kodi" value="true" />
     <setting id="videolibrary_kodi_flag" value="0" />
     <setting id="videolibrarypath" value="special://profile/addon_data/plugin.video.alfa/videolibrary" />
 </settings>

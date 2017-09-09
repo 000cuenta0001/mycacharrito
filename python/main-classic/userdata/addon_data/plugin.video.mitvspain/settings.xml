@@ -23,8 +23,8 @@
     <setting id="crunchyrolluser" value="" />
     <setting id="debug" value="true" />
     <setting id="default_action" value="2" />
-    <setting id="downloadlistpath" value="/var/media/sda1-usb-MXT-USB_Storage_" />
-    <setting id="downloadpath" value="/var/media/sda1-usb-MXT-USB_Storage_" />
+    <setting id="downloadlistpath" value="special://profile/addon_data/plugin.video.mitvspain/downloads/list" />
+    <setting id="downloadpath" value="special://profile/addon_data/plugin.video.mitvspain/downloads" />
     <setting id="enableadultmode" value="true" />
     <setting id="extended_info" value="false" />
     <setting id="fileniumpassword" value="" />
