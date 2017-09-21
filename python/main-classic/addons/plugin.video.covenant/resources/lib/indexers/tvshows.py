@@ -46,6 +46,7 @@ class tvshows:
         self.imdb_link = 'http://www.imdb.com'
         self.trakt_link = 'http://api.trakt.tv'
         self.tvmaze_link = 'http://www.tvmaze.com'
+        self.logo_link = 'https://i.imgur.com/'
         self.tvdb_key = 'MUQ2MkYyRjkwMDMwQzQ0NA=='
         self.datetime = (datetime.datetime.utcnow() - datetime.timedelta(hours = 5))
         self.trakt_user = control.setting('trakt.user').strip()
@@ -217,70 +218,70 @@ class tvshows:
 
     def networks(self):
         networks = [
-        ('A&E', '/networks/29/ae'),
-        ('ABC', '/networks/3/abc'),
-        ('AMC', '/networks/20/amc'),
-        ('AT-X', '/networks/167/at-x'),
-        ('Adult Swim', '/networks/10/adult-swim'),
-        ('Amazon', '/webchannels/3/amazon'),
-        ('Animal Planet', '/networks/92/animal-planet'),
-        ('Audience', '/networks/31/audience-network'),
-        ('BBC America', '/networks/15/bbc-america'),
-        ('BBC Four', '/networks/51/bbc-four'),
-        ('BBC One', '/networks/12/bbc-one'),
-        ('BBC Three', '/webchannels/71/bbc-three'),
-        ('BBC Two', '/networks/37/bbc-two'),
-        ('BET', '/networks/56/bet'),
-        ('Bravo', '/networks/52/bravo'),
-        ('CBC', '/networks/36/cbc'),
-        ('CBS', '/networks/2/cbs'),
-        ('CTV', '/networks/48/ctv'),
-        ('CW', '/networks/5/the-cw'),
-        ('CW Seed', '/webchannels/13/cw-seed'),
-        ('Cartoon Network', '/networks/11/cartoon-network'),
-        ('Channel 4', '/networks/45/channel-4'),
-        ('Channel 5', '/networks/135/channel-5'),
-        ('Cinemax', '/networks/19/cinemax'),
-        ('Comedy Central', '/networks/23/comedy-central'),
-        ('Crackle', '/webchannels/4/crackle'),
-        ('Discovery Channel', '/networks/66/discovery-channel'),
-        ('Discovery ID', '/networks/89/investigation-discovery'),
-        ('Disney Channel', '/networks/78/disney-channel'),
-        ('Disney XD', '/networks/25/disney-xd'),
-        ('E! Entertainment', '/networks/43/e'),
-        ('E4', '/networks/41/e4'),
-        ('FOX', '/networks/4/fox'),
-        ('FX', '/networks/13/fx'),
-        ('Freeform', '/networks/26/freeform'),
-        ('HBO', '/networks/8/hbo'),
-        ('HGTV', '/networks/192/hgtv'),
-        ('Hallmark', '/networks/50/hallmark-channel'),
-        ('History Channel', '/networks/53/history'),
-        ('ITV', '/networks/35/itv'),
-        ('Lifetime', '/networks/18/lifetime'),
-        ('MTV', '/networks/22/mtv'),
-        ('NBC', '/networks/1/nbc'),
-        ('National Geographic', '/networks/42/national-geographic-channel'),
-        ('Netflix', '/webchannels/1/netflix'),
-        ('Nickelodeon', '/networks/27/nickelodeon'),
-        ('PBS', '/networks/85/pbs'),
-        ('Showtime', '/networks/9/showtime'),
-        ('Sky1', '/networks/63/sky-1'),
-        ('Starz', '/networks/17/starz'),
-        ('Sundance', '/networks/33/sundance-tv'),
-        ('Syfy', '/networks/16/syfy'),
-        ('TBS', '/networks/32/tbs'),
-        ('TLC', '/networks/80/tlc'),
-        ('TNT', '/networks/14/tnt'),
-        ('TV Land', '/networks/57/tvland'),
-        ('Travel Channel', '/networks/82/travel-channel'),
-        ('TruTV', '/networks/84/trutv'),
-        ('USA', '/networks/30/usa-network'),
-        ('VH1', '/networks/55/vh1'),
-        ('WGN', '/networks/28/wgn-america')
+        ('A&E', '/networks/29/ae', 'https://i.imgur.com/xLDfHjH.png'),
+        ('ABC', '/networks/3/abc', 'https://i.imgur.com/qePLxos.png'),
+        ('AMC', '/networks/20/amc', 'https://i.imgur.com/ndorJxi.png'),
+        ('AT-X', '/networks/167/at-x', 'https://i.imgur.com/JshJYGN.png'),
+        ('Adult Swim', '/networks/10/adult-swim', 'https://i.imgur.com/jCqbRcS.png'),
+        ('Amazon', '/webchannels/3/amazon', 'https://i.imgur.com/ru9DDlL.png'),
+        ('Animal Planet', '/networks/92/animal-planet', 'https://i.imgur.com/olKc4RP.png'),
+        ('Audience', '/networks/31/audience-network', 'https://i.imgur.com/5Q3mo5A.png'),
+        ('BBC America', '/networks/15/bbc-america', 'https://i.imgur.com/TUHDjfl.png'),
+        ('BBC Four', '/networks/51/bbc-four', 'https://i.imgur.com/PNDalgw.png'),
+        ('BBC One', '/networks/12/bbc-one', 'https://i.imgur.com/u8x26te.png'),
+        ('BBC Three', '/webchannels/71/bbc-three', 'https://i.imgur.com/SDLeLcn.png'),
+        ('BBC Two', '/networks/37/bbc-two', 'https://i.imgur.com/SKeGH1a.png'),
+        ('BET', '/networks/56/bet', 'https://i.imgur.com/ZpGJ5UQ.png'),
+        ('Bravo', '/networks/52/bravo', 'https://i.imgur.com/TmEO3Tn.png'),
+        ('CBC', '/networks/36/cbc', 'https://i.imgur.com/unQ7WCZ.png'),
+        ('CBS', '/networks/2/cbs', 'https://i.imgur.com/8OT8igR.png'),
+        ('CTV', '/networks/48/ctv', 'https://i.imgur.com/qUlyVHz.png'),
+        ('CW', '/networks/5/the-cw', 'https://i.imgur.com/Q8tooeM.png'),
+        ('CW Seed', '/webchannels/13/cw-seed', 'https://i.imgur.com/nOdKoEy.png'),
+        ('Cartoon Network', '/networks/11/cartoon-network', 'https://i.imgur.com/zmOLbbI.png'),
+        ('Channel 4', '/networks/45/channel-4', 'https://i.imgur.com/6ZA9UHR.png'),
+        ('Channel 5', '/networks/135/channel-5', 'https://i.imgur.com/5ubnvOh.png'),
+        ('Cinemax', '/networks/19/cinemax', 'https://i.imgur.com/zWypFNI.png'),
+        ('Comedy Central', '/networks/23/comedy-central', 'https://i.imgur.com/ko6XN77.png'),
+        ('Crackle', '/webchannels/4/crackle', 'https://i.imgur.com/53kqZSY.png'),
+        ('Discovery Channel', '/networks/66/discovery-channel', 'https://i.imgur.com/8UrXnAB.png'),
+        ('Discovery ID', '/networks/89/investigation-discovery', 'https://i.imgur.com/07w7BER.png'),
+        ('Disney Channel', '/networks/78/disney-channel', 'https://i.imgur.com/ZCgEkp6.png'),
+        ('Disney XD', '/networks/25/disney-xd', 'https://i.imgur.com/PAJJoqQ.png'),
+        ('E! Entertainment', '/networks/43/e', 'https://i.imgur.com/3Delf9f.png'),
+        ('E4', '/networks/41/e4', 'https://i.imgur.com/frpunK8.png'),
+        ('FOX', '/networks/4/fox', 'https://i.imgur.com/6vc0Iov.png'),
+        ('FX', '/networks/13/fx', 'https://i.imgur.com/aQc1AIZ.png'),
+        ('Freeform', '/networks/26/freeform', 'https://i.imgur.com/f9AqoHE.png'),
+        ('HBO', '/networks/8/hbo', 'https://i.imgur.com/Hyu8ZGq.png'),
+        ('HGTV', '/networks/192/hgtv', 'https://i.imgur.com/INnmgLT.png'),
+        ('Hallmark', '/networks/50/hallmark-channel', 'https://i.imgur.com/zXS64I8.png'),
+        ('History Channel', '/networks/53/history', 'https://i.imgur.com/LEMgy6n.png'),
+        ('ITV', '/networks/35/itv', 'https://i.imgur.com/5Hxp5eA.png'),
+        ('Lifetime', '/networks/18/lifetime', 'https://i.imgur.com/tvYbhen.png'),
+        ('MTV', '/networks/22/mtv', 'https://i.imgur.com/QM6DpNW.png'),
+        ('NBC', '/networks/1/nbc', 'https://i.imgur.com/yPRirQZ.png'),
+        ('National Geographic', '/networks/42/national-geographic-channel', 'https://i.imgur.com/XCGNKVQ.png'),
+        ('Netflix', '/webchannels/1/netflix', 'https://i.imgur.com/jI5c3bw.png'),
+        ('Nickelodeon', '/networks/27/nickelodeon', 'https://i.imgur.com/OUVoqYc.png'),
+        ('PBS', '/networks/85/pbs', 'https://i.imgur.com/r9qeDJY.png'),
+        ('Showtime', '/networks/9/showtime', 'https://i.imgur.com/SawAYkO.png'),
+        ('Sky1', '/networks/63/sky-1', 'https://i.imgur.com/xbgzhPU.png'),
+        ('Starz', '/networks/17/starz', 'https://i.imgur.com/Z0ep2Ru.png'),
+        ('Sundance', '/networks/33/sundance-tv', 'https://i.imgur.com/qldG5p2.png'),
+        ('Syfy', '/networks/16/syfy', 'https://i.imgur.com/9yCq37i.png'),
+        ('TBS', '/networks/32/tbs', 'https://i.imgur.com/RVCtt4Z.png'),
+        ('TLC', '/networks/80/tlc', 'https://i.imgur.com/c24MxaB.png'),
+        ('TNT', '/networks/14/tnt', 'https://i.imgur.com/WnzpAGj.png'),
+        ('TV Land', '/networks/57/tvland', 'https://i.imgur.com/1nIeDA5.png'),
+        ('Travel Channel', '/networks/82/travel-channel', 'https://i.imgur.com/mWXv7SF.png'),
+        ('TruTV', '/networks/84/trutv', 'https://i.imgur.com/HnB3zfc.png'),
+        ('USA', '/networks/30/usa-network', 'https://i.imgur.com/Doccw9E.png'),
+        ('VH1', '/networks/55/vh1', 'https://i.imgur.com/IUtHYzA.png'),
+        ('WGN', '/networks/28/wgn-america', 'https://i.imgur.com/TL6MzgO.png')
         ]
 
-        for i in networks: self.list.append({'name': i[0], 'url': self.tvmaze_link + i[1], 'image': 'networks.png', 'action': 'tvshows'})
+        for i in networks: self.list.append({'name': i[0], 'url': self.tvmaze_link + i[1], 'image': i[2], 'action': 'tvshows'})
         self.addDirectory(self.list)
         return self.list
 
@@ -770,7 +771,7 @@ class tvshows:
         self.meta = []
         total = len(self.list)
 
-        self.fanart_tv_headers = {'api-key': 'NTg2MTE4YmUxYWM2NzNmNzQ5NjNjYzI4NGQ0NmJkOGU='.decode('base64')}
+        self.fanart_tv_headers = {'api-key': 'NDZkZmMyN2M1MmE0YTc3MjY3NWQ4ZTMyYjdiY2E2OGU='.decode('base64')}
         if not self.fanart_tv_user == '':
             self.fanart_tv_headers.update({'client-key': self.fanart_tv_user})
 
@@ -952,11 +953,9 @@ class tvshows:
             fanart = client.replaceHTMLCodes(fanart)
             fanart = fanart.encode('utf-8')
 
-
             try:
                 artmeta = True
-                if self.fanart_tv_user == '': raise Exception()
-
+                #if self.fanart_tv_user == '': raise Exception()
                 art = client.request(self.fanart_tv_art_link % tvdb, headers=self.fanart_tv_headers, timeout='10', error=True)
                 try: art = json.loads(art)
                 except: artmeta = False

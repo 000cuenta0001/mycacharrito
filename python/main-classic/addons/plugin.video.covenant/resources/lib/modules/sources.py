@@ -159,7 +159,7 @@ class sources:
                 item.setArt({'icon': thumb, 'thumb': thumb, 'poster': poster, 'banner': banner})
 
                 item.setProperty('Fanart_Image', fanart)
-                
+
                 video_streaminfo = {'codec': 'h264'}
                 item.addStreamInfo('video', video_streaminfo)
 
@@ -561,13 +561,15 @@ class sources:
 
         captcha = control.setting('hosts.captcha')
 
+        HEVC = control.setting('HEVC')
+
         random.shuffle(self.sources)
 
         if provider == 'true':
             self.sources = sorted(self.sources, key=lambda k: k['provider'])
 
         for i in self.sources:
-            if 'checkquality' in i and i['checkquality'] == True: 
+            if 'checkquality' in i and i['checkquality'] == True:
                 if not i['source'].lower() in self.hosthqDict and i['quality'] not in ['SD', 'SCR', 'CAM']: i.update({'quality': 'SD'})
 
         local = [i for i in self.sources if 'local' in i and i['local'] == True]
@@ -651,7 +653,8 @@ class sources:
 
             if multi == True and not l == 'en': label += '[B]%s[/B] | ' % l
 
-            if q in ['4K', '1440p', '1080p', 'HD']: label += '%s | %s | [B][I]%s [/I][/B]' % (s, f, q)
+            ### if q in ['4K', '1440p', '1080p', 'HD']: label += '%s | %s | [B][I]%s [/I][/B]' % (s, f, q)
+            if q in ['4K', '1440p', '1080p', 'HD']: label += '%s | [B][I]%s [/I][/B] | %s' % (s, q, f)
             elif q == 'SD': label += '%s | %s' % (s, f)
             else: label += '%s | %s | [I]%s [/I]' % (s, f, q)
             label = label.replace('| 0 |', '|').replace(' | [I]0 [/I]', '')
@@ -661,6 +664,9 @@ class sources:
             label = re.sub('\|(?:\s+|)$', '', label)
 
             self.sources[i]['label'] = label.upper()
+
+        if not HEVC == 'true':
+            self.sources = [i for i in self.sources if not 'HEVC' in str(i['label'])]
 
         return self.sources
 
@@ -927,5 +933,3 @@ class sources:
         self.hosthqDict = ['gvideo', 'google.com', 'openload.io', 'openload.co', 'oload.tv', 'thevideo.me', 'rapidvideo.com', 'raptu.com', 'filez.tv', 'uptobox.com', 'uptobox.com', 'uptostream.com', 'xvidstage.com', 'streamango.com']
 
         self.hostblockDict = []
-
-

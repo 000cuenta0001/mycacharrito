@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <addon id="plugin.video.plexus-streams"
        name="Plexus-Streams"
-       version="1.0.15o"
+       version="1.0.17"
        provider-name="D4FC">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>

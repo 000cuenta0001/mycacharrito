@@ -1,33 +1,17 @@
-# Translators:
-# Translators:
-# Translators:
-# Translators:
-# Translators:
-# Translators:
-# Translators:
-# Translators:
-# Translators:
-# Translators:
-# Translators:
-# Translators:
-# Translators:
-# Translators:
-# Translators:
-# Translators:
-# Translators:
 # Gilad Freidkin, 2017
 msgid ""
 msgstr ""
 "Project-Id-Version: Covenant\n"
 "POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"PO-Revision-Date: 2017-05-30 09:11+0000\n"
-"Last-Translator: Viper2k4\n"
-"Language-Team: Hebrew (Israel) (http://www.transifex.com/)\n"
+"PO-Revision-Date: 2017-09-14 12:31+0300\n"
+"Last-Translator: A. dumbledore\n"
+"Language-Team: Eng2Heb\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Language: he_IL\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Poedit 2.0.3\n"
 
 msgctxt "#32001"
 msgid "Movies"
@@ -71,7 +55,7 @@ msgstr "חיפוש"
 
 msgctxt "#32011"
 msgid "Genres"
-msgstr "ז'אנרים"
+msgstr "סגנונות"
 
 msgctxt "#32012"
 msgid "Year"
@@ -127,7 +111,7 @@ msgstr "גלה"
 
 msgctxt "#32032"
 msgid "Collection"
-msgstr "קולקציה"
+msgstr "אוסף"
 
 msgctxt "#32033"
 msgid "Watchlist"
@@ -223,7 +207,7 @@ msgstr "במקרה זה השתמש בכתוביות שלך"
 
 msgctxt "#32402"
 msgid "Playback outside Covenant is not allowed"
-msgstr "ניגון מחוץ לאקסודוס אסור"
+msgstr "ניגון מחוץ לקובננט אסור"
 
 msgctxt "#32403"
 msgid "Download"
@@ -259,5 +243,4 @@ msgstr "המשך"
 
 msgctxt "#32511"
 msgid "An account already exists."
-msgstr "משתמש קיים."
-
+msgstr "החשבון כבר קיים."

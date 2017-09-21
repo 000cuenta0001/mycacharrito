@@ -262,11 +262,15 @@ class player(xbmc.Player):
 
     def onPlayBackStopped(self):
         bookmarks().reset(self.currentTime, self.totalTime, self.name, self.year)
+        if control.setting('crefresh') == 'true':
+            xbmc.executebuiltin('Container.Refresh')
 
 
     def onPlayBackEnded(self):
         self.libForPlayback()
         self.onPlayBackStopped()
+        if control.setting('crefresh') == 'true':
+            xbmc.executebuiltin('Container.Refresh')
 
 
 class subtitles:

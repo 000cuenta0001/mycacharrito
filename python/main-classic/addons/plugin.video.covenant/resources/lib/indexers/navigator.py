@@ -77,7 +77,7 @@ class navigator:
         self.addDirectoryItem(32020, 'movies&url=boxoffice', 'box-office.png', 'DefaultMovies.png')
         self.addDirectoryItem(32021, 'movies&url=oscars', 'oscar-winners.png', 'DefaultMovies.png')
         self.addDirectoryItem(32022, 'movies&url=theaters', 'in-theaters.png', 'DefaultRecentlyAddedMovies.png')
-        self.addDirectoryItem(32005, 'movies&url=featured', 'latest-movies.png', 'DefaultRecentlyAddedMovies.png')
+        self.addDirectoryItem(32005, 'movieWidget', 'latest-movies.png', 'DefaultRecentlyAddedMovies.png')
 
         if lite == False:
             if not control.setting('lists.widget') == '0':

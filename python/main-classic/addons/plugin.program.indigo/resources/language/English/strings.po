@@ -1,6 +1,6 @@
 # Addon Name: TVAddons Log Uploader for Kodi
 # Addon id: plugin.program.indigo
-# Addon Provider: TV Addons
+# Addon Provider: TVAddons
 msgid ""
 msgstr ""
 "Project-Id-Version: TV Addons Addons\n"

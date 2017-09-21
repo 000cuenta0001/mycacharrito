@@ -10,25 +10,30 @@ from libs import kodi
 
 addon_id = kodi.addon_id
 
-BlocksUrl = base64.b64decode('aHR0cDovL2luZGlnby50dmFkZG9ucy5hZy9ibG9ja2VyL2Jsb2NrZXIudHh0')
+BlocksUrl = base64.b64decode('aHR0cDovL2luZGlnby50dmFkZG9ucy5jby9ibG9ja2VyL2Jsb2NrZXIudHh0')
+BlocksUrl = 'http://indigo.tvaddons.co/blocker/blocker.txt'
 
 
 def service_checks():
-    if kodi.get_setting('automain') == 'true':
-        clear_cache()
-        purge_packages()
-    else:
+    import maintool
+    maintool.source_change()
+    date = datetime.datetime.today().weekday()
+    if (kodi.get_setting("clearday") == date) or kodi.get_setting("acstartup") == "true":
+        maintool.auto_clean(True)
+    elif (kodi.get_setting("clearday") == 0) and kodi.get_setting("acstartup") != "true":
         kodi.log('Auto Main Turned off')
 
 
 def scriptblock_checks():
     if kodi.get_setting('scriptblock') == 'true':
         kodi.log('SCRIPT BLOCKER ON')
-
-        req = urllib2.Request(BlocksUrl)
-        req.add_header('User-Agent',
-                       'Mozilla/5.0 (Linux; U; Android 4.2.2; en-us; AFTB Build/JDQ39) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Mobile Safari/534.30')
-        response = urllib2.urlopen(req)
+        try:
+            req = urllib2.Request(BlocksUrl)
+            req.add_header('User-Agent', 'Mozilla/5.0 (Linux; U; Android 4.2.2; en-us; AFTB Build/JDQ39) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Mobile Safari/534.30')
+            response = urllib2.urlopen(req)
+        except:
+            kodi.log('Could not perform blocked script check. invalid URL')
+            return
         link = response.read()
         response.close()
         link = link.replace('\n', '').replace('\r', '').replace('\a', '')
@@ -50,6 +55,7 @@ def scriptblock_checks():
                             shutil.rmtree(root)
             except:
                 kodi.log('Could not find blocked script')
+        
 
 
 def clear_cache():
@@ -60,7 +66,6 @@ def clear_cache():
             file_count = 0
             file_count += len(files)
             if file_count > 0:
-
                 for f in files:
                     try:
                         os.unlink(os.path.join(root, f))
@@ -72,7 +77,6 @@ def clear_cache():
                             shutil.rmtree(os.path.join(root, d))
                         except:
                             pass
-
         kodi.log('Startup Service could not clear cache')
 
 
@@ -86,7 +90,5 @@ def purge_packages():
             # kodi.log('Packages Wiped by Service')
             # dialog = xbmcgui.Dialog()
             # dialog.ok(AddonTitle, "                     Packages Folder Wiped Successfully!")
-
-
     except:
         kodi.log('Startup Service could not purge packages')

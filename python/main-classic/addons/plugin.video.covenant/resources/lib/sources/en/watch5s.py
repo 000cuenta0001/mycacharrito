@@ -1,4 +1,3 @@
-# NEEDS FIXING
 # -*- coding: utf-8 -*-
 
 '''
@@ -25,6 +24,9 @@ from resources.lib.modules import cleantitle
 from resources.lib.modules import client
 from resources.lib.modules import cache
 from resources.lib.modules import directstream
+from resources.lib.modules import source_utils
+from resources.lib.modules import jsunpack
+
 
 
 class source:
@@ -129,7 +131,9 @@ class source:
                 episode = '%01d' % int(data['episode'])
                 url = '%s/tv-series/%s-season-%01d/watch/' % (self.base_link, cleantitle.geturl(data['tvshowtitle']), int(data['season']))
                 url = client.request(url, headers=headers, timeout='10', output='geturl')
-
+                if url == None or url == self.base_link+'/':
+                    url = '%s/tv-series/%s-season-%02d/watch/' % (self.base_link, cleantitle.geturl(data['tvshowtitle']), int(data['season']))
+                    url = client.request(url, headers=headers, timeout='10', output='geturl')
                 if url == None:
                     url = self.searchShow(data['tvshowtitle'], data['season'], aliases, headers)
 
@@ -165,20 +169,24 @@ class source:
                         src = 'http:'+src
                     if not 'streamdor.co' in src: raise Exception()
                     episodeId = re.findall('streamdor.co.*/video/(.+?)"', p)[0]
-                    p = client.request(self.token_link % episodeId, referer=src)
-                    script = self.aadecode(p)
-                    token = re.search('''token\s*:\s*['"]([^"']+)''', script).group(1).encode('utf-8')
-                    post = {'type': 'sources', 'token': token, 'ref': ''}
-                    p = client.request(self.source_link % episodeId, post=post, referer=src, XHR=True)
-                    js = json.loads(p)
+                    p = client.request(src, referer=u)
+                    try:
+                        p = re.findall(r'JuicyCodes.Run\(([^\)]+)', p, re.IGNORECASE)[0]
+                        p = re.sub(r'\"\s*\+\s*\"','', p)
+                        p = re.sub(r'[^A-Za-z0-9+\\/=]','', p)    
+                        p = base64.b64decode(p)                
+                        p = jsunpack.unpack(p)
+                        p = unicode(p, 'utf-8')
+                    except:
+                        continue
 
                     try:
-                        u = js['playlist'][0]['sources']
-                        u = [i['file'] for i in u if 'file' in i]
-
-                        for i in u:
-                            try: sources.append({'source': 'gvideo', 'quality': directstream.googletag(i)[0]['quality'], 'language': 'en', 'url': i, 'direct': True, 'debridonly': False})
-                            except: pass
+                        url = re.findall(r'embedURL"\s*:\s*"([^"]+)',p)[0]
+                        valid, hoster = source_utils.is_host_valid(url, hostDict)
+                        if not valid: continue
+                        urls, host, direct = source_utils.check_directstreams(url, hoster)
+                        for x in urls:
+                            sources.append({'source': host, 'quality': 'SD', 'language': 'en', 'url': x['url'], 'direct': direct, 'debridonly': False})     
                     except:
                         pass
                 except:
@@ -190,42 +198,8 @@ class source:
 
 
     def resolve(self, url):
-        return directstream.googlepass(url)
+        if 'google' in url:
+            return directstream.googlepass(url)
+        else:
+            return url
 
-
-    def aadecode(self, text):
-        text = re.sub(r"\s+|/\*.*?\*/", "", text)
-        data = text.split("+(ﾟДﾟ)[ﾟoﾟ]")[1]
-        chars = data.split("+(ﾟДﾟ)[ﾟεﾟ]+")[1:]
-
-        txt = ""
-        for char in chars:
-            char = char \
-                .replace("(oﾟｰﾟo)", "u") \
-                .replace("c", "0") \
-                .replace("(ﾟДﾟ)['0']", "c") \
-                .replace("ﾟΘﾟ", "1") \
-                .replace("!+[]", "1") \
-                .replace("-~", "1+") \
-                .replace("o", "3") \
-                .replace("_", "3") \
-                .replace("ﾟｰﾟ", "4") \
-                .replace("(+", "(")
-            char = re.sub(r'\((\d)\)', r'\1', char)
-
-            c = ""
-            subchar = ""
-            for v in char:
-                c += v
-                try:
-                    x = c
-                    subchar += str(eval(x))
-                    c = ""
-                except:
-                    pass
-            if subchar != '': txt += subchar + "|"
-        txt = txt[:-1].replace('+', '')
-
-        txt_result = "".join([chr(int(n, 8)) for n in txt.split('|')])
-
-        return txt_result

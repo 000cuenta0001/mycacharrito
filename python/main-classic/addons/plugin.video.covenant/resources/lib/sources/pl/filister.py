@@ -153,9 +153,11 @@ class source:
             url_to_exec = urlparse.urljoin(self.base_link, self.url_transl) % url
             result = client.request(url_to_exec)
 
-            m = re.search("(?<=var url = ')(.*\n?)(?=')", result)
+            search_string = 'var b="';
+            begin = result.index(search_string) + len(search_string)
+            end = result.index('"', begin)
 
-            result_url = m.group(0)
+            result_url = result[begin:end]                                    
             result_url = result_url.replace('#WIDTH', '100')
             result_url = result_url.replace('#HEIGHT', '100')
             return result_url

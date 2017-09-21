@@ -1,8 +1,7 @@
 # -*- coding: utf-8 -*-
 
 '''
-    Exodus Add-on
-    Copyright (C) 2016 Exodus
+    Covenant Add-on
 
     This program is free software: you can redistribute it and/or modify
     it under the terms of the GNU General Public License as published by
@@ -26,16 +25,17 @@ from resources.lib.modules import client
 from resources.lib.modules import cache
 from resources.lib.modules import directstream
 from resources.lib.modules import source_utils
-from resources.lib.modules import unjuice
+from resources.lib.modules import jsunpack
 
 class source:
     def __init__(self):
         self.priority = 1
         self.language = ['en']
         self.domains = ['kingmovies.to']
-        self.base_link = 'https://kingmovies.to'
+        self.base_link = 'https://kingmovies.is'
         self.search_link = '/search?q=%s'
         self.source_link = 'https://api.streamdor.co/sources'
+
     def matchAlias(self, title, aliases):
         try:
             for alias in aliases:
@@ -78,21 +78,16 @@ class source:
         try:
             title = cleantitle.normalize(title)
             cltitle = cleantitle.get(title+'season'+season)
+            cltitle2 = cleantitle.get(title+'season%02d'%int(season))
             search = '%s Season %01d' % (title, int(season))
             url = urlparse.urljoin(self.base_link, self.search_link % urllib.quote_plus(cleantitle.getsearch(search)))
             r = client.request(url, timeout='15')
-            r = [i[0] for i in re.findall(r"<li\s+class='movie-item'\s+data-url='([^']+)'\s+data-title=\"([^\"]+)\">",r, re.IGNORECASE) if cleantitle.get(i[1]) == cltitle]
-            for u in r:
-                try:
-                    result = client.request(urlparse.urljoin(self.base_link, u), timeout=10)
-                    result = json.loads(result)['html']
-                    match = re.findall(r'Season\s+%s.*?class="jtip-bottom"><a\s+href="([^"]+)"' % season, result, re.DOTALL)[0]
-                    if not match == None: break
-                except:
-                    pass
-            if match == None: return
-            else: url = match
-            url = '%s/watching.html' % url
+            r = [i[1] for i in re.findall(r'<li\s+class=["\']movie-item["\'].*?data-title=["\']([^"\']+)["\']><a\s+href=["\']([^"\']+)["\']',r, re.IGNORECASE) 
+                 if cleantitle.get(re.sub(r"\s*\d{4}","",i[0])) in [cltitle, cltitle2]]
+
+            if r == None: return
+            else: url = r[0]
+
             return url
         except:
             return
@@ -103,18 +98,11 @@ class source:
             cltitle = cleantitle.get(title)
             url = urlparse.urljoin(self.base_link, self.search_link % urllib.quote_plus(cleantitle.getsearch(title)))
             r = client.request(url, timeout='15')
-            r = [i[0] for i in re.findall(r"<li\s+class='movie-item'\s+data-url='([^']+)'\s+data-title=\"([^\"]+)\">",r, re.IGNORECASE) if cleantitle.get(i[1]) == cltitle]
-            for u in r:
-                try:
-                    result = client.request(urlparse.urljoin(self.base_link, u), timeout=10)
-                    result = json.loads(result)['html']
-                    match = re.findall(r'Year<\/span><span\s+class="jb-bot">%s<\/span>.*?class="jtip-bottom"><a\s+href="([^"]+)"'%year, result, re.DOTALL)[0]
-                    if not match == None: break
-                except:
-                    pass
-            if match == None: return
-            else: url = match
-            url = '%s/watching.html' % url
+            r = [i[1] for i in re.findall(r'<li\s+class=["\']movie-item["\'].*?data-title=["\']([^"\']+)["\']><a\s+href=["\']([^"\']+)["\']',r, re.IGNORECASE) 
+                 if cleantitle.get(re.sub(r"\s*\d{4}","",i[0])) == cltitle]
+
+            if r == None: return
+            else: url = r[0]
             return url
         except:
             return
@@ -133,11 +121,7 @@ class source:
             if 'tvshowtitle' in data:
                 year = re.compile('(\d{4})-(\d{2})-(\d{2})').findall(data['premiered'])[0][0]
                 episode = '%01d' % int(data['episode'])
-                url = '%s/tv-series/%s-season-%01d/watch/' % (self.base_link, cleantitle.geturl(data['tvshowtitle']), int(data['season']))
-                url = client.request(url, timeout='10', output='geturl')
-
-                if url == None:
-                    url = self.searchShow(data['tvshowtitle'], data['season'], aliases, headers)
+                url = self.searchShow(data['tvshowtitle'], data['season'], aliases, headers)
 
             else:
                 episode = None
@@ -166,22 +150,43 @@ class source:
                         src = 'http:'+src
                     episodeId = re.findall('.*streamdor.co/video/(\d+)', src)[0]
                     p = client.request(src, referer=u)
-                    p = unjuice.run(p)
-                    fl = re.findall(r'file"\s*:\s*"([^"]+)',p)[0]                   
-                    post = {'episodeID': episodeId, 'file': fl, 'subtitle': 'false', 'referer': urllib.quote_plus(u)}
-                    p = client.request(self.source_link, post=post, referer=src, XHR=True)
-                    js = json.loads(p)
+                    try:
+                        p = re.findall(r'JuicyCodes.Run\(([^\)]+)', p, re.IGNORECASE)[0]
+                        p = re.sub(r'\"\s*\+\s*\"','', p)
+                        p = re.sub(r'[^A-Za-z0-9+\\/=]','', p)    
+                        p = base64.b64decode(p)                
+                        p = jsunpack.unpack(p)
+                        p = unicode(p, 'utf-8')
+                    except:
+                        continue
 
                     try:
-                        ss = js['sources']
-                        ss = [(i['file'], i['label']) for i in ss if 'file' in i]
+                        fl = re.findall(r'file"\s*:\s*"([^"]+)',p)[0]                   
+                        post = {'episodeID': episodeId, 'file': fl, 'subtitle': 'false', 'referer': urllib.quote_plus(u)}
+                        p = client.request(self.source_link, post=post, referer=src, XHR=True)
+                        js = json.loads(p)
+                        src = js['sources']
+                        p = client.request('http:'+src, referer=src)   
+                        js = json.loads(p)[0]
 
-                        for i in ss:
-                            try:                                
-                                sources.append({'source': 'CDN', 'quality': source_utils.label_to_quality([1]), 'language': 'en', 'url': i[0], 'direct': True, 'debridonly': False})
-                            except: pass
+                        try:
+                            ss = js['sources']
+                            ss = [(i['file'], i['label']) for i in ss if 'file' in i]
+
+                            for i in ss:
+                                try:                                                                
+                                    sources.append({'source': 'CDN', 'quality': source_utils.label_to_quality(i[1]), 'language': 'en', 'url': i[0], 'direct': True, 'debridonly': False})
+                                except: pass
+                        except:
+                            pass
                     except:
-                        pass
+                        url = re.findall(r'embedURL"\s*:\s*"([^"]+)',p)[0]
+                        valid, hoster = source_utils.is_host_valid(url, hostDict)
+                        if not valid: continue
+                        urls, host, direct = source_utils.check_directstreams(url, hoster)
+                        for x in urls:
+                            sources.append({'source': host, 'quality': 'SD', 'language': 'en', 'url': x['url'], 'direct': direct, 'debridonly': False})     
+
                 except:
                     pass
 
@@ -195,5 +200,3 @@ class source:
             return directstream.googlepass(url)
         else:
             return url
-
-   

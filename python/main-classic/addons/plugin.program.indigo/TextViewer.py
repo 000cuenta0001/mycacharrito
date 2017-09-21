@@ -36,7 +36,7 @@ class Viewer(xbmcgui.WindowXML):
         self.content_box_control = 20302
         self.list_box_control = 20303
         self.line_number_box_control = 20201
-        self.scroll_bar =20212
+        self.scroll_bar = 20212
     
     def onInit(self):
         # title box
@@ -50,7 +50,6 @@ class Viewer(xbmcgui.WindowXML):
         # Set initial focus
         self.setFocusId(self.scroll_bar)
 
-    
     def onAction(self, action):
         # non Display Button control
         if action == self.previous_menu:
@@ -108,4 +107,3 @@ def text_view(pathi='', data=''):
 # To call module put the following in the addon list or context menu
 # import TextViewer
 # TextViewer.text_view('log')
-

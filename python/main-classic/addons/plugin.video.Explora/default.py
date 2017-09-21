@@ -1,15 +1,5 @@
 # -*- coding: utf-8 -*-
-## SPECIAL THANKS TO INSIDE 4NDROID POR SU CODIGO! 
-## AUTHOR THE MACHINE FOR YOUR INSPIRATION !! THANKS !
-## ESPERO SIRVA DE INSPIRACION A OTROS AMANTES DE KODI Y PHYTON.
-## CUIDADO CON LO QUE TOCAS ... SINO SABES NO LO HAGAS O EL ADDON DEJARA DE FUNCIONAR CORRECTAMENTE.
-#####################################################################################################
-#
-# Este script es basado en el codigo de Shani Fm4Tester que esta orientado a listas .m3u y .ts
-# 
-#
-#####################################################################################################
-
+# EXPLORA ADDON POR NETAI. SEPTIEMBRE 2017
 import urllib, urllib2, sys, re, os, unicodedata
 import xbmc, xbmcgui, xbmcplugin, xbmcaddon
 import cookielib,base64
@@ -22,7 +12,6 @@ plugin_handle = int(sys.argv[1])
 mysettings = xbmcaddon.Addon(id = 'plugin.video.Explora')
 profile = mysettings.getAddonInfo('profile')
 home = mysettings.getAddonInfo('path')
-#Donde se encuentran nuestros iconos.
 fanart = xbmc.translatePath(os.path.join(home, 'fanart.jpg'))
 icon = xbmc.translatePath(os.path.join(home, 'icon.png'))
 buscar = xbmc.translatePath(os.path.join(home, 'buscar.png'))
@@ -47,8 +36,13 @@ pesca = xbmc.translatePath(os.path.join(home, 'pesca.png'))
 religion = xbmc.translatePath(os.path.join(home, 'religion.png'))
 universo = xbmc.translatePath(os.path.join(home, 'universo.png'))
 adultos = xbmc.translatePath(os.path.join(home, 'adultos.png'))
-espacio = xbmc.translatePath(os.path.join(home, '.png'))
-db = base64.b64decode('aHR0cHM6Ly9hZGRvbnMuMDAwd2ViaG9zdGFwcC5jb20vRXhwbG9yYS9iZC5tM3U=')
+espacio = xbmc.translatePath(os.path.join(home, 'espacio.png'))
+narcos = xbmc.translatePath(os.path.join(home, 'narcos.png'))
+segunda_guerra_mundial = xbmc.translatePath(os.path.join(home, 'segunda_guerra_mundial.png'))
+roma = xbmc.translatePath(os.path.join(home, 'roma.png'))
+#db = base64.b64decode('aHR0cDovL3d3dy5ncnVwby1uZXRhaS5vcmcvZXhwbG9yYS9iZC5tM3U=')
+db="https://raw.githubusercontent.com/Andorth/Explora/master/categorias/bd.m3u"
+
 ########################################################################################################################
 #
 #
@@ -59,26 +53,30 @@ db = base64.b64decode('aHR0cHM6Ly9hZGRvbnMuMDAwd2ViaG9zdGFwcC5jb20vRXhwbG9yYS9iZ
 
 
 #Nuestras listas M3U donde estan nuestros videos o peliculas.
-categoria =  "https://addons.000webhostapp.com/Explora/animales.m3u" #Animales
-categoria2 = "https://addons.000webhostapp.com/Explora/personajes.m3u" #personajes
-categoria3 = "https://addons.000webhostapp.com/Explora/ciencia.m3u" #Ciencia
-categoria4 = "https://addons.000webhostapp.com/Explora/ciudades.m3u" #Ciudades
-categoria5 = "https://addons.000webhostapp.com/Explora/comosehacen.m3u" #Como se hace
-categoria6 = "https://addons.000webhostapp.com/Explora/conspiraciones.m3u" #conspiraciones
-categoria7 = "https://addons.000webhostapp.com/Explora/curiosidades.m3u" #curiosidades
-categoria8 = "https://addons.000webhostapp.com/Explora/deportes.m3u" #deportes
-categoria9 = "https://addons.000webhostapp.com/Explora/desclasificados.m3u" #desclasificados
-categoria10 = "https://addons.000webhostapp.com/Explora/egipto.m3u" #egipto
-categoria11 = "https://addons.000webhostapp.com/Explora/extraterrestres.m3u" #extraterrestres
-categoria12 =  "https://addons.000webhostapp.com/Explora/fenomenos.m3u" #fenomenos
-categoria13 =  "https://addons.000webhostapp.com/Explora/guerra.m3u" #guerra
-categoria14 =  "https://addons.000webhostapp.com/Explora/historia.m3u" #historia
-categoria15 =  "https://addons.000webhostapp.com/Explora/informatica.m3u" #informatica
-categoria16 =  "https://addons.000webhostapp.com/Explora/musica.m3u" #musica
-categoria17 =  "https://addons.000webhostapp.com/Explora/pesca.m3u" #pesca
-categoria18 =  "https://addons.000webhostapp.com/Explora/religion.m3u" #religion
-categoria19 =  "https://addons.000webhostapp.com/Explora/universo.m3u" #universo
-categoria20 =  "https://addons.000webhostapp.com/Explora/adultos.m3u" #adultos
+categoria = "https://raw.githubusercontent.com/Andorth/Explora/master/categorias/animales.m3u" #Animales
+categoria2 = "https://raw.githubusercontent.com/Andorth/Explora/master/categorias/personajes.m3u" #personajes
+categoria3 = "https://raw.githubusercontent.com/Andorth/Explora/master/categorias/ciencia.m3u" #Ciencia
+categoria4 = "https://raw.githubusercontent.com/Andorth/Explora/master/categorias/ciudades.m3u" #Ciudades
+categoria5 = "https://raw.githubusercontent.com/Andorth/Explora/master/categorias/comosehacen.m3u" #Como se hace
+categoria6 = "https://raw.githubusercontent.com/Andorth/Explora/master/categorias/conspiraciones.m3u" #conspiraciones
+categoria7 = "https://raw.githubusercontent.com/Andorth/Explora/master/categorias/curiosidades.m3u" #curiosidades
+categoria8 = "https://raw.githubusercontent.com/Andorth/Explora/master/categorias/deportes.m3u" #deportes
+categoria9 = "https://raw.githubusercontent.com/Andorth/Explora/master/categorias/desclasificados.m3u" #desclasificados
+categoria10 = "https://raw.githubusercontent.com/Andorth/Explora/master/categorias/egipto.m3u" #egipto
+categoria11 = "https://raw.githubusercontent.com/Andorth/Explora/master/categorias/extraterrestres.m3u" #extraterrestres
+categoria12 = "https://raw.githubusercontent.com/Andorth/Explora/master/categorias/fenomenos.m3u" #fenomenos
+categoria13 = "https://raw.githubusercontent.com/Andorth/Explora/master/categorias/guerra.m3u" #guerra
+categoria14 = "https://raw.githubusercontent.com/Andorth/Explora/master/categorias/historia.m3u" #historia
+categoria15 = "https://raw.githubusercontent.com/Andorth/Explora/master/categorias/informatica.m3u" #informatica
+categoria16 = "https://raw.githubusercontent.com/Andorth/Explora/master/categorias/musica.m3u" #musica
+categoria17 = "https://raw.githubusercontent.com/Andorth/Explora/master/categorias/pesca.m3u" #pesca
+categoria18 = "https://raw.githubusercontent.com/Andorth/Explora/master/categorias/religion.m3u" #religion
+categoria19 = "https://raw.githubusercontent.com/Andorth/Explora/master/categorias/universo.m3u" #universo
+categoria20 = "https://raw.githubusercontent.com/Andorth/Explora/master/categorias/adultos.m3u" #adultos
+categoria21 = "https://raw.githubusercontent.com/Andorth/Explora/master/categorias/narcos.m3u" #Narcos
+categoria22 = "https://raw.githubusercontent.com/Andorth/Explora/master/categorias/segunda_guerra_mundial.m3u" #segnda guerra mundial
+categoria23 = "https://raw.githubusercontent.com/Andorth/Explora/master/categorias/roma.m3u" #roma
+
 
 
 ##REGEX - Esto mejor no lo toques. Sino phyton se pone tonto.
@@ -123,6 +121,7 @@ def make_request(url):
 def main():
 
 ##	MENUS.
+
 	add_link_info('[B][COLOR gold] |EXPLORA| - DOCUMENTALES EN CASTELLANO. [/COLOR][/B]',icon, fanart)
 	add_link_info('[B][COLOR red] [B]|EXPLORA| Algunos contenidos pueden no ser recomendados para menores de edad. No deje que un menor utilice este addon sin vigilancia. [/COLOR][/B]',adultos18, fanart)
 	add_dir('[COLOR yellow][B]+Buscar[/B][/COLOR]', 'searchlink', 98, buscar, fanart)
@@ -146,7 +145,9 @@ def main():
 	add_dir('[COLOR yellow][B]+Religion[/B][/COLOR]', u_tube, 19, religion, fanart)
 	add_dir('[COLOR yellow][B]+Universo[/B][/COLOR]', u_tube, 20, universo, fanart)
 	add_dir('[COLOR yellow][B]+Adultos[/B][/COLOR]', u_tube, 21, adultos, fanart)
-
+	add_dir('[COLOR yellow][B]+Narcos[/B][/COLOR]', u_tube, 22, narcos, fanart)
+	add_dir('[COLOR yellow][B]+Segunda Guerra Mundial[/B][/COLOR]', u_tube, 23, segunda_guerra_mundial, fanart)
+	add_dir('[COLOR yellow][B]+Roma[/B][/COLOR]', u_tube, 24, roma, fanart)
 
 
 
@@ -217,7 +218,7 @@ def lista5():
 			m3u_playlist(name, url, thumb)
 		except:
 			pass			
-			
+#corte 5			
 def lista6():
 ## Obtiene la lista m3u que hayamos creado para una categoria.
 	content = make_request(categoria6)
@@ -301,6 +302,7 @@ def lista14():
 			m3u_playlist(name, url, thumb)
 		except:
 			pass
+#corte 6
 def lista15():
 ## Obtiene la lista m3u que hayamos creado para una categoria.
 	content = make_request(categoria15)
@@ -355,9 +357,46 @@ def lista20():
 			m3u_playlist(name, url, thumb)
 		except:
 			pass
-
-
 			
+def lista20():
+## Obtiene la lista m3u que hayamos creado para una categoria.
+	content = make_request(categoria20)
+	match = re.compile(m3u_regex).findall(content)
+	for thumb, name, url in match:
+		try:
+			m3u_playlist(name, url, thumb)
+		except:
+			pass
+#corte 7
+def lista21():
+## Obtiene la lista m3u que hayamos creado para una categoria.
+	content = make_request(categoria21)
+	match = re.compile(m3u_regex).findall(content)
+	for thumb, name, url in match:
+		try:
+			m3u_playlist(name, url, thumb)
+		except:
+			pass
+			
+def lista22():
+## Obtiene la lista m3u que hayamos creado para una categoria.
+	content = make_request(categoria22)
+	match = re.compile(m3u_regex).findall(content)
+	for thumb, name, url in match:
+		try:
+			m3u_playlist(name, url, thumb)
+		except:
+			pass
+			
+def lista23():
+## Obtiene la lista m3u que hayamos creado para una categoria.
+	content = make_request(categoria23)
+	match = re.compile(m3u_regex).findall(content)
+	for thumb, name, url in match:
+		try:
+			m3u_playlist(name, url, thumb)
+		except:
+			pass
 def playlist(name, url, thumb):	
 #Basicamente mira en las categorias y devuelve un enlace sobre un fichero plano. name= nombre url="enlace" icon="xx"
 	name = re.sub('\s+', ' ', name).strip()			
@@ -484,7 +523,7 @@ url = None
 name = None
 mode = None
 iconimage = None
-
+#corte 9
 try:
 	url = urllib.unquote_plus(params["url"])
 except:
@@ -505,8 +544,7 @@ except:
 print "Mode: " + str(mode)
 print "URL: " + str(url)
 print "Name: " + str(name)
-print "iconimage: " + str(iconimage)		
-
+print "iconimage: " + str(iconimage)	
 ## Vale esta parte son los llamados switch, lo que hace es redirigir a la funcion determinada en funcion al click que solicitemos en el menu.
 
 if mode == None or url == None or len(url) < 1:
@@ -546,7 +584,7 @@ elif mode == 9:
 
 elif mode == 10:
 	lista9()
-
+#corte 10
 elif mode == 11:
 	lista10()
 elif mode == 12:
@@ -570,5 +608,13 @@ elif mode == 20:
 	lista19()
 elif mode == 21:
 	lista20()
+elif mode == 21:
+	lista20()
+elif mode == 22:
+	lista21()
+elif mode == 23:
+	lista22()
+elif mode == 24:
+	lista23()
 
-xbmcplugin.endOfDirectory(plugin_handle)
+xbmcplugin.endOfDirectory(plugin_handle)			

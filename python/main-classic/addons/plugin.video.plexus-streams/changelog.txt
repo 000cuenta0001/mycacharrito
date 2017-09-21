@@ -1,4 +1,13 @@
 ===== Stable Versions ========
+[B]v1.0.17 (2017/09/13)[/B]
+- Añadidos múltiples dominios de ArenaVision
+
+[B]v1.0.16 (2017/09/13)[/B]
+- Fix ArenaVision agenda channel selector
+
+[B]v1.0.15p (2017/08/15)[/B]
+- Change arenavision domain
+
 [B]v1.0.15o (2017/07/07)[/B]
 - Fix arenavision channel list
 

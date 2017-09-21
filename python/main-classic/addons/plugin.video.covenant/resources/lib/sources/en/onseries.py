@@ -29,10 +29,10 @@ class source:
     def __init__(self):
         self.priority = 0
         self.language = ['en']
-        self.domains = ['onwatchseries.to']
-        self.base_link = 'http://onwatchseries.to'
-        self.search_link = 'http://onwatchseries.to/show/search-shows-json'
-        self.search_link_2 = 'http://onwatchseries.to/search/%s'
+        self.domains = ['onwatchseries.to','mywatchseries.to']
+        self.base_link = 'http://mywatchseries.to'
+        self.search_link = 'http://mywatchseries.to/show/search-shows-json'
+        self.search_link_2 = 'http://mywatchseries.to/search/%s'
 
 
     def tvshow(self, imdb, tvdb, tvshowtitle, localtvshowtitle, aliases, year):
@@ -45,7 +45,6 @@ class source:
             r = client.request(self.search_link, post=p, XHR=True)
             try: r = json.loads(r)
             except: r = None
-            r = None
 
             if r:
                 r = [(i['seo_url'], i['value'], i['label']) for i in r if 'value' in i and 'label' in i and 'seo_url' in i]

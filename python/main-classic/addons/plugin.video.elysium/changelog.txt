@@ -1,3 +1,15 @@
+[B]2017.08.28[/B]
+- New api-key. Please get your own, might become mandatory in the near future.
+- Added kids-categories (thanks Soulless)
+
+[B]2017.08.20[/B]
+- New api-key, again...
+
+[B]2017.08.18[/B]
+- Added couple of lists
+- Fixed scraper
+(credits and thanks to Soulless for both)
+
 [B]2017.08.08[/B]
 - New api-key, again...
 - Updated some scrapers

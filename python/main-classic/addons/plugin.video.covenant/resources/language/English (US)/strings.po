@@ -321,7 +321,7 @@ msgstr ""
 
 msgctxt "#32073"
 msgid "[B]TRAKT[/B] : Authorize"
-msgstr "[B]TRAKT[/B]: Authorize"
+msgstr "[B]TRAKT[/B]: Authorise"
 
 msgctxt "#32074"
 msgid "[B]HELP[/B]"
@@ -567,6 +567,18 @@ msgctxt "#32360"
 msgid "Providers Language"
 msgstr ""
 
+msgctxt "#32363"
+msgid "HEVC"
+msgstr ""
+
+msgctxt "#32372"
+msgid "When playback ends..."
+msgstr ""
+
+msgctxt "#32373"
+msgid "Force container refresh"
+msgstr ""
+
 msgctxt "#32401"
 msgid "No stream available"
 msgstr ""
@@ -802,3 +814,20 @@ msgstr ""
 msgctxt "#32570"
 msgid "Show unaired seasons/episodes"
 msgstr ""
+
+msgctxt "#32571"
+msgid "Hide movies in cinema"
+msgstr ""
+
+msgctxt "#32372"
+msgid "When playback ends..."
+msgstr ""
+
+msgctxt "#32373"
+msgid "Force container refresh"
+msgstr ""
+
+msgctxt "#32580"
+msgid "Films/TV Movies"
+msgstr ""
+

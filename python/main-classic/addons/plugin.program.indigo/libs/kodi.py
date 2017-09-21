@@ -35,6 +35,8 @@ get_setting = addon.getSetting
 
 show_settings = addon.openSettings
 
+AddonTitle = addon.getAddonInfo('name')
+
 addon_id = addon.getAddonInfo('id')
 
 ADDON = xbmcaddon.Addon(id=addon_id)
@@ -309,7 +311,7 @@ def auto_view(content):
 
 
 def log(msg, level=xbmc.LOGNOTICE):
-    name = 'INDIGO NOTICE'
+    name = str(AddonTitle) + ' NOTICE'
     # override message level to force logging when addon logging turned on
     level = xbmc.LOGNOTICE
 
@@ -323,7 +325,7 @@ def log(msg, level=xbmc.LOGNOTICE):
 
 
 def logInfo(msg, level=xbmc.LOGNOTICE):
-    name = 'INDIGO INFORMATION'
+    name = AddonTitle + ' INFORMATION'
     # override message level to force logging when addon logging turned on
     level = xbmc.LOGNOTICE
 

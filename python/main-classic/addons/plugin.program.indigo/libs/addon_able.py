@@ -1,6 +1,7 @@
+import datetime
+import os
 from sqlite3 import dbapi2 as db_lib
 
-import os
 import xbmc
 import xbmcaddon
 from libs import kodi
@@ -20,11 +21,16 @@ def set_enabled(newaddon, data=None):
     if kodi.get_kversion() > 16.5:
         kodi.log("Enabling " + newaddon)
         setit = 1
-        if data is None: data = ''
-        sql = 'REPLACE INTO installed (addonID,enabled) VALUES(?,?)'
-
-        conn.execute(sql, (newaddon, setit,))
+        if data is None:
+            data = ''
+        now = datetime.datetime.now()
+        date_time = str(now).split('.')[0]
+        # sql = 'REPLACE INTO installed (addonID,enabled) VALUES(?,?)'
+        sql = 'REPLACE INTO installed (addonID,enabled,installDate) VALUES(?,?,?)'
+        conn.execute(sql, (newaddon, setit, date_time,))
         conn.commit()
+        # xbmc.executebuiltin("InstallAddon(%s)" % newaddon)
+        xbmc.executebuiltin("XBMC.UpdateLocalAddons()")
     else:
         pass
 

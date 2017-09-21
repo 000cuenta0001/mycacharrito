@@ -87,7 +87,7 @@ item_info_build=%s
 item_info_name=tmp1
 item_info_from=tmpUrl
 #item_info_convert=getInfo('%s','.*?SWFObject\('([^']+)'.*?["'=]([12]\d{4}).*?(MT[^'"&]+)','@REFERER@','swf1|f1|t')
-item_info_convert=getInfo('%s','.*id="(\w+)">(\d+).*?param\s+name='movie'\s+value='([^']+).*?document.getElementById\("\1.*?flashvars.*?file=.*?(\?[^&]+)','@REFERER@','junk|t|swf1|f1')
+item_info_convert=getInfo('%s','.*id="(\w+)">(\w+).*?id="\2">(\d+).*?param\s+name=\'movie\'\s+value=\'([^\']+).*?document.getElementById\("\1.*?flashvars.*?file=.*?(\?[^&]+)','@REFERER@','junk|crap|t|swf1|f1')
 item_info_build=%s
 #
 #item_info_name=sp2

@@ -124,6 +124,8 @@ def request(url, close=True, redirect=True, error=False, proxy=None, post=None, 
                 if 'cf-browser-verification' in cf_result:
 
                     netloc = '%s://%s' % (urlparse.urlparse(url).scheme, urlparse.urlparse(url).netloc)
+                    
+                    if not netloc.endswith('/'): netloc += '/'
 
                     ua = _headers['User-Agent']
 

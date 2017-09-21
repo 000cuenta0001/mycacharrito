@@ -573,6 +573,17 @@ msgstr "Dans ce Cas Utilisez vos Propre Sous-Titres"
 msgctxt "#32360"
 msgid "Providers Language"
 msgstr "Langue de la sources"
+msgctxt "#32363"
+msgid "HEVC"
+msgstr "HEVC"
+
+msgctxt "#32372"
+msgid "When playback ends..."
+msgstr "Lorsque la lecture se termine..."
+
+msgctxt "#32373"
+msgid "Force container refresh"
+msgstr "Forcer l'actualisation du conteneur"
 
 msgctxt "#32401"
 msgid "No stream available"
@@ -705,4 +716,116 @@ msgstr "Configuration Services de Débridage dans le URLResolver."
 msgctxt "#32540"
 msgid "URLResolver Settings"
 msgstr "Configuration du URLResolver"
+
+msgctxt "#32541"
+msgid "Library"
+msgstr "Bibliothèque"
+
+msgctxt "#32542"
+msgid "Covenant folders will be imported to library if they are added to media sources."
+msgstr "Les dossiers seront importés vers la bibliothèque s'ils sont ajoutés aux sources médiatiques"
+
+msgctxt "#32543"
+msgid "Movies"
+msgstr "Films"
+
+msgctxt "#32544"
+msgid "TV"
+msgstr "Series"
+
+msgctxt "#32545"
+msgid "Auto update TV Shows"
+msgstr "Mise à jour automatique des Series TV"
+
+msgctxt "#32546"
+msgid "Show notifications during update"
+msgstr "Afficher les notifications pendant la mise à jour"
+
+msgctxt "#32547"
+msgid "Update library after adding content"
+msgstr "Mettre à jour la bibliothèque après avoir ajouté du contenu"
+
+msgctxt "#32548"
+msgid "Avoid creating duplicate content"
+msgstr "Évitez de créer du contenu en double"
+
+msgctxt "#32549"
+msgid "Check movie before adding it"
+msgstr "Vérifiez le film avant de l'ajouter"
+
+msgctxt "#32550"
+msgid "Check first episode of season before adding it"
+msgstr "Vérifiez le premier épisode de saison avant de l'ajouter"
+
+msgctxt "#32551"
+msgid "Add to Library"
+msgstr "Ajouter à la bibliothèque"
+
+msgctxt "#32552"
+msgid "Adding to library..."
+msgstr "Ajouter à la bibliothèque..."
+
+msgctxt "#32553"
+msgid "Updating TV shows..."
+msgstr "Mise à jour des series TV..."
+
+msgctxt "#32554"
+msgid "Process Complete"
+msgstr "Processus terminé"
+
+msgctxt "#32555"
+msgid "Are you sure?"
+msgstr "Êtes-vous sûr?"
+
+msgctxt "#32556"
+msgid "[B]COVENANT[/B] : Library"
+msgstr "[B]COVENANT[/B]: Bibliothèque"
+
+msgctxt "#32557"
+msgid "[B]LIBRARY[/B] : Settings"
+msgstr "[B]BIBLIOTHÈQUE[/B] : Paramètres"
+
+msgctxt "#32558"
+msgid "[B]COVENANT[/B] : Update library..."
+msgstr "[B]COVENANT[/B] : Mettre à jour la bibliothèque..."
+
+msgctxt "#32559"
+msgid "[B]COVENANT[/B] : Movie folder..."
+msgstr "[B]COVENANT[/B] : Dossier de films..."
+
+msgctxt "#32560"
+msgid "[B]COVENANT[/B] : TV folder..."
+msgstr "[B]COVENANT[/B] : Dossier series..."
+
+msgctxt "#32561"
+msgid "[B]TRAKT[/B] : Import Collection..."
+msgstr "[B]TRAKT[/B] : Importer Collection..."
+
+msgctxt "#32562"
+msgid "[B]TRAKT[/B] : Import Watchlist..."
+msgstr "[B]TRAKT[/B] : Importer liste de vue..."
+
+msgctxt "#32563"
+msgid "[B]TRAKT[/B] : Import TV Collection..."
+msgstr "[B]TRAKT[/B] : Importer Collection series..."
+
+msgctxt "#32564"
+msgid "[B]TRAKT[/B] : Import TV Watchlist..."
+msgstr "[B]TRAKT[/B] : Importer liste de vue series..."
+
+msgctxt "#32565"
+msgid "Include episodes with unknown air dates"
+msgstr "Inclure des épisodes avec des dates inconnues"
+
+msgctxt "#32570"
+msgid "Show unaired seasons/episodes"
+msgstr "Afficher les saisons / épisodes non-utilisés"
+
+msgctxt "#32571"
+msgid "Hide movies in cinema"
+msgstr "Masquer les films au cinéma"
+
+msgctxt "#32572"
+msgid "Protected Link. Please enter account credentials in the settings."
+msgstr "Lien protégé. Entrez les données du compte dans les paramètres svp."
 

@@ -26,7 +26,7 @@ class MyException(Exception):
 def download(url, dest, dp = None,timeout = None):
     if timeout == None:
         timeout = 120
-    #url = 'https://offshoregit.com/exodus/script.exodus.metadata/script.exodus.metadata-1.0.0.zip'
+
     try:
         if not dp:
             dp = xbmcgui.DialogProgress()

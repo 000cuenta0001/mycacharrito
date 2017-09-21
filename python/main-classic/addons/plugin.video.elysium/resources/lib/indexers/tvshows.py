@@ -38,7 +38,7 @@ class tvshows:
 		self.imdb_user            = control.setting('imdb.user').replace('ur', '')
 		self.lang                 = control.apiLanguage()['tvdb']
 		self.tmdb_key             = control.setting('tmdb_apikey')
-		if self.tmdb_key == '' or self.tmdb_key == None: self.tmdb_key = base64.b64decode('YjkxOTBhZWFmZGEyOWQ3OWM4MWIyZmI1MWNlOWM0NzA=')
+		if self.tmdb_key == '' or self.tmdb_key == None: self.tmdb_key = base64.b64decode('OWI0NDFmZDJiMWQzYTNkMWE0ZWMyMTYxYjNlYjZkNWE=')
 		self.tmdb_lang            = 'en'
 		self.datetime             = (datetime.datetime.utcnow() - datetime.timedelta(hours = 5))
 		self.today_date           = (self.datetime).strftime('%Y-%m-%d')
@@ -96,7 +96,24 @@ class tvshows:
 		self.mycustomlist8_link   = 'http://api.themoviedb.org/3/list/%s?api_key=%s' % (self.tmdbtvlist8_link, self.tmdb_key)
 		self.mycustomlist9_link   = 'http://api.themoviedb.org/3/list/%s?api_key=%s' % (self.tmdbtvlist9_link, self.tmdb_key)
 		self.mycustomlist10_link  = 'http://api.themoviedb.org/3/list/%s?api_key=%s' % (self.tmdbtvlist10_link, self.tmdb_key)
-
+		self.tmdbblast_link = 'http://api.themoviedb.org/3/list/13386?api_key=%s' % (self.tmdb_key)
+		self.tmdbdatenighttv_link = 'http://api.themoviedb.org/3/list/13393?api_key=%s' % (self.tmdb_key)
+		self.tmdbfasttv_link = 'http://api.themoviedb.org/3/list/13390?api_key=%s' % (self.tmdb_key)
+		self.tmdbchitv_link = 'http://api.themoviedb.org/3/list/13428?api_key=%s' % (self.tmdb_key)
+		self.tmdbsportstv_link = 'http://api.themoviedb.org/3/list/13429?api_key=%s' % (self.tmdb_key)
+		self.tmdbspotlighttv_link = 'http://api.themoviedb.org/3/list/13427?api_key=%s' % (self.tmdb_key)
+		self.tmdbufotv_link = 'http://api.themoviedb.org/3/list/13388?api_key=%s' % (self.tmdb_key)
+		self.tmdb420tv_link = 'http://api.themoviedb.org/3/list/13506?api_key=%s' % (self.tmdb_key)
+		self.tmdbtats_link = 'http://api.themoviedb.org/3/list/13572?api_key=%s' % (self.tmdb_key)
+		self.tmdblmao_link = 'http://api.themoviedb.org/3/list/13387?api_key=%s' % (self.tmdb_key)
+		self.tmdbelimination_link = 'http://api.themoviedb.org/3/list/13391?api_key=%s' % (self.tmdb_key)
+		self.tmdbcooking_link = 'http://api.themoviedb.org/3/list/13389?api_key=%s' % (self.tmdb_key)
+		self.tmdbgamers_link = 'http://api.themoviedb.org/3/list/13714?api_key=%s' % (self.tmdb_key)
+		self.tmdbcartoon_link = 'http://api.themoviedb.org/3/list/13467?api_key=%s' % (self.tmdb_key)
+		self.tmdblittle_link = 'http://api.themoviedb.org/3/list/13564?api_key=%s' % (self.tmdb_key)
+		self.tmdbkids_link = 'http://api.themoviedb.org/3/list/13555?api_key=%s' % (self.tmdb_key)
+		self.tmdbanimationtv_link = 'http://api.themoviedb.org/3/list/13573?api_key=%s' % (self.tmdb_key)
+		
 	def get(self, url, idx=True):
 		try:
 			try: url = getattr(self, url + '_link')
@@ -463,12 +480,12 @@ class tvshows:
 		('ABC', '2'), ('CBS', '16'), ('NBC', '6|582'), ('FOX', '19'), ('CW', '71|194'), ('A&E', '129|567|891'),
 		('ABC Family', '75'), ('AMC', '174'), ('Animal Planet', '91'), ('Bravo', '74|312|485'),
 		('Cartoon Network', '56|217|262'), ('Cinemax', '359'), ('Comedy Central', '47|278'),
-		('Disney Channel', '54|515|539|730'), ('Disney XD', '44'), ('Discovery Channel', '64|106|755'),
+		('Disney Channel', '54|515|539|730|1531'), ('Disney XD', '44'), ('Discovery Channel', '64|106|755'),
 		('E! Entertainment', '76|407|645'), ('FX', '88'), ('Hallmark', '384'), ('HBO', '49'), ('HGTV', '210|482'),
 		('History Channel', '65|238|893'), ('Discovery ID', '244'), ('Lifetime', '34|892'), ('MTV', '33|335|488'),
 		('National Geographic', '43|799'), ('Nickelodeon', '13|35|234|259|416'), ('Showtime', '67|643'),
 		('Spike', '55'), ('Starz', '318'), ('Syfy', '77|586'), ('TBS', '68'), ('TLC', '84'), ('TNT', '41|613|939'),
-		('Travel Channel', '209'), ('TV Land', '397'), ('USA', '30'), ('VH1', '158')]
+		('Travel Channel', '209'), ('TV Land', '397'), ('USA', '30'), ('VH1', '158'), ('Boomerang', '523'), ('CBBC', '15|104'), ('CBEEBIES', '166'), ('CITV', '112'), ('Nick Toons', '628|224'), ('Disney Junior', '281|497')]
 		for i in networks: self.list.append({'name': i[0], 'url': self.network_link % (i[1]), 'image': 'networks.png', 'action': 'tvshows'})
 		self.addDirectory(self.list)
 		return self.list

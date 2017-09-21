@@ -133,6 +133,9 @@ class source:
                         links += doc_links
 
                         for url, quality in links:
+                            if self.base_link in url:
+                                url = url + '|Referer=' + self.base_link
+
                             sources.append({'source': 'gvideo', 'quality': quality, 'language': 'de', 'url': url, 'direct': True, 'debridonly': False})
                     else:
                         try:

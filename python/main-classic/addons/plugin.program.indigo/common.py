@@ -34,7 +34,7 @@ addon_changelog = gAI('changelog')
 disclaimer = gAI('disclaimer')
 description = gAI('description')
 summary = gAI('summary')
-artPath = xbmc.translatePath(os.path.join(addon_path, 'art'))
+artPath = xbmc.translatePath(os.path.join(addon_path, 'noteart'))
 
 
 ## ################################################## ##
@@ -182,7 +182,7 @@ hubLogo = artp('tvaddons_logo')
 # hubLogo=artp('logo_notice.png')
 DefaultNoteImage = artp('blank1')
 DefaultSplitter = "|||"
-DefaultUrl = "http://indigo.tvaddons.ag/notifications/news.txt"
+DefaultUrl = "http://indigo.tvaddons.co/notifications/news.txt"
 
 
 class MyWindow(xbmcgui.WindowDialog):  # xbmcgui.Window): ##xbmcgui.Window

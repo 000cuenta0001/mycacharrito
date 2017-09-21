@@ -606,6 +606,7 @@ class Session(SessionRedirectMixin):
         start = datetime.utcnow()
 
         # Send the request
+
         r = adapter.send(request, **kwargs)
 
         # Total elapsed time of the request (approximately)
