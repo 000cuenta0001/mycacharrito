@@ -50,7 +50,7 @@
     <setting id="library_mode" value="0" />
     <setting id="library_set_content" value="false" />
     <setting id="library_version" value="(str, &apos;v4&apos;)" />
-    <setting id="librarypath" value="special://profile/addon_data/plugin.video.pelisalacarta/library" />
+    <setting id="librarypath" value="special://profile/addon_data/plugin.video.mitvspain/library" />
     <setting id="limite_busquedas" value="0" />
     <setting id="mark_as_watched" value="false" />
     <setting id="megaforoaccount" value="false" />
