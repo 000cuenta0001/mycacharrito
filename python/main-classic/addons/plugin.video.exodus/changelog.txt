@@ -1,4 +1,18 @@
-[B]4.0.0[/B]
+[B]4.1.00[/B]
+- fixed/added scrapers
+
+[B]4.1.00[/B]
+- changed Trakt episodes calendar
+- added network thumbs
+- re-activated gostream user and password
+- fixed watch5s
+- changed xmovies url
+- fixed openmovies
+- updated watchseriesfree
+- alluc scraper fixes
+- fixed/added German scrapers
+
+[B]4.0.00[/B]
 - Major Revamp
 
 [B]3.1.19[/B]

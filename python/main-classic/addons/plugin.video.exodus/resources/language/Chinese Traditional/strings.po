@@ -179,16 +179,16 @@ msgid "[B]SETTINGS[/B] : Providers"
 msgstr "[B]設定[/B] : 提供商"
 
 msgctxt "#32048"
-msgid "[B]COVENANT[/B] : Downloads"
-msgstr "[B]COVENANT[/B] : 下載"
+msgid "[B]EXODUS[/B] : Downloads"
+msgstr "[B]EXODUS[/B] : 下載"
 
 msgctxt "#32051"
-msgid "[B]COVENANT[/B] : Clear metadata..."
-msgstr "[B]COVENANT[/B] : 清除元數據"
+msgid "[B]EXODUS[/B] : Clear metadata..."
+msgstr "[B]EXODUS[/B] : 清除元數據"
 
 msgctxt "#32052"
-msgid "[B]COVENANT[/B] : Clear cache..."
-msgstr "[B]COVENANT[/B] : 清除緩存"
+msgid "[B]EXODUS[/B] : Clear cache..."
+msgstr "[B]EXODUS[/B] : 清除緩存"
 
 msgctxt "#32053"
 msgid "[I]Next Page[/I]"
