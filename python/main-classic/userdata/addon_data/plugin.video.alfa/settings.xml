@@ -16,6 +16,7 @@
     <setting id="folder_tvshows" value="SERIES" />
     <setting id="forceview" value="false" />
     <setting id="hidepremium" value="true" />
+    <setting id="icon_set" value="default" />
     <setting id="infoplus" value="true" />
     <setting id="path_selection" value="0" />
     <setting id="player_mode" value="0" />
@@ -24,7 +25,7 @@
     <setting id="server_stats" value="true" />
     <setting id="settings_path" value="(str, &apos;special://profile/addon_data/plugin.video.alfa/settings_channels&apos;)" />
     <setting id="shortcut_key" value="" />
-    <setting id="subtitle_name" value="[COLOR 0xFF2E9AFE]The Last Ship 4x03 Pan y circos[COLOR]" />
+    <setting id="subtitle_name" value="[COLOR 0xFF2E9AFE]La Torre Oscura 2017.mkv (2 GB)[COLOR]" />
     <setting id="thumbnail_type" value="2" />
     <setting id="videolibrary_kodi" value="true" />
     <setting id="videolibrary_kodi_flag" value="0" />
