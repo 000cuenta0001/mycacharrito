@@ -1,0 +1,6 @@
+<settings>
+    <setting id="kbgPassword" value="abcd1234" />
+    <setting id="kbgUserName" value="Asdepicas" />
+    <setting id="sep" value="" />
+    <setting id="validate" value="" />
+</settings>
