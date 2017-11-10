@@ -1,4 +1,5 @@
 <favourites>
+	<favourite name="[COLOR gold]CANALES SATÉLITE[/COLOR] (Solo para aparatos con decodificador)" thumb="special://home/userdata/addon_data/skin.xonfluence/icon.png">ActivateWindow(TVChannels)</favourite>
 	<favourite name="ArenaVision EZY" thumb="special://home/addons\plugin.video.arenavisionezy\icon.png">ActivateWindow(10025,&quot;plugin://plugin.video.arenavisionezy/&quot;,return)</favourite>
 	<favourite name="La Liga" thumb="special://home/addons\plugin.video.laliga\icon.png">ActivateWindow(10025,&quot;plugin://plugin.video.laliga/?sf_options=fanart%3Dspecial%3A%2F%2Fhome%2Faddons%5Cplugin.video.laliga%5Cfanart.jpg%26meta%3Dlabel%253DLa%252BLiga%26_options_sf&quot;,return)</favourite>
 	<favourite name="[COLOR red][B]***EVENTOS DEPORTIVOS EZY***[/COLOR][/B] (solo para aparatos que reproducen acestream)" thumb="special://home/addons/plugin.video.avezy/icon.png">ActivateWindow(10025,&quot;plugin://plugin.video.avezy/&quot;,return)</favourite>
