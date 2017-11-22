@@ -1,11 +1,11 @@
 <settings>
     <setting id="accache" value="false" />
-    <setting id="accrash" value="true" />
-    <setting id="acpackages" value="true" />
-    <setting id="acstartup" value="true" />
+    <setting id="accrash" value="false" />
+    <setting id="acpackages" value="false" />
+    <setting id="acstartup" value="false" />
     <setting id="acthumbs" value="false" />
     <setting id="addoninstaller" value="false" />
-    <setting id="adult" value="true" />
+    <setting id="adult" value="false" />
     <setting id="audio" value="true" />
     <setting id="auto-view" value="true" />
     <setting id="automain" value="false" />
@@ -16,18 +16,14 @@
     <setting id="hasran" value="true" />
     <setting id="maint_check_folders" value="true" />
     <setting id="newest" value="true" />
-    <setting id="noteImage" value="78" />
-    <setting id="noteMessage" value="The weekend is finally here and we have some very exciting things to tell&#x0A;you about...&#x0A;&#x0A;There&apos;s a new method of streaming [B][COLOR white]live sports[/COLOR][/B] on Kodi, new [B][COLOR white]VPN apps for&#x0A;Android TV and Amazon Fire TV[/COLOR][/B], as well as all kinds of [B][COLOR white]new Kodi addons[/COLOR][/B]!&#x0A;&#x0A;Read More: [B][COLOR white]https://www.tvaddons.co/wow[/COLOR][/B]&#x0A;&#x0A;Thank you again to everyone who has supported us over the years. Please&#x0A;be reminded that we could really use more donations to keep our web site&#x0A;going, and now accept Bitcoin as well as PayPal." />
-    <setting id="noteType" value="t" />
     <setting id="notifications-on-startup" value="true" />
     <setting id="notify" value="2" />
-    <setting id="packagesmb" value="2" />
+    <setting id="packagesmb" value="0" />
     <setting id="program" value="true" />
     <setting id="repositories" value="false" />
     <setting id="scriptblock" value="true" />
     <setting id="set_rtmp" value="true" />
     <setting id="skincat" value="true" />
-    <setting id="startupsize" value="false" />
     <setting id="thumbsmb" value="0" />
     <setting id="toprepositories" value="true" />
     <setting id="tt_togglesetting" value="false" />
