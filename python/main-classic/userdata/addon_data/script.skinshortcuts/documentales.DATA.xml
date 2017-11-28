@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?><shortcuts>
+	<shortcut>
+		<defaultID>plugin.video.Planeta</defaultID>
+		<label>Planeta</label>
+		<label2>Complemento de Vídeo</label2>
+		<icon>DefaultShortcut.png</icon>
+		<thumb>image://%2fstorage%2f.kodi%2faddons%2fplugin.video.Planeta%2ficon.png/</thumb>
+		<action>ActivateWindow(Videos,&quot;plugin://plugin.video.Planeta&quot;,return)</action>
+	</shortcut>
+</shortcuts>
