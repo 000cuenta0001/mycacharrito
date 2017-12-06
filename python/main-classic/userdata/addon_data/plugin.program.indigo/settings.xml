@@ -7,7 +7,7 @@
     <setting id="addoninstaller" value="false" />
     <setting id="adult" value="false" />
     <setting id="audio" value="true" />
-    <setting id="auto-view" value="true" />
+    <setting id="auto-view" value="false" />
     <setting id="automain" value="false" />
     <setting id="automb" value="false" />
     <setting id="cachemb" value="0" />
