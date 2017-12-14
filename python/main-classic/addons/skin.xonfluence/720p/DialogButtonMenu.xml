@@ -134,7 +134,7 @@
 					<textwidth>290</textwidth>
 					<include>NormalButton1</include>
  					<onclick condition="!Skin.HasSetting(RestartNotReboot)">Reset()</onclick>
-					<onclick condition="Skin.HasSetting(RestartNotReboot)">RestartApp()</onclick>
+					<onclick condition="Skin.HasSetting(RestartNotReboot)">Reboot</onclick>
 					<pulseonselect>no</pulseonselect>
 					<font>font13</font>
 					<label>13013</label>
