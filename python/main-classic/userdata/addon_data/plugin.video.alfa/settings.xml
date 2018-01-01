@@ -6,7 +6,9 @@
     <setting id="adult_password" value="(str, &apos;0000&apos;)" />
     <setting id="adult_pin" value="(str, &apos;&apos;)" />
     <setting id="adult_request_password" value="false" />
+    <setting id="category" value="Peliculas" />
     <setting id="channel_language" value="all" />
+    <setting id="custom_start" value="false" />
     <setting id="debug" value="true" />
     <setting id="default_action" value="2" />
     <setting id="downloadlistpath" value="special://profile/addon_data/plugin.video.alfa/downloads/list" />
@@ -18,6 +20,8 @@
     <setting id="hidepremium" value="true" />
     <setting id="icon_set" value="default" />
     <setting id="infoplus" value="true" />
+    <setting id="infoplus_set" value="Sin animación" />
+    <setting id="news_start" value="false" />
     <setting id="path_selection" value="0" />
     <setting id="player_mode" value="0" />
     <setting id="resolve_priority" value="0" />
@@ -25,8 +29,13 @@
     <setting id="server_stats" value="true" />
     <setting id="settings_path" value="(str, &apos;special://profile/addon_data/plugin.video.alfa/settings_channels&apos;)" />
     <setting id="shortcut_key" value="" />
-    <setting id="subtitle_name" value="[COLOR 0xFF2E9AFE]La Torre Oscura 2017.mkv (2 GB)[COLOR]" />
+    <setting id="start_page" value="false" />
+    <setting id="subtitle_name" value="[COLOR 0xFF2E9AFE]Knightfall 1x04 El que descubre su propio ser descubre a Dios[COLOR]" />
     <setting id="thumbnail_type" value="2" />
+    <setting id="tmdb_cache" value="true" />
+    <setting id="tmdb_cache_expire" value="4" />
+    <setting id="tmdb_plus_info" value="false" />
+    <setting id="tmdb_threads" value="20" />
     <setting id="videolibrary_kodi" value="true" />
     <setting id="videolibrary_kodi_flag" value="0" />
     <setting id="videolibrarypath" value="special://profile/addon_data/plugin.video.alfa/videolibrary" />

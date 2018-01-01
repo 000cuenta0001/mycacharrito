@@ -1,0 +1,10 @@
+{
+    "settings": {
+        "include_in_newest_infantiles": true, 
+        "include_in_newest_peliculas": true, 
+        "include_in_newest_terror": true, 
+        "modo_grafico": true, 
+        "orden_episodios": false, 
+        "perfil": 3
+    }
+}
