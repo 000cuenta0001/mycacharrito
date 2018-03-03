@@ -1,0 +1,255 @@
+#EXTM3U
+#EXTINF:-1 tvg-logo="https://i.imgur.com/QznXgmo.png" group-title="TVfree",TVE 1
+http://hlsliveamdgl7-lh.akamaihd.net/i/hlsdvrlive_1@583042/master.m3u8
+
+#EXTINF:-1 tvg-logo="https://i.imgur.com/2OswjdK.png" group-title="TVfree",ANTENA 3
+http://a3live-lh.akamaihd.net/i/antena3_1@35248/master.m3u8
+
+#EXTINF:-1 tvg-logo="https://i.imgur.com/gR78iNT.png" group-title="TVfree",TELECINCO
+http://telecinco-mediaset-esp-live.secure.footprint.net/mediaset/telecinco/stream2/streamPlaylist.m3u8
+
+#EXTINF:-1 tvg-logo="https://i.imgur.com/Lh464wc.jpg0" group-title="TVfree",ATRESSERIES
+http://a3live-lh.akamaihd.net/i/a3shds/geoa3series_1@122775/master.m3u8
+
+#EXTINF:-1 tvg-logo="https://i.imgur.com/KynY8R9.png",CUATRO
+http://cuatro-mediaset-esp-live.secure.footprint.net/mediaset/cuatro/stream2/streamPlaylist.m3u8
+
+#EXTINF:-1 tvg-logo="https://i.imgur.com/tJg8DSG.png",LA SEXTA
+http://a3live-lh.akamaihd.net/i/lasexta_1@35272/master.m3u8
+
+#EXTINF:-1 tvg-logo="https://i.imgur.com/ZfQpoT4.png" group-title="TVfree",CANAL 24 HORAS
+http://hlsackdn_gl8-lh.akamaihd.net/i/hlsdvrlive_1@81183/master.m3u8
+
+#EXTINF:-1 tvg-logo="https://i.imgur.com/TwpxEIZ.png" group-title="TVfree",NEOX
+http://a3live-lh.akamaihd.net/i/nxhds/geoneox_1@35261/master.m3u8
+
+#EXTINF:-1 tvg-logo="" group-title="TVfree", NOVA
+http://a3live-lh.akamaihd.net/i/nvhds/geonova_1@379404/master.m3u8
+
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://i.imgur.com/0oJDlBU.png" group-title="TVfree",PARAMOUNT CHANNEL
+http://paramount.live.flumotion.com/live/playlist.m3u8
+
+#EXTINF:-1 tvg-logo="https://i.imgur.com/3UtOSUw.png" group-title="TVfree", MEGA
+http://a3live-lh.akamaihd.net/i/mghds/geomega_1@328914/master.m3u8
+
+#EXTINF:-1 tvg-logo="https://i.imgur.com/lW3uzax.png" group-title="TVfree",TRECE
+http://streaming.enetres.net:1935/091DB7AFBD77442B9BA2F141DCC182F5021/live.smil/stream.m3u8
+
+#EXTINF:-1 tvg-logo="https://i.imgur.com/YqMNMDx.png" group-title="TVfree", TEN
+http://cdn.sitenow.me/live/ten_azj987s/chunklist.m3u8
+
+#EXTINF:-1 tvg-logo="https://i.imgur.com/baZpaHs.png" group-title="TVfree",DKISS
+http://kisstvnacional.es.flash.glb.canalweb.com/kisstvnacional.es/mp4:9KISSTV.mp4/playlist.m3u8
+
+#EXTINF:-1 tvg-logo="" group-title="TVfree", ANTENA 3 INTERNACIONAL
+http://a3live-lh.akamaihd.net/i/antena3_1@35248/master.m3u8
+
+#EXTINF:-1 tvg-logo="" group-title="TVfree",TV3 CATALUÑA
+http://ccma-tva-int-abertis-live.hls.adaptive.level3.net/int/ngrp:tv3_web/playlist.m3u8
+
+#EXTINF:-1 tvg-logo="" group-title="TVfree", CANAL 33 CATALUÑA
+http://ccma-tva-int-abertis-live.hls.adaptive.level3.net/int/ngrp:c33_web/playlist.m3u8
+
+#EXTINF:-1 tvg-logo="https://i.imgur.com/LuIzUNq.png" group-title="TVfree",TV3 CAT
+http://ccma-tva-int-abertis-live.hls.adaptive.level3.net/int/ngrp:tv3cat_web/chunklist_b1296000_DVR.m3u8
+
+#EXTINF:-1 tvg-logo="" group-title="TVfree", 3/24 CATALUÑA
+http://ccma-tva-int-abertis-live.hls.adaptive.level3.net/int/ngrp:324_mobil/chunklist_b548000.m3u8
+
+#EXTINF:-1 tvg-logo="https://i.imgur.com/xNwt4Ev.png" group-title="TVfree",ESPORT 3 CATALUÑA
+http://ccma-tva-es-abertis-live.hls.adaptive.level3.net/es/ngrp:es3_web/playlist.m3u8
+
+#EXTINF:-1 tvg-logo="https://i.imgur.com/m6E6JLY.png" group-title="TVfree", LA XARXA CATALUÑA
+http://video-streaming.laxarxa.com:1935/xal1/mp4:directe/playlist.m3u8
+
+#EXTINF:-1 tvg-logo="" group-title="TVfree",8 TV CATALUÑA
+http://streaming.8tv.cat/8TV/8aldia-directe/chunklist_w1365534365.m3u8
+
+#EXTINF:-1 tvg-logo="" group-title="TVfree",25 TELEVISIÓ
+http://cdnlive.shooowit.net/25televisiolive/amlst:25tv/chunklist_b300000.m3u8
+
+#EXTINF:-1 tvg-logo="" group-title="TVfree",ANDORRA TV
+http://194.158.80.31:443/live/rtva/playlist.m3u8
+
+#EXTINF:-1 tvg-logo="https://i.imgur.com/jkfZfyp.png" group-title="TVfree",ARAGÓN TV
+http://aragontv.stream.flumotion.com/aragontv/hls-live/main.m3u8
+
+#EXTINF:-1 tvg-logo="https://i.imgur.com/roj9Rzz.png" group-title="TVfree",TV GALICIA INTERNACIONAL
+http://europa-crtvg.flumotion.com/playlist.m3u8
+
+#EXTINF:-1 tvg-logo="https://i.imgur.com/dtabd4w.png" group-title="TVfree",CANAL EXTREMADURA
+http://hlstv.canalextremadura.es/livetv/smil:multistream.smil/playlist.m3u8
+
+#EXTINF:-1 tvg-logo="https://i.imgur.com/2c3xvHl.png" group-title="TVfree",TV CANARIA
+http://streaming2.mad.idec.net/rtvcnet/rtvcnet.drb.360plr.stream/playlist.m3u8
+
+#EXTINF:-1 tvg-logo="" group-title="TVfree",CANAL 4 TENERIFE
+https://5940924978228.streamlock.net/Directo2/Directo2/chunklist_w221845664.m3u8
+
+#EXTINF:-1 tvg-logo="" group-title="TVfree", CANAL 4 CENTRO MANCHA
+http://xcanal4mcx.api.channel.livestream.com/3.0/playlist.m3u8
+
+#EXTINF:-1 tvg-logo="" group-title="TVfree",CMM TV
+http://klive-a.akamaihd.net/dc-1/live/hls/p/2288691/e/1_c9gw17x6/sd/10000/t/o8xKPUjaWz2E6hV7vICo1Q/index-s32.m3u8
+
+#EXTINF:-1 tvg-logo="https://i.imgur.com/iF2uicG.png" group-title="TVfree", CYLTV
+http://cdn.s1.eu.nice264.com:1935/niceLiveServer/_definst_/cyl_cyltvlivem_MB_698/chunklist.m3u8
+
+#EXTINF:-1 tvg-logo="https://i.imgur.com/lp66hDc.png" group-title="TVfree", ETB SAT
+http://etbvnogeo-lh.akamaihd.net/i/ETBEITBEUS_1@300391/index_0564_av-p.m3u8
+
+#EXTINF:-1 tvg-logo="" group-title="TVfree",TELEBILBAO
+http://cls.todostreaming.eu/telebilbao/restricted/playlist.m3u8
+
+#EXTINF:-1 tvg-logo="" group-title="TVfree",RTPA ASTURIAS
+http://iphone.rtpa.stream.flumotion.com/rtpa/tv-iphone/main.m3u8
+
+#EXTINF:-1 tvg-logo="" group-title="TVfree", LA 7 TV MURCIA
+http://rtvmurcia_01-lh.akamaihd.net/i/rtvmurcia_1_0@507973/master.m3u8
+
+#EXTINF:-1 tvg-logo="" group-title="TVfreees", EL CORREO TV
+http://cls.elitehd-audiovisuales.com/luztv/livestream/live.m3u8
+
+#EXTINF:-1 tvg-logo="" group-title="TVfree",8 CÁDIZ TV
+http://cls.todostreaming.eu/unatv/live/playlist.m3u8
+
+#EXTINF:-1 tvg-logo="" group-title="TVfree",COSTA DEL SOL TV
+http://189.216.247.113/Content/HLS/Live/Channel(NAT_GEO)/index.m3u8
+
+#EXTINF:-1 tvg-logo="" group-title="TVfree",CANAL 25 BARBASTRO
+http://188.165.135.22/tvbarbastro/livestream/playlist.m3u8
+
+#EXTINF:-1 tvg-logo="" group-title="TVfree",RTVCE
+http://teledifusion.tv:1935/rtvcetv/rtvcetvlive/playlist.m3u8
+
+#EXTINF:-1 tvg-logo="" group-title="TVfree",SAN ROQUE TV
+http://188.165.135.22/sanroque/mystream/chunklist_w1703138822.m3u8
+
+#EXTINF:-1 tvg-logo="" group-title="TVfree",VEGA BAJA TV
+http://185.29.68.24/tvb.m3u8
+
+#EXTINF:-1 tvg-logo="" group-title="TVfree",TELESAFOR
+http://video.telesafor.com/hls/video_low.m3u8
+
+#EXTINF:-1 tvg-logo="" group-title="TVfree",TELEVALENCIA
+http://streaming.enetres.net/9E9557EFCEBB43A89CEC8FBD3C500247022/live.smil/.m3u8
+
+#EXTINF:-1 tvg-logo="" group-title="TVfree",TELEELX
+http://teledifusion.tv:1935/teleelx/teleelxlive/playlist.m3u8
+
+#EXTINF:-1 tvg-logo="" group-title="TVfree", LEVANTE TV
+http://teledifusion.tv:1935/levantetvlive/levantetvlive/master.m3u8
+
+#EXTINF:-1 tvg-logo="" group-title="TVfree",TV4 LA VALL
+http://188.165.135.22/15o8376r/mystream/chunklist_w511176900.m3u8
+
+#EXTINF:-1 tvg-logo="" group-title="TVfree", TVCASTELLÓN MEDITERRÁNEO
+http://streaming.enetres.net/B280DE9FE5AD42E9B9BFD56A0E2CA414021/smil:live.smil/master.m3u8
+
+#EXTINF:-1 tvg-logo="" group-title="TVfree",TEF TV
+http://server10.streaming-pro.com:1937/live/teftvlive/playlist.m3u8
+
+#EXTINF:-1 tvg-logo="" group-title="TVfree",HTV HUELVA
+http://cls.todostreaming.eu/telehuelva/restricted/playlist.m3u8
+
+#EXTINF:-1 tvg-logo="" group-title="TVfree",ONDA ALGECIRAS
+http://cls.provideo.es/algecirastv/livestream/playlist.m3u8
+
+#EXTINF:-1 tvg-logo="" group-title="TVfree", ONDA AZUL MÁLAGA
+http://dsn6jqegjeixj.cloudfront.net/ondaazul-live/video/playlist.m3u8
+
+#EXTINF:-1 tvg-logo="" group-title="TVfree",ONDALUZ CÁDIZ
+http://cloud1.cdnstreamserver.com/olcadiz/livestream1/playlist.m3u8
+
+#EXTINF:-1 tvg-logo="" group-title="TVfree",ONDALUZ COSTA DEL SOL
+http://cloud1.cdnstreamserver.com/olmarbella/livestream1/playlist.m3u8
+
+#EXTINF:-1 tvg-logo="" group-title="TVfree",ONDALUZ COSTA NOROESTE
+http://cloud1.cdnstreamserver.com/olcosta/livestream1/playlist.m3u8
+
+#EXTINF:-1 tvg-logo="" group-title="TVfree",ONDALUZ JEREZ
+http://cloud1.cdnstreamserver.com/oljerez/livestream1/playlist.m3u8
+
+#EXTINF:-1 tvg-logo="" group-title="TVfree", ONDALUZ MARBELLA
+http://cloud1.cdnstreamserver.com/olmarbella/livestream1/playlist.m3u8
+
+#EXTINF:-1 tvg-logo="" group-title="TVfree",ONDA ALGECIRAS TV
+http://cls.provideo.es/algecirastv/livestream/master.m3u8
+
+#EXTINF:-1 tvg-logo="" group-title="TVfree",ONDALUZ SEVILLA
+http://cloud1.cdnstreamserver.com/olsevilla/livestream1/playlist.m3u8
+
+#EXTINF:-1 tvg-logo="" group-title="TVfree",ESTEPONA TV
+http://62.210.96.18:1935/esteponatv/esteponatv/chunklist_w1331861602.m3u8
+
+#EXTINF:-1 tvg-logo="" group-title="TVfree",POPULAR TV CANTABRIA
+http://cls.todostreaming.eu/ptvcantabria/livestream/chunklist.m3u8
+
+#EXTINF:-1 tvg-logo="" group-title="TVfree",EMPORDÁ TV
+http://ventdelnord.tv:8080/escala/directe.m3u8
+
+#EXTINF:-1 tvg-logo="" group-title="TVfree", IB3
+http://ibsatiphone.ib3tv.com/iphoneliveIB3/IB3/bitrate_2.m3u8
+
+#EXTINF:-1 tvg-logo="" group-title="TVfree", LA OTRA
+http://telemadridhls-live.hls.adaptive.level3.net/telemadrid/laotra1/index.m3u8
+
+#EXTINF:-1 tvg-logo="" group-title="TVfree",BETEVÉ
+http://api-cdn.overon.es/SmilLive/getLiveIOS/playlist.m3u8?stream=btv_stream01
+
+#EXTINF:-1 tvg-logo="" group-title=",TV ALCOI 
+http://92.222.37.18/hls/tvaxa.m3u8
+
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="" group-title="TVfree",MÍRAME TV
+http://controlstreams.com:1935/mirametv/mirametv/playlist.m3u8
+
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="" group-title="TVfree",NAVARRA TV
+http://cdn.s3.eu.nice264.com:1935/niceLiveServer/NTV_livenatvmb_MB_478/live.m3u8
+
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="" group-title="TVfree",EL DÍA TV
+http://cls.elitehd-audiovisuales.com/luztv/livestream/live.m3u8
+
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="" group-title="TVfree",IMAS TV
+http://cls.todostreaming.eu/imastv/livestream/chunklist.m3u8
+
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="" group-title="TVfree",INFORMACIÓN TV
+http://teledifusion.tv:1935/informaciontvlive/informaciontvlive/livestream.m3u8
+
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="" group-title="TVfree",LANCELOT TV
+http://62.210.141.18:1935/directo/lancelot.television/live.m3u8
+
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="" group-title="TVfree",LEBRIJA TV
+http://212.104.160.156:1935/live/lebrijatv2/playlist3.m3u8
+
+#EXTINF:-1, MELILLA TV
+http://melillatv-hls.flumotion.com/melillatv/melillatv_all/melillatv/melillatv_source/chunks.m3u8
+
+#EXTINF:-1, RTV CEUTA
+http://teledifusion.tv:1935/rtvcetv/rtvcetvlive/playlist.m3u8
+
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="" group-title="TVfree",CEUTA TV
+http://cls.todostreaming.eu/anguloce/livestream/chunklist.m3u8
+
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="" group-title="TVfree",TV IBIZA-FORMENTERA
+http://server10.streaming-pro.com:1937/live/teftvlive/playlist.m3u8
+
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="" group-title="TVfree",CANAL FLAMENCO TV
+http://cast.streamingconnect.com:1935/csflamenco/csflamenco/playlist.m3u8
+
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="" group-title="TVfree",ANDALUCÍA TURISMO
+http://cast.streamingconnect.com:1935/csturismo/csturismo/playlist.m3u8
+
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="" group-title="TVfree",CANAL SUR COCINA
+http://cast.streamingconnect.com:1935/cscocina/cscocina/playlist.m3u8
+
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="" group-title="TVfree",INTERECONOMÍA
+https://streaming.enetres.net/16011939C62D44ED91350508FB25828B021/smil:live.smil/.m3u8
+
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="" group-title="TVfree",HIT TV
+http://tst.es.flash.glb.ipercast.net/tst.es-live/live/playlist_w.m3u8
+
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="" group-title="TVfree",SEVILLA F.C.
+http://sevillafc_live-lh.akamaihd.net/i/video_0@354142/index_0700_av-p.m3u8
+
+#EXTINF:-1 tvg-id="Canal Capital 21" tvg-name="Canal Capital 21" tvg-logo="" group-title="TVfree",REAL MADRID TV
+http://rmtvlive-lh.akamaihd.net/i/rmtv_1@154306/index_1000_av-p.m3u8
