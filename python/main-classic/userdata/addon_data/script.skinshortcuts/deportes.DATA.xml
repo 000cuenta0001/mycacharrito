@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?><shortcuts>
+	<shortcut>
+		<defaultID/>
+		<label>CANALES SATELITE</label>
+		<label2>Ítem Personalizado</label2>
+		<icon>DefaultShortcut.png</icon>
+		<thumb>special://profile/addon_data/script.skinshortcuts/skin.eminence.2.mod.Krypton-thumb-CANALES SATELITE.png</thumb>
+		<action>ActivateWindow(Videos,&quot;plugin://plugin.program.super.favourites/?label=%5BCOLOR+gold%5DCANALES+SAT%C3%89LITE%5B%2FCOLOR%5D+%28Solo+para+aparatos+con+decodificador%29&amp;mode=650&amp;cmd=ActivateWindow%28TVChannels%29&amp;image=special%3A%2F%2Fhome%2Fuserdata%2Faddon_data%2Fskin.xonfluence%2Ficon.png&amp;content_type=&quot;,return)</action>
+	</shortcut>
+	<shortcut>
+		<defaultID/>
+		<label>AGENDA AVEZY</label>
+		<label2>Ítem Personalizado</label2>
+		<icon>DefaultShortcut.png</icon>
+		<thumb>special://profile/addon_data/script.skinshortcuts/skin.eminence.2.mod.Krypton-thumb-AGENDA AVEZY.png</thumb>
+		<action>PlayMedia(&quot;plugin://plugin.program.super.favourites/?label=%5BCOLOR+deepskyblue%5D%5BVER+AGENDA+COMPLETA%5D%5B%2FCOLOR%5D&amp;mode=650&amp;cmd=ActivateWindow%2810025%2C%22plugin%3A%2F%2Fplugin.video.avezy%2F%3Faction%3Dmostrar_agenda%26sf_options%3Dmeta%253Dlabel%25253D%2525255BCOLOR%25252Bdeepskyblue%2525255D%2525255BVER%25252BAGENDA%25252BCOMPLETA%2525255D%2525255B%2525252FCOLOR%2525255D%252526title%25253D%2525255BCOLOR%25252Bdeepskyblue%2525255D%2525255BVER%25252BAGENDA%25252BCOMPLETA%2525255D%2525255B%2525252FCOLOR%2525255D%2526_options_sf%22%2Creturn%29&amp;image=special%3A%2F%2Fhome%2Faddons%2Fplugin.video.avezy%2Fresources%2Fmedia%2Fcalendar.png&amp;content_type=&amp;sf_options=winID%3D10025%26_options_sf&quot;,return)</action>
+	</shortcut>
+</shortcuts>

@@ -1,0 +1,99 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<shortcuts>
+	<shortcut>
+		<defaultID>power</defaultID>
+		<label>REINICIAR SISTEMA</label>
+		<label2>Common Shortcut</label2>
+		<icon>special://skin/extras/icons/power.png</icon>
+		<thumb />
+		<action>ActivateWindow(shutdownmenu)</action>
+	</shortcut>
+	<shortcut>
+		<defaultID />
+		<label>DEPORTES</label>
+		<label2>Ítem Personalizado</label2>
+		<icon>DefaultShortcut.png</icon>
+		<thumb>special://skin/extras/icons/espn.png</thumb>
+		<action>ActivateWindow(Videos,"plugin://plugin.program.super.favourites/?label=Deportes&amp;mode=400&amp;path=special%3A%2F%2Fprofile%2Faddon_data%2Fplugin.program.super.favourites%2FSuper+Favourites%2FDeportes&amp;image=special%3A%2F%2Fhome%2Fuserdata%2Faddon_data%2Fskin.xonfluence%2Ficon.png&amp;fanart=%2Fstorage%2F.kodi%2Faddons%2Fplugin.program.super.favourites%2Ffanart.jpg&amp;content_type=",return)</action>
+	</shortcut>
+	<shortcut>
+		<defaultID />
+		<label>PELÍCULAS</label>
+		<label2>Ítem Personalizado</label2>
+		<icon>DefaultShortcut.png</icon>
+		<thumb>special://skin/extras/icons/film.png</thumb>
+		<action>ActivateWindow(Videos,"plugin://plugin.program.super.favourites/?label=Pelis&amp;mode=400&amp;path=special%3A%2F%2Fprofile%2Faddon_data%2Fplugin.program.super.favourites%2FSuper+Favourites%2FPelis&amp;image=special%3A%2F%2Fhome%2Faddons%2Fplugin.video.alfa%2Fresources%2Fmedia%2Fchannels%2Fthumb%2Fhdfull.png&amp;fanart=special%3A%2F%2Fhome%2Faddons%2Fplugin.video.alfa%2Ffanart1.jpg&amp;content_type=",return)</action>
+	</shortcut>
+	<shortcut>
+		<defaultID>programs</defaultID>
+		<label>ESTRENOS</label>
+		<label2>Ítem Personalizado</label2>
+		<icon>special://skin/extras/icons/addons.png</icon>
+		<thumb>special://skin/extras/icons/stream-video.png</thumb>
+		<action>ActivateWindow(Videos,"plugin://plugin.video.alfa/?ewogICAgImFjdGlvbiI6ICJtYWlubGlzdCIsIAogICAgImNhdGVnb3J5IjogIkRlc2Nhcmdhc01JWCIsIAogICAgImNoYW5uZWwiOiAiZGVzY2FyZ2FzbWl4IiwgCiAgICAiY29udGV4dCI6IFsKICAgICAgICB7CiAgICAgICAgICAgICJhY3Rpb24iOiAiY2hhbm5lbF9jb25maWciLCAKICAgICAgICAgICAgImNoYW5uZWwiOiAic2V0dGluZyIsIAogICAgICAgICAgICAiY29uZmlnIjogImRlc2Nhcmdhc21peCIsIAogICAgICAgICAgICAiZnJvbV9hY3Rpb24iOiAibWFpbmxpc3QiLCAKICAgICAgICAgICAgImZyb21fY2hhbm5lbCI6ICJkZXNjYXJnYXNtaXgiLCAKICAgICAgICAgICAgInRpdGxlIjogIkNvbmZpZ3VyYXIgY2FuYWwiCiAgICAgICAgfQogICAgXSwgCiAgICAiZmFuYXJ0IjogIiIsIAogICAgImluZm9MYWJlbHMiOiB7fSwgCiAgICAibGFuZ3VhZ2UiOiBbCiAgICAgICAgImNhc3QiLCAKICAgICAgICAibGF0IgogICAgXSwgCiAgICAidGh1bWJuYWlsIjogIi9zdG9yYWdlLy5rb2RpL2FkZG9ucy9wbHVnaW4udmlkZW8uYWxmYS9yZXNvdXJjZXMvbWVkaWEvY2hhbm5lbHMvdGh1bWIvZGVzY2FyZ2FzbWl4LnBuZyIsIAogICAgInRpdGxlIjogIkRlc2Nhcmdhc01JWCIsIAogICAgInRvdGFsSXRlbXMiOiAwLCAKICAgICJ2aWV3bW9kZSI6ICJsaXN0Igp9",return)</action>
+	</shortcut>
+	<shortcut>
+		<defaultID />
+		<label>SERIES</label>
+		<label2>Ítem Personalizado</label2>
+		<icon>DefaultShortcut.png</icon>
+		<thumb>special://skin/extras/icons/tv.png</thumb>
+		<action>ActivateWindow(Videos,"plugin://plugin.program.super.favourites/?label=Series&amp;mode=400&amp;path=special%3A%2F%2Fprofile%2Faddon_data%2Fplugin.program.super.favourites%2FSuper+Favourites%2FSeries&amp;image=special%3A%2F%2Fhome%2Faddons%2Fplugin.video.alfa%2Fresources%2Fmedia%2Fchannels%2Fthumb%2Fseriesblanco.png&amp;fanart=special%3A%2F%2Fhome%2Faddons%2Fplugin.video.alfa%2Ffanart1.jpg&amp;content_type=",return)</action>
+	</shortcut>
+	<shortcut>
+		<defaultID />
+		<label>SERIES RECOMENDADAS</label>
+		<label2>Ítem Personalizado</label2>
+		<icon>DefaultShortcut.png</icon>
+		<thumb>special://skin/extras/icons/tv.png</thumb>
+		<action>ActivateWindow(Videos,"plugin://plugin.video.palantir/?action=series_mas_vistas",return)</action>
+	</shortcut>
+	<shortcut>
+		<defaultID>livetv</defaultID>
+		<label>TV</label>
+		<label2>Ítem Personalizado</label2>
+		<icon>special://skin/extras/icons/livetv.png</icon>
+		<thumb />
+		<action>ActivateWindow(Videos,"plugin://plugin.program.super.favourites/?label=Television&amp;mode=400&amp;path=special%3A%2F%2Fprofile%2Faddon_data%2Fplugin.program.super.favourites%2FSuper+Favourites%2FTelevision&amp;image=special%3A%2F%2Fhome%2Fuserdata%2Faddon_data%2Fskin.xonfluence%2Ficon.png&amp;fanart=%2Fstorage%2F.kodi%2Faddons%2Fplugin.program.super.favourites%2Ffanart.jpg",return)</action>
+	</shortcut>
+	<shortcut>
+		<defaultID>plugin.video.next</defaultID>
+		<label>MÚSICA</label>
+		<label2>Ítem Personalizado</label2>
+		<icon>DefaultShortcut.png</icon>
+		<thumb>special://skin/extras/icons/songs.png</thumb>
+		<action>ActivateWindow(Videos,"plugin://plugin.program.super.favourites/?label=Musica&amp;mode=400&amp;path=special%3A%2F%2Fprofile%2Faddon_data%2Fplugin.program.super.favourites%2FSuper+Favourites%2FMusica&amp;image=DefaultFolder.png&amp;fanart=%2Fstorage%2F.kodi%2Faddons%2Fplugin.program.super.favourites%2Ffanart.jpg&amp;content_type=",return)</action>
+	</shortcut>
+	<shortcut>
+		<defaultID>plugin.video.Explora</defaultID>
+		<label>DOCUMENTALES</label>
+		<label2>Ítem Personalizado</label2>
+		<icon>DefaultShortcut.png</icon>
+		<thumb>special://skin/extras/icons/director.png</thumb>
+		<action>ActivateWindow(Videos,"plugin://plugin.program.super.favourites/?label=Documentales&amp;mode=400&amp;path=special%3A%2F%2Fprofile%2Faddon_data%2Fplugin.program.super.favourites%2FSuper+Favourites%2FDocumentales&amp;image=special%3A%2F%2Fhome%2Faddons%5Cplugin.video.Explora%5Cicon.png&amp;fanart=special%3A%2F%2Fhome%2Faddons%5Cplugin.video.Explora%5Cfanart.jpg&amp;content_type=",return)</action>
+	</shortcut>
+	<shortcut>
+		<defaultID />
+		<label>IMÁGENES</label>
+		<label2>Ítem Personalizado</label2>
+		<icon>DefaultShortcut.png</icon>
+		<thumb>special://skin/extras/icons/filebox.png</thumb>
+		<action>ActivateWindow(Pictures)</action>
+	</shortcut>
+	<shortcut>
+		<defaultID />
+		<label>EL TIEMPO</label>
+		<label2>Ítem Personalizado</label2>
+		<icon>DefaultShortcut.png</icon>
+		<thumb>special://skin/extras/icons/sun.png</thumb>
+		<action>ActivateWindow(Weather)</action>
+	</shortcut>
+	<shortcut>
+		<defaultID>settings</defaultID>
+		<label>10004</label>
+		<label2>Common Shortcut</label2>
+		<icon>special://skin/extras/icons/settings.png</icon>
+		<thumb />
+		<action>ActivateWindow(Settings)</action>
+	</shortcut>
+</shortcuts>
