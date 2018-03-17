@@ -3,7 +3,6 @@
        name="simplejson"
        version="3.4.0" 
        provider-name="Bob Ippolito">
-  <backwards-compatibility abi="2.0.10"/>
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
   </requires>
