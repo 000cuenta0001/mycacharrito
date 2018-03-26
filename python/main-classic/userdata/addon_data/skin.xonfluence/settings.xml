@@ -193,7 +193,7 @@
     <setting id="HomeItem.3.Icon" type="string">Icons/video.png</setting>
     <setting id="CustomWidgets" type="string">100</setting>
     <setting id="HomeItem.4.Display" type="string">Default</setting>
-    <setting id="SubLiveTV.1.Path" type="string">HOME:PlayMedia( plugin://plugin.program.super.favourites/?label=%5BCOLOR+gold%5DCANALES+SAT%C3%89LITE%5B%2FCOLOR%5D+%28Solo+para+aparatos+con+decodificador%29&amp;mode=650&amp;cmd=ActivateWindow%28TVChannels%29&amp;image=special%3A%2F%2Fhome%2Fuserdata%2Faddon_data%2Fskin.xonfluence%2Ficon.png&amp;content_type=&amp;sf_options=winID%3D10000%26_options_sf ,return)</setting>
+    <setting id="SubLiveTV.1.Path" type="string">ActivateWindow(TVChannels)</setting>
     <setting id="AddonSetEight.5.Label" type="string"></setting>
     <setting id="AddonSetThree.5.Icon" type="string"></setting>
     <setting id="HomeItem.9.Playlist" type="string"></setting>
