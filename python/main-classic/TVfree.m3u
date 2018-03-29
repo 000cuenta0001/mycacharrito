@@ -2,34 +2,49 @@
 #EXTINF:-1 tvg-logo="https://i.imgur.com/QznXgmo.png" group-title="TVfree",TVE 1
 http://hlsliveamdgl7-lh.akamaihd.net/i/hlsdvrlive_1@583042/master.m3u8
 
-#EXTINF:-1 tvg-logo="https://i.imgur.com/2OswjdK.png" group-title="TVfree",ANTENA 3
+#EXTINF:-1 tvg-logo="https://i.imgur.com/kj2DW80.png" group-title="TVfree",ANTENA 3 HD
+http://a3live-lh.akamaihd.net/i/a3hds/antena3_1@35248/master.m3u8
+
+#EXTINF:-1 tvg-logo="https://i.imgur.com/kj2DW80.png" group-title="TVfree",ANTENA 3 HD
 http://a3live-lh.akamaihd.net/i/antena3_1@35248/master.m3u8
 
-#EXTINF:-1 tvg-logo="https://i.imgur.com/gR78iNT.png" group-title="TVfree",TELECINCO
+#EXTINF:-1 tvg-logo="https://i.imgur.com/PQbkMi1.png" group-title="TVfree",TELECINCO HD
+http://telecinco-mediaset-esp-live.secure.footprint.net/mediaset/telecinco/index.m3u8
+
+#EXTINF:-1 tvg-logo="https://i.imgur.com/PQbkMi1.png" group-title="TVfree",TELECINCO HD
 http://telecinco-mediaset-esp-live.secure.footprint.net/mediaset/telecinco/stream2/streamPlaylist.m3u8
 
-#EXTINF:-1 tvg-logo="https://i.imgur.com/Lh464wc.jpg0" group-title="TVfree",ATRESSERIES
+#EXTINF:-1 tvg-logo="https://i.imgur.com/Lh464wc.jpg0" group-title="TVfree",ATRESSERIES HD
 http://a3live-lh.akamaihd.net/i/a3shds/geoa3series_1@122775/master.m3u8
 
-#EXTINF:-1 tvg-logo="https://i.imgur.com/KynY8R9.png",CUATRO
+#EXTINF:-1 tvg-logo="https://i.imgur.com/Lh464wc.jpg0" group-title="TVfree",ATRESSERIES HD
+http://a3live-lh.akamaihd.net/i/a3shds/geoa3series_1@122775/master.m3u8
+
+#EXTINF:-1 tvg-logo="https://i.imgur.com/30OuPT7.png",CUATRO HD
+http://cuatro-mediaset-esp-live.secure.footprint.net/mediaset/cuatro/index.m3u8
+
+#EXTINF:-1 tvg-logo="https://i.imgur.com/30OuPT7.png",CUATRO HD
 http://cuatro-mediaset-esp-live.secure.footprint.net/mediaset/cuatro/stream2/streamPlaylist.m3u8
 
-#EXTINF:-1 tvg-logo="https://i.imgur.com/tJg8DSG.png",LA SEXTA
+#EXTINF:-1 tvg-logo="https://i.imgur.com/wpQOm5l.png",LA SEXTA HD
+http://a3live-lh.akamaihd.net/i/l6hds/lasexta_1@35272/master.m3u8
+
+#EXTINF:-1 tvg-logo="https://i.imgur.com/wpQOm5l.png",LA SEXTA HD
 http://a3live-lh.akamaihd.net/i/lasexta_1@35272/master.m3u8
 
 #EXTINF:-1 tvg-logo="https://i.imgur.com/ZfQpoT4.png" group-title="TVfree",CANAL 24 HORAS
 http://hlsackdn_gl8-lh.akamaihd.net/i/hlsdvrlive_1@81183/master.m3u8
 
-#EXTINF:-1 tvg-logo="https://i.imgur.com/TwpxEIZ.png" group-title="TVfree",NEOX
+#EXTINF:-1 tvg-logo="https://i.imgur.com/TwpxEIZ.png" group-title="TVfree",NEOX HD
 http://a3live-lh.akamaihd.net/i/nxhds/geoneox_1@35261/master.m3u8
 
-#EXTINF:-1 tvg-logo="" group-title="TVfree", NOVA
+#EXTINF:-1 tvg-logo="" group-title="TVfree", NOVA HD
 http://a3live-lh.akamaihd.net/i/nvhds/geonova_1@379404/master.m3u8
 
-#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://i.imgur.com/0oJDlBU.png" group-title="TVfree",PARAMOUNT CHANNEL
+#EXTINF:-1 tvg-logo="https://i.imgur.com/0oJDlBU.png" group-title="TVfree",PARAMOUNT CHANNEL
 http://paramount.live.flumotion.com/live/playlist.m3u8
 
-#EXTINF:-1 tvg-logo="https://i.imgur.com/3UtOSUw.png" group-title="TVfree", MEGA
+#EXTINF:-1 tvg-logo="https://i.imgur.com/3UtOSUw.png" group-title="TVfree", MEGA HD
 http://a3live-lh.akamaihd.net/i/mghds/geomega_1@328914/master.m3u8
 
 #EXTINF:-1 tvg-logo="https://i.imgur.com/lW3uzax.png" group-title="TVfree",TRECE
