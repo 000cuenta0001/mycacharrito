@@ -18,7 +18,7 @@
 	</shortcut>
 	<shortcut>
 		<defaultID />
-		<label>PELÍCULAS</label>
+		<label>PELIS</label>
 		<label2>Ítem Personalizado</label2>
 		<icon>DefaultShortcut.png</icon>
 		<thumb>special://skin/extras/icons/film.png</thumb>
@@ -58,7 +58,7 @@
 	</shortcut>
 	<shortcut>
 		<defaultID>plugin.video.next</defaultID>
-		<label>MÚSICA</label>
+		<label>MUSIC</label>
 		<label2>Ítem Personalizado</label2>
 		<icon>DefaultShortcut.png</icon>
 		<thumb>special://skin/extras/icons/songs.png</thumb>
@@ -74,19 +74,19 @@
 	</shortcut>
 	<shortcut>
 		<defaultID />
-		<label>IMÁGENES</label>
-		<label2>Ítem Personalizado</label2>
-		<icon>DefaultShortcut.png</icon>
-		<thumb>special://skin/extras/icons/filebox.png</thumb>
-		<action>ActivateWindow(Pictures)</action>
-	</shortcut>
-	<shortcut>
-		<defaultID />
 		<label>EL TIEMPO</label>
 		<label2>Ítem Personalizado</label2>
 		<icon>DefaultShortcut.png</icon>
 		<thumb>special://skin/extras/icons/sun.png</thumb>
 		<action>ActivateWindow(Weather)</action>
+	</shortcut>
+	<shortcut>
+		<defaultID />
+		<label>FOTOS</label>
+		<label2>Ítem Personalizado</label2>
+		<icon>DefaultShortcut.png</icon>
+		<thumb>special://skin/extras/icons/filebox.png</thumb>
+		<action>ActivateWindow(Pictures)</action>
 	</shortcut>
 	<shortcut>
 		<defaultID>settings</defaultID>
