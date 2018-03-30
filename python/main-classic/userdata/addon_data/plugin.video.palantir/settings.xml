@@ -1,6 +1,31 @@
 <settings>
+    <setting id="AltColor" value="white" />
+    <setting id="AudioColor" value="silver" />
+    <setting id="CapiColor" value="none" />
+    <setting id="CategoryColor" value="silver" />
+    <setting id="DateColor" value="silver" />
+    <setting id="DownView" value="500" />
+    <setting id="DownloadPath" value="" />
+    <setting id="EpisodesView" value="502" />
+    <setting id="FavView" value="500" />
+    <setting id="HdColor" value="green" />
+    <setting id="ListView" value="502" />
+    <setting id="MainView" value="500" />
+    <setting id="MaxNumDownloads" value="1" />
+    <setting id="MaxSizeDownloads" value="31003" />
+    <setting id="MenuColor" value="gold" />
+    <setting id="PeliColor" value="none" />
+    <setting id="PelisView" value="502" />
+    <setting id="SeriesView" value="515" />
+    <setting id="activeDownload" value="true" />
+    <setting id="copyPath" value="special://profile/addon_data/plugin.video.palantir/" />
+    <setting id="createCopy" value="" />
+    <setting id="dkPassword" value="abcd1234" />
+    <setting id="dkUserName" value="Asdepicas" />
+    <setting id="favPath" value="special://profile/addon_data/plugin.video.palantir" />
     <setting id="kbgPassword" value="abcd1234" />
     <setting id="kbgUserName" value="Asdepicas" />
+    <setting id="restoreCopy" value="" />
     <setting id="sep" value="" />
     <setting id="validate" value="" />
 </settings>
