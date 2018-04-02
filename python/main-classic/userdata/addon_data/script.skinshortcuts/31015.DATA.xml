@@ -1,9 +1,9 @@
-<shortcuts>
+<?xml version="1.0" encoding="utf-8"?><shortcuts>
 	<shortcut>
 		<label>22020</label>
 		<label2>32017</label2>
 		<icon>DefaultTVShows.png</icon>
-		<thumb />
+		<thumb/>
 		<action>ActivateWindow(TVGuide)</action>
 		<version>14</version>
 	</shortcut>
@@ -11,7 +11,7 @@
 		<label>19163</label>
 		<label2>32017</label2>
 		<icon>DefaultTVShows.png</icon>
-		<thumb />
+		<thumb/>
 		<action>ActivateWindowAndFocus(MyPVR,34,0 ,13,0)</action>
 		<version>13</version>
 	</shortcut>
@@ -19,7 +19,7 @@
 		<label>19163</label>
 		<label2>32017</label2>
 		<icon>DefaultTVShows.png</icon>
-		<thumb />
+		<thumb/>
 		<action>ActivateWindow(TVRecordings)</action>
 		<version>14</version>
 	</shortcut>
@@ -27,7 +27,7 @@
 		<label>32023</label>
 		<label2>32017</label2>
 		<icon>DefaultTVShows.png</icon>
-		<thumb />
+		<thumb/>
 		<action>ActivateWindowAndFocus(MyPVR,35,0 ,14,0)</action>
 		<version>13</version>
 	</shortcut>
@@ -35,7 +35,7 @@
 		<label>19040</label>
 		<label2>32017</label2>
 		<icon>DefaultTVShows.png</icon>
-		<thumb />
+		<thumb/>
 		<action>ActivateWindow(TVTimers)</action>
 		<version>14</version>
 	</shortcut>
@@ -43,7 +43,7 @@
 		<label>137</label>
 		<label2>32017</label2>
 		<icon>DefaultTVShows.png</icon>
-		<thumb />
+		<thumb/>
 		<action>ActivateWindow(TVSearch)</action>
 		<version>14</version>
 	</shortcut>
