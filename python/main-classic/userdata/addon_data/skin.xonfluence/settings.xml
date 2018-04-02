@@ -735,7 +735,7 @@
     <setting id="HomeItem.8.Path" type="string">ActivateWindow(Weather)</setting>
     <setting id="AddonSetEight.6.Path" type="string"></setting>
     <setting id="AddonSetSix.3.Label" type="string"></setting>
-    <setting id="HomeItem.1.Fanart" type="string">special://home/backgrounds_xconfluence\Documentales.jpg</setting>
+    <setting id="HomeItem.1.Fanart" type="string">special://home/backgrounds_xconfluence/Documentales.jpg</setting>
     <setting id="HomeItem.2.Playlist" type="string"></setting>
     <setting id="HomeItem.2.Addon" type="string">None</setting>
     <setting id="MultiImageTimer" type="string"></setting>
