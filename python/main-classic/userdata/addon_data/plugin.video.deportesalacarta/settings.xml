@@ -16,7 +16,7 @@
     <setting id="jdownloader" value="http://127.0.0.1:10025" />
     <setting id="jdownloader_enabled" value="false" />
     <setting id="lang_tweets" value="0" />
-    <setting id="matchcenter_enabled" value="true" />
+    <setting id="matchcenter_enabled" value="false" />
     <setting id="matchcenter_news" value="0" />
     <setting id="nowvideopassword" value="" />
     <setting id="nowvideopremium" value="false" />
