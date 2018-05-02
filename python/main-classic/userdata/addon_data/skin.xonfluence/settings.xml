@@ -671,7 +671,7 @@
     <setting id="UserSubOne.6.Path" type="string"></setting>
     <setting id="AddonSetOne.2.Path" type="string"></setting>
     <setting id="UserSubFour.10.Path" type="string"></setting>
-    <setting id="SubLiveTV.7.Icon" type="string">special://home/addons\plugin.video.pequelandia\icon.png</setting>
+    <setting id="SubLiveTV.7.Icon" type="string">special://home/addons/plugin.video.pequelandia/icon.png</setting>
     <setting id="SubVideos.4.Label" type="string"></setting>
     <setting id="UserSelectAddon.1.Label" type="string"></setting>
     <setting id="AddonSetEight.5.Icon" type="string"></setting>
@@ -952,7 +952,7 @@
     <setting id="SubTVShows.3.Label" type="string"></setting>
     <setting id="SubLiveTV.7.Path" type="string">PlayMedia( plugin://plugin.program.super.favourites/?label=%5BCOLOR+gold%5DPEQUELANDIA%5B%2FCOLOR%5D&amp;mode=650&amp;cmd=ActivateWindow%2810025%2C%22plugin%3A%2F%2Fplugin.video.pequelandia%3Fsf_options%3Dfanart%253Dspecial%253A%252F%252Fhome%252Faddons%255Cplugin.video.pequelandia%255Cfanart.jpg%2526meta%253Dlabel%25253D%2525255BCOLOR%25252Bgold%2525255DPEQUELANDIA%2525255B%2525252FCOLOR%2525255D%2526_options_sf%22%2Creturn%29&amp;image=special%3A%2F%2Fhome%2Faddons%5Cplugin.video.pequelandia%5Cicon.png&amp;fanart=special%3A%2F%2Fhome%2Faddons%5Cplugin.video.pequelandia%5Cfanart.jpg&amp;content_type=&amp;sf_options=fanart%3Dspecial%3A%2F%2Fhome%2Faddons%5Cplugin.video.pequelandia%5Cfanart.jpg%26winID%3D10025%26_options_sf ,return)</setting>
     <setting id="UsrColorOne" type="string"></setting>
-    <setting id="SubSettings.5.Icon" type="string">special://home/addons\plugin.program.indigo\art\forceclose.png</setting>
+    <setting id="SubSettings.5.Icon" type="string">special://home/addons/plugin.program.indigo/art/forceclose.png</setting>
     <setting id="HomeItem.5.Icon" type="string">Icons/music2.png</setting>
     <setting id="HomeItem.11.Icon" type="string">Icons/programs.png</setting>
     <setting id="UPnP_Path" type="string"></setting>
