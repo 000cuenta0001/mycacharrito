@@ -13,6 +13,7 @@
     <setting id="cachemb" value="0" />
     <setting id="clearday" value="7" />
     <setting id="featured" value="true" />
+    <setting id="github_key" value="" />
     <setting id="hasran" value="true" />
     <setting id="maint_check_folders" value="true" />
     <setting id="newest" value="true" />
@@ -23,6 +24,7 @@
     <setting id="repositories" value="false" />
     <setting id="scriptblock" value="true" />
     <setting id="set_rtmp" value="true" />
+    <setting id="sevicehasran" value="true" />
     <setting id="skincat" value="true" />
     <setting id="thumbsmb" value="0" />
     <setting id="toprepositories" value="true" />

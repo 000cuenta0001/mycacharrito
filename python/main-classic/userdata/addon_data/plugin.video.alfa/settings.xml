@@ -37,8 +37,9 @@
     <setting id="server_color" value="Programas" />
     <setting id="settings_path" value="special://profile/addon_data/plugin.video.alfa/settings_channels" />
     <setting id="shortcut_key" value="" />
+    <setting id="show_once" value="true" />
     <setting id="start_page" value="false" />
-    <setting id="subtitle_name" value="[COLOR 0xFF2E9AFE]Trust 1x03[COLOR]" />
+    <setting id="subtitle_name" value="Arrow - [COLOR deepskyblue]Episodio [COLOR red]6X21 -- [COLOR royalblue]Temporada 6[COLOR]" />
     <setting id="thumbnail_type" value="2" />
     <setting id="title_color" value="false" />
     <setting id="tmdb_cache" value="true" />
