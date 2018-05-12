@@ -36,7 +36,7 @@
     <setting id="SkinHelper.EnableDayNightThemes" type="bool">false</setting>
     <setting id="MediaShortDescription" type="bool">false</setting>
     <setting id="WrapAroundHomeMenu" type="bool">false</setting>
-    <setting id="DisableScriptPlayList" type="bool">false</setting>
+    <setting id="DisableScriptPlayList" type="bool">true</setting>
     <setting id="EnableFanartScript" type="bool">false</setting>
     <setting id="EnablePauseInfo" type="bool">false</setting>
     <setting id="NoDiffuseVizFanart" type="bool">false</setting>
@@ -171,6 +171,7 @@
     <setting id="Updates_V335" type="bool">true</setting>
     <setting id="SubProg.1.Path" type="string"></setting>
     <setting id="SubLiveTV.10.Label" type="string">Oculto</setting>
+    <setting id="HomeItem.11.Display" type="string">Default</setting>
     <setting id="SubMovies.5.Path" type="string"></setting>
     <setting id="SubRadio.5.Label" type="string"></setting>
     <setting id="SubConcerts.2.Label" type="string"></setting>
@@ -249,7 +250,7 @@
     <setting id="UserSubFour.7.Path" type="string"></setting>
     <setting id="SubConcerts.3.Label" type="string"></setting>
     <setting id="AddonSetThree.3.Label" type="string"></setting>
-    <setting id="InitialMenuItem" type="string">-1</setting>
+    <setting id="InitialMenuItem" type="string">7</setting>
     <setting id="SubMusic.11.Path" type="string"></setting>
     <setting id="HomeItem.9.Addon" type="string"></setting>
     <setting id="SubMusic.5.Label" type="string">Oculto</setting>
@@ -522,7 +523,7 @@
     <setting id="AddonSetTwo.5.Path" type="string"></setting>
     <setting id="SubVideos.5.Label" type="string"></setting>
     <setting id="FanArtCycleRate" type="string">10</setting>
-    <setting id="InitialMenuPosi" type="string">1</setting>
+    <setting id="InitialMenuPosi" type="string">0</setting>
     <setting id="SubRadio.7.Label" type="string"></setting>
     <setting id="UserSubOne.1.Path" type="string"></setting>
     <setting id="UserSubOne.6.Path" type="string"></setting>
@@ -1040,5 +1041,4 @@
     <setting id="UserSelectTwoSubMenu" type="string">Biblioteca</setting>
     <setting id="AddonSetTwo.4.Path" type="string"></setting>
     <setting id="SubMusic.1.Label" type="string">Oculto</setting>
-    <setting id="HomeItem.11.Display" type="string">Default</setting>
 </settings>
