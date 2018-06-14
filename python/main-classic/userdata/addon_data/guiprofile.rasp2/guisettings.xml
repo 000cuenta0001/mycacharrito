@@ -27,7 +27,7 @@
         <maintainoriginalvolume default="true">true</maintainoriginalvolume>
         <passthrough default="true">false</passthrough>
         <passthroughdevice default="true">PI:HDMI</passthroughdevice>
-        <processquality default="true">101</processquality>
+        <processquality default="true">30</processquality>
         <samplerate default="true">48000</samplerate>
         <stereoupmix default="true">false</stereoupmix>
         <streamsilence default="true">1</streamsilence>
@@ -68,14 +68,14 @@
     </disc>
     <dvds>
         <automenu default="true">false</automenu>
-        <autorun>true</autorun>
+        <autorun default="true">false</autorun>
         <playerregion default="true">0</playerregion>
     </dvds>
     <epg>
         <daystodisplay default="true">3</daystodisplay>
         <epgupdate default="true">120</epgupdate>
         <hidenoinfoavailable default="true">true</hidenoinfoavailable>
-        <ignoredbforclient default="true">true</ignoredbforclient>
+        <ignoredbforclient>false</ignoredbforclient>
         <preventupdateswhileplayingtv default="true">true</preventupdateswhileplayingtv>
         <selectaction default="true">2</selectaction>
     </epg>
@@ -102,14 +102,14 @@
             <level>0</level>
             <showhigherlevels>true</showhigherlevels>
         </eventlog>
-        <systemtotaluptime>476942</systemtotaluptime>
+        <systemtotaluptime>661803</systemtotaluptime>
     </general>
     <input>
         <enablejoystick default="true">true</enablejoystick>
         <enablemouse default="true">true</enablemouse>
     </input>
     <locale>
-        <audiolanguage>Spanish</audiolanguage>
+        <audiolanguage>default</audiolanguage>
         <charset default="true">DEFAULT</charset>
         <country>España (24 horas)</country>
         <keyboardlayouts>Spanish QWERTY</keyboardlayouts>
@@ -222,7 +222,7 @@
         <enabled>true</enabled>
         <hideconnectionlostwarning>true</hideconnectionlostwarning>
         <syncchannelgroups>true</syncchannelgroups>
-        <usebackendchannelnumbers>true</usebackendchannelnumbers>
+        <usebackendchannelnumbers default="true">false</usebackendchannelnumbers>
     </pvrmanager>
     <pvrmenu>
         <closechannelosdonswitch default="true">true</closechannelosdonswitch>
@@ -237,7 +237,7 @@
     <pvrplayback>
         <channelentrytimeout default="true">0</channelentrytimeout>
         <confirmchannelswitch default="true">false</confirmchannelswitch>
-        <enableradiords>false</enableradiords>
+        <enableradiords default="true">true</enableradiords>
         <fps default="true">0</fps>
         <playminimized>false</playminimized>
         <scantime default="true">10</scantime>
@@ -292,10 +292,10 @@
         <esport default="true">9777</esport>
         <esportrange default="true">10</esportrange>
         <upnpannounce default="true">true</upnpannounce>
-        <upnpcontroller>true</upnpcontroller>
+        <upnpcontroller default="true">false</upnpcontroller>
         <upnplookforexternalsubtitles default="true">false</upnplookforexternalsubtitles>
-        <upnprenderer>true</upnprenderer>
-        <upnpserver>true</upnpserver>
+        <upnprenderer default="true">false</upnprenderer>
+        <upnpserver default="true">false</upnpserver>
         <useairplaypassword default="true">false</useairplaypassword>
         <webserver default="true">true</webserver>
         <webserverpassword default="true"></webserverpassword>
@@ -348,7 +348,7 @@
         <updateonstartup default="true">false</updateonstartup>
     </videolibrary>
     <videoplayer>
-        <adjustrefreshrate default="true">0</adjustrefreshrate>
+        <adjustrefreshrate>2</adjustrefreshrate>
         <autoplaynextitem default="true">false</autoplaynextitem>
         <errorinaspect default="true">0</errorinaspect>
         <hqscalers default="true">0</hqscalers>
@@ -369,9 +369,9 @@
         <useamcodec default="true">true</useamcodec>
         <usedisplayasclock>false</usedisplayasclock>
         <usedxva2 default="true">true</usedxva2>
-        <usemmal>false</usemmal>
+        <usemmal default="true">true</usemmal>
         <useomx default="true">true</useomx>
-        <useomxplayer default="true">true</useomxplayer>
+        <useomxplayer default="true">false</useomxplayer>
         <usevaapi default="true">true</usevaapi>
         <usevaapimpeg2 default="true">true</usevaapimpeg2>
         <usevaapimpeg4 default="true">true</usevaapimpeg4>
@@ -396,11 +396,11 @@
         <screen default="true">0</screen>
         <screenmode default="true">DESKTOP</screenmode>
         <stereoscopicmode default="true">0</stereoscopicmode>
-        <textures32 default="true">false</textures32>
+        <textures32 default="true">true</textures32>
         <vsync default="true">2</vsync>
     </videoscreen>
     <weather>
-        <addon default="true"></addon>
+        <addon>weather.yahoo</addon>
         <currentlocation default="true">1</currentlocation>
     </weather>
     <window>
@@ -555,7 +555,7 @@
             <sortattributes>0</sortattributes>
         </musicnavsongs>
         <pictures>
-            <viewmode>720896</viewmode>
+            <viewmode>65587</viewmode>
             <sortmethod>1</sortmethod>
             <sortorder>1</sortorder>
             <sortattributes>0</sortattributes>
@@ -567,7 +567,7 @@
             <sortattributes>0</sortattributes>
         </programs>
         <videofiles>
-            <viewmode>65586</viewmode>
+            <viewmode>66036</viewmode>
             <sortmethod>0</sortmethod>
             <sortorder>0</sortorder>
             <sortattributes>0</sortattributes>
