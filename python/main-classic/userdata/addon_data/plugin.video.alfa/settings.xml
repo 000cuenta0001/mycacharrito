@@ -13,6 +13,7 @@
     <setting id="downloadlistpath" value="special://profile/addon_data/plugin.video.alfa/downloads/list" />
     <setting id="downloadpath" value="special://profile/addon_data/plugin.video.alfa/downloads" />
     <setting id="extended_info" value="false" />
+    <setting id="faster_item_serialization" value="false" />
     <setting id="folder_movies" value="CINE" />
     <setting id="folder_tvshows" value="SERIES" />
     <setting id="forceview" value="false" />
@@ -39,7 +40,7 @@
     <setting id="shortcut_key" value="" />
     <setting id="show_once" value="true" />
     <setting id="start_page" value="false" />
-    <setting id="subtitle_name" value="Arrow - [COLOR deepskyblue]Episodio [COLOR red]6X21 -- [COLOR royalblue]Temporada 6[COLOR]" />
+    <setting id="subtitle_name" value="1x04 (de 8) Episodio 4 La Catedral Del Mar [COLOR yellow][2018][COLOR] [7.0] [COLOR limegreen][HDTV 720p AC3 5.1][COLOR] [COLOR red][][COLOR] [2 GB]" />
     <setting id="thumbnail_type" value="2" />
     <setting id="title_color" value="false" />
     <setting id="tmdb_cache" value="true" />
