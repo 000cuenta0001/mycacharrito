@@ -1,0 +1,48 @@
+{
+  "id": "news",
+  "name": "Novedades",
+  "active": false,
+  "adult": false,
+  "language": ["*"],
+  "categories": [
+    "movie"
+  ],
+  "settings": [
+    {
+      "id": "multithread",
+      "type": "bool",
+      "label": "Buscar de manera concurrente (multiprocesos)",
+      "default": true,
+      "enabled": true,
+      "visible": true
+    },
+    {
+      "id": "result_mode",
+      "type": "list",
+      "label": "Mostrar resultados:",
+      "default": 2,
+      "enabled": true,
+      "visible": true,
+      "lvalues": [
+        "Agrupados por contenido",
+        "Agrupados por canales",
+        "Sin Agrupar"
+      ]
+    },
+    {
+      "id": "perfil",
+      "type": "list",
+      "label": "Perfil de color",
+      "default": 0,
+      "enabled": true,
+      "visible": true,
+      "lvalues": [
+        "Frio",
+        "Calido",
+        "Lila",
+        "Pastel",
+        "Vivos"
+      ]
+    }
+  ]
+}

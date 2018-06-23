@@ -1,0 +1,15 @@
+{
+  "id": "estrenosgo",
+  "name": "EstrenosGo",
+  "active": true,
+  "adult": false,
+  "language": ["cast"],
+  "fanart": "https://github.com/master-1970/resources/raw/master/images/fanart/estrenosgo.png",
+  "thumbnail": "https://github.com/master-1970/resources/raw/master/images/squares/estrenosgo.png",
+  "banner": "estrenosgo.png",
+  "categories": [
+    "movie",
+    "tvshow",
+    "torrent"
+  ]
+}

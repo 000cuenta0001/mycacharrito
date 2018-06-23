@@ -1,0 +1,54 @@
+{
+  "id": "search",
+  "name": "Buscador global",
+  "active": false,
+  "adult": false,
+  "language": ["*"],
+  "categories": [
+    "movie"
+  ],
+  "settings": [
+    {
+      "id": "multithread",
+      "type": "bool",
+      "label": "Buscador MultiThread",
+      "default": true,
+      "enabled": true,
+      "visible": true
+    },
+    {
+      "id": "result_mode",
+      "type": "list",
+      "label": "Mostrar resultados:",
+      "default": 0,
+      "enabled": true,
+      "visible": true,
+      "lvalues": [
+        "Por canales",
+        "Todo junto"
+      ]
+    },
+    {
+      "id": "saved_searches_limit",
+      "type": "list",
+      "label": "Busquedas guardadas:",
+      "default": 0,
+      "enabled": true,
+      "visible": true,
+      "lvalues": [
+        "10",
+        "20",
+        "30",
+        "40"
+      ]
+    },
+    {
+      "id": "last_search",
+      "type": "bool",
+      "label": "Recordar última búsqueda",
+      "default": true,
+      "enabled": true,
+      "visible": true
+    }
+  ]
+}

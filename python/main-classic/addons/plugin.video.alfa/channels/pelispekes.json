@@ -1,0 +1,12 @@
+{
+  "id": "pelispekes",
+  "name": "PelisPekes",
+  "active": true,
+  "adult": false,
+  "language": ["lat"],
+  "thumbnail": "pelispekes.png",
+  "banner": "pelispekes.png",
+  "categories": [
+    "movie"
+  ]
+}
