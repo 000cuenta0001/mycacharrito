@@ -5,6 +5,8 @@
         "result_mode": 0, 
         "saved_searches_limit": 0, 
         "saved_searches_list": [
+            "doctor", 
+            "cage", 
             "good", 
             "matrix", 
             "Tronos", 
@@ -12,9 +14,7 @@
             "Game", 
             "thrones", 
             "tronos", 
-            "torre", 
-            "rambo", 
-            "furious"
+            "torre"
         ]
     }
 }

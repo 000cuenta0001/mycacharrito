@@ -207,7 +207,7 @@
     <setting id="AddonSetEleven.3.Label" type="string"></setting>
     <setting id="UserSubOne.10.Path" type="string"></setting>
     <setting id="UserSubFive.2.Path" type="string"></setting>
-    <setting id="HomeItem.11.Fanart" type="string">/storage/.kodi/backgrounds_xconfluence/settings (2).jpg</setting>
+    <setting id="HomeItem.11.Fanart" type="string">special://home/backgrounds_xconfluence/settings (2).jpg</setting>
     <setting id="UserVideosSubMenu" type="string"></setting>
     <setting id="HomeItem.5.Addon" type="string">None</setting>
     <setting id="AddonSetOne.7.Icon" type="string"></setting>
@@ -279,7 +279,7 @@
     <setting id="AddonSetEleven.4.Icon" type="string"></setting>
     <setting id="SubMovies.5.Label" type="string"></setting>
     <setting id="SubProg.2.Path" type="string"></setting>
-    <setting id="HomeItem.1.Fanart" type="string">/storage/.kodi/backgrounds_xconfluence/movistar.imagen.png</setting>
+    <setting id="HomeItem.1.Fanart" type="string">special://home/backgrounds_xconfluence/movistar.imagen.png</setting>
     <setting id="SubVideos.3.Path" type="string"></setting>
     <setting id="AddonSetOne.2.Label" type="string"></setting>
     <setting id="AddonSetNine.3.Icon" type="string"></setting>
@@ -394,7 +394,7 @@
     <setting id="SubTVShows.2.Label" type="string"></setting>
     <setting id="UserSubTwo.5.Label" type="string"></setting>
     <setting id="SubSettings.4.Path" type="string">Hidden</setting>
-    <setting id="HomeItem.10.Fanart" type="string">/storage/.kodi/backgrounds_xconfluence/Documentales.jpg</setting>
+    <setting id="HomeItem.10.Fanart" type="string">special://home/backgrounds_xconfluence/Documentales.jpg</setting>
     <setting id="CustomShutdownArg" type="string">Reboot</setting>
     <setting id="AddonSetThree.1.Path" type="string"></setting>
     <setting id="SubLiveTV.7.Icon" type="string">special://home/addons\plugin.video.pequelandia\icon.png</setting>

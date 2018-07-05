@@ -1,9 +1,10 @@
 <settings>
-    <setting id="adult_aux_intro_password" value="0000" />
+    <setting id="adult_aux_intro_password" value="" />
     <setting id="adult_aux_new_password1" value="" />
     <setting id="adult_aux_new_password2" value="" />
     <setting id="adult_mode" value="1" />
-    <setting id="adult_request_password" value="true" />
+    <setting id="adult_password" value="0000" />
+    <setting id="adult_request_password" value="false" />
     <setting id="cast_color" value="Programas" />
     <setting id="category" value="Peliculas" />
     <setting id="channel_language" value="all" />
@@ -18,6 +19,7 @@
     <setting id="folder_tvshows" value="SERIES" />
     <setting id="forceview" value="false" />
     <setting id="hidepremium" value="true" />
+    <setting id="httptools_timeout" value="15" />
     <setting id="icon_set" value="default" />
     <setting id="infoplus" value="true" />
     <setting id="infoplus_set" value="Sin animación" />
@@ -40,7 +42,7 @@
     <setting id="shortcut_key" value="" />
     <setting id="show_once" value="true" />
     <setting id="start_page" value="false" />
-    <setting id="subtitle_name" value="1x04 (de 8) Episodio 4 La Catedral Del Mar [COLOR yellow][2018][COLOR] [7.0] [COLOR limegreen][HDTV 720p AC3 5.1][COLOR] [COLOR red][][COLOR] [2 GB]" />
+    <setting id="subtitle_name" value="Muttsuri Dosukebe Russia 02 [Sub-Espanol] [HD]" />
     <setting id="thumbnail_type" value="2" />
     <setting id="title_color" value="false" />
     <setting id="tmdb_cache" value="true" />

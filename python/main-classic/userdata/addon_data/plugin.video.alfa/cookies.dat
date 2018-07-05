@@ -2,14 +2,18 @@
 # http://curl.haxx.se/rfc/cookie_spec.html
 # This is a generated file!  Do not edit.
 
+.clipwatching.com	TRUE	/	FALSE	1561826803	__cfduid	d04e42b053caf64155bf15536df3e52441530290803
 .ddmix.net	TRUE	/	FALSE	1533474153	__cfduid	d3fe1560c1f5fd6191764c5e467bd51101501938153
 .enlacesmix.com	TRUE	/	FALSE	1533474244	__cfduid	d566c030666770023a9caa6ee2d0624341501938244
 .estrenosby.net	TRUE	/	FALSE	1557601878	__cfduid	d78fcd1d9470d6e4077aba372715f140f1526065878
 .estrenosli.org	TRUE	/	FALSE	1557601878	__cfduid	da8b23a171d8b3341f310ebaf8a2aa9af1526065878
 .gamovideo.com	TRUE	/	FALSE	1536501172	__cfduid	daccdf7094a51da6ce71c37949ca93a1d1504965172
 .gamovideo.com	TRUE	/	FALSE		lang	3
+.grantorrent.net	TRUE	/	TRUE	1561584270	__cfduid	d2046a9b3da14d518a33d700edbcf4e991530048270
 .hdfull.me	TRUE	/	FALSE	1560977663	__cfduid	d10f887329a97f319cd9a79bc7e9a5c011529441663
 .hdfull.tv	TRUE	/	FALSE	1535632719	__cfduid	da2a96be52fae43233de0ea9bd185e2431504096719
+.hentai-id.tv	TRUE	/	FALSE	1562326154	__cfduid	d8ae72ba07e28380054c35cc483137cff1530790154
+.hqq.tv	TRUE	/	FALSE	1562326196	__cfduid	da59c3137eab39c5cb322e88d25e0553e1530790196
 .lacajita.xyz	TRUE	/	FALSE	1536330194	__cfduid	db066ad611d9b6ffde2b844c25e1bfcd01504794194
 .metiscs.com	TRUE	/	FALSE	1537309556	__cfduid	dbe8d17f957ef0ca478239910928361341505773556
 .openload.co	TRUE	/	FALSE	1536330090	__cfduid	d751942ab3435e28f1bade44ad679821e1504794090
@@ -26,6 +30,7 @@
 .tv-vip.com	TRUE	/	FALSE	1560953207	__cfduid	df9b6f2bfc69d238a4e97d58103d300bb1529417207
 .uptobox.com	TRUE	/	FALSE	1536930261	__cfduid	d469316ea50a554698401414c47b6e3581505394261
 .uptobox.com	TRUE	/	FALSE		lang	spanish
+.vidabc.com	TRUE	/	FALSE	1561760550	__cfduid	dd081ebfa06be7830e89b02af2c6fc6a21530224550
 .vidoza.net	TRUE	/	FALSE	1557615670	__cfduid	d06cad3eb8cae575b9a99d713277a2a071526079670
 ddmix.net	FALSE	/	FALSE		PHPSESSID	b9caa2vgqa9q5nb0d43lion7a6
 de.hideproxy.me	FALSE	/	FALSE		c[ddmix.net][/][PHPSESSID]	d5gpgknl1bgflb6eh70l997qv4
@@ -38,6 +43,7 @@ descargas2020.com	FALSE	/	FALSE		PHPSESSID	q86glgmpuh0j29ucekqo052np4
 diskokosmiko.mx	FALSE	/	FALSE		ASP.NET_SessionId_v2	q21nqixkv5vwt45eydr3sjl2
 diskokosmiko.mx	FALSE	/	FALSE		__RequestVerificationToken_v2	AaCs0TMiVW1UoWmxe6l3N-Vz61FshnuvRhStAH4YOwhfrh6KvXSeZuZQhckxMhmBL3bPVXvDllrqLfGapKBJaVFZjZo1
 divxatope1.com	FALSE	/	FALSE		PHPSESSID	5mcplq3k2rc3b089eri9ggplu3
+grantorrent.net	FALSE	/	FALSE		PHPSESSID	kmrookoi5q7v6far3hnqih7143
 hdfull.me	FALSE	/	FALSE		PHPSESSID	7si68kuksgtmk5n4hqv8liph12
 hdfull.me	FALSE	/	FALSE	1532116662	language	es
 hdfull.tv	FALSE	/	FALSE		PHPSESSID	0kod40727klpvdqfa30bkd6vo5
@@ -52,6 +58,7 @@ peliscon.com	FALSE	/	FALSE	1539121160	starstruck_32dd546795dddbce009448210c93806
 seriesblanco.com	FALSE	/	FALSE		PHPSESSID	bfe081db8b958e845d4db4045007a243
 streamango.com	FALSE	/	FALSE		PHPSESSID	fjmh1h3udlm0b85r8bi1ffhak7
 streamango.com	FALSE	/	FALSE		m_web	web8
+torrentrapid.com	FALSE	/	FALSE		PHPSESSID	jnrvddgss7u8k633sjs2eto532
 tv-vip.com	FALSE	/video-prod/	FALSE		JSESSIONID	FFEC2708544DDE3B2551B19DF2DBC9E5
 us.hideproxy.me	FALSE	/	FALSE		c[ddmix.net][/][__cfduid]	de48d0b119fa9b9a043e7b01e8dadbc981505511856
 us.hideproxy.me	FALSE	/	FALSE		s	uvq69083ojnmikjucvitb2nrl1

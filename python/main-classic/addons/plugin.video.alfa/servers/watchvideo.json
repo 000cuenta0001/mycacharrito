@@ -6,6 +6,10 @@
       {
         "pattern": "watchvideo.us/(?:embed-|)([A-z0-9]+)",
         "url": "http://watchvideo.us/embed-\\1.html"
+      },
+      {
+        "pattern": "watchvideo17.us/(?:embed-|)([A-z0-9]+)",
+        "url": "http://watchvideo.us/embed-\\1.html"
       }
     ]
   },
