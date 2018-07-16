@@ -1,0 +1,12 @@
+{
+    "settings": {
+        "filterlanguages": 4, 
+        "filterlinks": 2, 
+        "include_in_global_search": false, 
+        "include_in_newest_documentales": true, 
+        "include_in_newest_peliculas": true, 
+        "modo_grafico": true, 
+        "perfil": 0, 
+        "viewmode": 2
+    }
+}
