@@ -24,7 +24,7 @@
     <setting id="disable_upnp" value="false" />
     <setting id="disable_utp" value="false" />
     <setting id="do_not_disturb" value="false" />
-    <setting id="download_path" value="/storage/downloads/" />
+    <setting id="download_path" value="special://home/" />
     <setting id="download_storage" value="1" />
     <setting id="enable_overlay_status" value="true" />
     <setting id="encryption_policy" value="0" />

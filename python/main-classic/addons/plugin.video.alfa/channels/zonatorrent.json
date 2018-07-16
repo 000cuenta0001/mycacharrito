@@ -1,0 +1,64 @@
+{
+    "id": "zonatorrent",
+    "name": "ZonaTorrent",
+    "active": true,
+    "adult": false,
+    "language": ["cast", "lat"],
+    "banner": "",
+    "thumbnail": "https://zonatorrent.org/wp-content/uploads/2017/04/zonatorrent-New-Logo.png",
+    "version": 1,
+    "categories": [
+        "torrent",
+        "movie"
+    ],
+    "settings": [
+        {
+            "id": "include_in_global_search",
+            "type": "bool",
+            "label": "Incluir en busqueda global",
+            "default": true,
+            "enabled": true,
+            "visible": true
+        },
+        {
+            "id": "modo_grafico",
+            "type": "bool",
+            "label": "Buscar información extra",
+            "default": true,
+            "enabled": true,
+            "visible": true
+    },
+    {
+      "id": "include_in_newest_peliculas",
+      "type": "bool",
+      "label": "Incluir en Novedades - Peliculas",
+      "default": true,
+      "enabled": true,
+      "visible": true
+    },
+    {
+      "id": "include_in_newest_infantiles",
+      "type": "bool",
+      "label": "Incluir en Novedades - Infantiles",
+      "default": true,
+      "enabled": true,
+      "visible": true
+    },
+    {
+      "id": "include_in_newest_terror",
+      "type": "bool",
+      "label": "Incluir en Novedades - terror",
+      "default": true,
+      "enabled": true,
+      "visible": true
+    },
+    {
+      "id": "include_in_newest_torrent",
+      "type": "bool",
+      "label": "Incluir en Novedades - Torrent",
+      "default": true,
+      "enabled": true,
+      "visible": true
+    }
+    ]
+}
