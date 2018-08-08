@@ -33,8 +33,8 @@
     <setting id="keep_downloading" value="2" />
     <setting id="keep_files_finished" value="2" />
     <setting id="keep_files_playing" value="2" />
-    <setting id="library_auto_scan" value="true" />
-    <setting id="library_path" value="" />
+    <setting id="library_auto_scan" value="false" />
+    <setting id="library_path" value="special://home/" />
     <setting id="library_update_delay" value="300" />
     <setting id="library_update_frequency" value="6" />
     <setting id="limit_after_buffering" value="false" />
