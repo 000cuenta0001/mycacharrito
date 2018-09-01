@@ -1,0 +1,4 @@
+<settings>
+    <setting id="logEnabled" value="false" />
+    <setting id="openMagnetWith" value="Elementum" />
+</settings>
