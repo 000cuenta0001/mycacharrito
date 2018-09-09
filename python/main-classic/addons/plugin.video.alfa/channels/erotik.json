@@ -1,0 +1,22 @@
+{
+  "id": "erotik",
+  "name": "Erotik",
+  "active": true,
+  "adult": true,
+  "language": ["*"],
+  "thumbnail": "http://www.youfreeporntube.com/uploads/custom-logo.png",
+  "banner": "http://www.youfreeporntube.com/uploads/custom-logo.png",
+  "categories": [
+    "adult"
+  ],
+  "settings": [
+    {
+      "id": "include_in_global_search",
+      "type": "bool",
+      "label": "Incluir en busqueda global",
+      "default": true,
+      "enabled": true,
+      "visible": true
+    }
+  ]
+}

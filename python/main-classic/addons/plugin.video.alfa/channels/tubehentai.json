@@ -1,0 +1,22 @@
+{
+    "id": "tubehentai",
+    "name": "tubehentai",
+    "active": true,
+    "adult": true,
+    "language": ["*"],
+    "banner": "tubehentai.png",
+    "thumbnail": "tubehentai.png",
+    "categories": [
+        "adult"
+    ],
+    "settings": [
+        {
+            "id": "include_in_global_search",
+            "type": "bool",
+            "label": "Incluir en busqueda global",
+            "default": false,
+            "enabled": true,
+            "visible": true
+        }
+    ]
+}

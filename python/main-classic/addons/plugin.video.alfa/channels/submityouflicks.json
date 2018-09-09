@@ -1,0 +1,22 @@
+{
+  "id": "submityouflicks",
+  "name": "Submit Your Flicks",
+  "active": true,
+  "adult": true,
+  "language": ["*"],
+  "banner": "submityouflicks.png",
+  "thumbnail": "submityouflicks.png",
+  "categories": [
+    "adult"
+  ],
+  "settings": [
+    {
+      "id": "include_in_global_search",
+      "type": "bool",
+      "label": "Incluir en busqueda global",
+      "default": true,
+      "enabled": true,
+      "visible": true
+    }
+  ]
+}
