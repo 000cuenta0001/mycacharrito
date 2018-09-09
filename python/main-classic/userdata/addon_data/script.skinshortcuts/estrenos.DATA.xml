@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?><shortcuts>
+	<shortcut>
+		<defaultID/>
+		<label>NOVEDADES videoclub</label>
+		<label2>Ítem Personalizado</label2>
+		<icon>DefaultShortcut.png</icon>
+		<thumb>special://profile/addon_data/script.skinshortcuts/skin.eminence.2.mod.Krypton-thumb-NOVEDADES videoclub.png</thumb>
+		<action>ActivateWindow(Videos,&quot;plugin://plugin.program.super.favourites/?label=PELICULAS+%28VIDEOCLUB%29&amp;mode=400&amp;path=special%3A%2F%2Fprofile%2Faddon_data%2Fplugin.program.super.favourites%2FSuper+Favourites%2FPELICULAS+%28VIDEOCLUB%29&amp;image=special%3A%2F%2Fhome%2Faddons%2Fplugin.video.cine%2Ficon.png&amp;fanart=special%3A%2F%2Fhome%2Faddons%2Fplugin.video.cine%2Ffanart.jpg&amp;content_type=&quot;,return)</action>
+	</shortcut>
+	<shortcut>
+		<defaultID/>
+		<label>NOVEDADES PELISCON</label>
+		<label2>Ítem Personalizado</label2>
+		<icon>DefaultShortcut.png</icon>
+		<thumb>special://profile/addon_data/script.skinshortcuts/skin.eminence.2.mod.Krypton-thumb-NOVEDADES PELISCON.png</thumb>
+		<action>ActivateWindow(Videos,&quot;plugin://plugin.video.alfa/?ewogICAgImFjdGlvbiI6ICJzY3JhcGVyIiwgCiAgICAiY2F0ZWdvcnkiOiAiUGVsaXNjb24iLCAKICAgICJjaGFubmVsIjogInBlbGlzY29uIiwgCiAgICAiY29udGV4dCI6IFsKICAgICAgICB7CiAgICAgICAgICAgICJhY3Rpb24iOiAiY2hhbm5lbF9jb25maWciLCAKICAgICAgICAgICAgImNoYW5uZWwiOiAic2V0dGluZyIsIAogICAgICAgICAgICAiY29uZmlnIjogInBlbGlzY29uIiwgCiAgICAgICAgICAgICJmcm9tX2FjdGlvbiI6ICJzY3JhcGVyIiwgCiAgICAgICAgICAgICJmcm9tX2NoYW5uZWwiOiAicGVsaXNjb24iLCAKICAgICAgICAgICAgInRpdGxlIjogIkNvbmZpZ3VyYXIgY2FuYWwiCiAgICAgICAgfQogICAgXSwgCiAgICAiZmFuYXJ0IjogImh0dHA6Ly9pbWd1ci5jb20vTUdReWV0US5qcGciLCAKICAgICJoYXNDb250ZW50RGV0YWlscyI6IHRydWUsIAogICAgImluZm9MYWJlbHMiOiB7CiAgICAgICAgIm1lZGlhdHlwZSI6ICJtb3ZpZSIKICAgIH0sIAogICAgImxhbmd1YWdlIjogWwogICAgICAgICJjYXN0IgogICAgXSwgCiAgICAidGh1bWJuYWlsIjogImh0dHA6Ly9pbWd1ci5jb20vRnJjV1RTOC5wbmciLCAKICAgICJ0aXRsZSI6ICJbQ09MT1IgYXF1YV1bQl1QZWzDrWN1bGFzWy9CXVsvQ09MT1JdIiwgCiAgICAidG90YWxJdGVtcyI6IDAsIAogICAgInVybCI6ICJodHRwOi8vcGVsaXNjb24uY29tL3BlbGljdWxhcy8iLCAKICAgICJ2aWV3bW9kZSI6ICJsaXN0IiwgCiAgICAid2FudGVkIjogIiIKfQ%3D%3D&quot;,return)</action>
+	</shortcut>
+	<shortcut>
+		<defaultID/>
+		<label>NOVEDADES ESTRENOSGO</label>
+		<label2>Ítem Personalizado</label2>
+		<icon>DefaultShortcut.png</icon>
+		<thumb>special://profile/addon_data/script.skinshortcuts/skin.eminence.2.mod.Krypton-thumb-NOVEDADES ESTRENOSGO.png</thumb>
+		<action>ActivateWindow(Videos,&quot;plugin://plugin.video.alfa/?ewogICAgImFjdGlvbiI6ICJsaXN0YWRvIiwgCiAgICAiY2F0ZWdvcnkiOiAiRXN0cmVub3NHbyIsIAogICAgImNoYW5uZWwiOiAiZXN0cmVub3NnbyIsIAogICAgImNvbnRleHQiOiBbXSwgCiAgICAiZmFuYXJ0IjogImh0dHBzOi8vZ2l0aHViLmNvbS9tYXN0ZXItMTk3MC9yZXNvdXJjZXMvcmF3L21hc3Rlci9pbWFnZXMvZmFuYXJ0L2VzdHJlbm9zZ28ucG5nIiwgCiAgICAiaW5mb0xhYmVscyI6IHt9LCAKICAgICJsYW5ndWFnZSI6IFsKICAgICAgICAiY2FzdCIKICAgIF0sIAogICAgInRleHRfY29sb3IiOiAiMHhGRjJFNjRGRSIsIAogICAgInRodW1ibmFpbCI6ICJodHRwczovL2dpdGh1Yi5jb20vbWFzdGVyLTE5NzAvcmVzb3VyY2VzL3Jhdy9tYXN0ZXIvaW1hZ2VzL2dlbnJlcy8wL0RpcmVjdG9ycyUyMENoYWlyLnBuZyIsIAogICAgInRpdGxlIjogIltDT0xPUiAweEZGMkU2NEZFXSAgICBIRC1SSVBbL0NPTE9SXSIsIAogICAgInRvdGFsSXRlbXMiOiAwLCAKICAgICJ1cmwiOiAiaHR0cDovL2VzdHJlbm9zbGkub3JnL2Rlc2NhcmdhLTAtNTgxMjgtMC0wLWZ4LTEtMS0uZngiLCAKICAgICJ2aWV3bW9kZSI6ICJsaXN0Igp9&quot;,return)</action>
+	</shortcut>
+	<shortcut>
+		<defaultID/>
+		<label>NOVEDADES PALANTIR</label>
+		<label2>Ítem Personalizado</label2>
+		<icon>DefaultShortcut.png</icon>
+		<thumb>special://profile/addon_data/script.skinshortcuts/skin.eminence.2.mod.Krypton-thumb-NOVEDADES PALANTIR.png</thumb>
+		<action>ActivateWindow(Videos,&quot;plugin://plugin.video.palantir/?action=ultimas_pelis&quot;,return)</action>
+	</shortcut>
+</shortcuts>

@@ -1,0 +1,37 @@
+<settings>
+    <setting id="accache" value="false" />
+    <setting id="accrash" value="true" />
+    <setting id="acpackages" value="true" />
+    <setting id="acstartup" value="true" />
+    <setting id="acthumbs" value="false" />
+    <setting id="addoninstaller" value="false" />
+    <setting id="adult" value="false" />
+    <setting id="audio" value="true" />
+    <setting id="auto-view" value="false" />
+    <setting id="automain" value="false" />
+    <setting id="automb" value="false" />
+    <setting id="cachemb" value="0" />
+    <setting id="clearday" value="7" />
+    <setting id="featured" value="true" />
+    <setting id="github_key" value="" />
+    <setting id="hasran" value="true" />
+    <setting id="maint_check_folders" value="true" />
+    <setting id="newest" value="true" />
+    <setting id="notifications-on-startup" value="true" />
+    <setting id="notify" value="2" />
+    <setting id="packagesmb" value="0" />
+    <setting id="program" value="true" />
+    <setting id="repositories" value="false" />
+    <setting id="scriptblock" value="true" />
+    <setting id="set_rtmp" value="true" />
+    <setting id="sevicehasran" value="true" />
+    <setting id="skincat" value="true" />
+    <setting id="thumbsmb" value="0" />
+    <setting id="toprepositories" value="true" />
+    <setting id="tt_togglesetting" value="false" />
+    <setting id="updated" value="true" />
+    <setting id="video" value="true" />
+    <setting id="wizardran" value="false" />
+    <setting id="world" value="true" />
+    <setting id="zip" value="Click Here" />
+</settings>

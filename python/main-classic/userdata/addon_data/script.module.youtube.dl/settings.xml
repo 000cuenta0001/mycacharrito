@@ -1,0 +1,11 @@
+<settings>
+    <setting id="confirm_download_path" value="false" />
+    <setting id="core_version" value="2017.07.09" />
+    <setting id="debug" value="false" />
+    <setting id="disable_dash_video" value="true" />
+    <setting id="last_download_path" value="/storage/descargas/" />
+    <setting id="skip_no_audio" value="true" />
+    <setting id="video_quality" value="1" />
+    <setting id="view_info_action" value="" />
+    <setting id="ytdl_debug" value="false" />
+</settings>

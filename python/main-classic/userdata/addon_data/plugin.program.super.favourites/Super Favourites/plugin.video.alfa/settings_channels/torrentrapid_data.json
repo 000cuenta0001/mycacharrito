@@ -1,0 +1,31 @@
+{
+    "settings": {
+        "clonenewpct1_channel_default": 0, 
+        "clonenewpct1_channels_list": "('1', 'torrentrapid', 'torrentrapid.com', 'movie, tvshow, season, episode', ''), ('1', 'torrentlocura', 'torrentlocura.com', 'movie, tvshow, season, episode', ''), ('1', 'tumejortorrent', 'tumejortorrent.com', 'movie, tvshow, season, episode', ''), ('1', 'tvsinpagar', 'www.tvsinpagar.com', 'tvshow, season, episode', ''), ('1', 'descargas2020', 'descargas2020.com', 'movie, tvshow, season, episode', ''), ('1', 'mispelisyseries', 'mispelisyseries.com', 'movie, tvshow, season, episode', '')", 
+        "clonenewpct1_excluir1_enlaces_descargas": 0, 
+        "clonenewpct1_excluir1_enlaces_veronline": 9, 
+        "clonenewpct1_excluir2_enlaces_descargas": 0, 
+        "clonenewpct1_excluir2_enlaces_veronline": 12, 
+        "clonenewpct1_excluir3_enlaces_descargas": 0, 
+        "clonenewpct1_excluir3_enlaces_veronline": 20, 
+        "clonenewpct1_excluir4_enlaces_descargas": 0, 
+        "clonenewpct1_excluir4_enlaces_veronline": 0, 
+        "clonenewpct1_excluir5_enlaces_descargas": 0, 
+        "clonenewpct1_excluir5_enlaces_veronline": 0, 
+        "clonenewpct1_ver_enlaces_descargas": 0, 
+        "clonenewpct1_ver_enlaces_veronline": 1, 
+        "clonenewpct1_verificar_enlaces_descargas": 1, 
+        "clonenewpct1_verificar_enlaces_descargas_validos": true, 
+        "clonenewpct1_verificar_enlaces_veronline": 1, 
+        "clonenewpct1_verificar_enlaces_veronline_validos": true, 
+        "include_in_global_search": true, 
+        "include_in_newest_4k": true, 
+        "include_in_newest_anime": true, 
+        "include_in_newest_documentales": true, 
+        "include_in_newest_latino": true, 
+        "include_in_newest_peliculas": true, 
+        "include_in_newest_series": true, 
+        "modo_grafico": true, 
+        "seleccionar_ult_temporadda_activa": true
+    }
+}
