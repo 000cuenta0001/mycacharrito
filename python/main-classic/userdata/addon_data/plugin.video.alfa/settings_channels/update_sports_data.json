@@ -1,9 +1,0 @@
-{
-    "settings": {
-        "automatico": true,
-        "folder_update": true,
-        "noupdate": false,
-        "primeruso": false,
-        "updater": 0
-    }
-}

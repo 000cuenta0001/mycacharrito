@@ -1,6 +1,0 @@
-<favourites>
-	<favourite name="Add-ons de vídeo" thumb="DefaultAddonVideo.png">ActivateWindow(10025,&quot;library://video/addons.xml/&quot;,return)</favourite>
-	<favourite name="Add-ons de programas" thumb="DefaultAddonProgram.png">ActivateWindow(10001,&quot;addons://sources/executable/&quot;,return)</favourite>
-	<favourite name="Add-ons de imágenes" thumb="DefaultAddonPicture.png">ActivateWindow(10002,&quot;addons://sources/image/&quot;,return)</favourite>
-	<favourite name="Add-ons de música" thumb="DefaultAddonMusic.png">ActivateWindow(10502,&quot;addons://sources/audio/&quot;,return)</favourite>
-</favourites>
