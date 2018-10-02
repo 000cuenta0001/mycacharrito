@@ -1,4 +1,6 @@
 <settings>
+    <setting id="addon_update_message" value="false" />
+    <setting id="addon_update_timer" value="12" />
     <setting id="adult_aux_intro_password" value="" />
     <setting id="adult_aux_new_password1" value="" />
     <setting id="adult_aux_new_password2" value="" />
