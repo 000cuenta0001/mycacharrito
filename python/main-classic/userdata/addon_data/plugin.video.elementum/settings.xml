@@ -1,13 +1,14 @@
 <settings>
     <setting id="add_specials" value="false" />
+    <setting id="auto_library_update" value="true" />
     <setting id="auto_memory_size" value="true" />
-    <setting id="auto_memory_size_strategy" value="1" />
+    <setting id="auto_memory_size_strategy" value="0" />
     <setting id="autoload_torrents" value="true" />
     <setting id="buffer_size" value="20" />
     <setting id="buffer_timeout" value="300" />
     <setting id="cache_search_duration" value="180" />
     <setting id="choose_stream_auto" value="false" />
-    <setting id="cloudhole_key" value="FB20575" />
+    <setting id="cloudhole_key" value="F62B745" />
     <setting id="completed_help" value="" />
     <setting id="completed_move" value="false" />
     <setting id="completed_movies_path" value="" />
@@ -78,10 +79,18 @@
     <setting id="sorting_mode_movies" value="2" />
     <setting id="sorting_mode_shows" value="2" />
     <setting id="spoof_user_agent" value="0" />
+    <setting id="strm_language" value="Original" />
     <setting id="tmdb_api_key" value="" />
+    <setting id="torrents_path" value="special://temp/elementum_torrents/" />
+    <setting id="trakt_calendars_color_date" value="yellow" />
+    <setting id="trakt_calendars_color_episode" value="skyblue" />
+    <setting id="trakt_calendars_color_show" value="none" />
+    <setting id="trakt_calendars_color_unaired" value="deeppink" />
+    <setting id="trakt_calendars_date_format" value="yyyy-mm-dd" />
     <setting id="trakt_progress_color_date" value="yellow" />
     <setting id="trakt_progress_color_episode" value="skyblue" />
     <setting id="trakt_progress_color_show" value="none" />
+    <setting id="trakt_progress_color_unaired" value="deeppink" />
     <setting id="trakt_progress_date_format" value="2006-01-02" />
     <setting id="trakt_progress_sort" value="0" />
     <setting id="trakt_progress_unaired" value="true" />
@@ -92,11 +101,27 @@
     <setting id="trakt_sync_added_list" value="" />
     <setting id="trakt_sync_added_list_name" value="" />
     <setting id="trakt_sync_added_location" value="0" />
+    <setting id="trakt_sync_added_movies" value="true" />
+    <setting id="trakt_sync_added_movies_list" value="" />
+    <setting id="trakt_sync_added_movies_list_name" value="" />
+    <setting id="trakt_sync_added_movies_location" value="0" />
+    <setting id="trakt_sync_added_shows" value="true" />
+    <setting id="trakt_sync_added_shows_list" value="" />
+    <setting id="trakt_sync_added_shows_list_name" value="" />
+    <setting id="trakt_sync_added_shows_location" value="0" />
     <setting id="trakt_sync_collections" value="false" />
     <setting id="trakt_sync_removed" value="false" />
     <setting id="trakt_sync_removed_list" value="" />
     <setting id="trakt_sync_removed_list_name" value="" />
     <setting id="trakt_sync_removed_location" value="0" />
+    <setting id="trakt_sync_removed_movies" value="true" />
+    <setting id="trakt_sync_removed_movies_list" value="" />
+    <setting id="trakt_sync_removed_movies_list_name" value="" />
+    <setting id="trakt_sync_removed_movies_location" value="0" />
+    <setting id="trakt_sync_removed_shows" value="true" />
+    <setting id="trakt_sync_removed_shows_list" value="" />
+    <setting id="trakt_sync_removed_shows_list_name" value="" />
+    <setting id="trakt_sync_removed_shows_location" value="0" />
     <setting id="trakt_sync_userlists" value="false" />
     <setting id="trakt_sync_watched" value="false" />
     <setting id="trakt_sync_watchedback" value="false" />
