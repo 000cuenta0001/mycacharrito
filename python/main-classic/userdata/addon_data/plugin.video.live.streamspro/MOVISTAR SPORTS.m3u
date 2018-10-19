@@ -10,7 +10,7 @@ http://127.0.0.1:6878/ace/getstream?id=b144c077abdcbbbfb1bb87da9d4f6365ac792589
 #EXTINF:-1 tvg-protocol="http" tvg-id="" tvg-name="Canal+_Liga" tvg-logo="http://www.movistarplus.es/recorte/m-NEO/canal/VAMOSD.png" group-title="",MOVISTAR VAMOS
 http://127.0.0.1:6878/ace/getstream?id=8d3bbdf089c694a0c9035b16b053fa6272f2f119
 #EXTINF:-1 tvg-protocol="http" tvg-id="" tvg-name="Canal+_Liga" tvg-logo="http://www.movistarplus.es/recorte/m-NEO/canal/CPDEP.png" group-title="",MOVISTAR DEPORTES
-http://127.0.0.1:6878/ace/getstream?id=5dcba33e3d46cefd29b8034693f85c4c6b2477ae
+http://127.0.0.1:6878/ace/getstream?id=f3694c072e862ff471ca56a1229aca0e4a8adeaa
 #EXTINF:-1 tvg-protocol="http" tvg-id="" tvg-name="Canal+_Liga" tvg-logo="http://www.movistarplus.es/recorte/m-NEO/canal/CPDEP.png" group-title="http://www.movistarplus.es/recorte/m-NEO/canal/CPDEP.png",MOVISTAR DEPORTES 1
 http://127.0.0.1:6878/ace/getstream?id=0d17746df30ff9a6db9b35702322910f75210f28
 #EXTINF:-1 tvg-protocol="http" tvg-id="" tvg-name="Canal+_Liga" tvg-logo="http://www.movistarplus.es/recorte/m-NEO/canal/CPDEP.png" group-title="http://www.movistarplus.es/recorte/m-NEO/canal/CPDEP.png",MOVISTAR DEPORTES 2
@@ -26,7 +26,7 @@ http://127.0.0.1:6878/ace/getstream?id=494789edcfdefe8d2dd5bf8d4475ad681ad4dcc9
 #EXTINF:-1 type="stream" tvg-protocol="http" tvg-id="MVF1_ASTRA SD_2.sp" tvg-name="Movistar_Formula_1" tvg-logo="http://www.movistarplus.es/recorte/m-NEO/canal/MVF1.png" group-title="",MOVISTAR F1
 http://127.0.0.1:6878/ace/getstream?id=044370cb075b21f14b8cfbf184e7329e3f290a1f
 #EXTINF:-1 type="stream" tvg-protocol="http" tvg-id="MVF1_ASTRA SD_2.sp" tvg-name="Movistar_Formula_1" tvg-logo="http://www.movistarplus.es/recorte/m-NEO/canal/MVF1.png" group-title="",MOVISTAR F1
-http://127.0.0.1:6878/ace/getstream?id=cc8b738e5d22134861b9f6c9ba38ff9c9c77e405
+http://127.0.0.1:6878/ace/getstream?id=2a11f7b5a57da2e4aa3d3568ca22046b12611dd6
 #EXTINF:-1 type="stream" tvg-protocol="http" tvg-id="GOLF+_ASTRA_HD_1.sp" tvg-name="Movistar_Golf_HD" tvg-logo="http://www.movistarplus.es/recorte/m-NEO/canal/GOLF+.png" group-title="",MOVISTAR GOLF
 http://127.0.0.1:6878/ace/getstream?id=6d282daad1a3e88a6ddf8eed4d91a43d16fd993e
 #EXTINF:-1 type="stream" tvg-protocol="http" tvg-id="GOLF+_ASTRA_HD_1.sp" tvg-name="Movistar_Golf_HD" tvg-logo="http://www.movistarplus.es/recorte/m-NEO/canal/GOLF+.png" group-title="",MOVISTAR GOLF
