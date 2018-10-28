@@ -4,11 +4,11 @@
     <setting id="auto_memory_size" value="true" />
     <setting id="auto_memory_size_strategy" value="0" />
     <setting id="autoload_torrents" value="true" />
-    <setting id="buffer_size" value="20" />
+    <setting id="buffer_size" value="40" />
     <setting id="buffer_timeout" value="300" />
     <setting id="cache_search_duration" value="180" />
     <setting id="choose_stream_auto" value="false" />
-    <setting id="cloudhole_key" value="F62B745" />
+    <setting id="cloudhole_key" value="2696AAC" />
     <setting id="completed_help" value="" />
     <setting id="completed_move" value="false" />
     <setting id="completed_movies_path" value="" />
