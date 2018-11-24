@@ -1,0 +1,16 @@
+{
+  "active": true,
+  "free": false,
+  "id": "realdebrid",
+  "name": "Real-Debrid",
+  "settings": [
+    {
+      "default": false,
+      "enabled": true,
+      "id": "premium",
+      "label": "Activar cuenta premium",
+      "type": "bool",
+      "visible": true
+    }
+  ]
+}
