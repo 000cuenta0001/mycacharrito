@@ -207,7 +207,7 @@
     <setting id="AddonSetEleven.3.Label" type="string"></setting>
     <setting id="UserSubOne.10.Path" type="string"></setting>
     <setting id="UserSubFive.2.Path" type="string"></setting>
-    <setting id="HomeItem.11.Fanart" type="string">special://home/backgrounds_xconfluence/settings (2).jpg</setting>
+    <setting id="HomeItem.11.Fanart" type="string">special://home/backgrounds_xconfluence/sistema.jpg</setting>
     <setting id="UserVideosSubMenu" type="string"></setting>
     <setting id="HomeItem.5.Addon" type="string">None</setting>
     <setting id="AddonSetOne.7.Icon" type="string"></setting>
@@ -285,7 +285,7 @@
     <setting id="AddonSetNine.3.Icon" type="string"></setting>
     <setting id="AddonSetOne.7.Label" type="string"></setting>
     <setting id="HomeItem.6.Path" type="string"></setting>
-    <setting id="HomeItem.8.Fanart" type="string">special://skin/backgrounds/weather.jpg</setting>
+    <setting id="HomeItem.8.Fanart" type="string">special://home/backgrounds_xconfluence/weather (4).jpg</setting>
     <setting id="SubPictures.8.Label" type="string"></setting>
     <setting id="UserSubFour.1.Icon" type="string">special://home/addons/plugin.video.Explora/icon.png</setting>
     <setting id="SubLiveTV.9.Path" type="string">Hidden</setting>
@@ -374,7 +374,7 @@
     <setting id="AddonSetFive.7.Path" type="string"></setting>
     <setting id="SubProg.1.Label" type="string"></setting>
     <setting id="SubPictures.10.Path" type="string"></setting>
-    <setting id="HomeItem.7.Fanart" type="string">special://skin/backgrounds/pictures.jpg</setting>
+    <setting id="HomeItem.7.Fanart" type="string">special://home/backgrounds_xconfluence/pictures.jpg</setting>
     <setting id="HomeItem.1.Icon" type="string">Icons/library.png</setting>
     <setting id="AddonSetTwo.6.Icon" type="string"></setting>
     <setting id="screensaver.digitalclock.informationcolor" type="string"></setting>
@@ -813,7 +813,7 @@
     <setting id="SubVideos.6.Path" type="string"></setting>
     <setting id="UserSelectAddon.10.Label" type="string"></setting>
     <setting id="AddonSetEleven.5.Icon" type="string"></setting>
-    <setting id="HomeItem.4.Fanart" type="string">special://skin/backgrounds/tv.jpg</setting>
+    <setting id="HomeItem.4.Fanart" type="string">special://home/backgrounds_xconfluence/tv.jpg</setting>
     <setting id="SubTVShows.5.Path" type="string"></setting>
     <setting id="UserSubOne.1.Label" type="string"></setting>
     <setting id="HomeItem.13.WidgetFormat" type="string">-</setting>
