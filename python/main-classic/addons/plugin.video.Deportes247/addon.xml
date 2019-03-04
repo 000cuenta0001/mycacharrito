@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<addon id="plugin.video.Deportes247" name="[COLOR aqua]Deportes247[/COLOR]" version="0.0.4" provider-name="picapau y team cristal azul">
+    <requires>
+        <import addon="xbmc.python" version="2.1.0"/>
+        <import addon="service.cronxbmc" optional="true"/>
+    </requires>
+    <extension point="xbmc.python.pluginsource" library="Deportes247Cristal.py">
+        <provides>video</provides>
+    </extension>
+	
+	<extension point="xbmc.addon.repository" name="Mi repositorio">
+        <info>https://raw.githubusercontent.com/picapaujulen/repositorio/master/Repositorio/addons.xml</info>
+        <checksum>https://raw.githubusercontent.com/picapaujulen/repositorio/master/Repositorio/addons.xml.md5</checksum>
+        <datadir zip="true">https://raw.githubusercontent.com/picapaujulen/repositorio/master/Repositorio/</datadir>
+    </extension>
+	
+  <extension point="xbmc.addon.metadata">
+    <summary lang="en">Deportes247</summary>
+    <description lang="en">Deportes247</description>
+    <disclaimer lang="en">Deportes247 addon del grupo cristal azul</disclaimer>
+    <language></language>
+    <platform>all</platform>
+    <license>GNU GENERAL PUBLIC LICENSE. Version 2, June 1991</license>
+    <forum></forum>
+    <website></website>
+    <email></email>
+  <assets>
+    <icon>icon.gif</icon>
+    <fanart>fanart.jpg</fanart>
+  </assets>
+  <news>
+     </news>    
+  </extension>
+</addon>
