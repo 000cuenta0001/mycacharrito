@@ -12,15 +12,18 @@
     <setting id="TheFACup" type="bool" label="40054" default="false"/>
     <setting id="italia" type="bool" label="30015" default="false"/>
     <setting id="alemania" type="bool" label="30016" default="false"/>
+    <setting id="dfbpokal" type="bool" label="40077" default="false"/>
     <setting id="francia" type="bool" label="30017" default="false"/>
     <setting id="fa-cup" type="bool" label="30043" default="false"/>
     <setting id="portugal" type="bool" label="30018" default="false"/>
+    <setting id="portucup" type="bool" label="40097" default="false"/>
     <setting id="holanda" type="bool" label="30019" default="false"/>
     <setting id="America" type="action" label="[B][LOWERCASE][CAPITALIZE][COLOR lime]AMERICA[/CAPITALIZE][/LOWERCASE][/B][/COLOR]" />
     <setting id="argentina" type="bool" label="30021" default="false"/>
     <setting id="copaarge" type="bool" label="30027" default="false"/>
     <setting id="chile" type="bool" label="30022" default="false"/>
     <setting id="mexico" type="bool" label="30023" default="false"/>
+    <setting id="CopaMX" type="bool" label="40070" default="false"/>
     <setting id="colombia" type="bool" label="30026" default="false"/>
     <setting id="brasil" type="bool" label="30024" default="false"/>
     <setting id="usa" type="bool" label="30025" default="false"/>
@@ -30,6 +33,7 @@
     <setting id="Internacional" type="action" label="[B][LOWERCASE][CAPITALIZE][COLOR lime]INTERNACIONAL[/CAPITALIZE][/LOWERCASE][/B][/COLOR]" />
     <setting id="champions" type="bool" label="30031" default="false"/>
     <setting id="eurleague" type="bool" label="30032" default="false"/>
+    <setting id="concaf" type="bool" label="40082" default="false"/>
     <setting id="copasub" type="bool" label="30035" default="false"/>
     <setting id="Libertadores" type="bool" label="30040" default="false"/>
     <setting id="youth" type="bool" label="30034" default="false"/>

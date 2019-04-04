@@ -23,7 +23,7 @@ import cookielib
 import requests
 import magic_aes
 
-BASEURL='http://www.sport247.live/es/main'
+BASEURL='http://www.sport365.sx/es/main'
 UA='Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/50.0.2661.102 Safari/537.36'
 
 
@@ -83,7 +83,7 @@ def getChannels(addheader=False):
                   datetime.utcfromtimestamp(ts)).total_seconds()
 
     minutes = int(utc_offset) / 60
-    url = 'http://www.sport247.live/es/events/-/1/-/-/' + str(minutes)
+    url = 'http://www.sport365.sx/es/events/-/1/-/-/' + str(minutes)
 
     content = getUrl(url)
     ids = [(a.start(), a.end()) for a in re.finditer('onClick=', content)]
@@ -99,7 +99,7 @@ def getChannels(addheader=False):
         online = '[COLOR lightgreen]•[/COLOR]' if subset.find('/images/types/dot-green-big.png')>0 else '[COLOR red]*[/COLOR]'
         if links and title2:
             event,urlenc=links[0]
-            url = 'http://www.sport247.live/es/links/%s/1@%s'%(event.split('_')[-1],ret)
+            url = 'http://www.sport365.sx/es/links/%s/1@%s'%(event.split('_')[-1],ret)
             etime,title1= t[:2]
             lang = t[-1]
             quality = t[-2].replace('&nbsp;', '') if 'nbsp' in t[-2] else 'SD'
