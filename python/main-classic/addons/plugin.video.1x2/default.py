@@ -52,9 +52,17 @@ class main():
         result = result.replace('<tr></tr>','')
         result = result.replace('<tr></tr>','')
         result = result.replace('<br />\n',' ')
+        result = result.replace('</tr><tr><td class="auto-style3" colspan="6">','')
+        result = result.replace('<div id="1000233144"></div>','')
+        result = result.replace('<script type="9b247a083b3ba8670323e9c1-text/javascript">','')
+        result = result.replace('<!--//--><![CDATA[// ><!--','')
+        result = result.replace('window.smrtSB=window.smrtSB||{sections:[]},window.smrtSB.sections.push({s:1000233144,w:728,h:90,c:3, blank: false,cross: true}),window.smrtSB.s||(window.smrtSB.s=document.createElement("script"),window.smrtSB.s.src="//imgpfx.arenavision.co.in/js/"+btoa(37*Math.round((899999*Math.random()+1e5)/37))+".js",window.smrtSB.s.async=!0,document.head.appendChild(window.smrtSB.s))','')
         result = result.replace('\t','')
         result = result.replace('</tr><td class="auto-style3"','</tr><tr><td class="auto-style3"')
         result = result.replace('\n<tr><td class="auto-style3"','</tr><tr><td class="auto-style3"')
+        result = result.replace('\n</tr><td class="auto-style3" colspan="6"','</tr><tr><td class="auto-style3" colspan="6"')
+
+
 
         table = client.parseDOM(result,'table',attrs={'style':'width: 100%; float: left'})[0]
         rows = client.parseDOM(table,'tr')
@@ -120,7 +128,7 @@ class main():
                 if i==0:
                     date = item
                 elif i==1:
-                    time = item.replace('CET','').strip()
+                    time = item.replace('CEST','').strip()
                 elif i==2:
                     sport = item
                 elif i==3:
