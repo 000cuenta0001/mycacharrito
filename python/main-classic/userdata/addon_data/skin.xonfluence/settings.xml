@@ -212,7 +212,7 @@
     <setting id="UserSubFive.8.Label" type="string"></setting>
     <setting id="SubProg.7.Path" type="string"></setting>
     <setting id="HomeItem.11.Display" type="string">Default</setting>
-    <setting id="HomeItem.6.Path" type="string">ActivateWindow(Games)</setting>
+    <setting id="HomeItem.6.Path" type="string">System.Exec(/storage/.kodi/retroarch/retroarch.sh)</setting>
     <setting id="AddonSetTwo.2.Label" type="string"></setting>
     <setting id="SubTVShows.2.Label" type="string"></setting>
     <setting id="AddonSetTen.7.Path" type="string"></setting>
