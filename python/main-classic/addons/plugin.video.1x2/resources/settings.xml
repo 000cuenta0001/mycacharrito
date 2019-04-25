@@ -27,7 +27,8 @@
     <setting id="colombia" type="bool" label="30026" default="false"/>
     <setting id="brasil" type="bool" label="30024" default="false"/>
     <setting id="usa" type="bool" label="30025" default="false"/>
-    <setting id="Asia" type="action" label="[B][LOWERCASE][COLOR lime]Asia y Oceania[/LOWERCASE][/B][/COLOR]" />
+    <setting id="Asia" type="action" label="[B][LOWERCASE][CAPITALIZE][COLOR lime]asia y oceania[/CAPITALIZE][/LOWERCASE][/B][/COLOR]" />
+    <setting id="turky" type="bool" label="40076" default="false"/>
     <setting id="Chinese" type="bool" label="30041" default="false"/>
     <setting id="austral" type="bool" label="40061" default="false"/>
     <setting id="Internacional" type="action" label="[B][LOWERCASE][CAPITALIZE][COLOR lime]INTERNACIONAL[/CAPITALIZE][/LOWERCASE][/B][/COLOR]" />
@@ -50,6 +51,7 @@
     <setting id="Liga_ACB" type="bool" label="40048" default="false"/>
     <setting id="euroleague" type="bool" label="40044" default="false"/>
     <setting id="nba2" type="bool" label="40045" default="false"/>
+    <setting id="ncaa" type="bool" label="40075" default="false"/>
   </category>
   <category label="40046">
     <setting id="motogp" type="bool" label="40049" default="false"/>

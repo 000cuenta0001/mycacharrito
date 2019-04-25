@@ -21,7 +21,7 @@ def icon_path(filename):
 
 class info():
     def __init__(self,ico=None):
-        self.mode = 'laliga'
+        self.mode = '1x2'
         self.name = '1x2'
         if ico==None:
             self.icon = icon_path('logo.png')
@@ -48,7 +48,7 @@ class main():
         return links
 
     def channels(self):
-        result = client.request('http://bit.ly/2Fy8R81', headers=self.headers)
+        result = client.request('http://bit.ly/2Fy8R81', headers=self.headers, proxy="149.56.46.36:8082")
         result = result.replace('<tr></tr>','')
         result = result.replace('<tr></tr>','')
         result = result.replace('<br />\n',' ')
@@ -194,14 +194,14 @@ class main():
         spc=[]
         ace=[]
         tit = re.sub('\[.+?\]','',tit)
-        tit = '[COLOR white]' + tit[7:].replace('-',' [COLOR red]vs[/COLOR] ') + '[/COLOR]'
+        tit = '[COLOR white]' + tit[7:].replace('-',' [B][COLOR red]vs[/B][/COLOR] ') + '[/COLOR]'
         ace.append(('x',tit,''))
         for link in links:
             lang = link[1]
             urls = link[0].split('-')
             for u in urls:
-                title = '[COLOR red][B]Canal %s[/B][/COLOR] [%s]'%(u.replace(' ',''),lang)  
-                url = 'http://arenavision.cc/' + u.replace ('1','01').replace('2','02').replace('3','03').replace('4','04').replace('5','05').replace('6','06').replace('7','07').replace('8','08').replace('9','09').replace('010','10').replace('101','11').replace('102','12').replace('103','13').replace('104','14').replace('105','15').replace('106','16').replace('107','17').replace('108','18').replace('109','19').replace('020','20').replace('201','21').replace('202','22').replace('203','23').replace('204','24').replace('205','25').replace('206','26').replace('207','27').replace('208','28').replace('209','29').replace('030','30').replace('301','31').replace('302','32').replace('303','33').replace('304','34').replace('305','35').replace('306','36').replace('307','37').replace('308','38').replace('309','39').replace('040','40').replace('401','41').replace('402','42')  
+                title = '[COLOR red][B]Canal %s[/B][/COLOR] [%s]'%(u.replace(' ',''),lang)
+                url = 'http://arenavision.cc/' + u.replace ('1','01').replace('2','02').replace('3','03').replace('4','04').replace('5','05').replace('6','06').replace('7','07').replace('8','08').replace('9','09').replace('010','10').replace('101','11').replace('102','12').replace('103','13').replace('104','14').replace('105','15').replace('106','16').replace('107','17').replace('108','18').replace('109','19').replace('020','20').replace('201','21').replace('202','22').replace('203','23').replace('204','24').replace('205','25').replace('206','26').replace('207','27').replace('208','28').replace('209','29').replace('030','30').replace('301','31').replace('302','32').replace('303','33').replace('304','34').replace('305','35').replace('306','36').replace('307','37').replace('308','38').replace('309','39').replace('040','40').replace('401','41').replace('402','42')
                 if title.find('AV')==-1:
                     new.append((url,title,tit))
                 else:
@@ -216,10 +216,10 @@ class main():
         return new
 
     def resolve(self,url):
-        data = client.request(url, headers=self.headers)
-        url = re.findall('href="acestream:\/\/(.*?)"',data) 
+        data = client.request(url, headers=self.headers, proxy="149.56.46.36:8082")
+        url = re.findall('{format:"json",id:"([^"]+)"}', data, re.DOTALL)
         url = url[0]
-        return 'plugin://program.plexus/?mode=1&url=acestream://%s&name=Video' %url 
+        return 'plugin://program.plexus/?mode=1&url=acestream://%s&name=Video' %url
 
     def doit(self):
         for event in self.channels():

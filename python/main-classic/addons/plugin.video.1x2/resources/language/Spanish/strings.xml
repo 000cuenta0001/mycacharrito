@@ -62,8 +62,9 @@
     <string id="40066">Mostrar combates de [COLOR gold]Boxeo[/COLOR]</string>
     <string id="40068">Mostrar [COLOR red]Todas [/COLOR]las[COLOR gold] Ligas Futbol[/COLOR]</string>
     <string id="40069">Mostrar [COLOR red]Todas [/COLOR]las[COLOR gold] Ligas Baloncesto[/COLOR]</string>
-
-
+    <string id="40075">Mostrar partidos de la[COLOR gold] USA NCAA[/COLOR]</string>
+    <string id="40076">Mostrar partidos de la[COLOR gold] Turkish Super Lig[/COLOR]</string>
+    <string id="40078">Mostrar partidos de los[COLOR gold] Playoffs de la NBA[/COLOR]</string>
 
 </strings>
 
