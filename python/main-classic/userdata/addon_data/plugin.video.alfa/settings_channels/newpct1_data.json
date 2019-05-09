@@ -1,6 +1,6 @@
 {
     "settings": {
-        "clonenewpct1_channel_default": 1, 
+        "clonenewpct1_channel_default": 3, 
         "clonenewpct1_channels_list": "('1', 'torrentrapid', 'http://torrentrapid.com/', 'movie, tvshow, season, episode', ''), ('1', 'torrentlocura', 'http://torrentlocura.com/', 'movie, tvshow, season, episode', ''), ('1', 'tumejortorrent', 'http://tumejortorrent.com/', 'movie, tvshow, season, episode', ''), ('1', 'tvsinpagar', 'http://www.tvsinpagar.com/', 'tvshow, season, episode', ''), ('1', 'descargas2020', 'http://descargas2020.com/', 'movie, tvshow, season, episode', ''), ('1', 'mispelisyseries', 'http://mispelisyseries.com/', 'movie', 'search')", 
         "clonenewpct1_excluir1_enlaces_descargas": 0, 
         "clonenewpct1_excluir1_enlaces_veronline": 11, 
