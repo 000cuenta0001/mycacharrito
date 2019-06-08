@@ -1,122 +1,77 @@
 <settings>
     <setting id="HideSeekBarOSD2" type="bool">false</setting>
-    <setting id="ScriptDisableTVNextAired" type="bool">false</setting>
+    <setting id="SmallVolumeJump" type="bool">false</setting>
+    <setting id="WrapAroundHomeMenu" type="bool">false</setting>
+    <setting id="AutoPartySaver" type="bool">false</setting>
+    <setting id="Show_Hibernate" type="bool">false</setting>
+    <setting id="ClockShowSeconds" type="bool">false</setting>
+    <setting id="HomeItem.3.Master" type="bool">false</setting>
     <setting id="SmartShortcuts.emby" type="bool">false</setting>
-    <setting id="HideListItemArtWork" type="bool">false</setting>
-    <setting id="AlternativeBackgroundPath" type="bool">true</setting>
-    <setting id="DisableWatchItLater" type="bool">true</setting>
-    <setting id="EnableCDArtWork" type="bool">false</setting>
-    <setting id="NoDiffuseVizFanart" type="bool">false</setting>
-    <setting id="HideNextSongsInfo" type="bool">false</setting>
-    <setting id="SmartShortcuts.netflix" type="bool">false</setting>
-    <setting id="View515Hidelogo" type="bool">false</setting>
-    <setting id="HideYearTitle" type="bool">false</setting>
-    <setting id="updates_v403" type="bool">true</setting>
-    <setting id="hidevideoinfoosd" type="bool">false</setting>
-    <setting id="ScriptEnableFanartScript" type="bool">false</setting>
-    <setting id="HideHomeNowPlaying" type="bool">false</setting>
-    <setting id="EpisodeBackground" type="bool">false</setting>
-    <setting id="Videos_Librarymode" type="bool">false</setting>
-    <setting id="StopAutoScroll" type="bool">false</setting>
-    <setting id="HideNewMediaStat" type="bool">false</setting>
-    <setting id="Show_Mastermode" type="bool">false</setting>
-    <setting id="HidePVRNowPlaying" type="bool">false</setting>
-    <setting id="HomeItem.12.Master" type="bool">false</setting>
-    <setting id="HomeItem.15.Master" type="bool">false</setting>
-    <setting id="HideAutoMusicViz" type="bool">false</setting>
-    <setting id="FixedEndingMenu" type="bool">false</setting>
+    <setting id="DisableClearArt" type="bool">false</setting>
     <setting id="HideFilenameFlagging" type="bool">false</setting>
-    <setting id="Music_Librarymode" type="bool">false</setting>
-    <setting id="DisableTVNextAired" type="bool">true</setting>
+    <setting id="MinimizeOnExit" type="bool">false</setting>
+    <setting id="NoDiffuseVizFanart" type="bool">false</setting>
+    <setting id="HomeItem.10.Master" type="bool">false</setting>
+    <setting id="Enable_CustomTimer" type="bool">false</setting>
+    <setting id="HomeItem.7.Master" type="bool">false</setting>
+    <setting id="DisableFloorBtns" type="bool">false</setting>
+    <setting id="EnableRainDropEffect" type="bool">false</setting>
+    <setting id="HidePopUpSeekBar" type="bool">true</setting>
+    <setting id="Show_Mastermode" type="bool">false</setting>
+    <setting id="HomeItem.15.Master" type="bool">false</setting>
+    <setting id="ScriptDisableTVNextAired" type="bool">false</setting>
+    <setting id="HideSeekBarOSD" type="bool">false</setting>
+    <setting id="DisableGlobalSearch" type="bool">true</setting>
+    <setting id="ScriptDisableWatchItLater" type="bool">false</setting>
+    <setting id="HideTrailerBtn" type="bool">false</setting>
+    <setting id="ShowExtraFanArt" type="bool">false</setting>
+    <setting id="ScriptEnableFanartScript" type="bool">false</setting>
     <setting id="Show_Timer" type="bool">false</setting>
-    <setting id="ScriptDisableTVTunes" type="bool">false</setting>
-    <setting id="Updates_V335" type="bool">true</setting>
-    <setting id="EnableVolumeButtons" type="bool">false</setting>
-    <setting id="GlobalLiveWeatherImage" type="bool">false</setting>
-    <setting id="Enable_CustomHibernate" type="bool">false</setting>
-    <setting id="FloorGlobalSearch" type="bool">false</setting>
+    <setting id="HomeItem.5.Master" type="bool">false</setting>
+    <setting id="hideseekbarpaused" type="bool">false</setting>
+    <setting id="AlternativeBackgroundPath" type="bool">true</setting>
+    <setting id="Videos_Librarymode" type="bool">false</setting>
+    <setting id="Music_Librarymode" type="bool">false</setting>
+    <setting id="HomeItem.12.Master" type="bool">false</setting>
+    <setting id="VizOnlyOnHome" type="bool">false</setting>
+    <setting id="SmartShortcuts.favorites" type="bool">false</setting>
+    <setting id="HidePageCountInfo" type="bool">false</setting>
+    <setting id="HideNextSongsInfo" type="bool">false</setting>
+    <setting id="HolidayEffects" type="bool">false</setting>
+    <setting id="ScriptDisableSlideShowArt" type="bool">false</setting>
     <setting id="RestartNotReboot" type="bool">true</setting>
     <setting id="Updates_V314" type="bool">true</setting>
-    <setting id="HomeItem.10.Master" type="bool">false</setting>
-    <setting id="HideEPGwithRDS" type="bool">false</setting>
-    <setting id="KioskMode" type="bool">false</setting>
-    <setting id="MinimalPictureInfo" type="bool">false</setting>
-    <setting id="DisableFloorBtns" type="bool">false</setting>
-    <setting id="HomeItem.2.Master" type="bool">false</setting>
-    <setting id="AutoVisableSubMenu" type="bool">false</setting>
-    <setting id="SkinHelper.EnableAnimatedPosters" type="bool">false</setting>
-    <setting id="DisableFanartScript" type="bool">false</setting>
-    <setting id="HideBackGroundFanart" type="bool">false</setting>
-    <setting id="SkinHelper.ForcedViews.Enabled" type="bool">false</setting>
-    <setting id="LowerMainMenuBar" type="bool">true</setting>
-    <setting id="ScriptDisableWatchItLater" type="bool">false</setting>
-    <setting id="HomeItem.3.Master" type="bool">false</setting>
-    <setting id="EnableRainDropEffect" type="bool">false</setting>
-    <setting id="DisableAutoComplete" type="bool">false</setting>
-    <setting id="AutoPartySaver" type="bool">false</setting>
-    <setting id="DisableScriptPlayList" type="bool">false</setting>
-    <setting id="hideseekbarpaused" type="bool">false</setting>
-    <setting id="DisablePVRinView" type="bool">false</setting>
-    <setting id="Show_SlideShow_Paused" type="bool">false</setting>
-    <setting id="HideBusyAnimation" type="bool">false</setting>
-    <setting id="EnableAutoUpdateArt" type="bool">false</setting>
-    <setting id="HomeItem.9.Master" type="bool">false</setting>
-    <setting id="SkinHelper.EnableMusicArt" type="bool">false</setting>
-    <setting id="HideWatchedMediaStat" type="bool">false</setting>
-    <setting id="SingleGlobalBackground" type="bool">false</setting>
-    <setting id="SkinHelper.EnableWallBackgrounds" type="bool">false</setting>
-    <setting id="VizOnlyOnHome" type="bool">false</setting>
-    <setting id="Updates_V312" type="bool">true</setting>
-    <setting id="HideBackgroundCDWall" type="bool">false</setting>
-    <setting id="HideNowPlayingInfo" type="bool">false</setting>
-    <setting id="UPnP_Mode" type="bool">false</setting>
-    <setting id="Updates_V320" type="bool">true</setting>
-    <setting id="HomeItem.4.Master" type="bool">false</setting>
-    <setting id="HideTopLeftWindows" type="bool">false</setting>
-    <setting id="HomeItem.7.Master" type="bool">false</setting>
-    <setting id="EnableStatusBanner" type="bool">false</setting>
-    <setting id="ScriptDisableSlideShowArt" type="bool">false</setting>
-    <setting id="Show_Logoff" type="bool">false</setting>
-    <setting id="disablecontext:script.playrandomvideos" type="bool">false</setting>
-    <setting id="HideTrailerBtn" type="bool">false</setting>
-    <setting id="SmartShortcuts.favorites" type="bool">false</setting>
-    <setting id="ClockShowSeconds" type="bool">false</setting>
-    <setting id="WrapAroundHomeMenu" type="bool">false</setting>
-    <setting id="DisableGlobalSearch" type="bool">true</setting>
-    <setting id="SkinHelper.EnableDayNightThemes" type="bool">false</setting>
-    <setting id="DisableSlideShowArt" type="bool">false</setting>
-    <setting id="EnablePauseInfo" type="bool">false</setting>
-    <setting id="InitialSetUpRun" type="bool">true</setting>
-    <setting id="Enable_CustomTimer" type="bool">false</setting>
-    <setting id="Enable515WideBanners" type="bool">false</setting>
-    <setting id="Show_Hibernate" type="bool">false</setting>
-    <setting id="EnablePingWOL" type="bool">false</setting>
-    <setting id="HolidayEffects" type="bool">false</setting>
-    <setting id="MinimizeOnExit" type="bool">false</setting>
-    <setting id="UseStartUpPlaylistPath" type="bool">false</setting>
-    <setting id="HideSeekBarOSD" type="bool">false</setting>
-    <setting id="EnableFloorReturnButtons" type="bool">true</setting>
-    <setting id="SkinHelper.EnableExtraFanart" type="bool">false</setting>
-    <setting id="SkinHelper.EnablePVRThumbs" type="bool">false</setting>
-    <setting id="enablecontext:script.playrandomvideos.single" type="bool">false</setting>
-    <setting id="NotificationsTopLeft" type="bool">false</setting>
-    <setting id="HidePageCountInfo" type="bool">false</setting>
-    <setting id="EnableLargeWidgets" type="bool">false</setting>
-    <setting id="minimumpopupseekbar" type="bool">false</setting>
-    <setting id="ShowExtraFanArt" type="bool">false</setting>
-    <setting id="DisableClearArt" type="bool">false</setting>
-    <setting id="SmallVolumeJump" type="bool">false</setting>
-    <setting id="Toggling" type="bool">false</setting>
-    <setting id="HideHomeAddonName" type="bool">false</setting>
+    <setting id="GlobalLiveWeatherImage" type="bool">false</setting>
     <setting id="SkinHelper.EnableAddonsLookups" type="bool">false</setting>
+    <setting id="SmartShortcuts.netflix" type="bool">false</setting>
+    <setting id="HideBusyAnimation" type="bool">false</setting>
+    <setting id="FloorGlobalSearch" type="bool">false</setting>
+    <setting id="EnablePingWOL" type="bool">false</setting>
+    <setting id="EnableVolumeButtons" type="bool">false</setting>
+    <setting id="HideAutoMusicViz" type="bool">false</setting>
+    <setting id="DisablePVRinView" type="bool">false</setting>
+    <setting id="NotificationsTopLeft" type="bool">false</setting>
+    <setting id="DisableTVNextAired" type="bool">false</setting>
+    <setting id="SkinHelper.EnableDayNightThemes" type="bool">false</setting>
+    <setting id="SkinHelper.EnablePVRThumbs" type="bool">false</setting>
+    <setting id="Enable515WideBanners" type="bool">false</setting>
+    <setting id="Updates_V312" type="bool">true</setting>
+    <setting id="HideYearTitle" type="bool">false</setting>
+    <setting id="HideNowPlayingInfo" type="bool">false</setting>
+    <setting id="hidevideoinfoosd" type="bool">false</setting>
+    <setting id="MinimalPictureInfo" type="bool">false</setting>
+    <setting id="KioskMode" type="bool">false</setting>
+    <setting id="minimumpopupseekbar" type="bool">false</setting>
+    <setting id="DisableScriptPlayList" type="bool">false</setting>
+    <setting id="SkinHelper.EnableExtraFanart" type="bool">false</setting>
+    <setting id="Toggling" type="bool">false</setting>
+    <setting id="HideHomeNowPlaying" type="bool">false</setting>
+    <setting id="EnableLargeWidgets" type="bool">false</setting>
+    <setting id="Updates_V335" type="bool">true</setting>
+    <setting id="disablecontext:script.playrandomvideos" type="bool">false</setting>
+    <setting id="FixedEndingMenu" type="bool">false</setting>
+    <setting id="EnableCDArtWork" type="bool">false</setting>
     <setting id="SkinHelper.EnableExtendedArt" type="bool">false</setting>
-    <setting id="HomeItem.5.Master" type="bool">false</setting>
-    <setting id="HideSystemTime" type="bool">false</setting>
-    <setting id="SkinHelper.DisableScreenSaverOnFullScreenMusic" type="bool">false</setting>
-    <setting id="UseDiscTypeCase" type="bool">false</setting>
-    <setting id="HidePopUpSeekBar" type="bool">true</setting>
-    <setting id="DefaultFavView" type="bool">false</setting>
-    <setting id="HideTVRecordingInfo" type="bool">true</setting>
     <setting id="NoAnimateVizFanart" type="bool">false</setting>
     <setting id="HideEpisodeThumb" type="bool">false</setting>
     <setting id="Enable_CustomSuspend" type="bool">false</setting>
@@ -136,6 +91,7 @@
     <setting id="DisableTVTunes" type="bool">true</setting>
     <setting id="EnableAdditionalArtWork" type="bool">false</setting>
     <setting id="MediaShortDescription" type="bool">false</setting>
+    <setting id="SkinHelper.EnableMusicArt" type="bool">false</setting>
     <setting id="HideSkinSettings" type="bool">false</setting>
     <setting id="scriptenableextrafanart" type="bool">false</setting>
     <setting id="ShowUsrVideoOSDButton" type="bool">false</setting>
@@ -149,6 +105,7 @@
     <setting id="Contexting" type="bool">false</setting>
     <setting id="KeyboardGraphicalTextures" type="bool">false</setting>
     <setting id="WrapMediaViews" type="bool">true</setting>
+    <setting id="HideTopLeftWindows" type="bool">false</setting>
     <setting id="EnablePlotInfo" type="bool">true</setting>
     <setting id="EnableDVDCases" type="bool">false</setting>
     <setting id="ScriptDisableScriptPlaylist" type="bool">false</setting>
@@ -159,6 +116,10 @@
     <setting id="HideSuggestedMedia" type="bool">true</setting>
     <setting id="EnableHomeStats" type="bool">false</setting>
     <setting id="Updates_V337" type="bool">true</setting>
+    <setting id="Show_Logoff" type="bool">false</setting>
+    <setting id="HideListItemArtWork" type="bool">false</setting>
+    <setting id="View515Hidelogo" type="bool">false</setting>
+    <setting id="EnablePauseInfo" type="bool">false</setting>
     <setting id="NoAnimateFanart" type="bool">false</setting>
     <setting id="EnableWeatherNotifications" type="bool">false</setting>
     <setting id="HideWideViewLabels" type="bool">false</setting>
@@ -168,6 +129,9 @@
     <setting id="AutoHidePowerBtn" type="bool">false</setting>
     <setting id="EnableArtworkDownloader" type="bool">false</setting>
     <setting id="HideKodiIntro" type="bool">true</setting>
+    <setting id="HideHomeAddonName" type="bool">false</setting>
+    <setting id="HideSystemTime" type="bool">false</setting>
+    <setting id="HideTVRecordingInfo" type="bool">true</setting>
     <setting id="HomeItem.1.Master" type="bool">false</setting>
     <setting id="WindowedTrailer" type="bool">false</setting>
     <setting id="Show_Suspend" type="bool">false</setting>
@@ -175,6 +139,42 @@
     <setting id="AllScreenTopLeftWidget" type="bool">false</setting>
     <setting id="ShowFullScreenClock" type="bool">false</setting>
     <setting id="HomeItem.13.Master" type="bool">false</setting>
+    <setting id="HomeItem.4.Master" type="bool">false</setting>
+    <setting id="StopAutoScroll" type="bool">false</setting>
+    <setting id="enablecontext:script.playrandomvideos.single" type="bool">false</setting>
+    <setting id="SingleGlobalBackground" type="bool">false</setting>
+    <setting id="SkinHelper.ForcedViews.Enabled" type="bool">false</setting>
+    <setting id="UPnP_Mode" type="bool">false</setting>
+    <setting id="DisableAutoComplete" type="bool">false</setting>
+    <setting id="HidePVRNowPlaying" type="bool">false</setting>
+    <setting id="Updates_V320" type="bool">true</setting>
+    <setting id="HideBackgroundCDWall" type="bool">false</setting>
+    <setting id="EnableStatusBanner" type="bool">false</setting>
+    <setting id="EnableAutoUpdateArt" type="bool">false</setting>
+    <setting id="AutoVisableSubMenu" type="bool">false</setting>
+    <setting id="HomeItem.9.Master" type="bool">false</setting>
+    <setting id="HideEPGwithRDS" type="bool">false</setting>
+    <setting id="Show_SlideShow_Paused" type="bool">false</setting>
+    <setting id="HomeItem.2.Master" type="bool">false</setting>
+    <setting id="HideWatchedMediaStat" type="bool">false</setting>
+    <setting id="ScriptDisableTVTunes" type="bool">false</setting>
+    <setting id="SkinHelper.EnableWallBackgrounds" type="bool">false</setting>
+    <setting id="EpisodeBackground" type="bool">false</setting>
+    <setting id="HideNewMediaStat" type="bool">false</setting>
+    <setting id="DisableSlideShowArt" type="bool">false</setting>
+    <setting id="LowerMainMenuBar" type="bool">true</setting>
+    <setting id="Enable_CustomHibernate" type="bool">false</setting>
+    <setting id="DefaultFavView" type="bool">false</setting>
+    <setting id="HideBackGroundFanart" type="bool">false</setting>
+    <setting id="UseDiscTypeCase" type="bool">false</setting>
+    <setting id="SkinHelper.DisableScreenSaverOnFullScreenMusic" type="bool">false</setting>
+    <setting id="InitialSetUpRun" type="bool">true</setting>
+    <setting id="EnableFloorReturnButtons" type="bool">true</setting>
+    <setting id="updates_v403" type="bool">true</setting>
+    <setting id="DisableFanartScript" type="bool">false</setting>
+    <setting id="SkinHelper.EnableAnimatedPosters" type="bool">false</setting>
+    <setting id="UseStartUpPlaylistPath" type="bool">false</setting>
+    <setting id="DisableWatchItLater" type="bool">true</setting>
     <setting id="UserSubOne.1.Path" type="string"></setting>
     <setting id="AddonSetSeven.5.Label" type="string"></setting>
     <setting id="UserSubTwo.9.Label" type="string"></setting>
@@ -195,7 +195,7 @@
     <setting id="AddonSetEight.5.Icon" type="string"></setting>
     <setting id="SubMusic.1.Path" type="string">Hidden</setting>
     <setting id="SubProg.5.Label" type="string"></setting>
-    <setting id="LastVideoPlayed" type="string">PlayMedia(&quot;pvr://channels/tv/Todos los canales/pvr.hts_2096827154.pvr&quot;)</setting>
+    <setting id="LastVideoPlayed" type="string">PlayMedia(&quot;pvr://channels/tv/Todos los canales/pvr.hts_2079525138.pvr&quot;)</setting>
     <setting id="HomeItem.2.Icon" type="string">Icons/movies.png</setting>
     <setting id="CustomHibernate" type="string"></setting>
     <setting id="SkinHelper.ColorTheme.Night.time" type="string"></setting>
@@ -820,7 +820,7 @@
     <setting id="StartUpBackgroundPath" type="string">special://home/backgrounds_xconfluence/tvshows.jpg</setting>
     <setting id="SubVideos.7.Label" type="string">Oculto</setting>
     <setting id="SubProg.8.Label" type="string"></setting>
-    <setting id="InitialMenuItem" type="string">7</setting>
+    <setting id="InitialMenuItem" type="string">-1</setting>
     <setting id="SkinHelper.ForcedViews.tvshows" type="string"></setting>
     <setting id="AddonSetTen.1.Icon" type="string"></setting>
     <setting id="UserSubOne.3.Label" type="string"></setting>
@@ -1040,7 +1040,7 @@
     <setting id="AddonSetTwelve.5.Path" type="string"></setting>
     <setting id="AddonSetEight.1.Icon" type="string"></setting>
     <setting id="AddonSetEight.2.Label" type="string"></setting>
-    <setting id="InitialMenuPosi" type="string">0</setting>
+    <setting id="InitialMenuPosi" type="string">1</setting>
     <setting id="SubTVShows.2.Path" type="string"></setting>
     <setting id="AddonSetTwelve.4.Icon" type="string"></setting>
     <setting id="UserSubTwo.4.Path" type="string"></setting>
