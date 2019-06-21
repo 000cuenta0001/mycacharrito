@@ -1,19 +1,19 @@
-<settings>
-    <setting id="1080pquality" value="false" />
-    <setting id="add_playlist" value="false" />
-    <setting id="ask_playlist_items" value="false" />
-    <setting id="browse_community" value="false" />
-    <setting id="browse_xml_database" value="false" />
-    <setting id="choose_source" value="0" />
-    <setting id="debug" value="false" />
-    <setting id="donotshowbychannels" value="false" />
-    <setting id="genesisorpulsar" value="1" />
-    <setting id="logo-folderPath" value="" />
-    <setting id="new_file_source" value="" />
-    <setting id="new_url_source" value="" />
-    <setting id="parentalblocked" value="false" />
-    <setting id="parentalblockedpin" value="" />
-    <setting id="save_location" value="" />
-    <setting id="searchotherplugins" value="false" />
-    <setting id="use_thumb" value="false" />
+<settings version="2">
+    <setting id="1080pquality" default="true">false</setting>
+    <setting id="add_playlist" default="true">false</setting>
+    <setting id="ask_playlist_items" default="true">false</setting>
+    <setting id="browse_community" default="true">false</setting>
+    <setting id="browse_xml_database" default="true">false</setting>
+    <setting id="choose_source">1</setting>
+    <setting id="debug" default="true">false</setting>
+    <setting id="donotshowbychannels" default="true">false</setting>
+    <setting id="genesisorpulsar">1</setting>
+    <setting id="logo-folderPath" default="true"></setting>
+    <setting id="new_file_source" default="true"></setting>
+    <setting id="new_url_source" default="true"></setting>
+    <setting id="parentalblocked" default="true">false</setting>
+    <setting id="parentalblockedpin" default="true"></setting>
+    <setting id="save_location" default="true"></setting>
+    <setting id="searchotherplugins" default="true">false</setting>
+    <setting id="use_thumb" default="true">false</setting>
 </settings>
