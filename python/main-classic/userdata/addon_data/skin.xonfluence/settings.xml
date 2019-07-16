@@ -666,7 +666,7 @@
     <setting id="HomeItem.3.Display" type="string">Default</setting>
     <setting id="SubRadio.8.Label" type="string"></setting>
     <setting id="TopLeftHomeInfo" type="string">Blank</setting>
-    <setting id="HomeItem.3.Fanart" type="string">special://home/backgrounds_xconfluence/sport (2).jpg</setting>
+    <setting id="HomeItem.3.Fanart" type="string">special://home/backgrounds_xconfluence/superdeporte.png</setting>
     <setting id="AddonSetEight.2.Icon" type="string"></setting>
     <setting id="UserTVShowsSubMenu" type="string"></setting>
     <setting id="AddonSetTen.2.Path" type="string"></setting>
