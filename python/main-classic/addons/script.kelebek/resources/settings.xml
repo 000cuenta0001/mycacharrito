@@ -1,163 +1,44 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<settings>
-<category label="Automatic Update">
-<setting id="musica" type="bool" label="What Doesnt Kill" default="false" visible="true"/>
-<setting id="MB" type="bool" label="Bienvenidos a Kelebek" default="false" visible="true"/>
-<setting id="mensaje" type="bool" label="Adentrate en lo desconocido" default="false" visible="true"/>
-<setting id="OVNI" type="bool" label="OVNI" default="false" visible="true"/>
-<setting id="ALMA" type="bool" label="ALMA" default="false" visible="true"/>
-<setting id="MUNDOOSCURO" type="bool" label="MUNDO OSCURO" default="false" visible="true"/>
-<setting id="1X2" type="bool" label="1X2" default="false" visible="true"/>
-<setting id="Sports365" type="bool" label="Sports 365" default="false" visible="true"/>
-<setting id="RepoBuga" type="bool" label="Repo Bugatsinho" default="false" visible="true"/>
-<setting id="VideoFootbal" type="bool" label="Video Footbal" default="false" visible="true"/>
-<setting id="LaOla" type="bool" label="La Ola" default="false" visible="true"/>
-<setting id="Avezy" type="bool" label="Avezy" default="false" visible="true"/>
-<setting id="NBAonDemand" type="bool" label="NBA on Demand" default="false" visible="true"/>
-<setting id="DeportesalaCarta" type="bool" label="Deportes a la Carta" default="false" visible="true"/>
-<setting id="RedBull" type="bool" label="RedBull" default="false" visible="true"/>
-<setting id="SportsExtreme" type="bool" label="Sports Extreme" default="false" visible="true"/>
-<setting id="SportsDevil" type="bool" label="Sports Devil" default="false" visible="true"/>
-<setting id="SportsWA" type="bool" label="Sports WA" default="false" visible="true"/>
-<setting id="Pequelandia" type="bool" label="Pequelandia" default="false" visible="true"/>
-<setting id="MundoInfantil" type="bool" label="Mundo Infantil" default="false" visible="true"/>
-<setting id="YouKids" type="bool" label="YouKids" default="false" visible="true"/>
-<setting id="Fusion" type="bool" label="Fusion" default="false" visible="true"/>
-<setting id="BrazucaPlay" type="bool" label="Brazuca Play" default="false" visible="true"/>
-<setting id="Music" type="bool" label="Music" default="false" visible="true"/>
-<setting id="YouMusic" type="bool" label="YouMusic" default="false" visible="true"/>
-<setting id="YoutubeMusic" type="bool" label="Youtube Music" default="false" visible="true"/>
-<setting id="Dance" type="bool" label="Dance" default="false" visible="true"/>
-<setting id="Musicando" type="bool" label="Musicando" default="false" visible="true"/>
-<setting id="MyHR" type="bool" label="MyHR" default="false" visible="true"/>
-<setting id="HouseMixes" type="bool" label="House Mixes" default="false" visible="true"/>
-<setting id="NowMusic" type="bool" label="Now Music" default="false" visible="true"/>
-<setting id="Chillout" type="bool" label="Chillout" default="false" visible="true"/>
-<setting id="Palantir" type="bool" label="Palantir" default="false" visible="true"/>
-<setting id="Balandro" type="bool" label="Balandro" default="false" visible="true"/>
-<setting id="iNovelas" type="bool" label="iNovelas" default="false" visible="true"/>
-<setting id="Alfa" type="bool" label="Alfa" default="false" visible="true"/>
-<setting id="MediaExplorer" type="bool" label="MediaExplorer" default="false" visible="true"/>
-<setting id="MundoCine" type="bool" label="MundoCine" default="false" visible="true"/>
-<setting id="Agora" type="bool" label="Agora" default="false" visible="true"/>
-<setting id="Tesla" type="bool" label="Tesla" default="false" visible="true"/>
-<setting id="SpeedTest" type="bool" label="Speed Test" default="false" visible="true"/>
-<setting id="LimpiarKodi" type="bool" label="Limpiar Kodi" default="false" visible="true"/>
-<setting id="Backup" type="bool" label="Backup" default="false" visible="true"/>
-<setting id="Plexus" type="bool" label="Plexus" default="false" visible="true"/>
-<setting id="Merlin" type="bool" label="Merlin" default="false" visible="true"/>
-<setting id="LogViewer" type="bool" label="Log Viewer" default="false" visible="true"/>
-<setting id="TubeCast" type="bool" label="TubeCast" default="false" visible="true"/>
-<setting id="USBWizard" type="bool" label="USB Wizard" default="false" visible="true"/>
-<setting id="AutoCompletion" type="bool" label="AutoCompletion" default="false" visible="true"/>
-<setting id="EstablecerclaveenAddons" type="bool" label="Establecer clave en Addons" default="false" visible="true"/>
-<setting id="AgregaContenidoenPalantir" type="bool" label="Agrega Contenido en Palantir" default="false" visible="true"/>
-<setting id="CCloudTV" type="bool" label="CCloudTV" default="false" visible="true"/>
-<setting id="Magellan" type="bool" label="Magellan" default="false" visible="true"/>
-<setting id="Iberika" type="bool" label="Iberika" default="false" visible="true"/>
-<setting id="F4MTesteryF4MProxy" type="bool" label="F4MTester y F4MProxy" default="false" visible="true"/>
-<setting id="ResolveURL" type="bool" label="ResolveURL" default="false" visible="true"/>
-<setting id="URLResolver" type="bool" label="URLResolver" default="false" visible="true"/>
-<setting id="Python2.25.0" type="bool" label="Python 2.25.0" default="false" visible="true"/>
-<setting id="SimpleDownloader" type="bool" label="Simple Downloader" default="false" visible="true"/>
-<setting id="LiveResolver" type="bool" label="Live Resolver" default="false" visible="true"/>
-<setting id="MetaHandler" type="bool" label="MetaHandler" default="false" visible="true"/>
-<setting id="SCMSingleDispatch" type="bool" label="Script Module Single Dispatch" default="false" visible="true"/>
-<setting id="t0mm0" type="bool" label="Script Module t0mm0" default="false" visible="true"/>
-<setting id="Futures" type="bool" label="Script Module Futures" default="false" visible="true"/>
-<setting id="Netflix" type="bool" label="Netflix" default="false" visible="true"/>
-<setting id="AeonLeiAnMC" type="bool" label="Aeon LeiAnMC" default="false" visible="true"/>
-<setting id="AeonWLeiAnMC" type="bool" label="Aeon WLeiAnMC" default="false" visible="true"/>
-<setting id="RapierMariposa" type="bool" label="Rapier Mariposa" default="false" visible="true"/>
-<setting id="ElementumU" type="bool" label="Elementum Universal" default="false" visible="true"/>
-<setting id="ElementumA" type="bool" label="Elementum Android" default="false" visible="true"/>
-<setting id="ElementumW32" type="bool" label="Elementum Windows 32 Bits" default="false" visible="true"/>
-<setting id="ElementumW64" type="bool" label="Elementum Windows 64 Bits" default="false" visible="true"/>
-<setting id="Quasar" type="bool" label="Quasar" default="false" visible="true"/>
-<setting id="Torrenter" type="bool" label="Torrenter" default="false" visible="true"/>
-<setting id="Torrentin" type="bool" label="Torrentin" default="false" visible="true"/>
-<setting id="RepoZachMorris" type="bool" label="Repo ZachMorris" default="false" visible="true"/>
-<setting id="RepoCanalNereo" type="bool" label="Repo Canal Nereo" default="false" visible="true"/>
-<setting id="RepoMyShows" type="bool" label="Repo MyShows" default="false" visible="true"/>
-<setting id="RepoXBMCHub" type="bool" label="Repo XBMCHub" default="false" visible="true"/>
-<setting id="RepoJSergio" type="bool" label="Repo JSergio" default="false" visible="true"/>
-<setting id="RepoFirestickplusman" type="bool" label="Repo Firestickplusman" default="false" visible="true"/>
-<setting id="RepoXXTrep" type="bool" label="Repo XXTrep" default="false" visible="true"/>
-<setting id="RepoKodil" type="bool" label="Repo Kodil" default="false" visible="true"/>
-<setting id="RepoMaverick" type="bool" label="Repo Maverick" default="false" visible="true"/>
-<setting id="RepoManiac" type="bool" label="Repo Maniac" default="false" visible="true"/>
-<setting id="RepoVStream" type="bool" label="Repo VStream" default="false" visible="true"/>
-<setting id="SkinCatana" type="bool" label="Skin Catana" default="false" visible="true"/>
-<setting id="SkinECatoal" type="bool" label="Skin Estuary Catoal" default="false" visible="true"/>
-<setting id="SkinHSKKonfluence" type="bool" label="Skin HSK Konfluence" default="false" visible="true"/>
-<setting id="SkinRapierMariposa17" type="bool" label="Skin Rapier Mariposa 17" default="false" visible="true"/>
-<setting id="SkinRapierMariposa18" type="bool" label="Skin Rapier Mariposa 18" default="false" visible="true"/>
-<setting id="SkinKMariposa" type="bool" label="Skin Krypton Mariposa" default="false" visible="true"/>
-<setting id="SkinSkyPalomitas" type="bool" label="Skin Sky Palomitas" default="false" visible="true"/>
-<setting id="WizardCatana" type="bool" label="Wizard Catana" default="false" visible="true"/>
-<setting id="WizardPalantir" type="bool" label="Wizard Palantir" default="false" visible="true"/>
-<setting id="WizardPalomitas" type="bool" label="Wizard Palomitas" default="false" visible="true"/>
-<setting id="WizardTaox" type="bool" label="Wizard Taox" default="false" visible="true"/>
-<setting id="WizardChopo" type="bool" label="Wizard Chopo" default="false" visible="true"/>
-<setting id="AdvancedSettings" type="bool" label="Plugin Advanced Settings" default="false" visible="true"/>
-<setting id="K16-RAM-1" type="bool" label="Advanced Settings Kodi 16 RAM 1 GB" default="false" visible="true"/>
-<setting id="K16-RAM-2" type="bool" label="Advanced Settings Kodi 16 RAM 2 GB" default="false" visible="true"/>
-<setting id="K16-RAM-3" type="bool" label="Advanced Settings Kodi 16 RAM 3 GB" default="false" visible="true"/>
-<setting id="K16-ROM" type="bool" label="Advanced Settings Kodi 16 ROM" default="false" visible="true"/>
-<setting id="K178-RAM-M1" type="bool" label="Advanced Settings Kodi 17 y 18 RAM MENOR 1 GB" default="false" visible="true"/>
-<setting id="K178-RAM-1" type="bool" label="Advanced Settings Kodi 17 y 18 RAM 1 GB" default="false" visible="true"/>
-<setting id="K178-ROM" type="bool" label="Advanced Settings Kodi 17 y 18 ROM" default="false" visible="true"/>
-<setting id="cometelo" type="bool" label="Cometelo" default="false" visible="true"/>
-<setting id="googledrive" type="bool" label="Google Drive" default="false" visible="true"/>
-<setting id="aprendiendokodi" type="bool" label="Aprendiendo Kodi" default="false" visible="true"/>
-<setting id="justforlaughs" type="bool" label="Just For Laughs" default="false" visible="true"/>
-<setting id="Magyck" type="bool" label="Magyc" default="false" visible="true"/>
-<setting id="orchestra" type="bool" label="Orchestra" default="false" visible="true"/>
-<setting id="angelaaron" type="bool" label="Angel Aaron" default="false" visible="true"/>
-<setting id="canalcocina" type="bool" label="Canal Cocina" default="false" visible="true"/>
-<setting id="comics" type="bool" label="Comics" default="false" visible="true"/>
-<setting id="cristalazul" type="bool" label="Cristal Azul" default="false" visible="true"/>
-<setting id="mundrone" type="bool" label="Mundrone" default="false" visible="true"/>
-<setting id="Alma" type="bool" label="Alma" default="false" visible="true"/>
-<setting id="Amazon" type="bool" label="Amazon" default="false" visible="true"/>
-<setting id="ccloudtv" type="bool" label="CCloudTV" default="false" visible="true"/>
-<setting id="festa" type="bool" label="Festa" default="false" visible="true"/>
-<setting id="tvchopo" type="bool" label="TvChopo" default="false" visible="true"/>
-<setting id="RepoTVChopo" type="bool" label="Repo TVChopo" default="false" visible="true"/>
-<setting id="tvalacarta" type="bool" label="Tvalacarta" default="false" visible="true"/>
-<setting id="F4MTester" type="bool" label="F4M Tester" default="false" visible="true"/>
-<setting id="commoncache" type="bool" label="Common Cache" default="false" visible="true"/>
-<setting id="ExtendedInfo" type="bool" label="Extended Info" default="false" visible="true"/>
-<setting id="globalsearch" type="bool" label="Global Search" default="false" visible="true"/>
-<setting id="kodispeedtest" type="bool" label="Kodi Speed Test" default="false" visible="true"/>
-<setting id="addoncommon" type="bool" label="Addon Common" default="false" visible="true"/>
-<setting id="cherrypy" type="bool" label="Cherrypy" default="false" visible="true"/>
-<setting id="cryptopy" type="bool" label="Cryptopy" default="false" visible="true"/>
-<setting id="libtorrente" type="bool" label="Libtorrent" default="false" visible="true"/>
-<setting id="liveresolver" type="bool" label="Liveresolver" default="false" visible="true"/>
-<setting id="metahandler" type="bool" label="Metahandler" default="false" visible="true"/>
-<setting id="Six" type="bool" label="Six" default="false" visible="true"/>
-<setting id="youtubedll" type="bool" label="Youtubedll" default="false" visible="true"/>
-<setting id="SCSkinHS" type="bool" label="Skin Helper Service" default="false" visible="true"/>
-<setting id="F4MProxy" type="bool" label="F4M Proxy" default="false" visible="true"/>
-<setting id="xbmcpython" type="bool" label="Xbmc python" default="false" visible="true"/>
-<setting id="xmltodict" type="bool" label="xmltodict" default="false" visible="true"/>
-<setting id="myconnpy" type="bool" label="myconnpy" default="false" visible="true"/>
-<setting id="adultsonly" type="bool" label="Adults Only" default="false" visible="true"/>
-<setting id="videodevil" type="bool" label="Videodevil" default="false" visible="true"/>
-<setting id="gaymods" type="bool" label="GayMods" default="false" visible="true"/>
-<setting id="69" type="bool" label="69" default="false" visible="true"/>
-<setting id="ayayay" type="bool" label="AyAyAy" default="false" visible="true"/>
-<setting id="fantasticc" type="bool" label="Fantasticc" default="false" visible="true"/>
-<setting id="theknob" type="bool" label="The Knob" default="false" visible="true"/>
-<setting id="CatchUpTVK" type="bool" label="CatchUp TV Krypton" default="false" visible="true"/>
-<setting id="Poseidon" type="bool" label="Poseidon Ingles" default="false" visible="true"/>
-<setting id="MMFilmesHD" type="bool" label="MMFilmesHD Portugues" default="false" visible="true"/>
-<setting id="Frances" type="bool" label="Frances (Repositorio VStream)" default="false" visible="true"/>
-<setting id="ATOMREBORN" type="bool" label="ATOMREBORN" default="false" visible="true"/>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><settings><category label="Options"><setting default="" id="basesource" type="text" visible="false"></setting>
+<setting default="" id="URL_Base Source" label="URL Base Source: " type="text" visible="true"></setting>
+<setting default="true" id="Play_Media_Initial" label="Play Media Inicial" type="bool" visible="true"></setting>
+<setting default="true" id="Play_Media" label="Play Media" type="bool" visible="true"></setting>
 </category>
-<category label="URL Base Source">
-<setting id="basesource" type="text" default="" visible="false"/>
-<setting id="URL_Base Source" type="text" label="URL Base Source: " default="" visible="true"/>
+<category label="Automatic_Update"><setting default="false" id="SkinCatana" label="Skin Catana" type="bool" visible="true"></setting>
+<setting default="false" id="OVNI" label="OVNI" type="bool" visible="true"></setting>
+<setting default="false" id="RepoDeco" label="Repo Decosub" type="bool" visible="true"></setting>
+<setting default="false" id="ALMA" label="ALMA" type="bool" visible="true"></setting>
+<setting default="false" id="MUNDOOSCURO" label="MUNDO OSCURO" type="bool" visible="true"></setting>
+<setting default="false" id="1X2" label="1X2" type="bool" visible="true"></setting>
+<setting default="false" id="RepoManiac" label="Repo Maniac" type="bool" visible="true"></setting>
+<setting default="false" id="Sports365" label="Sports 365" type="bool" visible="true"></setting>
+<setting default="false" id="RepoBuga" label="Repo Bugatsinho" type="bool" visible="true"></setting>
+<setting default="false" id="VideoFootbal" label="Video Footbal" type="bool" visible="true"></setting>
+<setting default="false" id="LaOla" label="La Ola" type="bool" visible="true"></setting>
+<setting default="false" id="Avezy" label="Avezy" type="bool" visible="true"></setting>
+<setting default="false" id="NBAonDemand" label="NBA on Demand" type="bool" visible="true"></setting>
+<setting default="false" id="DeportesalaCarta" label="Deportes a la Carta" type="bool" visible="true"></setting>
+<setting default="false" id="RedBull" label="RedBull" type="bool" visible="true"></setting>
+<setting default="false" id="RepoPlexus" label="Plexus Stream" type="bool" visible="true"></setting>
+<setting default="false" id="SportsExtreme" label="Sports Extreme" type="bool" visible="true"></setting>
+<setting default="false" id="RepoFOliver" label="Repo FOliver" type="bool" visible="true"></setting>
+<setting default="false" id="SportsDevil" label="Sports Devil" type="bool" visible="true"></setting>
+<setting default="false" id="SportsWA" label="Sports WA" type="bool" visible="true"></setting>
+<setting default="false" id="RepoMBebe" label="Repo MBebe" type="bool" visible="true"></setting>
+<setting default="false" id="Pequelandia" label="Pequelandia" type="bool" visible="true"></setting>
+<setting default="false" id="MundoInfantil" label="Mundo Infantil" type="bool" visible="true"></setting>
+<setting default="false" id="YouKids" label="YouKids" type="bool" visible="true"></setting>
+<setting default="false" id="Fusion" label="Fusion" type="bool" visible="true"></setting>
+<setting default="false" id="FusionReq" label="Fusion Req" type="bool" visible="true"></setting>
+<setting default="false" id="RepoFusion" label="Repo Fusion" type="bool" visible="true"></setting>
+<setting default="false" id="BrazucaPlay" label="Brazuca Play" type="bool" visible="true"></setting>
+<setting default="false" id="Music" label="Music" type="bool" visible="true"></setting>
+<setting default="false" id="RepoMrFree" label="Repo MrFree" type="bool" visible="true"></setting>
+<setting default="false" id="YouMusic" label="YouMusic" type="bool" visible="true"></setting>
+<setting default="false" id="YoutubeMusic" label="Youtube Music" type="bool" visible="true"></setting>
+<setting default="false" id="Dance" label="Dance" type="bool" visible="true"></setting>
+<setting default="false" id="Musicando" label="Musicando" type="bool" visible="true"></setting>
+<setting default="false" id="MyHR" label="MyHR" type="bool" visible="true"></setting>
+<setting default="false" id="HouseMixes" label="House Mixes" type="bool" visible="true"></setting>
+<setting default="false" id="NowMusic" label="Now Music" type="bool" visible="true"></setting>
 </category>
 </settings>

@@ -1,3 +1,6 @@
+2.6.1 07-06-2019
+- Fix links resolver
+
 2.6.0 17-05-2019
 - Add as default playback method Streamlink thanks to Twilight and Devilsport
 - Add News-Updates on menu
