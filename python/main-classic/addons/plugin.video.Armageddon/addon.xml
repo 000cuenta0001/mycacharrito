@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <addon id="plugin.video.Armageddon"
        name="[COLOR gold][B]Armageddon[/B][/COLOR]"
-       version="0.0.2"
+       version="0.0.3"
        provider-name="[COLOR aqua]Hectobo Y David[/COLOR]">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
