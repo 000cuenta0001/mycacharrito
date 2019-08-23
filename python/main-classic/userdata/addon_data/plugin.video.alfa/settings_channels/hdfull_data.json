@@ -1,7 +1,12 @@
 {
     "settings": {
-        "hdfullpassword": "ghjk",
-        "hdfulluser": "as",
-        "include_in_global_search": false
+        "filter_languages": 0, 
+        "hdfullpassword": "ghjk", 
+        "hdfulluser": "as", 
+        "include_in_global_search": false, 
+        "logged": false, 
+        "modo_grafico": true, 
+        "show_langs": true, 
+        "silence_mode": true
     }
 }
