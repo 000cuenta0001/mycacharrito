@@ -4,7 +4,7 @@
         "hdfullpassword": "ghjk", 
         "hdfulluser": "as", 
         "include_in_global_search": false, 
-        "logged": false, 
+        "logged": true, 
         "modo_grafico": true, 
         "show_langs": true, 
         "silence_mode": true

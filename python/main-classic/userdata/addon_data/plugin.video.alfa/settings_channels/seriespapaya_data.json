@@ -2,7 +2,7 @@
     "settings": {
         "filter_languages": 0, 
         "filterlinks": 1, 
-        "frequency": 1, 
+        "frequency": 6, 
         "include_in_global_search": true, 
         "include_in_newest_series": true
     }

@@ -1,67 +1,89 @@
-<settings>
-    <setting id="addon_update_message" value="false" />
-    <setting id="addon_update_timer" value="12" />
-    <setting id="adult_aux_intro_password" value="" />
-    <setting id="adult_aux_new_password1" value="" />
-    <setting id="adult_aux_new_password2" value="" />
-    <setting id="adult_mode" value="1" />
-    <setting id="adult_password" value="0000" />
-    <setting id="adult_request_password" value="false" />
-    <setting id="cast_color" value="Programas" />
-    <setting id="category" value="Peliculas" />
-    <setting id="channel_language" value="all" />
-    <setting id="custom_start" value="false" />
-    <setting id="debug" value="true" />
-    <setting id="default_action" value="2" />
-    <setting id="downloadlistpath" value="special://profile/addon_data/plugin.video.alfa/downloads/list" />
-    <setting id="downloadpath" value="special://profile/addon_data/plugin.video.alfa/downloads" />
-    <setting id="extended_info" value="false" />
-    <setting id="faster_item_serialization" value="false" />
-    <setting id="folder_movies" value="CINE" />
-    <setting id="folder_tvshows" value="SERIES" />
-    <setting id="forceview" value="false" />
-    <setting id="hidepremium" value="true" />
-    <setting id="httptools_timeout" value="15" />
-    <setting id="icon_set" value="default" />
-    <setting id="infoplus" value="true" />
-    <setting id="infoplus_set" value="Sin animación" />
-    <setting id="install_trakt" value="true" />
-    <setting id="lat_color" value="Programas" />
-    <setting id="library_color" value="Programas" />
-    <setting id="movie_color" value="Programas" />
-    <setting id="news_start" value="false" />
-    <setting id="no_update_color" value="Programas" />
-    <setting id="path_selection" value="0" />
-    <setting id="player_mode" value="0" />
-    <setting id="quality_color" value="Programas" />
-    <setting id="rating_1_color" value="Programas" />
-    <setting id="rating_2_color" value="Programas" />
-    <setting id="rating_3_color" value="Programas" />
-    <setting id="resolve_priority" value="0" />
-    <setting id="resolve_stop" value="true" />
-    <setting id="server_color" value="Programas" />
-    <setting id="settings_path" value="special://profile/addon_data/plugin.video.alfa/settings_channels" />
-    <setting id="shortcut_key" value="" />
-    <setting id="show_once" value="true" />
-    <setting id="start_page" value="false" />
-    <setting id="subtitle_name" value="Muttsuri Dosukebe Russia 02 [Sub-Espanol] [HD]" />
-    <setting id="thumbnail_type" value="2" />
-    <setting id="title_color" value="false" />
-    <setting id="tmdb_cache" value="true" />
-    <setting id="tmdb_cache_expire" value="4" />
-    <setting id="tmdb_clean_db_cache" value="" />
-    <setting id="tmdb_plus_info" value="false" />
-    <setting id="tmdb_threads" value="20" />
-    <setting id="trakt_sync" value="false" />
-    <setting id="tvshow_color" value="Programas" />
-    <setting id="unify" value="false" />
-    <setting id="update_color" value="Programas" />
-    <setting id="video_thumbnail_type" value="0" />
-    <setting id="videolibrary_kodi" value="false" />
-    <setting id="videolibrary_kodi_flag" value="0" />
-    <setting id="videolibrarypath" value="special://profile/addon_data/plugin.video.alfa/videolibrary" />
-    <setting id="vo_color" value="Programas" />
-    <setting id="vos_color" value="Programas" />
-    <setting id="vose_color" value="Programas" />
-    <setting id="year_color" value="Programas" />
+<settings version="2">
+    <setting id="addon_quasar_update" default="true">false</setting>
+    <setting id="addon_update_message" default="true">false</setting>
+    <setting id="addon_update_timer" default="true">12</setting>
+    <setting id="adult_aux_intro_password" default="true"></setting>
+    <setting id="adult_aux_new_password1" default="true"></setting>
+    <setting id="adult_aux_new_password2" default="true"></setting>
+    <setting id="adult_mode">1</setting>
+    <setting id="adult_password" default="true">0000</setting>
+    <setting id="adult_request_password">false</setting>
+    <setting id="alternative_web_access" default="true">false</setting>
+    <setting id="autoplay" default="true">false</setting>
+    <setting id="cast_color" default="true">white</setting>
+    <setting id="category">Peliculas</setting>
+    <setting id="channel_language" default="true">all</setting>
+    <setting id="custom_start" default="true">false</setting>
+    <setting id="debug">true</setting>
+    <setting id="default_action">2</setting>
+    <setting id="downloadlistpath">special://profile/addon_data/plugin.video.alfa/downloads/list</setting>
+    <setting id="downloadpath">special://profile/addon_data/plugin.video.alfa/downloads</setting>
+    <setting id="extended_info" default="true">false</setting>
+    <setting id="faster_item_serialization" default="true">false</setting>
+    <setting id="folder_movies" default="true">CINE</setting>
+    <setting id="folder_tvshows" default="true">SERIES</setting>
+    <setting id="forceview" default="true">false</setting>
+    <setting id="frequents" default="true">false</setting>
+    <setting id="frequents_folder" default="true">false</setting>
+    <setting id="hidepremium">true</setting>
+    <setting id="httptools_timeout" default="true">15</setting>
+    <setting id="icon_set" default="true">default</setting>
+    <setting id="infoplus">true</setting>
+    <setting id="infoplus_set">Sin animación</setting>
+    <setting id="install_trakt" default="true">true</setting>
+    <setting id="lat_color" default="true">white</setting>
+    <setting id="library_color" default="true">white</setting>
+    <setting id="lista_activa" default="true">alfavorites-default.json</setting>
+    <setting id="max_frequents" default="true">5</setting>
+    <setting id="max_frequents_folder" default="true">0</setting>
+    <setting id="movie_color" default="true">white</setting>
+    <setting id="news_start" default="true">false</setting>
+    <setting id="no_update_color" default="true">white</setting>
+    <setting id="path_selection" default="true">0</setting>
+    <setting id="player_mode" default="true">0</setting>
+    <setting id="preset_style" default="true">Estilo 1</setting>
+    <setting id="preset_style_switch">true</setting>
+    <setting id="proxy_active" default="true">VHJ1ZQ==</setting>
+    <setting id="proxy_addr" default="true">MTgzLjkxLjMzLjQyOjgwODI=</setting>
+    <setting id="proxy_CF_addr" default="true">NDIuMTU5LjkxLjI0ODo4MDgw</setting>
+    <setting id="proxy_CF_list" default="true">Wyc0Mi4xNTkuOTEuMjQ4OjgwODEnLCAnNDIuMTU5LjkxLjI0ODo4MDgwJ10=</setting>
+    <setting id="proxy_channel_bloqued" default="true">eydjaW5ldHV4LnRvJzogJ1Byb3h5V2ViOmhpZGUubWUnLCAnY2luZWNhbGlkYWQudG8nOiAnUHJveHlXZWInLCAnY3VldmFuYTMuY29tJzogJ1Byb3h5V2ViJywgJ2dudWxhLm51JzogJ1Byb3h5Q0YnLCAnZmlsZXMuZ3JhbnRvcnJlbnQubmV0JzogJ1Byb3h5V2ViJywgJ21lam9ydG9ycmVudC5uZXQnOiAnT04nLCAnZWxpdGV0b3JyZW50LmJpeic6ICdPTicsICdtZWpvcnRvcnJlbnQuY29tJzogJ1Byb3h5V2ViOmhpZGUubWUnLCAnZ3JhbnRvcnJlbnQxLmNvbSc6ICdPTicsICd0b2RvLXBlbGljdWxhcy5uZXQnOiAnUHJveHlXZWInLCAnZ251bGEuc2UnOiAnT04nLCAnbWVqb3J0b3JyZW50Lm9yZyc6ICdQcm94eVdlYjpoaWRlLm1lLHdlYnByb3h5LnRvJywgJ3Nlcmllc2RhbmtvLnRvJzogJ09OJywgJ2dyYW50b3JyZW50Lm5ldCc6ICdQcm94eVdlYicsICdjdWV2YW5hMy5jbyc6ICdQcm94eVdlYid9</setting>
+    <setting id="proxy_dev" default="true">dXNlcg==</setting>
+    <setting id="proxy_list" default="true">WycxODMuOTEuMzMuNDI6ODA4MicsICcxODMuOTEuMzMuNDE6ODA5MCcsICcxODMuOTEuMzMuNDE6ODAnLCAnMTgzLjkxLjMzLjQxOjkxJywgJzExNi42Mi4xOTguNDM6ODA4MCcsICcxODMuOTEuMzMuNDI6ODQnLCAnMTgzLjkxLjMzLjQxOjgwODknLCAnMTAxLjIzMS4xMDQuODI6ODAnLCAnMTI0LjE1Ni4xMDguNzE6ODInLCAnMTI1LjYzLjgzLjQyOjgwJywgJzE4My45MS4zMy40Mjo4MDgxJywgJzE4My45MS4zMy40Mjo4MDg1JywgJzEyMi45Ni41MS45OjgwODAnLCAnMTgzLjkxLjMzLjQxOjg1JywgJzE4My45MS4zMy40Mjo4NicsICcxMDMuMjEuMTYxLjIwMjozNTEwMScsICcxODMuOTEuMzMuNDI6ODA4NCcsICcxODMuOTEuMzMuNDI6OTAnLCAnMTgzLjkxLjMzLjQyOjg3JywgJzE4My45MS4zMy40Mjo4MDg2JywgJzE4My45MS4zMy40MTo4OScsICcxMjAuNzkuNjEuMjQ2OjgwMDAnLCAnNTQuMjU1LjE4OC4xNDA6ODAnLCAnMTgzLjkxLjMzLjQxOjg0JywgJzE4My45MS4zMy40Mjo4MDkwJywgJzE4My45MS4zMy40Mjo4MScsICcyMjIuNzMuMjE4LjM4Ojg4ODgnLCAnMjAyLjYyLjg0LjIxMDo1MzI4MScsICcxODMuOTEuMzMuNDE6ODA4MCcsICcxODMuOTEuMzMuNDE6ODMnLCAnMTgzLjkxLjMzLjQxOjgwODUnLCAnMTgzLjkxLjMzLjQyOjgzJywgJzE4My45MS4zMy40Mjo4OCcsICcxODMuOTEuMzMuNDI6ODA4OCcsICcxODMuOTEuMzMuNDI6ODUnLCAnMTgzLjkxLjMzLjQxOjgyJywgJzE4My45MS4zMy40Mjo4MDg5JywgJzE4My45MS4zMy40Mjo4MDg3JywgJzE4My45MS4zMy40Mjo4MDgzJywgJzEwMy4yNDAuMTYxLjI1MDo1MDgxMicsICcxMDMuMjQwLjIwNi4xNTI6NTU3NDAnLCAnMTgzLjkxLjMzLjQxOjkwJywgJzQ1LjQzLjQ2LjczOjk5OTknLCAnMTgzLjkxLjMzLjQyOjkyJywgJzQyLjE1OS45MS4yNDg6ODA4MCcsICcxODMuOTEuMzMuNDI6ODA5MScsICcxMDMuNzIuMjE2LjE5NDozODM0NScsICcxODMuOTEuMzMuNDI6ODknLCAnMTUwLjEwOS41NS4xOTA6ODMnLCAnMTgzLjkxLjMzLjQyOjgyJ10=</setting>
+    <setting id="proxy_web_name" default="true">aGlkZS5tZQ==</setting>
+    <setting id="proxy_white_list" default="true">eydjaW5ldHV4LnRvJzogJ1Byb3h5V2ViOmhpZGUubWUnLCAnY2luZWNhbGlkYWQudG8nOiAnUHJveHlXZWInLCAnZ251bGEubnUnOiAnUHJveHlDRicsICdmaWxlcy5ncmFudG9ycmVudC5uZXQnOiAnUHJveHlXZWInLCAnbWVqb3J0b3JyZW50LmNvbSc6ICdQcm94eVdlYjpoaWRlLm1lJywgJ3RvZG8tcGVsaWN1bGFzLm5ldCc6ICdQcm94eVdlYicsICdjdWV2YW5hMy5jb20nOiAnUHJveHlXZWInLCAnbWVqb3J0b3JyZW50Lm9yZyc6ICdQcm94eVdlYjpoaWRlLm1lJywgJ2dyYW50b3JyZW50Lm5ldCc6ICdQcm94eVdlYicsICdjdWV2YW5hMy5jbyc6ICdQcm94eVdlYid9</setting>
+    <setting id="proxy_zip" default="true">Q291bnRyeTogRVMgLyBPcGVyYXRvcjogVm9kYWZvbmUgU3BhaW4gLyBSLkNvZGU6IDIwMCAvIERhdGE6ICAvIFdlYl9pcDogaHR0cHM6Ly9pcGFwaS5jby9qc29u</setting>
+    <setting id="quality_color" default="true">white</setting>
+    <setting id="rating_1_color" default="true">white</setting>
+    <setting id="rating_2_color" default="true">white</setting>
+    <setting id="rating_3_color" default="true">white</setting>
+    <setting id="resolve_priority" default="true">0</setting>
+    <setting id="resolve_stop">true</setting>
+    <setting id="second_language" default="true">No</setting>
+    <setting id="server_color" default="true">white</setting>
+    <setting id="settings_path" default="true">special://profile/addon_data/plugin.video.alfa/settings_channels</setting>
+    <setting id="shortcut_key" default="true"></setting>
+    <setting id="show_once" default="true">true</setting>
+    <setting id="start_page" default="true">false</setting>
+    <setting id="subtitle_name">10x04 (de 4)  The Walking Dead [COLOR yellow][2015][COLOR] [6.3] [COLOR limegreen][HDTV 720p AC3 5.1][COLOR] [COLOR red][&apos;CAST&apos;][COLOR] []</setting>
+    <setting id="thumbnail_type">2</setting>
+    <setting id="title_color" default="true">false</setting>
+    <setting id="tmdb_cache">true</setting>
+    <setting id="tmdb_cache_expire">4</setting>
+    <setting id="tmdb_clean_db_cache" default="true"></setting>
+    <setting id="tmdb_lang" default="true">0</setting>
+    <setting id="tmdb_plus_info" default="true">false</setting>
+    <setting id="tmdb_threads" default="true">20</setting>
+    <setting id="trakt_sync" default="true">false</setting>
+    <setting id="tvshow_color" default="true">white</setting>
+    <setting id="unify" default="true">false</setting>
+    <setting id="update_color" default="true">white</setting>
+    <setting id="video_thumbnail_type" default="true">0</setting>
+    <setting id="videolibrary_kodi" default="true">false</setting>
+    <setting id="videolibrary_kodi_flag" default="true">0</setting>
+    <setting id="videolibrarypath">special://profile/addon_data/plugin.video.alfa/videolibrary</setting>
+    <setting id="vo_color" default="true">white</setting>
+    <setting id="vos_color" default="true">white</setting>
+    <setting id="vose_color" default="true">white</setting>
+    <setting id="year_color" default="true">white</setting>
 </settings>

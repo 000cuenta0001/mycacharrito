@@ -4,7 +4,9 @@
     <option name="SCOPE_TYPE" value="3" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d3c59565-3fa0-46f9-b9a2-e3ef3b62cc38" name="Default" comment="Version 1.6.6: Update YoutubeDL" />
+    <list default="true" id="d3c59565-3fa0-46f9-b9a2-e3ef3b62cc38" name="Default" comment="Fix youtubedlfix for Python 3">
+      <change beforePath="$PROJECT_DIR$/addon.xml" beforeDir="false" afterPath="$PROJECT_DIR$/addon.xml" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -16,68 +18,43 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/addon.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="272">
-              <caret line="16" column="82" lean-forward="true" selection-start-line="16" selection-start-column="82" selection-end-line="16" selection-end-column="82" />
+            <state relative-caret-position="340">
+              <caret line="20" column="19" selection-start-line="20" selection-start-column="19" selection-end-line="20" selection-end-column="19" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/default.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="289">
-              <caret line="17" column="40" selection-start-line="17" selection-start-column="40" selection-end-line="17" selection-end-column="40" />
-            </state>
-          </provider>
+        <entry file="file://$PROJECT_DIR$/lib/private/subprocess/__init__.py">
+          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/lib/share.py">
+        <entry file="file://$PROJECT_DIR$/lib/private/ydlfix.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="532">
-              <caret line="87" column="66" selection-start-line="87" selection-start-column="66" selection-end-line="87" selection-end-column="66" />
+            <state relative-caret-position="872">
+              <caret line="73" column="46" lean-forward="true" selection-start-line="73" selection-start-column="46" selection-end-line="73" selection-end-column="46" />
               <folding>
-                <element signature="e#24#37#0" expanded="true" />
+                <element signature="e#24#34#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../script.module.urlresolver.yatse/lib/urlresolver/plugins/premiumize_me.py">
+        <entry file="file://$PROJECT_DIR$/lib/private/subprocess/_subprocess.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1031">
-              <caret line="375" column="95" selection-start-line="375" selection-start-column="95" selection-end-line="375" selection-end-column="95" />
+            <state relative-caret-position="272">
+              <caret line="16" selection-start-line="16" selection-end-line="16" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/lib/__init__.py">
+        <entry file="file://$PROJECT_DIR$/lib/private/__init__.py">
           <provider selected="true" editor-type-id="text-editor">
             <state>
-              <caret selection-end-line="1" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/lib/utils.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1445">
-              <caret line="85" column="38" selection-start-line="85" selection-start-column="38" selection-end-line="85" selection-end-column="63" />
-              <folding>
-                <element signature="e#24#38#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/lib/stream.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="34">
-              <caret line="4" selection-start-line="4" selection-end-line="4" />
+              <caret column="23" selection-start-column="23" selection-end-column="23" />
             </state>
           </provider>
         </entry>
@@ -93,10 +70,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>YoutubeDL</find>
-      <find>module</find>
-      <find>&quot;</find>
-      <find>unifie</find>
       <find>logg</find>
       <find>youtube_dl.utils.</find>
       <find>plot</find>
@@ -122,6 +95,11 @@
       <find>handle_unresolved_url</find>
       <find>script.module.urlresolver/</find>
       <find>script.module.urlresolver</find>
+      <find>uni</find>
+      <find>unq</find>
+      <find>urllib.unquote</find>
+      <find>unquote</find>
+      <find>quote</find>
     </findStrings>
     <dirStrings>
       <dir>D:\_Gradle\repository.yatse.kodi\script.module.urlresolver.yatse\lib\urlresolver</dir>
@@ -140,21 +118,21 @@
         <option value="$PROJECT_DIR$/lib/utils/__init__.py" />
         <option value="$PROJECT_DIR$/lib/utils/ydl-fix.py" />
         <option value="$PROJECT_DIR$/lib/utils/ydlfix.py" />
-        <option value="$PROJECT_DIR$/lib/stream.py" />
         <option value="$PROJECT_DIR$/default.py" />
         <option value="$PROJECT_DIR$/resources/language/English/strings.po" />
         <option value="$PROJECT_DIR$/resources/language/French/strings.po" />
         <option value="$PROJECT_DIR$/lib/private/_subprocess.py" />
         <option value="$PROJECT_DIR$/lib/private/subprocess/_subprocess.py" />
-        <option value="$PROJECT_DIR$/lib/private/ydlfix.py" />
-        <option value="$PROJECT_DIR$/lib/utils.py" />
-        <option value="$PROJECT_DIR$/lib/share.py" />
         <option value="$PROJECT_DIR$/../script.module.urlresolver.yatse/lib/urlresolver/lib/log_utils.py" />
         <option value="$PROJECT_DIR$/../script.module.urlresolver.yatse/lib/urlresolver/plugins/premiumize_me.py" />
         <option value="$PROJECT_DIR$/../script.module.urlresolver.yatse/lib/urlresolver/plugins/thevid.py" />
         <option value="$PROJECT_DIR$/../script.module.urlresolver.yatse/lib/urlresolver/plugins/realdebrid.py" />
         <option value="$PROJECT_DIR$/../script.module.urlresolver.yatse/lib/urlresolver/plugins/alldebrid.py" />
         <option value="$PROJECT_DIR$/../script.module.urlresolver.yatse/lib/urlresolver/plugins/linksnappy.py" />
+        <option value="$PROJECT_DIR$/lib/utils.py" />
+        <option value="$PROJECT_DIR$/lib/stream.py" />
+        <option value="$PROJECT_DIR$/lib/share.py" />
+        <option value="$PROJECT_DIR$/lib/private/ydlfix.py" />
         <option value="$PROJECT_DIR$/addon.xml" />
       </list>
     </option>
@@ -194,6 +172,21 @@
               <item name="script.yatse.kodi" type="b2602c69:ProjectViewProjectNode" />
               <item name="script.yatse.kodi" type="47feb1d3:ProjectViewModuleNode" />
               <item name="script.yatse.kodi" type="462c0819:PsiDirectoryNode" />
+              <item name="lib" type="462c0819:PsiDirectoryNode" />
+              <item name="private" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="script.yatse.kodi" type="b2602c69:ProjectViewProjectNode" />
+              <item name="script.yatse.kodi" type="47feb1d3:ProjectViewModuleNode" />
+              <item name="script.yatse.kodi" type="462c0819:PsiDirectoryNode" />
+              <item name="lib" type="462c0819:PsiDirectoryNode" />
+              <item name="private" type="462c0819:PsiDirectoryNode" />
+              <item name="subprocess" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="script.yatse.kodi" type="b2602c69:ProjectViewProjectNode" />
+              <item name="script.yatse.kodi" type="47feb1d3:ProjectViewModuleNode" />
+              <item name="script.yatse.kodi" type="462c0819:PsiDirectoryNode" />
               <item name="resources" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -221,7 +214,7 @@
     <property name="SearchEverywhereHistoryKey" value="insp&#9;ACTION&#9;InspectCode" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../script.module.urlresolver.yatse" />
     <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
-    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PythonContentEntriesConfigurable" />
+    <property name="settings.editor.selected.configurable" value="configurable.group.tools" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -450,11 +443,33 @@
       <option name="project" value="LOCAL" />
       <updated>1568192107290</updated>
     </task>
-    <option name="localTasksCounter" value="29" />
+    <task id="LOCAL-00029" summary="Support both Python 2 and Python 3 (!!! Kodi Python 3 on Windows lacks some modules and will not work properly)">
+      <created>1571302299307</created>
+      <option name="number" value="00029" />
+      <option name="presentableId" value="LOCAL-00029" />
+      <option name="project" value="LOCAL" />
+      <updated>1571302299307</updated>
+    </task>
+    <task id="LOCAL-00030" summary="Update YoutubeDL">
+      <created>1571302585911</created>
+      <option name="number" value="00030" />
+      <option name="presentableId" value="LOCAL-00030" />
+      <option name="project" value="LOCAL" />
+      <updated>1571302585911</updated>
+    </task>
+    <task id="LOCAL-00031" summary="Fix youtubedlfix for Python 3">
+      <created>1571415950655</created>
+      <option name="number" value="00031" />
+      <option name="presentableId" value="LOCAL-00031" />
+      <option name="project" value="LOCAL" />
+      <updated>1571415950655</updated>
+    </task>
+    <option name="localTasksCounter" value="32" />
     <servers />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="2575" height="1415" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.4990403" visible="true" weight="0.12174941" />
       <window_info id="Structure" order="1" sideWeight="0.5009597" side_tool="true" weight="0.124901496" />
@@ -488,9 +503,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Update plugin version to 1.2.0" />
-    <MESSAGE value="Fix JSON missing script handle before imports even if not PEP8" />
-    <MESSAGE value="1.2.3: Youtube Add-On is now mandatory" />
     <MESSAGE value="Live patch YoutubeDl to fix a Python bug on Kodi for windows." />
     <MESSAGE value="Add support for plot. [Note: Kodi 18 bug with ? in video urls affects addons too but a little differently]" />
     <MESSAGE value="Add mimetype support to try to guess if music or video + force music mode to pass Kodi 18 bug with video and urls that contains ?" />
@@ -513,7 +525,10 @@
     <MESSAGE value="Reduce notification duration when Kodi is already playing something." />
     <MESSAGE value="Version 1.6.1: Fix queuing youtube with dash active." />
     <MESSAGE value="Version 1.6.6: Update YoutubeDL" />
-    <option name="LAST_COMMIT_MESSAGE" value="Version 1.6.6: Update YoutubeDL" />
+    <MESSAGE value="Support both Python 2 and Python 3 (!!! Kodi Python 3 on Windows lacks some modules and will not work properly)" />
+    <MESSAGE value="Update YoutubeDL" />
+    <MESSAGE value="Fix youtubedlfix for Python 3" />
+    <option name="LAST_COMMIT_MESSAGE" value="Fix youtubedlfix for Python 3" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/../../script.module.youtube.dl/control.py">
@@ -608,13 +623,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/lib/private/__init__.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="23" selection-start-column="23" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/../../Kodistubs/xbmc.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1197">
@@ -689,64 +697,10 @@
         <state relative-caret-position="-2562" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/lib/private/subprocess/__init__.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lib/private/subprocess/_subprocess.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lib/private/ydlfix.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="345">
-          <caret line="41" column="54" lean-forward="true" selection-start-line="41" selection-start-column="54" selection-end-line="41" selection-end-column="54" />
-          <folding>
-            <element signature="e#24#34#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lib/__init__.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret selection-end-line="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lib/utils.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1445">
-          <caret line="85" column="38" selection-start-line="85" selection-start-column="38" selection-end-line="85" selection-end-column="63" />
-          <folding>
-            <element signature="e#24#38#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lib/stream.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="4" selection-start-line="4" selection-end-line="4" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/default.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="289">
           <caret line="17" column="40" selection-start-line="17" selection-start-column="40" selection-end-line="17" selection-end-column="40" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lib/share.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="532">
-          <caret line="87" column="66" selection-start-line="87" selection-start-column="66" selection-end-line="87" selection-end-column="66" />
-          <folding>
-            <element signature="e#24#37#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -757,10 +711,85 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/addon.xml">
+    <entry file="file://$PROJECT_DIR$/lib/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret selection-end-line="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/youtube_dl/compat.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="309">
+          <caret line="2358" column="29" selection-start-line="2358" selection-start-column="29" selection-end-line="2358" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/stream.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="14" column="18" selection-start-line="14" selection-start-column="18" selection-end-line="14" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/youtube_dl/extractor/atresplayer.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="455">
+          <caret line="52" column="8" selection-start-line="52" selection-start-column="8" selection-end-line="52" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/utils.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="19" selection-start-line="19" selection-end-line="19" />
+          <folding>
+            <element signature="e#24#38#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/share.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="17" selection-start-line="17" selection-end-line="17" />
+          <folding>
+            <element signature="e#24#49#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/private/subprocess/__init__.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/private/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="23" selection-start-column="23" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/private/subprocess/_subprocess.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="272">
-          <caret line="16" column="82" lean-forward="true" selection-start-line="16" selection-start-column="82" selection-end-line="16" selection-end-column="82" />
+          <caret line="16" selection-start-line="16" selection-end-line="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/private/ydlfix.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="872">
+          <caret line="73" column="46" lean-forward="true" selection-start-line="73" selection-start-column="46" selection-end-line="73" selection-end-column="46" />
+          <folding>
+            <element signature="e#24#34#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/addon.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="20" column="19" selection-start-line="20" selection-start-column="19" selection-end-line="20" selection-end-column="19" />
         </state>
       </provider>
     </entry>

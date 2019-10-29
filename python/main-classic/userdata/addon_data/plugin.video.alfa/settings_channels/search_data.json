@@ -5,6 +5,7 @@
         "result_mode": 0, 
         "saved_searches_limit": 0, 
         "saved_searches_list": [
+            "watchmen", 
             "doctor", 
             "cage", 
             "good", 
@@ -13,8 +14,7 @@
             "blacklist", 
             "Game", 
             "thrones", 
-            "tronos", 
-            "torre"
+            "tronos"
         ]
     }
 }

@@ -2,24 +2,24 @@
 # http://curl.haxx.se/rfc/cookie_spec.html
 # This is a generated file!  Do not edit.
 
-.clipwatching.com	TRUE	/	FALSE	1561826803	__cfduid	d04e42b053caf64155bf15536df3e52441530290803
-.estrenosby.net	TRUE	/	FALSE	1557601878	__cfduid	d78fcd1d9470d6e4077aba372715f140f1526065878
-.estrenosli.org	TRUE	/	FALSE	1557601878	__cfduid	da8b23a171d8b3341f310ebaf8a2aa9af1526065878
+.clipwatching.com	TRUE	/	FALSE	1603743999	__cfduid	d48b60fab433354352e4a0bb40cc467f91572207999
+.descargas2020.org	TRUE	/	TRUE	1603824221	__cfduid	d937760e4c8c716787b30c1599c3d67e91572288221
+.estrenosflix.com	TRUE	/	TRUE	1603833342	__cfduid	d61849b8c9995e1aacf63d917f71389b81572297342
+.estrenoske.net	TRUE	/	FALSE	1603833341	__cfduid	dca559a4692f68efdc1d0f8f2f99226c41572297341
+.flashx.pw	TRUE	/	FALSE	1603901826	__cfduid	dc652c173b11df282d236536dae9bd8961572365826
 .gamovideo.com	TRUE	/	FALSE		lang	3
-.grantorrent.net	TRUE	/	TRUE	1561584270	__cfduid	d2046a9b3da14d518a33d700edbcf4e991530048270
-.hdfull.me	TRUE	/	FALSE	1560977663	__cfduid	d10f887329a97f319cd9a79bc7e9a5c011529441663
-.hentai-id.tv	TRUE	/	FALSE	1562326154	__cfduid	d8ae72ba07e28380054c35cc483137cff1530790154
-.hqq.tv	TRUE	/	FALSE	1562326196	__cfduid	da59c3137eab39c5cb322e88d25e0553e1530790196
-.peliscon.com	TRUE	/	FALSE	1557601816	__cfduid	d871d6abc456617c0bd602211ab2671ef1526065816
-.plusdede.com	TRUE	/	FALSE	1546130162	__cfduid	db1e6ac45f5ef7eb668c3a11254bf35e61514594162
+.hdfull.me	TRUE	/	FALSE	1603833949	__cfduid	d300a3572076ffa0804a26c170adbe5f71572297949
+.ipapi.co	TRUE	/	FALSE	1603654751	__cfduid	dc14cac43a3f8ebae8d2fb3c13d3c1d011572118751
+.pctnew.org	TRUE	/	TRUE	1603824312	__cfduid	d184cf5d774faeb519aeab33ff628c66b1572288312
 .powvideo.net	TRUE	/	FALSE		lang	4
+.powvldeo.net	TRUE	/	FALSE	1603824027	__cfduid	dfc828e03b5d815ac9fbe4f9de25458fa1572288027
+.powvldeo.net	TRUE	/	FALSE	1572368229	e_mk1arskb2ib8	4618006
+.powvldeo.net	TRUE	/	FALSE	1572368634	e_tq78a6v2f3ox	4742422
+.powvldeo.net	TRUE	/	FALSE		lang	4
+.seriespapaya.net	TRUE	/	TRUE	1603714145	__cfduid	dbfbbfe33469d588e6195055a41a11a821572178145
 .streamcloud.eu	TRUE	/	FALSE		lang	spanish
-.streamplay.to	TRUE	/	FALSE	1560764293	__cfduid	df2c438da9e114ec0ff337eb83440d3191529228293
-.thevideo.me	TRUE	/	FALSE	1539121221	__cfduid	dca03ebd0a961be3e1184ca0e3a75363d1507585221
-.tv-vip.com	TRUE	/	FALSE	1560953207	__cfduid	df9b6f2bfc69d238a4e97d58103d300bb1529417207
 .uptobox.com	TRUE	/	FALSE		lang	spanish
-.vidabc.com	TRUE	/	FALSE	1561760550	__cfduid	dd081ebfa06be7830e89b02af2c6fc6a21530224550
-.vidoza.net	TRUE	/	FALSE	1557615670	__cfduid	d06cad3eb8cae575b9a99d713277a2a071526079670
+.verystream.com	TRUE	/	FALSE	1603743898	__cfduid	dd3294c7351cb8d15ee6ebd384c9da9d61572207898
 ddmix.net	FALSE	/	FALSE		PHPSESSID	b9caa2vgqa9q5nb0d43lion7a6
 de.hideproxy.me	FALSE	/	FALSE		c[ddmix.net][/][PHPSESSID]	d5gpgknl1bgflb6eh70l997qv4
 de.hideproxy.me	FALSE	/	FALSE		c[ddmix.net][/][__cfduid]	de2cb7118a80df209d141cc82ea4813a51505600021
@@ -33,6 +33,7 @@ diskokosmiko.mx	FALSE	/	FALSE		__RequestVerificationToken_v2	AaCs0TMiVW1UoWmxe6l
 divxatope1.com	FALSE	/	FALSE		PHPSESSID	5mcplq3k2rc3b089eri9ggplu3
 grantorrent.net	FALSE	/	FALSE		PHPSESSID	kmrookoi5q7v6far3hnqih7143
 hdfull.me	FALSE	/	FALSE		PHPSESSID	7si68kuksgtmk5n4hqv8liph12
+hdfull.me	FALSE	/	FALSE	1574890538	language	es
 hdfull.tv	FALSE	/	FALSE		PHPSESSID	0kod40727klpvdqfa30bkd6vo5
 newpct1.com	FALSE	/	FALSE		PHPSESSID	dpf52rcdv0l84nrg954c8112g1
 nl.hideproxy.me	FALSE	/	FALSE		c[ddmix.net][/][__cfduid]	d867a2f7bfea1c9af552489ba042681411505427580
@@ -40,8 +41,6 @@ nl.hideproxy.me	FALSE	/	FALSE		s	qmb3kan2236o8hl5jsi28bf3c6
 openload.co	FALSE	/	FALSE		_csrf	82887e5ac3a2d0c261d10e90094aa9bfd61514afb889a6b2f209cbb71aabd92ea%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22FxVQWKn7ikKjc4PKgERMuCpkfXjh2ilk%22%3B%7D
 openload.co	FALSE	/	FALSE		_olbknd	w3
 peliculas.nu	FALSE	/	FALSE		PHPSESSID	88drr9te67h774l14sknh80qu1
-peliscon.com	FALSE	/	FALSE	1557614879	starstruck_046d4c9d618503ab503ffcbbaaf0f809	969ceb48ed8cdebf100b5307ef5e22ac
-peliscon.com	FALSE	/	FALSE	1539121160	starstruck_32dd546795dddbce009448210c938068	98537435c85a1cb8e57c004f3c6a0068
 seriesblanco.com	FALSE	/	FALSE		PHPSESSID	bfe081db8b958e845d4db4045007a243
 streamango.com	FALSE	/	FALSE		PHPSESSID	fjmh1h3udlm0b85r8bi1ffhak7
 streamango.com	FALSE	/	FALSE		m_web	web8
@@ -49,11 +48,11 @@ torrentrapid.com	FALSE	/	FALSE		PHPSESSID	jnrvddgss7u8k633sjs2eto532
 tv-vip.com	FALSE	/video-prod/	FALSE		JSESSIONID	FFEC2708544DDE3B2551B19DF2DBC9E5
 us.hideproxy.me	FALSE	/	FALSE		c[ddmix.net][/][__cfduid]	de48d0b119fa9b9a043e7b01e8dadbc981505511856
 us.hideproxy.me	FALSE	/	FALSE		s	uvq69083ojnmikjucvitb2nrl1
+verystream.com	FALSE	/	FALSE		_olbknd	svr5_6
 www.megadede.com	FALSE	/	FALSE		PHPSESSID	nath3r1clheo58efirj279dsi0
 www.megadede.com	FALSE	/	FALSE	1610513931	XSRF-TOKEN	eyJpdiI6IkxyWDB4WkQ4MlZ0eGxTZmRoa3NCUXc9PSIsInZhbHVlIjoiaTNiR1wvYzJcL0t3d3ljalhCOE5DaTZMTFprQXpGaVJGK0N3UElxY2ZYMXNiZ2I5cHNkWjR0WGlrXC9oVDF1NTRNQXJWSm5GbHM5RStueGgrOHVReEE2Tnc9PSIsIm1hYyI6IjU3MTY2YzRmM2Y1MTcxOTQ0NzI5YzZhNWMyYmNiN2MzMjA0MjI0MTgwOGI4YTk5ZTE4ZmRmMjhkMTU5Yzc0NWEifQ%3D%3D
 www.megadede.com	FALSE	/	FALSE	1610513931	cakephp_session	eyJpdiI6IlJuSHJsbjdLRzFCOVhhbUdMZzlSZUE9PSIsInZhbHVlIjoiWTR5NVRxQkMrNnVtbG45TTZSYjY0WFFKOUJENG1pSlpPb2s3MXFqRW8xSE1QeE9PU1AwcnVVWW9TMURuMlBzcVcyQ0xYaDNVSFBHNG41RE92akFxOUE9PSIsIm1hYyI6IjY0YTIxZjcyMTI4NmU2YjVkYjEwM2QxOTkwNDc4MmI2MjkyZGVkOTUwZWJhMzU4MGVlODE4Yzc4ZjE4NjUwNzEifQ%3D%3D
 www.megadede.com	FALSE	/	FALSE	3430673328	megadede-sess	eyJpdiI6IkwyRzJkc25FTUdYcjB5dGFwRm1XbFE9PSIsInZhbHVlIjoiR093V1lqRVRJcmFDdEVYeEk5Q2FRVUd4RVI0QmVHZzFMWEhrdVdwQ29CWUNqdUhzdGZuRWFrYnZWMlJmdk1yZyIsIm1hYyI6IjUzZTAyMTM1NzA0NWM2NTc3MzA0ODBmY2ViMjZiNjFkMzcyOWI0ZmFlYjRlYmFlMDJhMmZhNWU4NmNlNTU4MjcifQ%3D%3D
-www.megadede.com	FALSE	/	FALSE	1538516313	popshown2	1
 www.plusdede.com	FALSE	/	FALSE		PHPSESSID	tn5al3k1qguuti9drj3rmv0jg2
 www.plusdede.com	FALSE	/	FALSE	1601589708	XSRF-TOKEN	eyJpdiI6InUxVEFJM1wvaW1tUkdhZjExaG0yZlh3PT0iLCJ2YWx1ZSI6IktEZDFEVWFCRjhXMERDc0ZRa2w3aDVvOGprcnRRN0xCTHhCVzIzWjcrd3VJMnp5cW1cL3JwekdZY3JYaUZDRjV5Z0RoSFZ3RThUYm5YNnFpY24xZCs5UT09IiwibWFjIjoiOTYxNWY4NmFkYjViOWU2ZThmMjBlOTFmMmJkNGJhODUwM2ZmNzMwNTQ3M2JjY2MyZDYyZGViYzUxNmZkM2FlNyJ9
 www.plusdede.com	FALSE	/	FALSE	1601589708	cakephp_session	eyJpdiI6Im1mQmJDcnRBNjE5TDMyZ0g4NmUzY0E9PSIsInZhbHVlIjoia1BlT2dIWTE3MGFqdWZoY0duVklkSEdDcHBFSVUwWkpyM2NQUzZQdENsUXhGcHNxZUNneStqUDdYR1ZuWTJRcUZOZVZqUHhLR2FiUWZ5Z05hTTZISWc9PSIsIm1hYyI6Ijg2NzE2MTMzZDBmNTRmNzQ4MWRiNWFiYWEyZjZmMDQwOWEyMWRmZTQwNDUwMjFmOGY5MjViYzRmOWViMmJhN2YifQ%3D%3D

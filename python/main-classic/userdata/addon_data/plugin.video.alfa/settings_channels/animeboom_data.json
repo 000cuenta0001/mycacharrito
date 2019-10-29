@@ -1,0 +1,8 @@
+{
+    "settings": {
+        "comprueba_enlaces_num": 1, 
+        "filter_languages": 0, 
+        "include_in_global_search": false, 
+        "include_in_newest_anime": true
+    }
+}
