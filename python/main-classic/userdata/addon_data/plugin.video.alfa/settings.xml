@@ -1,0 +1,87 @@
+<settings>
+    <setting id="addon_quasar_update" value="false" />
+    <setting id="addon_update_message" value="false" />
+    <setting id="addon_update_timer" value="12" />
+    <setting id="adult_aux_intro_password" value="" />
+    <setting id="adult_aux_new_password1" value="" />
+    <setting id="adult_aux_new_password2" value="" />
+    <setting id="adult_mode" value="1" />
+    <setting id="adult_password" value="0000" />
+    <setting id="adult_request_password" value="true" />
+    <setting id="alternative_web_access" value="false" />
+    <setting id="autoplay" value="false" />
+    <setting id="cast_color" value="[COLOR white]white[/COLOR]" />
+    <setting id="category" value="Peliculas" />
+    <setting id="channel_language" value="all" />
+    <setting id="custom_start" value="false" />
+    <setting id="debug" value="true" />
+    <setting id="default_action" value="2" />
+    <setting id="downloadlistpath" value="special://profile/addon_data/plugin.video.alfa/downloads/list" />
+    <setting id="downloadpath" value="special://profile/addon_data/plugin.video.alfa/downloads" />
+    <setting id="extended_info" value="false" />
+    <setting id="faster_item_serialization" value="false" />
+    <setting id="folder_movies" value="CINE" />
+    <setting id="folder_tvshows" value="SERIES" />
+    <setting id="forceview" value="false" />
+    <setting id="frequents" value="false" />
+    <setting id="frequents_folder" value="false" />
+    <setting id="hidepremium" value="true" />
+    <setting id="httptools_timeout" value="15" />
+    <setting id="icon_set" value="default" />
+    <setting id="infoplus" value="true" />
+    <setting id="infoplus_set" value="Sin animación" />
+    <setting id="install_trakt" value="true" />
+    <setting id="lat_color" value="[COLOR white]white[/COLOR]" />
+    <setting id="library_color" value="[COLOR white]white[/COLOR]" />
+    <setting id="lista_activa" value="alfavorites-default.json" />
+    <setting id="max_frequents" value="5" />
+    <setting id="max_frequents_folder" value="0" />
+    <setting id="movie_color" value="[COLOR white]white[/COLOR]" />
+    <setting id="news_start" value="false" />
+    <setting id="no_update_color" value="[COLOR white]white[/COLOR]" />
+    <setting id="player_mode" value="0" />
+    <setting id="preset_style" value="Estilo 1" />
+    <setting id="preset_style_switch" value="true" />
+    <setting id="proxy_CF_addr" value="NDIuMTU5LjkxLjI0ODo4MDgw" />
+    <setting id="proxy_CF_list" value="Wyc0Mi4xNTkuOTEuMjQ4OjgwODEnLCAnNDIuMTU5LjkxLjI0ODo4MDgwJ10=" />
+    <setting id="proxy_active" value="VHJ1ZQ==" />
+    <setting id="proxy_addr" value="MTI1LjYzLjgzLjQyOjgw" />
+    <setting id="proxy_channel_bloqued" value="eydjaW5ldHV4LnRvJzogJ1Byb3h5V2ViOmhpZGUubWUnLCAnY2luZWNhbGlkYWQudG8nOiAnUHJveHlXZWInLCAnY3VldmFuYTMuY29tJzogJ1Byb3h5V2ViJywgJ2dudWxhLm51JzogJ1Byb3h5Q0YnLCAnZmlsZXMuZ3JhbnRvcnJlbnQubmV0JzogJ1Byb3h5V2ViJywgJ21lam9ydG9ycmVudC5uZXQnOiAnT04nLCAnZWxpdGV0b3JyZW50LmJpeic6ICdPTicsICdtZWpvcnRvcnJlbnQuY29tJzogJ1Byb3h5V2ViOmhpZGUubWUnLCAnZ3JhbnRvcnJlbnQxLmNvbSc6ICdPTicsICd0b2RvLXBlbGljdWxhcy5uZXQnOiAnUHJveHlXZWInLCAnZ251bGEuc2UnOiAnT04nLCAnbWVqb3J0b3JyZW50Lm9yZyc6ICdQcm94eVdlYjpoaWRlLm1lLHdlYnByb3h5LnRvJywgJ3Nlcmllc2RhbmtvLnRvJzogJ09OJywgJ2dyYW50b3JyZW50Lm5ldCc6ICdQcm94eVdlYicsICdjdWV2YW5hMy5jbyc6ICdQcm94eVdlYid9" />
+    <setting id="proxy_dev" value="dXNlcg==" />
+    <setting id="proxy_list" value="WycxMjUuNjMuODMuNDI6ODAnLCAnMTgzLjkxLjMzLjQxOjkwJywgJzE4My45MS4zMy40MTo4NScsICcxODMuOTEuMzMuNDI6ODEnLCAnMTgzLjkxLjMzLjQyOjgwODgnLCAnMTAzLjI0MC4yMDYuMTUyOjU1NzQwJywgJzE4My45MS4zMy40MTo4OScsICcxODMuOTEuMzMuNDE6ODA4MCcsICcxODMuOTEuMzMuNDI6ODQnLCAnMTgzLjkxLjMzLjQxOjgzJywgJzE4My45MS4zMy40Mjo4MDg3JywgJzE4My45MS4zMy40MTo4NCcsICcxODMuOTEuMzMuNDI6ODInLCAnMTgzLjkxLjMzLjQyOjg4JywgJzE4My45MS4zMy40Mjo4MDkwJywgJzQyLjE1OS45MS4yNDg6ODA4MCcsICcxMjIuOTYuNTEuOTo4MDgwJywgJzExNi42Mi4xOTguNDM6ODA4MCcsICcxODMuOTEuMzMuNDE6ODA4NScsICcxODMuOTEuMzMuNDI6ODA5MScsICcxODMuOTEuMzMuNDI6ODYnLCAnMTgzLjkxLjMzLjQyOjkwJywgJzE4My45MS4zMy40Mjo5MicsICcxODMuOTEuMzMuNDI6ODA4MycsICcxODMuOTEuMzMuNDE6ODA5MCcsICcxODMuOTEuMzMuNDE6ODInLCAnNTQuMjU1LjE4OC4xNDA6ODAnLCAnMTgzLjkxLjMzLjQyOjgwODYnLCAnMTgzLjkxLjMzLjQyOjg1JywgJzE4My45MS4zMy40Mjo4OScsICcxMjAuNzkuNjEuMjQ2OjgwMDAnLCAnMTgzLjkxLjMzLjQyOjgwODInLCAnMTAzLjI0MC4xNjEuMjUwOjUwODEyJywgJzEwMy43Mi4yMTYuMTk0OjM4MzQ1JywgJzIwMi42Mi44NC4yMTA6NTMyODEnLCAnMTUwLjEwOS41NS4xOTA6ODMnLCAnMTgzLjkxLjMzLjQxOjgwJywgJzE4My45MS4zMy40Mjo4NycsICcxODMuOTEuMzMuNDI6ODA4NScsICcxMjQuMTU2LjEwOC43MTo4MicsICcxMDMuMjEuMTYxLjIwMjozNTEwMScsICcxODMuOTEuMzMuNDI6ODA4OScsICcxODMuOTEuMzMuNDI6ODA4MScsICcxMDEuMjMxLjEwNC44Mjo4MCcsICcxODMuOTEuMzMuNDI6ODMnLCAnNDUuNDMuNDYuNzM6OTk5OScsICcxODMuOTEuMzMuNDE6OTEnLCAnMTgzLjkxLjMzLjQyOjgwODQnLCAnMTgzLjkxLjMzLjQxOjgwODknLCAnMjIyLjczLjIxOC4zODo4ODg4J10=" />
+    <setting id="proxy_web_name" value="aGlkZS5tZQ==" />
+    <setting id="proxy_white_list" value="eydjaW5ldHV4LnRvJzogJ1Byb3h5V2ViOmhpZGUubWUnLCAnY2luZWNhbGlkYWQudG8nOiAnUHJveHlXZWInLCAnZ251bGEubnUnOiAnUHJveHlDRicsICdmaWxlcy5ncmFudG9ycmVudC5uZXQnOiAnUHJveHlXZWInLCAnbWVqb3J0b3JyZW50LmNvbSc6ICdQcm94eVdlYjpoaWRlLm1lJywgJ3RvZG8tcGVsaWN1bGFzLm5ldCc6ICdQcm94eVdlYicsICdjdWV2YW5hMy5jb20nOiAnUHJveHlXZWInLCAnbWVqb3J0b3JyZW50Lm9yZyc6ICdQcm94eVdlYjp3ZWJwcm94eS50bycsICdncmFudG9ycmVudC5uZXQnOiAnUHJveHlXZWInLCAnY3VldmFuYTMuY28nOiAnUHJveHlXZWInfQ==" />
+    <setting id="proxy_zip" value="Q291bnRyeTogRVMgLyBPcGVyYXRvcjogVm9kYWZvbmUgU3BhaW4gLyBSLkNvZGU6IDIwMCAvIERhdGE6ICAvIFdlYl9pcDogaHR0cHM6Ly9hcGkuaXAuc2IvZ2VvaXA=" />
+    <setting id="quality_color" value="[COLOR white]white[/COLOR]" />
+    <setting id="rating_1_color" value="[COLOR white]white[/COLOR]" />
+    <setting id="rating_2_color" value="[COLOR white]white[/COLOR]" />
+    <setting id="rating_3_color" value="[COLOR white]white[/COLOR]" />
+    <setting id="resolve_priority" value="0" />
+    <setting id="resolve_stop" value="true" />
+    <setting id="second_language" value="No" />
+    <setting id="server_color" value="[COLOR white]white[/COLOR]" />
+    <setting id="settings_path" value="special://profile/addon_data/plugin.video.alfa/settings_channels" />
+    <setting id="shortcut_key" value="" />
+    <setting id="show_once" value="true" />
+    <setting id="start_page" value="false" />
+    <setting id="thumbnail_type" value="2" />
+    <setting id="title_color" value="false" />
+    <setting id="tmdb_cache" value="true" />
+    <setting id="tmdb_cache_expire" value="4" />
+    <setting id="tmdb_clean_db_cache" value="" />
+    <setting id="tmdb_lang" value="0" />
+    <setting id="tmdb_plus_info" value="false" />
+    <setting id="tmdb_threads" value="20" />
+    <setting id="trakt_sync" value="false" />
+    <setting id="tvshow_color" value="[COLOR white]white[/COLOR]" />
+    <setting id="unify" value="false" />
+    <setting id="update_color" value="[COLOR white]white[/COLOR]" />
+    <setting id="video_thumbnail_type" value="0" />
+    <setting id="videolibrary_kodi" value="false" />
+    <setting id="videolibrary_kodi_flag" value="1" />
+    <setting id="videolibrarypath" value="special://profile/addon_data/plugin.video.alfa/videolibrary" />
+    <setting id="vo_color" value="[COLOR white]white[/COLOR]" />
+    <setting id="vos_color" value="[COLOR white]white[/COLOR]" />
+    <setting id="vose_color" value="[COLOR white]white[/COLOR]" />
+    <setting id="year_color" value="[COLOR white]white[/COLOR]" />
+</settings>
