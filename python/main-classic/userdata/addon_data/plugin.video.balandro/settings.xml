@@ -1,103 +1,104 @@
-<settings>
-    <setting id="addon_tracking_atstart" value="false" />
-    <setting id="addon_tracking_doit" value="" />
-    <setting id="addon_tracking_interval" value="12" />
-    <setting id="addon_tracking_lastscrap" value="" />
-    <setting id="addon_tracking_verbose" value="false" />
-    <setting id="addon_update_atstart" value="true" />
-    <setting id="addon_update_doit" value="" />
-    <setting id="addon_update_verbose" value="false" />
-    <setting id="autoplay" value="false" />
-    <setting id="autoplay_channels_discarded" value="" />
-    <setting id="autoplay_max_links" value="10" />
-    <setting id="autoplay_one_link" value="true" />
-    <setting id="autorec_approxtime" value="0" />
-    <setting id="autorec_maxdiff" value="15" />
-    <setting id="block_size" value="1" />
-    <setting id="channels_link_main" value="false" />
-    <setting id="channels_list_order" value="true" />
-    <setting id="channels_list_prefe_color" value="[COLOR gold]gold[/COLOR]" />
-    <setting id="channels_list_status" value="0" />
-    <setting id="cliente_torrent" value="Elementum" />
-    <setting id="colorear_enlaces_play" value="true" />
-    <setting id="connect_timeout" value="10" />
-    <setting id="context_download_color" value="[COLOR orange]orange[/COLOR]" />
-    <setting id="context_search_exact_color" value="[COLOR gold]gold[/COLOR]" />
-    <setting id="context_search_similar_color" value="[COLOR yellow]yellow[/COLOR]" />
-    <setting id="context_tracking_color" value="[COLOR blue]blue[/COLOR]" />
-    <setting id="context_trailer_color" value="[COLOR pink]pink[/COLOR]" />
-    <setting id="debug" value="1" />
-    <setting id="descartar_xxx" value="false" />
-    <setting id="downloadpath" value="C:\PROGRAMAS\" />
-    <setting id="dvr_dubdetect" value="0" />
-    <setting id="dvr_lifetime" value="8" />
-    <setting id="dvr_priority" value="2" />
-    <setting id="epg_async" value="false" />
-    <setting id="host" value="127.0.0.1" />
-    <setting id="htsp_port" value="9982" />
-    <setting id="http_port" value="9981" />
-    <setting id="httptools_timeout" value="15" />
-    <setting id="list_info_order" value="3" />
-    <setting id="list_languages_color" value="[COLOR red]red[/COLOR]" />
-    <setting id="list_movie_color" value="[COLOR white]white[/COLOR]" />
-    <setting id="list_qualities_color" value="[COLOR limegreen]limegreen[/COLOR]" />
-    <setting id="list_show_year" value="3" />
-    <setting id="list_tvshow_color" value="[COLOR white]white[/COLOR]" />
-    <setting id="list_year_color" value="[COLOR gray]gray[/COLOR]" />
-    <setting id="max_buffer" value="5" />
-    <setting id="max_connections" value="4" />
-    <setting id="notification_beep" value="true" />
-    <setting id="part_size" value="1" />
-    <setting id="pass" value="" />
-    <setting id="play_age_color" value="[COLOR deepskyblue]deepskyblue[/COLOR]" />
-    <setting id="play_language_color" value="[COLOR red]red[/COLOR]" />
-    <setting id="play_other_color" value="[COLOR white]white[/COLOR]" />
-    <setting id="play_quality_color" value="[COLOR limegreen]limegreen[/COLOR]" />
-    <setting id="play_server_color" value="[COLOR gold]gold[/COLOR]" />
-    <setting id="preferencia_idioma_esp" value="1" />
-    <setting id="preferencia_idioma_lat" value="2" />
-    <setting id="preferencia_idioma_vos" value="3" />
-    <setting id="pretuner_closedelay" value="10" />
-    <setting id="pretuner_enabled" value="false" />
-    <setting id="response_timeout" value="5" />
-    <setting id="search_last_all" value="vikingos" />
-    <setting id="search_limit_by_channel" value="2" />
-    <setting id="search_multithread" value="true" />
-    <setting id="search_show_last" value="true" />
-    <setting id="servers_discarded" value="" />
-    <setting id="servers_preferred" value="Netutv,Vidtodo,Mega" />
-    <setting id="servers_sort_quality" value="0" />
-    <setting id="servers_unfavored" value="" />
-    <setting id="show_changelog" value="" />
-    <setting id="show_help_faq" value="" />
-    <setting id="show_help_proxies" value="" />
-    <setting id="show_help_settings" value="" />
-    <setting id="show_help_tips" value="" />
-    <setting id="show_help_tracking" value="" />
-    <setting id="show_help_tracking_update" value="" />
-    <setting id="show_help_use" value="" />
-    <setting id="streaming_profile" value="" />
-    <setting id="tmdb_cache" value="true" />
-    <setting id="tmdb_cache_expire" value="4" />
-    <setting id="tmdb_clean_db_cache" value="" />
-    <setting id="tmdb_disabled" value="false" />
-    <setting id="tmdb_drop_db_cache" value="" />
-    <setting id="tmdb_plus_info" value="false" />
-    <setting id="tmdb_threads" value="20" />
-    <setting id="total_tuners" value="2" />
-    <setting id="trace_debug" value="false" />
-    <setting id="tracking_confirm_tmdbid" value="false" />
-    <setting id="tracking_current_dbname" value="default" />
-    <setting id="tracking_order_episodes" value="1" />
-    <setting id="tracking_order_movies" value="0" />
-    <setting id="tracking_order_tvshows" value="0" />
-    <setting id="tracking_perpage_episodes" value="20" />
-    <setting id="tracking_perpage_movies" value="20" />
-    <setting id="tracking_perpage_tvshows" value="20" />
-    <setting id="tracking_viewmode_episodes" value="0" />
-    <setting id="tracking_viewmode_movies" value="0" />
-    <setting id="tracking_viewmode_seasons" value="0" />
-    <setting id="tracking_viewmode_tvshows" value="0" />
-    <setting id="tracking_weberror_dialog" value="true" />
-    <setting id="user" value="" />
+<settings version="2">
+    <setting id="addon_tracking_atstart" default="true">false</setting>
+    <setting id="addon_tracking_doit" default="true"></setting>
+    <setting id="addon_tracking_interval" default="true">12</setting>
+    <setting id="addon_tracking_lastscrap" default="true"></setting>
+    <setting id="addon_tracking_verbose" default="true">false</setting>
+    <setting id="addon_update_atstart">true</setting>
+    <setting id="addon_update_doit" default="true"></setting>
+    <setting id="addon_update_verbose" default="true">false</setting>
+    <setting id="autoplay" default="true">false</setting>
+    <setting id="autoplay_channels_discarded" default="true"></setting>
+    <setting id="autoplay_max_links" default="true">10</setting>
+    <setting id="autoplay_one_link">true</setting>
+    <setting id="autorec_approxtime" default="true">0</setting>
+    <setting id="autorec_maxdiff" default="true">15</setting>
+    <setting id="block_size">1</setting>
+    <setting id="channels_link_main" default="true">false</setting>
+    <setting id="channels_list_order">true</setting>
+    <setting id="channels_list_prefe_color" default="true">[COLOR gold]gold[/COLOR]</setting>
+    <setting id="channels_list_status" default="true">0</setting>
+    <setting id="cliente_torrent">Elementum</setting>
+    <setting id="colorear_enlaces_play">true</setting>
+    <setting id="connect_timeout" default="true">10</setting>
+    <setting id="context_download_color" default="true">[COLOR orange]orange[/COLOR]</setting>
+    <setting id="context_search_exact_color" default="true">[COLOR gold]gold[/COLOR]</setting>
+    <setting id="context_search_similar_color" default="true">[COLOR yellow]yellow[/COLOR]</setting>
+    <setting id="context_tracking_color" default="true">[COLOR blue]blue[/COLOR]</setting>
+    <setting id="context_trailer_color" default="true">[COLOR pink]pink[/COLOR]</setting>
+    <setting id="debug">1</setting>
+    <setting id="descartar_xxx" default="true">false</setting>
+    <setting id="downloadpath">C:\PROGRAMAS\</setting>
+    <setting id="dvr_dubdetect" default="true">0</setting>
+    <setting id="dvr_lifetime" default="true">8</setting>
+    <setting id="dvr_priority" default="true">2</setting>
+    <setting id="epg_async" default="true">false</setting>
+    <setting id="host" default="true">127.0.0.1</setting>
+    <setting id="htsp_port" default="true">9982</setting>
+    <setting id="http_port" default="true">9981</setting>
+    <setting id="httptools_timeout" default="true">15</setting>
+    <setting id="list_info_order">3</setting>
+    <setting id="list_languages_color" default="true">[COLOR red]red[/COLOR]</setting>
+    <setting id="list_movie_color" default="true">[COLOR white]white[/COLOR]</setting>
+    <setting id="list_qualities_color" default="true">[COLOR limegreen]limegreen[/COLOR]</setting>
+    <setting id="list_show_year">3</setting>
+    <setting id="list_tvshow_color" default="true">[COLOR white]white[/COLOR]</setting>
+    <setting id="list_year_color" default="true">[COLOR gray]gray[/COLOR]</setting>
+    <setting id="max_buffer">5</setting>
+    <setting id="max_connections">4</setting>
+    <setting id="notification_beep">true</setting>
+    <setting id="part_size">1</setting>
+    <setting id="pass" default="true"></setting>
+    <setting id="play_age_color" default="true">[COLOR deepskyblue]deepskyblue[/COLOR]</setting>
+    <setting id="play_language_color" default="true">[COLOR red]red[/COLOR]</setting>
+    <setting id="play_other_color" default="true">[COLOR white]white[/COLOR]</setting>
+    <setting id="play_quality_color" default="true">[COLOR limegreen]limegreen[/COLOR]</setting>
+    <setting id="play_server_color" default="true">[COLOR gold]gold[/COLOR]</setting>
+    <setting id="preferencia_idioma_esp">1</setting>
+    <setting id="preferencia_idioma_lat">2</setting>
+    <setting id="preferencia_idioma_vos">3</setting>
+    <setting id="pretuner_closedelay" default="true">10</setting>
+    <setting id="pretuner_enabled" default="true">false</setting>
+    <setting id="response_timeout" default="true">5</setting>
+    <setting id="search_last_all" default="true">vikingos</setting>
+    <setting id="search_last_tvshow" default="true">neboa</setting>
+    <setting id="search_limit_by_channel" default="true">2</setting>
+    <setting id="search_multithread">true</setting>
+    <setting id="search_show_last">true</setting>
+    <setting id="servers_discarded" default="true"></setting>
+    <setting id="servers_preferred">clipwatching,Vidtodo,mega,</setting>
+    <setting id="servers_sort_quality" default="true">0</setting>
+    <setting id="servers_unfavored" default="true"></setting>
+    <setting id="show_changelog" default="true"></setting>
+    <setting id="show_help_faq" default="true"></setting>
+    <setting id="show_help_proxies" default="true"></setting>
+    <setting id="show_help_settings" default="true"></setting>
+    <setting id="show_help_tips" default="true"></setting>
+    <setting id="show_help_tracking" default="true"></setting>
+    <setting id="show_help_tracking_update" default="true"></setting>
+    <setting id="show_help_use" default="true"></setting>
+    <setting id="streaming_profile" default="true"></setting>
+    <setting id="tmdb_cache">true</setting>
+    <setting id="tmdb_cache_expire">4</setting>
+    <setting id="tmdb_clean_db_cache" default="true"></setting>
+    <setting id="tmdb_disabled" default="true">false</setting>
+    <setting id="tmdb_drop_db_cache" default="true"></setting>
+    <setting id="tmdb_plus_info" default="true">false</setting>
+    <setting id="tmdb_threads" default="true">20</setting>
+    <setting id="total_tuners" default="true">2</setting>
+    <setting id="trace_debug" default="true">false</setting>
+    <setting id="tracking_confirm_tmdbid" default="true">false</setting>
+    <setting id="tracking_current_dbname" default="true">default</setting>
+    <setting id="tracking_order_episodes">1</setting>
+    <setting id="tracking_order_movies" default="true">0</setting>
+    <setting id="tracking_order_tvshows" default="true">0</setting>
+    <setting id="tracking_perpage_episodes">20</setting>
+    <setting id="tracking_perpage_movies">20</setting>
+    <setting id="tracking_perpage_tvshows">20</setting>
+    <setting id="tracking_viewmode_episodes" default="true">0</setting>
+    <setting id="tracking_viewmode_movies" default="true">0</setting>
+    <setting id="tracking_viewmode_seasons" default="true">0</setting>
+    <setting id="tracking_viewmode_tvshows" default="true">0</setting>
+    <setting id="tracking_weberror_dialog">true</setting>
+    <setting id="user" default="true"></setting>
 </settings>
