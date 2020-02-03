@@ -66,7 +66,7 @@
     <setting id="search_multithread">true</setting>
     <setting id="search_show_last">true</setting>
     <setting id="servers_discarded" default="true"></setting>
-    <setting id="servers_preferred">Netutv,Vidtodo,mega,</setting>
+    <setting id="servers_preferred">Vidtodo,mega,</setting>
     <setting id="servers_sort_quality" default="true">0</setting>
     <setting id="servers_unfavored" default="true"></setting>
     <setting id="show_changelog" default="true"></setting>
