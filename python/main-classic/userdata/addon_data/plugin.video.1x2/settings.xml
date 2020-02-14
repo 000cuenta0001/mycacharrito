@@ -5,7 +5,7 @@
     <setting id="America" default="true"></setting>
     <setting id="amistoso" default="true">true</setting>
     <setting id="arena_hide" default="true">false</setting>
-    <setting id="arena_url" default="true">http://arenavision.cc</setting>
+    <setting id="arena_url">https://arenavision.cc</setting>
     <setting id="argentina" default="true">true</setting>
     <setting id="Asia" default="true"></setting>
     <setting id="austral" default="true">true</setting>
