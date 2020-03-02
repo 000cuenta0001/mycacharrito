@@ -48,7 +48,7 @@
     <setting id="kodion.video.quality.mpd" default="true">false</setting>
     <setting id="kodion.video.quality.mpd.configure" default="true"></setting>
     <setting id="simple.requests.ssl.verify">true</setting>
-    <setting id="youtube.allow.dev.keys">true</setting>
+    <setting id="youtube.allow.dev.keys">false</setting>
     <setting id="youtube.api.config.address" default="true"></setting>
     <setting id="youtube.api.config.page" default="true">false</setting>
     <setting id="youtube.api.enable">true</setting>
