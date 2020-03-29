@@ -49,13 +49,12 @@
     <setting id="kodion.video.quality.mpd.configure" default="true"></setting>
     <setting id="simple.requests.ssl.verify">true</setting>
     <setting id="youtube.allow.dev.keys">false</setting>
-    <setting id="youtube.api.config.address" default="true"></setting>
     <setting id="youtube.api.config.page" default="true">false</setting>
-    <setting id="youtube.api.enable">true</setting>
-    <setting id="youtube.api.id">83434585259-dksaucfg48omop6ansba97icj4hpimv2</setting>
-    <setting id="youtube.api.key">AIzaSyAc9YlCgGPpyX2vWXPsCYttZP6F_XptdJo</setting>
-    <setting id="youtube.api.key.switch">5</setting>
-    <setting id="youtube.api.secret">KGk_iMZeN3kBegUlOtHxzqKo</setting>
+    <setting id="youtube.api.enable" default="true">true</setting>
+    <setting id="youtube.api.id">118967818128-8v4eqt1p0kk91d0emq1580iq8v1042eu</setting>
+    <setting id="youtube.api.key">AIzaSyCONkRb_rYdL_MRUFsU7EqZ2hVSz1ezoPQ</setting>
+    <setting id="youtube.api.key.switch" default="true">5</setting>
+    <setting id="youtube.api.secret">11RJd-yRRvrLhggyVUsSHWSj</setting>
     <setting id="youtube.channel.fanart.show">true</setting>
     <setting id="youtube.filter.my_subscriptions_filtered.blacklist" default="true">false</setting>
     <setting id="youtube.filter.my_subscriptions_filtered.list" default="true"></setting>
