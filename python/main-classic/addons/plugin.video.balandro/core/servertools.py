@@ -238,13 +238,10 @@ def resolve_video_urls_for_playing(server, url, url_referer=''):
 
 # Para servers con varios ids, busca si es uno de los ids alternativos y devuelve el id principal
 def get_server_id(serverid):
-    serverid = serverid.lower()
     # A mano para evitar recorrer todos los servidores !? (buscar "more_ids" en los json de servidores)
-    if serverid in ['netu','waaw','hqq']: return 'netutv'
-    if serverid in ['uploaded','ul.to']: return 'uploadedto'
-    if serverid == 'ok.ru': return 'okru'
-    if serverid == 'biter': return 'byter'
-    return serverid
+    return corregir_servidor(serverid)
+
+    serverid = serverid.lower()
 
     # Obtenemos el listado de servers
     server_list = get_servers_list().keys()
@@ -278,6 +275,18 @@ def is_server_enabled(server):
     if 'active' not in server_parameters or server_parameters['active'] == False:
         return False
     return config.get_setting('status', server=server, default=0) >= 0
+
+def is_server_available(server):
+    """
+    Función comprobar si existe el json de un servidor
+    @param server: Nombre del servidor
+    @type server: str
+
+    @return: resultado de la comprobación
+    @rtype: bool
+    """
+    path = os.path.join(config.get_runtime_path(), 'servers', server + '.json')
+    return os.path.isfile(path)
 
 
 def get_server_parameters(server):
@@ -356,18 +365,26 @@ def get_servers_list():
     return server_list
 
 
-# Normalizar nombre del servidor (para los canales que no lo obtienen de los patrones)
+# Normalizar nombre del servidor (para los canales que no lo obtienen de los patrones, y para evitar bucle more_ids en get_server_id())
 def corregir_servidor(servidor):
     servidor = servidor.strip().lower()
-    if servidor in ['waaw', 'waaw1', 'netu', 'hqq']: return 'netutv'
+    if servidor in ['waaw', 'waaw1', 'waav', 'netu', 'hqq', 'megavideo']: return 'netutv'
     elif servidor in ['povwideo', 'powvldeo', 'powv1deo', 'povw1deo']: return 'powvideo'
+    elif servidor in ['steamplay', 'streamp1ay']: return 'streamplay'
+    elif servidor in ['jplayer', 'feurl']: return 'fembed'
+    elif servidor == 'vidto': return 'vidtodo'
     elif servidor == 'vev': return 'vevio'
-    elif servidor == 'ok': return 'okru'
+    # ~ elif servidor == 'uptobox': return 'uptostream'
+    elif servidor in ['ok', 'ok.ru', 'ok server']: return 'okru'
     elif servidor == 'youtu': return 'youtube'
+    elif servidor == 'mp4up': return 'mp4upload'
+    elif servidor == 'yourup': return 'yourupload'
+    elif servidor == 'verys': return 'verystream'
     elif servidor == 'flix': return 'flix555'
+    elif servidor == 'biter': return 'byter'
     elif servidor == 'thevideo': return 'thevideome'
-    elif servidor == '1fichier': return 'onefichier'
-    elif servidor == 'uploaded': return 'uploadedto'
+    elif servidor == 'onefichier': return '1fichier'
+    elif servidor in ['uploaded', 'ul', 'ul.to']: return 'uploadedto'
     else: return servidor
 
 

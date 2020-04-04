@@ -37,7 +37,7 @@ perpage = 20 # preferiblemente un múltiplo de los elementos que salen en la web
 def do_downloadpage(url, post=None):
     url = url.replace('hdfull.tv', 'hdfull.me') # por si viene de enlaces guardados
     url = url.replace('hdfull.me', 'hdfull.io') # por si viene de enlaces guardados
-    data = httptools.downloadpage(url, post=post, headers={'Referer': 'https://hdfull.io', 'User-Agent': 'Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:72.0) Gecko/20100101 Firefox/72.0'}).data
+    data = httptools.downloadpage(url, post=post, headers={'Referer': 'https://hdfull.io', 'User-Agent': 'Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:74.0) Gecko/20100101 Firefox/74.0'}).data
     # ~ data = httptools.downloadpage_proxy('hdfull', url, post=post).data
     return data
 
@@ -225,6 +225,7 @@ def temporadas(item):
 def episodios(item):
     logger.info()
     itemlist = []
+    color_lang = config.get_setting('list_languages_color', default='red')
 
     if not item.sid:
         data = do_downloadpage(item.url)
@@ -240,7 +241,7 @@ def episodios(item):
         titulo = '%sx%s %s' % (epi['season'], epi['episode'], tit)
         
         langs = ['VOSE' if idio == 'ESPSUB' else idio.capitalize() for idio in epi['languages']]
-        if langs: titulo += ' [COLOR pink][%s][/COLOR]' % ','.join(langs)
+        if langs: titulo += ' [COLOR %s][%s][/COLOR]' % (color_lang, ','.join(langs))
         
         thumb = host + '/tthumb/220x124/' + epi['thumbnail']
         url = item.url + '/episodio-' + epi['episode']
@@ -326,6 +327,7 @@ def search(item, texto):
 def list_episodes(item):
     logger.info()
     itemlist = []
+    color_lang = config.get_setting('list_languages_color', default='red')
 
     if not item.opcion: item.opcion = 'latest'
     if not item.desde: item.desde = 0
@@ -341,7 +343,7 @@ def list_episodes(item):
         titulo = '%s %sx%s %s' % (show, epi['season'], epi['episode'], tit)
         
         langs = ['VOSE' if idio == 'ESPSUB' else idio.capitalize() for idio in epi['languages']]
-        if langs: titulo += ' [COLOR pink][%s][/COLOR]' % ','.join(langs)
+        if langs: titulo += ' [COLOR %s][%s][/COLOR]' % (color_lang, ','.join(langs))
         
         thumb = host + '/tthumb/220x124/' + epi['thumbnail']
         

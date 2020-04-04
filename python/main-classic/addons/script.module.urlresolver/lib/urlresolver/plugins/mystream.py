@@ -1,7 +1,4 @@
 """
-    OVERALL CREDIT TO:
-        t0mm0, Eldorado, VOINAGE, BSTRDMKR, tknorris, smokdpi, TheHighway
-
     plugin for URLResolver
     Copyright (C) 2019 gujal
 
@@ -20,16 +17,16 @@
 """
 
 import re
-from lib import aadecode
 from urlresolver import common
 from lib import helpers
 from urlresolver.resolver import UrlResolver, ResolverError
- 
+
 
 class MystreamResolver(UrlResolver):
     name = "mystream"
-    domains = ['mystream.la', 'mystream.to']
-    pattern = r'(?://|\.)(mystream\.(?:la|to))/(?:external/)?([0-9a-zA-Z_]+)'
+    domains = ['mystream.la', 'mystream.to', 'mstream.xyz', 'mstream.cloud']
+    pattern = r'(?://|\.)(my?stream\.(?:la|to|cloud|xyz))/(?:external|watch/)?([0-9a-zA-Z_]+)'
+
     def __init__(self):
         self.net = common.Net()
 
@@ -37,19 +34,15 @@ class MystreamResolver(UrlResolver):
         web_url = self.get_url(host, media_id)
         headers = {'Referer': web_url, 'User-Agent': common.FF_USER_AGENT}
         html = self.net.http_GET(web_url, headers=headers).content
-        try: html = html.encode('utf-8')
-        except: pass
+
         if "unable to find the video" in html:
             raise ResolverError('The requested video was not found or may have been removed.')
-        
-        match = re.search(r'type="file".+?script>\s*([^<]+)', html)
+
+        match = re.search(r'og:image".+?"(.+)/', html)
         if match:
-            aa_text = aadecode.decode(match.group(1))
-            match = re.search(r"'src',\s*'([^']+)", aa_text)
-            if match:
-                stream_url = match.group(1)
-                return stream_url + helpers.append_headers(headers)
-        
+            stream_url = '{0}.mp4'.format(match.group(1))
+            return stream_url + helpers.append_headers(headers)
+
         raise ResolverError('Video Link Not Found')
 
     def get_url(self, host, media_id):

@@ -88,6 +88,9 @@ def generos(item):
     for url, title in matches:
         itemlist.append(item.clone( title=title, url=host + url, action='list_all', search_type = item.search_type ))
 
+    itemlist.append(item.clone( title='Suspense', url=host + 'category/suspense', action='list_all', search_type = item.search_type ))
+    itemlist.append(item.clone( title='Western', url=host + 'category/western', action='list_all', search_type = item.search_type ))
+
     return sorted(itemlist, key=lambda it: it.title)
 
 
@@ -196,7 +199,7 @@ def episodios(item):
 
 # Asignar un numérico según las calidades del canal, para poder ordenar por este valor
 def puntuar_calidad(txt):
-    orden = ['Cam', 'WEB-S', 'DVD-S', 'TS-HQ', 'DvdRip', 'HD']
+    orden = ['Cam', 'WEB-S', 'DVD-S', 'TS-HQ', 'DVD', 'DvdRip', 'HD']
     if txt not in orden: return 0
     else: return orden.index(txt) + 1
 
@@ -219,6 +222,7 @@ def findvideos(item):
 
         if url and 'youtube' not in url:
             # ~ logger.info(url)
+            url = url.replace('#Synchronization+Service', '')
             itemlist.append(Item( channel = item.channel, action = 'play', other = option,
                                   title = '', url = url,
                                   language = IDIOMAS.get(language, language), quality = quality, quality_num = puntuar_calidad(quality)

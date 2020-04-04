@@ -1343,6 +1343,7 @@ class YoutubeIE(YoutubeBaseInfoExtractor):
         funcname = self._search_regex(
             (r'\b[cs]\s*&&\s*[adf]\.set\([^,]+\s*,\s*encodeURIComponent\s*\(\s*(?P<sig>[a-zA-Z0-9$]+)\(',
              r'\b[a-zA-Z0-9]+\s*&&\s*[a-zA-Z0-9]+\.set\([^,]+\s*,\s*encodeURIComponent\s*\(\s*(?P<sig>[a-zA-Z0-9$]+)\(',
+             r'\b(?P<sig>[a-zA-Z0-9$]{2})\s*=\s*function\(\s*a\s*\)\s*{\s*a\s*=\s*a\.split\(\s*""\s*\)',
              r'(?P<sig>[a-zA-Z0-9$]+)\s*=\s*function\(\s*a\s*\)\s*{\s*a\s*=\s*a\.split\(\s*""\s*\)',
              # Obsolete patterns
              r'(["\'])signature\1\s*,\s*(?P<sig>[a-zA-Z0-9$]+)\(',
@@ -2494,20 +2495,23 @@ class YoutubePlaylistIE(YoutubePlaylistBaseInfoExtractor):
     _VIDEO_RE = _VIDEO_RE_TPL % r'(?P<id>[0-9A-Za-z_-]{11})'
     IE_NAME = 'youtube:playlist'
     _TESTS = [{
-        'url': 'https://www.youtube.com/playlist?list=PLwiyx1dc3P2JR9N8gQaQN_BCvlSlap7re',
+        'url': 'https://www.youtube.com/playlist?list=PL4lCao7KL_QFVb7Iudeipvc2BCavECqzc',
         'info_dict': {
-            'title': 'ytdl test PL',
-            'id': 'PLwiyx1dc3P2JR9N8gQaQN_BCvlSlap7re',
+            'uploader_id': 'UCmlqkdCBesrv2Lak1mF_MxA',
+            'uploader': 'Sergey M.',
+            'id': 'PL4lCao7KL_QFVb7Iudeipvc2BCavECqzc',
+            'title': 'youtube-dl public playlist',
         },
-        'playlist_count': 3,
+        'playlist_count': 1,
     }, {
-        'url': 'https://www.youtube.com/playlist?list=PLtPgu7CB4gbZDA7i_euNxn75ISqxwZPYx',
+        'url': 'https://www.youtube.com/playlist?list=PL4lCao7KL_QFodcLWhDpGCYnngnHtQ-Xf',
         'info_dict': {
-            'id': 'PLtPgu7CB4gbZDA7i_euNxn75ISqxwZPYx',
-            'title': 'YDL_Empty_List',
+            'uploader_id': 'UCmlqkdCBesrv2Lak1mF_MxA',
+            'uploader': 'Sergey M.',
+            'id': 'PL4lCao7KL_QFodcLWhDpGCYnngnHtQ-Xf',
+            'title': 'youtube-dl empty playlist',
         },
         'playlist_count': 0,
-        'skip': 'This playlist is private',
     }, {
         'note': 'Playlist with deleted videos (#651). As a bonus, the video #51 is also twice in this list.',
         'url': 'https://www.youtube.com/playlist?list=PLwP_SiAcdui0KVebT0mU9Apz359a4ubsC',
@@ -2517,7 +2521,7 @@ class YoutubePlaylistIE(YoutubePlaylistBaseInfoExtractor):
             'uploader': 'Christiaan008',
             'uploader_id': 'ChRiStIaAn008',
         },
-        'playlist_count': 95,
+        'playlist_count': 96,
     }, {
         'note': 'issue #673',
         'url': 'PLBB231211A4F62143',

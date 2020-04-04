@@ -5,7 +5,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d3c59565-3fa0-46f9-b9a2-e3ef3b62cc38" name="Default" comment="Remove support of urlresolver thanks Ubot.">
+      <change beforePath="$PROJECT_DIR$/../matrix/addons.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../matrix/addons.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../matrix/addons.xml.md5" beforeDir="false" afterPath="$PROJECT_DIR$/../matrix/addons.xml.md5" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../matrix/script.yatse.kodi/addon.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../matrix/script.yatse.kodi/addon.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../repo_generator.py" beforeDir="false" afterPath="$PROJECT_DIR$/../repo_generator.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../repo_generator_matrix.py" beforeDir="false" afterPath="$PROJECT_DIR$/../repo_generator_matrix.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/addon.xml" beforeDir="false" afterPath="$PROJECT_DIR$/addon.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../zips/addons.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../zips/addons.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../zips/addons.xml.md5" beforeDir="false" afterPath="$PROJECT_DIR$/../zips/addons.xml.md5" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../zips/script.yatse.kodi/addon.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../zips/script.yatse.kodi/addon.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -31,7 +39,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="SearchEverywhereHistoryKey" value="insp&#9;ACTION&#9;InspectCode" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../script.module.urlresolver.yatse" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../repo_generator.py" />
     <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
     <property name="settings.editor.selected.configurable" value="configurable.group.tools" />
   </component>
@@ -332,14 +340,18 @@
     <option name="LAST_COMMIT_MESSAGE" value="Remove support of urlresolver thanks Ubot." />
   </component>
   <component name="WindowStateProjectService">
-    <state x="968" y="296" key="CommitChangelistDialog2" timestamp="1575562708241">
+    <state x="968" y="296" key="CommitChangelistDialog2" timestamp="1583352635610">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state x="968" y="296" key="CommitChangelistDialog2/0.0.2560.1400/3840.941.1920.1160@0.0.2560.1400" timestamp="1575562708241" />
+    <state x="968" y="296" key="CommitChangelistDialog2/0.0.2560.1400/3840.941.1920.1160@0.0.2560.1400" timestamp="1583352635610" />
     <state x="250" y="123" key="DiffContextDialog" timestamp="1575562683916">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
     <state x="250" y="123" key="DiffContextDialog/0.0.2560.1400/3840.941.1920.1160@0.0.2560.1400" timestamp="1575562683916" />
+    <state x="1061" y="455" key="FileChooserDialogImpl" timestamp="1583337961038">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state x="1061" y="455" key="FileChooserDialogImpl/0.0.2560.1400/3840.941.1920.1160@0.0.2560.1400" timestamp="1583337961038" />
     <state x="976" y="437" width="609" height="526" key="find.popup" timestamp="1575562513493">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>

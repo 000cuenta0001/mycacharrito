@@ -207,7 +207,7 @@ def episodios(item):
 # Asignar un numérico según las calidades del canal, para poder ordenar por este valor
 def puntuar_calidad(txt):
     txt = txt.replace('HD-720p', '720p HD')
-    orden = ['360p', '480p', 'HDTV', 'Micro-HD-720p', '720p HD', 'Micro-HD-1080p', '1080p HD']
+    orden = ['360p', '480p', 'HDTV', 'Micro-720p HD', '720p HD', 'Micro-HD-1080p', '1080p HD']
     if txt not in orden: return 0
     else: return orden.index(txt) + 1
 
@@ -227,11 +227,14 @@ def findvideos(item):
         srv = scrapertools.find_single_match(datos, ' data-server="([^"]+)').lower().replace('www.', '')
         if not srv: continue
         if '.' in srv: srv = srv.split('.')[0]
-        srv = servertools.corregir_servidor(srv)
 
         url = scrapertools.find_single_match(datos, ' data-enlace="([^"]+)')
         if not url: continue
         if url.startswith('/'): url = HOST + url[1:]
+        
+        if 'streamcrypt.net/' in url:
+            srv = scrapertools.find_single_match(url.replace('embed/', ''), 'streamcrypt\.net/([^./]+)').lower()
+        srv = servertools.corregir_servidor(srv)
 
         tds = scrapertools.find_multiple_matches(datos, '<td[^>]*>(.*?)</td>')
         quality = tds[2].strip()
@@ -247,6 +250,22 @@ def findvideos(item):
 
     return itemlist
 
+def play(item):
+    logger.info()
+    itemlist = []
+
+    if 'streamcrypt.net/' in item.url: # Ej: https://streamcrypt.net/[embed/]flashx.tv/...
+        url = scrapertools.decode_streamcrypt(item.url)
+
+        if not url: return itemlist
+        servidor = servertools.get_server_from_url(url)
+        if servidor and servidor != 'directo':
+            url = servertools.normalize_url(servidor, url)
+            itemlist.append(item.clone( url=url, server=servidor ))
+    else:
+        itemlist.append(item.clone())
+
+    return itemlist
 
 
 def search(item, texto):
