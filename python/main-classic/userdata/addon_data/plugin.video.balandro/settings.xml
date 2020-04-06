@@ -79,7 +79,7 @@
     <setting id="show_help_use" default="true"></setting>
     <setting id="streaming_profile" default="true"></setting>
     <setting id="tmdb_cache">true</setting>
-    <setting id="tmdb_cache_expire">4</setting>
+    <setting id="tmdb_cache_expire">1</setting>
     <setting id="tmdb_clean_db_cache" default="true"></setting>
     <setting id="tmdb_disabled" default="true">false</setting>
     <setting id="tmdb_drop_db_cache" default="true"></setting>
