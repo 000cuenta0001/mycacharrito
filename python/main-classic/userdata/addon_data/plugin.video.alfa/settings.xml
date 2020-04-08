@@ -38,6 +38,9 @@
     <setting id="max_frequents_folder" value="0" />
     <setting id="movie_color" value="[COLOR white]white[/COLOR]" />
     <setting id="news_start" value="false" />
+    <setting id="next_ep" value="1" />
+    <setting id="next_ep_seconds" value="30" />
+    <setting id="next_ep_type" value="false" />
     <setting id="no_update_color" value="[COLOR white]white[/COLOR]" />
     <setting id="player_mode" value="0" />
     <setting id="preset_style" value="Estilo 1" />
@@ -64,15 +67,16 @@
     <setting id="shortcut_key" value="" />
     <setting id="show_once" value="true" />
     <setting id="start_page" value="false" />
-    <setting id="subtitle_name" value="1x01 (de 3)  Watchmen [COLOR yellow][][COLOR] [] [COLOR limegreen][HDTV 720p AC3 5.1][COLOR] [COLOR red][&apos;CAST&apos;][COLOR] []" />
+    <setting id="subtitle_name" value="[TERM.] 1x01 (de 5) al 05 -  Primal [COLOR yellow][2019][COLOR] [8.0] [COLOR limegreen][HDTV 720p AC3 5.1 [COLOR][COLOR white][0023 h]][COLOR] [COLOR red][&apos;CAST&apos;][COLOR] []" />
     <setting id="thumbnail_type" value="2" />
     <setting id="title_color" value="false" />
+    <setting id="tmdb_active" value="true" />
     <setting id="tmdb_cache" value="true" />
-    <setting id="tmdb_cache_expire" value="4" />
+    <setting id="tmdb_cache_expire" value="1" />
     <setting id="tmdb_clean_db_cache" value="" />
     <setting id="tmdb_lang" value="0" />
     <setting id="tmdb_plus_info" value="false" />
-    <setting id="tmdb_threads" value="20" />
+    <setting id="tmdb_threads" value="5" />
     <setting id="trakt_sync" value="false" />
     <setting id="tvshow_color" value="[COLOR white]white[/COLOR]" />
     <setting id="unify" value="false" />
