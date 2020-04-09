@@ -215,6 +215,8 @@ def get_kodi_list_item(meta_data):
             list_item.setInfo('pictures', item_info)
         else:
             list_item.setInfo('video', item_info)
+            if KODI_VERSION >= 18 and 'id' in meta_data:
+                list_item.setUniqueIDs({'youtubeId': meta_data['id']})
 
     return list_item
 

@@ -4,17 +4,7 @@
     <option name="SCOPE_TYPE" value="3" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d3c59565-3fa0-46f9-b9a2-e3ef3b62cc38" name="Default" comment="Remove support of urlresolver thanks Ubot.">
-      <change beforePath="$PROJECT_DIR$/../matrix/addons.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../matrix/addons.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../matrix/addons.xml.md5" beforeDir="false" afterPath="$PROJECT_DIR$/../matrix/addons.xml.md5" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../matrix/script.yatse.kodi/addon.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../matrix/script.yatse.kodi/addon.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../repo_generator.py" beforeDir="false" afterPath="$PROJECT_DIR$/../repo_generator.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../repo_generator_matrix.py" beforeDir="false" afterPath="$PROJECT_DIR$/../repo_generator_matrix.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/addon.xml" beforeDir="false" afterPath="$PROJECT_DIR$/addon.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../zips/addons.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../zips/addons.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../zips/addons.xml.md5" beforeDir="false" afterPath="$PROJECT_DIR$/../zips/addons.xml.md5" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../zips/script.yatse.kodi/addon.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../zips/script.yatse.kodi/addon.xml" afterDir="false" />
-    </list>
+    <list default="true" id="d3c59565-3fa0-46f9-b9a2-e3ef3b62cc38" name="Default" comment="Add the ID as uniqueID for KODI 18+ as kodi does not allow reading from the playlist ...." />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -298,7 +288,14 @@
       <option name="project" value="LOCAL" />
       <updated>1575562709472</updated>
     </task>
-    <option name="localTasksCounter" value="33" />
+    <task id="LOCAL-00033" summary="Add the ID as uniqueID for KODI 18+ as kodi does not allow reading from the playlist ....">
+      <created>1583482543125</created>
+      <option name="number" value="00033" />
+      <option name="presentableId" value="LOCAL-00033" />
+      <option name="project" value="LOCAL" />
+      <updated>1583482543125</updated>
+    </task>
+    <option name="localTasksCounter" value="34" />
     <servers />
   </component>
   <component name="Vcs.Log.History.Properties">
@@ -312,7 +309,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Add support for plot. [Note: Kodi 18 bug with ? in video urls affects addons too but a little differently]" />
     <MESSAGE value="Add mimetype support to try to guess if music or video + force music mode to pass Kodi 18 bug with video and urls that contains ?" />
     <MESSAGE value="Add Api for Yatse to push metadata when streaming&#10;Add support for more metadata&#10;Improve media start speed when mimetype is known and valid" />
     <MESSAGE value="Improve picture support.&#10;-&gt; Write a python addon to bypass JSON bugs and limitations but have to call JSON from it to bypass Python limitations, welcome to Kodi." />
@@ -337,13 +333,14 @@
     <MESSAGE value="Update YoutubeDL" />
     <MESSAGE value="Fix youtubedlfix for Python 3" />
     <MESSAGE value="Remove support of urlresolver thanks Ubot." />
-    <option name="LAST_COMMIT_MESSAGE" value="Remove support of urlresolver thanks Ubot." />
+    <MESSAGE value="Add the ID as uniqueID for KODI 18+ as kodi does not allow reading from the playlist ...." />
+    <option name="LAST_COMMIT_MESSAGE" value="Add the ID as uniqueID for KODI 18+ as kodi does not allow reading from the playlist ...." />
   </component>
   <component name="WindowStateProjectService">
-    <state x="968" y="296" key="CommitChangelistDialog2" timestamp="1583352635610">
+    <state x="968" y="296" width="975" height="989" key="CommitChangelistDialog2" timestamp="1583482542531">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state x="968" y="296" key="CommitChangelistDialog2/0.0.2560.1400/3840.941.1920.1160@0.0.2560.1400" timestamp="1583352635610" />
+    <state x="968" y="296" width="975" height="989" key="CommitChangelistDialog2/0.0.2560.1400/3840.941.1920.1160@0.0.2560.1400" timestamp="1583482542531" />
     <state x="250" y="123" key="DiffContextDialog" timestamp="1575562683916">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
@@ -352,10 +349,10 @@
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
     <state x="1061" y="455" key="FileChooserDialogImpl/0.0.2560.1400/3840.941.1920.1160@0.0.2560.1400" timestamp="1583337961038" />
-    <state x="976" y="437" width="609" height="526" key="find.popup" timestamp="1575562513493">
+    <state x="976" y="437" width="612" height="526" key="find.popup" timestamp="1583482085342">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state x="976" y="437" width="609" height="526" key="find.popup/0.0.2560.1400/3840.941.1920.1160@0.0.2560.1400" timestamp="1575562513493" />
+    <state x="976" y="437" width="612" height="526" key="find.popup/0.0.2560.1400/3840.941.1920.1160@0.0.2560.1400" timestamp="1583482085342" />
   </component>
   <component name="masterDetails">
     <states>
