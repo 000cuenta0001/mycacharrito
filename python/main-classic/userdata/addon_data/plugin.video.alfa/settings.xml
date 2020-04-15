@@ -46,15 +46,15 @@
     <setting id="preset_style" value="Estilo 1" />
     <setting id="preset_style_switch" value="true" />
     <setting id="proxy_CF_addr" value="NDIuMTU5LjkxLjI0ODo4MDgw" />
-    <setting id="proxy_CF_list" value="Wyc0Mi4xNTkuOTEuMjQ4OjgwODAnLCAnNDIuMTU5LjkxLjI0ODo4MDgxJ10=" />
+    <setting id="proxy_CF_list" value="Wyc4OC4xOTkuMjEuNzY6ODAnLCAnMTE2LjE5Ni44NS4xNjY6MzEyOCcsICc1MS4xNTguMTgwLjE3OTo4ODExJywgJzUxLjE1OC4xMjMuMjUwOjg4MTEnLCAnNTEuMTU4LjE4Ni4yNDI6ODgxMScsICcxODUuMjA1LjIwOS4xOTg6ODAnLCAnNTEuMTU4LjE2NS4xODo4ODExJywgJzUyLjE0MC4yNDIuMTAzOjMxMjgnLCAnMTg1LjIwNS4yMDkuMTk4OjgwODAnLCAnMjE4LjYwLjguOTk6MzEyOScsICcxNjMuMTcyLjE5MC4xNjA6ODgxMSdd" />
     <setting id="proxy_active" value="VHJ1ZQ==" />
-    <setting id="proxy_addr" value="MjAyLjYyLjg0LjIxMDo1MzI4MQ==" />
-    <setting id="proxy_channel_bloqued" value="eydjaW5ldHV4LnRvJzogJ1Byb3h5V2ViOmhpZGUubWUnLCAnY2luZWNhbGlkYWQudG8nOiAnUHJveHlXZWInLCAnY3VldmFuYTMuY29tJzogJ1Byb3h5V2ViJywgJ2dudWxhLm51JzogJ1Byb3h5Q0YnLCAnZmlsZXMuZ3JhbnRvcnJlbnQubmV0JzogJ1Byb3h5V2ViJywgJ21lam9ydG9ycmVudC5uZXQnOiAnT04nLCAnZWxpdGV0b3JyZW50LmJpeic6ICdPTicsICdtZWpvcnRvcnJlbnQuY29tJzogJ1Byb3h5V2ViOmhpZGUubWUnLCAnZ3JhbnRvcnJlbnQxLmNvbSc6ICdPTicsICd0b2RvLXBlbGljdWxhcy5uZXQnOiAnUHJveHlXZWInLCAnZ251bGEuc2UnOiAnT04nLCAnbWVqb3J0b3JyZW50Lm9yZyc6ICdQcm94eVdlYjpoaWRlLm1lLHdlYnByb3h5LnRvJywgJ3Nlcmllc2RhbmtvLnRvJzogJ09OJywgJ2dyYW50b3JyZW50Lm5ldCc6ICdQcm94eVdlYicsICdjdWV2YW5hMy5jbyc6ICdQcm94eVdlYid9" />
+    <setting id="proxy_addr" value="MTg1LjIwNS4yMDkuMTk4Ojgw" />
+    <setting id="proxy_channel_bloqued" value="eydwZWxpc3BsdXMudG8nOiAnT04nLCAnZ251bGEuc2UnOiAnT04nLCAnZ251bGEubnUnOiAnUHJveHlDRicsICdjaW5ldHV4LnRvJzogJ1Byb3h5V2ViOmhpZGUubWUnLCAnZ3JhbnRvcnJlbnQuY2MnOiAnUHJveHlDRid9" />
     <setting id="proxy_dev" value="dXNlcg==" />
-    <setting id="proxy_list" value="WycyMDIuNjIuODQuMjEwOjUzMjgxJywgJzEyNC4xNTYuMTA4LjcxOjgyJywgJzE4My45MS4zMy40Mjo4MDg1JywgJzEwMy43Mi4yMTYuMTk0OjM4MzQ1JywgJzE4My45MS4zMy40Mjo4OCcsICcxMDMuMjEuMTYxLjIwMjozNTEwMScsICcxODMuOTEuMzMuNDI6ODcnLCAnMTAzLjI0MC4yMDYuMTUyOjU1NzQwJywgJzE4My45MS4zMy40MTo5MCcsICcxODMuOTEuMzMuNDE6ODknLCAnMTgzLjkxLjMzLjQyOjgxJywgJzE4My45MS4zMy40Mjo4OScsICcxODMuOTEuMzMuNDI6ODUnLCAnMTgzLjkxLjMzLjQxOjkxJywgJzE4My45MS4zMy40Mjo4MDgzJywgJzE4My45MS4zMy40Mjo4MycsICcxODMuOTEuMzMuNDE6ODAnLCAnMTgzLjkxLjMzLjQxOjgwODAnLCAnMTgzLjkxLjMzLjQxOjgwOTAnLCAnMTgzLjkxLjMzLjQyOjg2JywgJzE4My45MS4zMy40MTo4NScsICcxODMuOTEuMzMuNDE6ODA4NScsICcxMjAuNzkuNjEuMjQ2OjgwMDAnLCAnMTUwLjEwOS41NS4xOTA6ODMnLCAnMTAxLjIzMS4xMDQuODI6ODAnLCAnMTgzLjkxLjMzLjQxOjgzJywgJzEwMy4yNDAuMTYxLjI1MDo1MDgxMicsICc0Mi4xNTkuOTEuMjQ4OjgwODAnLCAnMTgzLjkxLjMzLjQxOjg0JywgJzE4My45MS4zMy40Mjo4MDkxJywgJzEyNS42My44My40Mjo4MCcsICcxODMuOTEuMzMuNDE6ODA4OScsICcxODMuOTEuMzMuNDI6ODInLCAnMTgzLjkxLjMzLjQyOjgwODYnLCAnMTIyLjk2LjUxLjk6ODA4MCcsICcxODMuOTEuMzMuNDI6ODA4OCcsICcxODMuOTEuMzMuNDI6ODQnLCAnMjIyLjczLjIxOC4zODo4ODg4JywgJzE4My45MS4zMy40Mjo4MDg0JywgJzE4My45MS4zMy40Mjo4MDg5JywgJzU0LjI1NS4xODguMTQwOjgwJywgJzE4My45MS4zMy40Mjo4MDgyJywgJzE4My45MS4zMy40MTo4MicsICcxODMuOTEuMzMuNDI6ODA4NycsICcxODMuOTEuMzMuNDI6ODA5MCcsICcxODMuOTEuMzMuNDI6OTAnLCAnMTgzLjkxLjMzLjQyOjgwODEnLCAnMTE2LjYyLjE5OC40Mzo4MDgwJywgJzQ1LjQzLjQ2LjczOjk5OTknLCAnMTgzLjkxLjMzLjQyOjkyJ10=" />
+    <setting id="proxy_list" value="WycxODUuMjA1LjIwOS4xOTg6ODAnLCAnMTE2LjE5Ni44NS4xNjY6MzEyOCcsICc1MS4xNTguMTg2LjI0Mjo4ODExJywgJzUxLjE1OC4xODAuMTc5Ojg4MTEnLCAnMTYzLjE3Mi4xOTAuMTYwOjg4MTEnLCAnODguMTk5LjIxLjc2OjgwJywgJzIxOC42MC44Ljk5OjMxMjknLCAnNTEuMTU4LjE2NS4xODo4ODExJywgJzUxLjE1OC4xMjMuMjUwOjg4MTEnLCAnMTg1LjIwNS4yMDkuMTk4OjgwODAnLCAnNTIuMTQwLjI0Mi4xMDM6MzEyOCdd" />
     <setting id="proxy_web_name" value="aGlkZS5tZQ==" />
-    <setting id="proxy_white_list" value="eydjaW5ldHV4LnRvJzogJ1Byb3h5V2ViOmhpZGUubWUnLCAnY2luZWNhbGlkYWQudG8nOiAnUHJveHlXZWInLCAnZ251bGEubnUnOiAnUHJveHlDRicsICdmaWxlcy5ncmFudG9ycmVudC5uZXQnOiAnUHJveHlXZWInLCAnbWVqb3J0b3JyZW50LmNvbSc6ICdQcm94eVdlYjpoaWRlLm1lJywgJ3RvZG8tcGVsaWN1bGFzLm5ldCc6ICdQcm94eVdlYicsICdjdWV2YW5hMy5jb20nOiAnUHJveHlXZWInLCAnbWVqb3J0b3JyZW50Lm9yZyc6ICdQcm94eVdlYjpoaWRlLm1lJywgJ2dyYW50b3JyZW50Lm5ldCc6ICdQcm94eVdlYicsICdjdWV2YW5hMy5jbyc6ICdQcm94eVdlYid9" />
-    <setting id="proxy_zip" value="Q291bnRyeTogRVMgLyBPcGVyYXRvcjogVm9kYWZvbmUgU3BhaW4gLyBSLkNvZGU6IDIwMCAvIERhdGE6ICAvIFdlYl9pcDogaHR0cHM6Ly9hcGkuaXAuc2IvZ2VvaXA=" />
+    <setting id="proxy_white_list" value="eydjaW5ldHV4LnRvJzogJ1Byb3h5V2ViOmhpZGUubWUnLCAnY2luZWNhbGlkYWQuaXMnOiAnUHJveHlXZWI6aGlkZS5tZScsICdnbnVsYS5udSc6ICdQcm94eUNGJywgJ2dyYW50b3JyZW50LmNjJzogJ1Byb3h5Q0YnfQ==" />
+    <setting id="proxy_zip" value="Q291bnRyeTogRVMgLyBPcGVyYXRvcjogVm9kYWZvbmUgU3BhaW4gLyBBU046IEFTMTI0MzAgLyBSLkNvZGU6IDIwMCAvIERhdGE6ICAvIFdlYl9pcDogaHR0cHM6Ly9pcGFwaS5jby9qc29u" />
     <setting id="quality_color" value="[COLOR white]white[/COLOR]" />
     <setting id="rating_1_color" value="[COLOR white]white[/COLOR]" />
     <setting id="rating_2_color" value="[COLOR white]white[/COLOR]" />
@@ -67,7 +67,7 @@
     <setting id="shortcut_key" value="" />
     <setting id="show_once" value="true" />
     <setting id="start_page" value="false" />
-    <setting id="subtitle_name" value="[TERM.] 1x01 (de 5) al 05 -  Primal [COLOR yellow][2019][COLOR] [8.0] [COLOR limegreen][HDTV 720p AC3 5.1 [COLOR][COLOR white][0023 h]][COLOR] [COLOR red][&apos;CAST&apos;][COLOR] []" />
+    <setting id="subtitle_name" value="[TERM.] 2x09 (de 10)  Igor [COLOR yellow][][COLOR] [] [COLOR limegreen][HDTV 720p AC3 5.1 [COLOR][COLOR white][0030 h]][COLOR] [COLOR red][&apos;CAST&apos;][COLOR] []" />
     <setting id="thumbnail_type" value="2" />
     <setting id="title_color" value="false" />
     <setting id="tmdb_active" value="true" />
@@ -76,7 +76,7 @@
     <setting id="tmdb_clean_db_cache" value="" />
     <setting id="tmdb_lang" value="0" />
     <setting id="tmdb_plus_info" value="false" />
-    <setting id="tmdb_threads" value="5" />
+    <setting id="tmdb_threads" value="20" />
     <setting id="trakt_sync" value="false" />
     <setting id="tvshow_color" value="[COLOR white]white[/COLOR]" />
     <setting id="unify" value="false" />
