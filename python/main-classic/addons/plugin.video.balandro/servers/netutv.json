@@ -3,7 +3,8 @@
   "more_ids": ["netu", "waaw", "hqq"],
   "name": "Netutv",
  
-  "active": true,
+  "active": false,
+  "notes": "Requiere recaptcha",
 
   "find_videos": {
     "ignore_urls": [],
