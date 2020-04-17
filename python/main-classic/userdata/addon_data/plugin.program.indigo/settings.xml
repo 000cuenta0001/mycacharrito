@@ -21,7 +21,7 @@
     <setting id="maint_check_folders">true</setting>
     <setting id="newest">true</setting>
     <setting id="notifications-on-startup">true</setting>
-    <setting id="notify">0</setting>
+    <setting id="notify">4</setting>
     <setting id="packagesmb" default="true">0</setting>
     <setting id="program">true</setting>
     <setting id="repositories" default="true">false</setting>
