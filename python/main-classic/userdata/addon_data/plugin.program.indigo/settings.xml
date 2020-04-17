@@ -1,55 +1,55 @@
-<settings>
-    <setting id="accache" value="true" />
-    <setting id="accrash" value="true" />
-    <setting id="acpackages" value="true" />
-    <setting id="acstartup" value="true" />
-    <setting id="acthumbs" value="true" />
-    <setting id="addoninstaller" value="false" />
-    <setting id="adult" value="false" />
-    <setting id="audio" value="true" />
-    <setting id="auto-view" value="false" />
-    <setting id="automain" value="false" />
-    <setting id="automb" value="false" />
-    <setting id="cachemb" value="0" />
-    <setting id="clearday" value="7" />
-    <setting id="default_dir" value="xbmc.translatePath(&apos;special://home/&apos;)" />
-    <setting id="default_url" value="https://raw.githubusercontent.com/keraf/NoCoin/master/src/blacklist.txt" />
-    <setting id="default_url_t" value="true" />
-    <setting id="featured" value="true" />
-    <setting id="github_key" value="" />
-    <setting id="hasran" value="true" />
-    <setting id="maint_check_folders" value="true" />
-    <setting id="newest" value="true" />
-    <setting id="notifications-on-startup" value="true" />
-    <setting id="notify" value="4" />
-    <setting id="packagesmb" value="0" />
-    <setting id="program" value="true" />
-    <setting id="repositories" value="false" />
-    <setting id="scan_default_dir" value="true" />
-    <setting id="scan_dir0" value="" />
-    <setting id="scan_dir1" value="" />
-    <setting id="scan_dir2" value="" />
-    <setting id="scan_dir3" value="" />
-    <setting id="scan_dir4" value="" />
-    <setting id="scan_dir5" value="" />
-    <setting id="scan_dir6" value="" />
-    <setting id="scan_warning" value="false" />
-    <setting id="scriptblock" value="true" />
-    <setting id="set_rtmp" value="true" />
-    <setting id="sevicehasran" value="true" />
-    <setting id="skincat" value="true" />
-    <setting id="thumbsmb" value="0" />
-    <setting id="toprepositories" value="true" />
-    <setting id="tt_togglesetting" value="false" />
-    <setting id="updated" value="true" />
-    <setting id="user_url0" value="" />
-    <setting id="user_url1" value="" />
-    <setting id="user_url2" value="" />
-    <setting id="user_url3" value="" />
-    <setting id="user_url4" value="" />
-    <setting id="user_url5" value="" />
-    <setting id="video" value="true" />
-    <setting id="wizardran" value="false" />
-    <setting id="world" value="true" />
-    <setting id="zip" value="Click Here" />
+<settings version="2">
+    <setting id="accache" default="true">false</setting>
+    <setting id="accrash">true</setting>
+    <setting id="acpackages">true</setting>
+    <setting id="acstartup">true</setting>
+    <setting id="acthumbs">true</setting>
+    <setting id="addoninstaller" default="true">false</setting>
+    <setting id="adult" default="true">false</setting>
+    <setting id="audio">true</setting>
+    <setting id="auto-view">false</setting>
+    <setting id="automain" default="true">false</setting>
+    <setting id="automb" default="true">false</setting>
+    <setting id="cachemb" default="true">0</setting>
+    <setting id="clearday">7</setting>
+    <setting id="default_dir" default="true">xbmc.translatePath(&apos;special://home/&apos;)</setting>
+    <setting id="default_url" default="true">https://raw.githubusercontent.com/keraf/NoCoin/master/src/blacklist.txt</setting>
+    <setting id="default_url_t">true</setting>
+    <setting id="featured">true</setting>
+    <setting id="github_key" default="true"></setting>
+    <setting id="hasran">true</setting>
+    <setting id="maint_check_folders">true</setting>
+    <setting id="newest">true</setting>
+    <setting id="notifications-on-startup">true</setting>
+    <setting id="notify">0</setting>
+    <setting id="packagesmb" default="true">0</setting>
+    <setting id="program">true</setting>
+    <setting id="repositories" default="true">false</setting>
+    <setting id="scan_default_dir">true</setting>
+    <setting id="scan_dir0" default="true"></setting>
+    <setting id="scan_dir1" default="true"></setting>
+    <setting id="scan_dir2" default="true"></setting>
+    <setting id="scan_dir3" default="true"></setting>
+    <setting id="scan_dir4" default="true"></setting>
+    <setting id="scan_dir5" default="true"></setting>
+    <setting id="scan_dir6" default="true"></setting>
+    <setting id="scan_warning" default="true">false</setting>
+    <setting id="scriptblock">true</setting>
+    <setting id="set_rtmp">true</setting>
+    <setting id="sevicehasran">true</setting>
+    <setting id="skincat">true</setting>
+    <setting id="thumbsmb" default="true">0</setting>
+    <setting id="toprepositories">true</setting>
+    <setting id="tt_togglesetting" default="true">false</setting>
+    <setting id="updated">true</setting>
+    <setting id="user_url0" default="true"></setting>
+    <setting id="user_url1" default="true"></setting>
+    <setting id="user_url2" default="true"></setting>
+    <setting id="user_url3" default="true"></setting>
+    <setting id="user_url4" default="true"></setting>
+    <setting id="user_url5" default="true"></setting>
+    <setting id="video">true</setting>
+    <setting id="wizardran" default="true">false</setting>
+    <setting id="world">true</setting>
+    <setting id="zip" default="true">Click Here</setting>
 </settings>

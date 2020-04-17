@@ -30,11 +30,13 @@ def get_embed(vid):
         # ~ logger.debug(data)
 
     mp4 = scrapertools.find_single_match(data, 'sources:\["([^"]+)')
+    if not mp4: mp4 = scrapertools.find_single_match(data, 'src:"([^"]+\.mp4)"')
     if mp4: 
         subtitulos = scrapertools.find_single_match(data, 'src:"([^"]+\.vtt)"')
         video_urls.append(["mp4", mp4, 0, subtitulos])
 
     return video_urls
+
 
 def get_download(vid):
     video_urls = []

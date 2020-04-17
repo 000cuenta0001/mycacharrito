@@ -42,7 +42,7 @@ def mainlist_series(item):
     logger.info()
     itemlist = []
 
-    itemlist.append(item.clone ( title = 'Últimas series', action = 'list_all', url = host + 'serie-hd-2021/', search_type = 'tvshow' ))
+    itemlist.append(item.clone ( title = 'Últimas series', action = 'list_all', url = host + 'serie-hd-2022/', search_type = 'tvshow' ))
 
     itemlist.append(item.clone ( title = 'Por género', action = 'generos', search_type = 'tvshow' ))
 
