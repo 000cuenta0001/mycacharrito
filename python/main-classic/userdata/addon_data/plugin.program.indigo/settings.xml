@@ -20,7 +20,7 @@
     <setting id="hasran" value="false" />
     <setting id="maint_check_folders" value="true" />
     <setting id="newest" value="true" />
-    <setting id="notifications-on-startup" value="false" />
+    <setting id="notifications-on-startup" value="true" />
     <setting id="notify" value="1" />
     <setting id="packagesmb" value="0" />
     <setting id="program" value="true" />
