@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<addon id="plugin.program.super.favourites" name="Super Fav" version="MOD" provider-name="[COLOR grey]Fusion [COLOR white]- [COLOR aqua]Cristal Azul [COLOR white]- [COLOR teal]Taox [COLOR purple]Wizard[/COLOR]">
+<addon id="plugin.program.super.favourites" name="Super Favourites" version="1.0.59" provider-name="spoyser">
   <requires>
     <import addon="xbmc.python" version="2.14.0"/>
     <import addon="script.module.metahandler" optional="true" />
@@ -7,7 +7,7 @@
 
 
   <extension point="xbmc.python.pluginsource" library="default.py">
-        <provides>audio image executable</provides>
+        <provides>video audio image executable</provides>
   </extension>
 
   
@@ -15,10 +15,8 @@
 
   
   <extension point="xbmc.addon.metadata">
-    <summary lang="en">Super Fav. Super Favourites MOD by Fusion, Cristal Azul and Taox Wizard. All credits for the original work from Spoyser</summary>
-    <description lang="en">Super Fav es la mejor manera de administrar sus favoritos de Kodi.Prácticamente cualquier elemento de menú dentro de Kodi se puede agregar a Super Fav, incluso desde complementos que normalmente no ofrecen esta función.
-Super Fav le permite administrar mejor sus favoritos de Kodi, incluida la creación de subcarpetas, en las que sus favoritos de Kodi se pueden copiar o mover.
-Esto le permite crear su propio complemento personalizado con las secciones preferidas de diferentes addons. </description>
+    <summary lang="en">Put all your favourites bits of all your favourites addons into one easy to use addon.</summary>
+    <description lang="en">Super Favourites is a better way of managing your Kodi Favourites.[CR][CR]Virtually any menu item within Kodi can be added to Super Favourites, even from addons that don't normally provide this feature.[CR][CR]Super Favourites allows you to better manage your Kodi favourites, including the creation of sub-folders, into which your Kodi favourites can then be copied or moved into.[CR][CR]This allows you to create you own custom addon with just the best bits of your favourite addons. Search your favourite addons, play your favourite music, read your favourite comic strips, select your favourite playlists, browse your favourite movies, listen to your favourite radio stations, watch your favourite cartoons, the possibilities are endless, all from within one easy to use addon.</description>
     <platform>all</platform>
     <language>en</language>
     <license>GNU GENERAL PUBLIC LICENSE. Version 2, June 1991</license>
@@ -26,11 +24,6 @@ Esto le permite crear su propio complemento personalizado con las secciones pref
     <website></website>
     <source>https://github.com/spoyser/spoyser-repo/tree/master/plugin.program.super.favourites</source>
     <email>seanpoyser at gmail.com</email>
-
-    <news>
-Super Fav - Super Favourites MOD
-	Por Fusion, Cristal Azul y Taox Wizard.
-    </news>
 
   </extension>
 

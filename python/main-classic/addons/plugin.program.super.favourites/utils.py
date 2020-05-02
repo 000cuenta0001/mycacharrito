@@ -19,14 +19,13 @@
 #
 
 
-import datetime
-import os
-import re
-
-import sfile
 import xbmc
 import xbmcaddon
 import xbmcgui
+import os
+import re
+import datetime
+import sfile
 
 
 def GetXBMCVersion():
@@ -34,35 +33,35 @@ def GetXBMCVersion():
 
     version = xbmcaddon.Addon('xbmc.addon').getAddonInfo('version')
     version = version.split('.')
-    return int(version[0]), int(version[1])  # major, minor eg, 13.9.902
+    return int(version[0]), int(version[1]) #major, minor eg, 13.9.902
 
 
 ADDONID = 'plugin.program.super.favourites'
-ADDON = xbmcaddon.Addon(ADDONID)
-HOME = ADDON.getAddonInfo('path')
+ADDON   =  xbmcaddon.Addon(ADDONID)
+HOME    =  ADDON.getAddonInfo('path')
 
 _FOLDER = 400
 
 
-ROOT = ADDON.getSetting('FOLDER')
+ROOT =  ADDON.getSetting('FOLDER')
 if not ROOT:
     ROOT = 'special://profile/addon_data/plugin.program.super.favourites/'
 
 
-SHOWXBMC = ADDON.getSetting('SHOWXBMC') == 'true'
-INHERIT = ADDON.getSetting('INHERIT') == 'true'
-ALPHA_SORT = ADDON.getSetting('ALPHA_SORT') == 'true'
-LABEL_NUMERIC = ADDON.getSetting('LABEL_NUMERIC') == 'true'
-LABEL_NUMERIC_QL = False  # ADDON.getSetting('LABEL_NUMERIC_QL') == 'true'
+SHOWXBMC         = ADDON.getSetting('SHOWXBMC')         == 'true'
+INHERIT          = ADDON.getSetting('INHERIT')          == 'true'
+ALPHA_SORT       = ADDON.getSetting('ALPHA_SORT')       == 'true'
+LABEL_NUMERIC    = ADDON.getSetting('LABEL_NUMERIC')    == 'true'
+LABEL_NUMERIC_QL = False #ADDON.getSetting('LABEL_NUMERIC_QL') == 'true'
 
 
-PROFILE = os.path.join(ROOT, 'Super Favourites')
-VERSION = ADDON.getAddonInfo('version')
-ICON = os.path.join(HOME, 'icon.png')
-FANART = os.path.join(HOME, 'fanart.jpg')
-SEARCH = os.path.join(HOME, 'resources', 'media', 'search.png')
-GETTEXT = ADDON.getLocalizedString
-TITLE = ADDON.getAddonInfo('name')
+PROFILE =  os.path.join(ROOT, 'Super Favourites')
+VERSION =  ADDON.getAddonInfo('version')
+ICON    =  os.path.join(HOME, 'icon.png')
+FANART  =  os.path.join(HOME, 'fanart.jpg')
+SEARCH  =  os.path.join(HOME, 'resources', 'media', 'search.png')
+GETTEXT =  ADDON.getLocalizedString
+TITLE   =  ADDON.getAddonInfo('name')
 
 SF_RUNNING = 'SFRUNNING'
 
@@ -74,61 +73,58 @@ DISPLAYNAME = 'Kodi'
 
 NUMBER_SEP = ' | '
 
-PLAYABLE = xbmc.getSupportedMedia(
-    'video') + '|' + xbmc.getSupportedMedia('music')
+PLAYABLE = xbmc.getSupportedMedia('video') + '|' + xbmc.getSupportedMedia('music')
 PLAYABLE = PLAYABLE.replace('|.zip', '')
 PLAYABLE = PLAYABLE.split('|')
 
 
-PLAYMEDIA_MODE = 1
+PLAYMEDIA_MODE      = 1
 ACTIVATEWINDOW_MODE = 2
-RUNPLUGIN_MODE = 3
-ACTION_MODE = 4
-SHOWPICTURE_MODE = 5
+RUNPLUGIN_MODE      = 3
+ACTION_MODE         = 4
+SHOWPICTURE_MODE    = 5
 
 
 HOMESPECIAL = 'special://home/'
-HOMEFULL = xbmc.translatePath(HOMESPECIAL)
+HOMEFULL    = xbmc.translatePath(HOMESPECIAL)
 
 
 DEBUG = ADDON.getSetting('DEBUG') == 'true'
 
 
-KEYMAP_HOT = 'super_favourites_hot.xml'
+KEYMAP_HOT  = 'super_favourites_hot.xml'
 KEYMAP_MENU = 'super_favourites_menu.xml'
 
 MAJOR, MINOR = GetXBMCVersion()
-FRODO = (MAJOR == 12) and (MINOR < 9)
-GOTHAM = (MAJOR == 13) or (MAJOR == 12 and MINOR == 9)
-HELIX = (MAJOR == 14) or (MAJOR == 13 and MINOR == 9)
-ISENGARD = (MAJOR == 15) or (MAJOR == 14 and MINOR == 9)
-KRYPTON = (MAJOR == 17) or (MAJOR == 16 and MINOR == 9)
+FRODO        = (MAJOR == 12) and (MINOR < 9)
+GOTHAM       = (MAJOR == 13) or (MAJOR == 12 and MINOR == 9)
+HELIX        = (MAJOR == 14) or (MAJOR == 13 and MINOR == 9)
+ISENGARD     = (MAJOR == 15) or (MAJOR == 14 and MINOR == 9)
+KRYPTON      = (MAJOR == 17) or (MAJOR == 16 and MINOR == 9)
 
 
-skin = xbmc.getSkinDir()
-installed = xbmc.getCondVisibility('System.HasAddon(%s)' % skin) == 1
+skin         = xbmc.getSkinDir()
+installed    = xbmc.getCondVisibility('System.HasAddon(%s)' % skin) == 1
 ESTUARY_SKIN = skin.lower() == 'skin.estuary' or not installed
 
 
-FILENAME = 'favourites.xml'
-FOLDERCFG = 'folder.cfg'
+FILENAME     = 'favourites.xml'
+FOLDERCFG    = 'folder.cfg'
 
 
 def Log(text, force=False):
     log(text, force)
 
-
 def log(text, force=False):
     try:
         output = '%s V%s : %s' % (TITLE, VERSION, str(text))
-
+        
         if DEBUG or force:
             xbmc.log(output)
         else:
             xbmc.log(output, xbmc.LOGDEBUG)
     except:
         pass
-
 
 def outputDict(params, title=None):
     if not title:
@@ -145,20 +141,21 @@ def outputDict(params, title=None):
     log('__________________________________________________________')
 
 
+
 def DialogOK(line1, line2='', line3=''):
     d = xbmcgui.Dialog()
-    d.ok(TITLE + ' - ' + VERSION, line1, line2, line3)
+    d.ok(TITLE + ' - ' + VERSION, line1, line2 , line3)
 
 
 def DialogYesNo(line1, line2='', line3='', noLabel=None, yesLabel=None):
     d = xbmcgui.Dialog()
     if noLabel == None or yesLabel == None:
-        return d.yesno(TITLE + ' - ' + VERSION, line1, line2, line3) == True
+        return d.yesno(TITLE + ' - ' + VERSION, line1, line2 , line3) == True
     else:
-        return d.yesno(TITLE + ' - ' + VERSION, line1, line2, line3, noLabel, yesLabel) == True
+        return d.yesno(TITLE + ' - ' + VERSION, line1, line2 , line3, noLabel, yesLabel) == True
 
 
-def Progress(title, line1='', line2='', line3=''):
+def Progress(title, line1 = '', line2 = '', line3 = ''):
     dp = xbmcgui.DialogProgress()
     dp.create(title, line1, line2, line3)
     dp.update(0)
@@ -170,7 +167,7 @@ def generateMD5(text):
         return ''
 
     try:
-        import hashlib
+        import hashlib        
         return hashlib.md5(text.lower()).hexdigest()
     except:
         pass
@@ -180,7 +177,7 @@ def generateMD5(text):
         return md5.new(text).hexdigest()
     except:
         pass
-
+        
     return '0'
 
 
@@ -193,7 +190,7 @@ def CheckVersion():
         prev = ADDON.getSetting('VERSION')
         curr = VERSION
 
-        if prev == curr:
+        if prev == curr:        
             return
 
         verifySuperSearch()
@@ -207,24 +204,24 @@ def CheckVersion():
         ADDON.setSetting('VERSION', curr)
 
         if prev == '0.0.0' or prev == '1.0.0':
-            sfile.makedirs(PROFILE)
+            sfile.makedirs(PROFILE) 
 
-        # call showChangeLog like this to workaround bug in openElec
+        #call showChangeLog like this to workaround bug in openElec
         script = os.path.join(HOME, 'showChangelog.py')
-        cmd = 'AlarmClock(%s,RunScript(%s),%d,True)' % ('changelog', script, 0)
+        cmd    = 'AlarmClock(%s,RunScript(%s),%d,True)' % ('changelog', script, 0)
         xbmc.executebuiltin(cmd)
     except:
         pass
-
+    
 
 def VerifyZipFiles():
-    # cleanup corrupt zip files
+    #cleanup corrupt zip files
     sfile.remove(os.path.join('special://userdata', '_sf_temp.zip'))
     sfile.remove(os.path.join('special://userdata', 'SF_Temp'))
 
 
 def VerifySettings():
-    # patch any settings that have changed types or values
+    #patch any settings that have changed types or values
     if ADDON.getSetting('DISABLEMOVIEVIEW') == 'true':
         ADDON.setSetting('DISABLEMOVIEVIEW', 'false')
         ADDON.setSetting('CONTENTTYPE', '')
@@ -243,10 +240,8 @@ def verifySuperSearch():
 
     sfile.rename(old, dst)
 
-    try:
-        sfile.makedirs(dst)
-    except:
-        pass
+    try:    sfile.makedirs(dst)
+    except: pass
 
     src = os.path.join(HOME, 'resources', 'search', FILENAME)
     dst = os.path.join(dst, FILENAME)
@@ -255,18 +250,17 @@ def verifySuperSearch():
         sfile.copy(src, dst)
 
     try:
-        # patch any changes
+        #patch any changes
         xml = sfile.read(dst)
 
-        xml = xml.replace('is/?action=movies_search&',
-                          'is/?action=movieSearch&')
-        xml = xml.replace('is/?action=people_movies&',
-                          'is/?action=moviePerson&')
+        xml = xml.replace('is/?action=movies_search&', 'is/?action=movieSearch&')
+        xml = xml.replace('is/?action=people_movies&', 'is/?action=moviePerson&')
         xml = xml.replace('is/?action=shows_search&',  'is/?action=tvSearch&')
         xml = xml.replace('is/?action=people_shows&',  'is/?action=tvPerson&')
 
+
         f = sfile.file(dst, 'w')
-        f.write(xml)
+        f.write(xml)            
         f.close()
     except:
         pass
@@ -281,14 +275,15 @@ def verifySuperSearch():
             favourite.addFave(dst, item)
 
 
+
 def UpdateKeymaps():
-    if ADDON.getSetting('HOTKEY') != GETTEXT(30111):  # i.e. not programmable
+    if ADDON.getSetting('HOTKEY') != GETTEXT(30111): #i.e. not programmable
         DeleteKeymap(KEYMAP_HOT)
 
     DeleteKeymap(KEYMAP_MENU)
     VerifyKeymaps()
 
-
+        
 def DeleteKeymap(map):
     path = os.path.join('special://profile/keymaps', map)
     DeleteFile(path)
@@ -297,24 +292,23 @@ def DeleteKeymap(map):
 def DeleteFile(path):
     tries = 5
     while sfile.exists(path) and tries > 0:
-        tries -= 1
-        try:
-            sfile.remove(path)
-        except:
+        tries -= 1 
+        try: 
+            sfile.remove(path) 
+        except: 
             xbmc.sleep(500)
 
-
 def verifyLocation():
-    # if still set to default location reset, to workaround
-    # Android bug in browse folder dialog
+    #if still set to default location reset, to workaround
+    #Android bug in browse folder dialog
     location = ADDON.getSetting('FOLDER')
 
-    profile = 'special://profile/addon_data/plugin.program.super.favourites/'
+    profile  = 'special://profile/addon_data/plugin.program.super.favourites/'
     userdata = 'special://userdata/addon_data/plugin.program.super.favourites/'
 
     if (location == profile) or (location == userdata):
         ADDON.setSetting('FOLDER', '')
-
+        
 
 def verifyPlugins():
     folder = os.path.join(ROOT, 'Plugins')
@@ -322,10 +316,8 @@ def verifyPlugins():
     if sfile.exists(folder):
         return
 
-    try:
-        sfile.makedirs(folder)
-    except:
-        pass
+    try:    sfile.makedirs(folder)
+    except: pass
 
 
 def VerifyKeymaps():
@@ -334,7 +326,7 @@ def VerifyKeymaps():
     scriptPath = ADDON.getAddonInfo('profile')
     scriptPath = os.path.join(scriptPath, 'captureLauncher.py')
     if not sfile.exists(scriptPath):
-        DeleteKeymap(KEYMAP_MENU)  # ensure gets updated to launcher version
+        DeleteKeymap(KEYMAP_MENU) #ensure gets updated to launcher version
         src = os.path.join(HOME, 'captureLauncher.py')
         sfile.copy(src, scriptPath)
 
@@ -348,12 +340,12 @@ def VerifyKeymaps():
         return
 
     xbmc.sleep(1000)
-    xbmc.executebuiltin('Action(reloadkeymaps)')
+    xbmc.executebuiltin('Action(reloadkeymaps)')  
 
 
 def VerifyKeymapHot():
-    if ADDON.getSetting('HOTKEY') == GETTEXT(30111):  # i.e. programmable
-        return False
+    if ADDON.getSetting('HOTKEY') == GETTEXT(30111): #i.e. programmable
+        return False    
 
     dest = os.path.join('special://profile/keymaps', KEYMAP_HOT)
 
@@ -379,15 +371,13 @@ def VerifyKeymapHot():
 
     return WriteKeymap(key.lower(), key.lower())
 
-
 def WriteKeymap(start, end):
     filename = KEYMAP_HOT
-    cmd = 'XBMC.RunScript(special://home/addons/plugin.program.super.favourites/hot.py)'
+    cmd      = 'XBMC.RunScript(special://home/addons/plugin.program.super.favourites/hot.py)'
 
     dest = os.path.join('special://profile/keymaps', filename)
-    cmd = '<keymap><Global><keyboard><%s>%s</%s></keyboard></Global></keymap>' % (
-        start, cmd, end)
-
+    cmd  = '<keymap><Global><keyboard><%s>%s</%s></keyboard></Global></keymap>'  % (start, cmd, end)
+    
     f = sfile.file(dest, 'w')
     f.write(cmd)
     f.close()
@@ -405,14 +395,14 @@ def WriteKeymap(start, end):
 
 
 def VerifyKeymapMenu():
-    context = ADDON.getSetting('CONTEXT') == 'true'
+    context = ADDON.getSetting('CONTEXT')  == 'true'
 
     if not context:
         DeleteKeymap(KEYMAP_MENU)
         return True
 
     keymap = 'special://profile/keymaps'
-    dst = os.path.join(keymap, KEYMAP_MENU)
+    dst    = os.path.join(keymap, KEYMAP_MENU)
 
     if sfile.exists(dst):
         return False
@@ -420,7 +410,7 @@ def VerifyKeymapMenu():
     src = os.path.join(HOME, 'resources', 'keymaps', KEYMAP_MENU)
 
     sfile.makedirs(keymap)
-
+    
     sfile.copy(src, dst)
 
     return True
@@ -432,16 +422,9 @@ def verifyPlayMedia(cmd):
 
 def verifyPlugin(cmd):
     try:
-        plugin = re.compile(
-            'plugin://(.+?)/').search(cmd.replace('?', '/')).group(1)
+        plugin = re.compile('plugin://(.+?)/').search(cmd.replace('?', '/')).group(1)
 
-        if addon_enabled(plugin):
-            return True
-        else:
-            return False
-        #======================================================================
-        # return xbmc.getCondVisibility('System.HasAddon(%s)' % plugin) == 1
-        #======================================================================
+        return xbmc.getCondVisibility('System.HasAddon(%s)' % plugin) == 1
 
     except:
         pass
@@ -451,18 +434,13 @@ def verifyPlugin(cmd):
 
 def verifyScript(cmd):
     try:
-        script = cmd.split('(', 1)[1].split(',', 1)[
-            0].replace(')', '').replace('"', '')
+        script = cmd.split('(', 1)[1].split(',', 1)[0].replace(')', '').replace('"', '')
         script = script.split('/', 1)[0]
 
-        #======================================================================
-        # if xbmc.getCondVisibility('System.HasAddon(%s)' % script) == 1:
-        #======================================================================
-        if addon_enabled(script):
+        if xbmc.getCondVisibility('System.HasAddon(%s)' % script) == 1:
             return True
 
-        file = cmd.split('(', 1)[1].split(',', 1)[
-            0].replace(')', '').replace('"', '')
+        file = cmd.split('(', 1)[1].split(',', 1)[0].replace(')', '').replace('"', '')
         if sfile.exists(file):
             return True
 
@@ -501,7 +479,7 @@ def GetFolder(title, start=None):
     else:
         default = ROOT
 
-    sfile.makedirs(PROFILE)
+    sfile.makedirs(PROFILE) 
 
     folder = xbmcgui.Dialog().browse(3, title, 'files', '', False, False, default)
 
@@ -536,11 +514,11 @@ html_escape_table = {
     "'": "&apos;",
     ">": "&gt;",
     "<": "&lt;",
-}
+    }
 
 
 def escape(text):
-    return str(''.join(html_escape_table.get(c, c) for c in text))
+    return str(''.join(html_escape_table.get(c,c) for c in text))
 
 
 def unescape(text):
@@ -562,24 +540,24 @@ def fix(text):
 
 def Clean(name):
     import re
-    name = re.sub('\([0-9)]*\)', '', name)
+    name   = re.sub('\([0-9)]*\)', '', name)
 
     items = name.split(']')
-    name = ''
+    name  = ''
 
     for item in items:
         if len(item) == 0:
             continue
 
         item += ']'
-        item = re.sub('\[[^)]*\]', '', item)
+        item  = re.sub('\[[^)]*\]', '', item)
 
         if len(item) > 0:
             name += item
 
-    name = name.replace('[', '')
-    name = name.replace(']', '')
-    name = name.strip()
+    name  = name.replace('[', '')
+    name  = name.replace(']', '')
+    name  = name.strip()
 
     while True:
         length = len(name)
@@ -604,27 +582,22 @@ def fileSystemSafe(text):
     text = re.sub('[:\\\\/*?\<>|"]+', '', text)
     text = text.strip()
     if len(text) < 1:
-        return None
+        return  None
 
     return text
 
 
 def findAddon(item):
     try:
-        try:
-            addon = re.compile('"(.+?)"').search(item).group(1)
-        except:
-            addon = item
+        try:    addon = re.compile('"(.+?)"').search(item).group(1)
+        except: addon = item
 
         addon = addon.replace('plugin://', '')
         addon = addon.replace('script://', '')
         addon = addon.replace('/', '')
-        addon = addon.split('?', 1)[0]
+        addon = addon.split('?', 1)[0]        
 
-        #======================================================================
-        # if xbmc.getCondVisibility('System.HasAddon(%s)' % addon) == 0:
-        #======================================================================
-        if not addon_enabled(addon):
+        if xbmc.getCondVisibility('System.HasAddon(%s)' % addon) == 0:
             addon = None
     except:
         addon = None
@@ -646,11 +619,11 @@ def getSettingsLabel(addon):
     return GETTEXT(30094) % GETTEXT(30217)
 
 
-# logic for setting focus inspired by lambda
+#logic for setting focus inspired by lambda
 def openSettings(addonID, focus=None):
-    if not focus:
+    if not focus:            
         return xbmcaddon.Addon(addonID).openSettings()
-
+    
     try:
         xbmc.executebuiltin('Addon.OpenSettings(%s)' % addonID)
 
@@ -670,13 +643,11 @@ def openSettings(addonID, focus=None):
         return
 
 
-# Remove Tags method from
-# http://stackoverflow.com/questions/9662346/python-code-to-remove-html-tags-from-a-string
 
+#Remove Tags method from
+#http://stackoverflow.com/questions/9662346/python-code-to-remove-html-tags-from-a-string
 
 TAG_RE = re.compile('<.*?>')
-
-
 def RemoveTags(html):
     return TAG_RE.sub('', html)
 
@@ -688,10 +659,8 @@ def showBusy():
         busy = xbmcgui.WindowXMLDialog('DialogBusy.xml', '')
         busy.show()
 
-        try:
-            busy.getControl(10).setVisible(False)
-        except:
-            pass
+        try:    busy.getControl(10).setVisible(False)
+        except: pass
     except:
         busy = None
 
@@ -725,13 +694,12 @@ def showChangelog(addonID=None):
     try:
         if addonID:
             _ADDON = xbmcaddon.Addon(addonID)
-        else:
+        else: 
             _ADDON = xbmcaddon.Addon(ADDONID)
 
-        path = os.path.join(_ADDON.getAddonInfo('path'), 'changelog.txt')
-        text = sfile.read(path)
-        title = '%s - %s' % (xbmc.getLocalizedString(24054),
-                             _ADDON.getAddonInfo('name'))
+        path  = os.path.join(_ADDON.getAddonInfo('path'), 'changelog.txt')
+        text  = sfile.read(path)
+        title = '%s - %s' % (xbmc.getLocalizedString(24054), _ADDON.getAddonInfo('name'))
 
         showText(title, text)
 
@@ -741,7 +709,7 @@ def showChangelog(addonID=None):
 
 def getAllPlayableFiles(folder):
     files = {}
-
+ 
     _getAllPlayableFiles(folder, files)
 
     return files
@@ -750,7 +718,7 @@ def getAllPlayableFiles(folder):
 def _getAllPlayableFiles(folder, theFiles):
     current, dirs, files = sfile.walk(folder)
 
-    for dir in dirs:
+    for dir in dirs:        
         path = os.path.join(current, dir)
         _getAllPlayableFiles(path, theFiles)
 
@@ -762,10 +730,8 @@ def _getAllPlayableFiles(folder, theFiles):
 
 
 def isFilePlayable(path):
-    try:
-        return ('.' + sfile.getextension(path) in PLAYABLE)
-    except:
-        return False
+    try:    return ('.' + sfile.getextension(path) in PLAYABLE)
+    except: return False
 
 
 def isPlayable(path):
@@ -775,18 +741,19 @@ def isPlayable(path):
     if sfile.isfile(path):
         playable = isFilePlayable(path)
         return playable
-
+         
     current, dirs, files = sfile.walk(path)
 
     for file in files:
         if isPlayable(os.path.join(current, file)):
             return True
 
-    for dir in dirs:
+    for dir in dirs:        
         if isPlayable(os.path.join(current, dir)):
             return True
 
     return False
+
 
 
 def parseFolder(folder, subfolders=True):
@@ -795,7 +762,7 @@ def parseFolder(folder, subfolders=True):
     current, dirs, files = sfile.walk(folder)
 
     if subfolders:
-        for dir in dirs:
+        for dir in dirs:        
             path = os.path.join(current, dir)
             if isPlayable(path):
                 items.append([dir, path, False])
@@ -817,7 +784,6 @@ def getPrefix(index):
 
 
 ELEMENTS = ['[b]', '[/b]', '[i]', '[/i]', '[/color]']
-
 
 def isFormatElement(element):
     element = element.lower()
@@ -842,9 +808,9 @@ def addPrefixToLabel(index, label, addPrefix=None):
     locn = -1
 
     SEARCHING = 0
-    INELEMENT = 1
-    BODY = 2
-
+    INELEMENT = 1  
+    BODY      = 2
+  
     mode = SEARCHING
 
     element = ''
@@ -852,8 +818,8 @@ def addPrefixToLabel(index, label, addPrefix=None):
     for c in label:
         locn += 1
         if mode == SEARCHING:
-            if c is '[':
-                mode = INELEMENT
+            if c is '[':           
+                mode    = INELEMENT
                 element = c
             else:
                 mode = BODY
@@ -865,42 +831,43 @@ def addPrefixToLabel(index, label, addPrefix=None):
                     locn -= len(element) - 1
                     break
                 element = ''
-                mode = SEARCHING
+                mode    = SEARCHING
 
         if mode == BODY:
             break
-
+        
     label = label[:locn] + prefix + label[locn:]
     return label, index
 
 
-def playItems(items, id=-1):
+
+
+def playItems(items, id=-1): 
     if items == None or len(items) < 1:
         return
 
     pl = xbmc.PlayList(xbmc.PLAYLIST_VIDEO)
-    pl.clear()
+    pl.clear() 
 
     resolved = False
 
     for item in items:
-        title = item[0]
-        url = item[1]
+        title     = item[0]
+        url       = item[1]
         if len(item) > 2:
             iconImage = item[2]
         else:
             iconImage = ICON
 
-        liz = xbmcgui.ListItem(title, iconImage=iconImage,
-                               thumbnailImage=iconImage)
-        liz.setInfo(type='Video', infoLabels={'Title': title})
+        liz   = xbmcgui.ListItem(title, iconImage=iconImage, thumbnailImage=iconImage)
+        liz.setInfo(type='Video', infoLabels={'Title':title})
         pl.add(url, liz)
 
         if id >= 0 and (not resolved):
             import xbmcplugin
             resolved = True
             xbmcplugin.setResolvedUrl(id, True, liz)
-
+    
     if id == -1:
         xbmc.Player().play(pl)
 
@@ -929,45 +896,46 @@ def getCurrentWindowId():
     return winID if winID != 10000 else 10025
 
 
+
 def getFolderThumb(path, isXBMC=False):
     import parameters
 
-    cfg = os.path.join(path, FOLDERCFG)
-    cfg = parameters.getParams(cfg)
-    thumb = parameters.getParam('ICON',   cfg)
+    cfg    = os.path.join(path, FOLDERCFG)
+    cfg    = parameters.getParams(cfg)
+    thumb  = parameters.getParam('ICON',   cfg)
     fanart = parameters.getParam('FANART', cfg)
 
     if thumb and fanart:
         return thumb, fanart
 
     if isXBMC:
-        thumb = thumb if (thumb != None) else 'DefaultFolder.png'
+        thumb  = thumb  if (thumb  != None) else 'DefaultFolder.png'
         fanart = fanart if (fanart != None) else FANART
-        return thumb, fanart
+        return thumb, fanart    
 
     if not INHERIT:
-        thumb = thumb if (thumb != None) else ICON
+        thumb  = thumb  if (thumb  != None) else ICON
         fanart = fanart if (fanart != None) else FANART
         return thumb, fanart
 
     import locking
     if not locking.unlocked(path):
-        thumb = thumb if (thumb != None) else ICON
+        thumb  = thumb  if (thumb  != None) else ICON
         fanart = fanart if (fanart != None) else FANART
         return thumb, fanart
 
     import favourite
-    faves = favourite.getFavourites(os.path.join(path, FILENAME), 1)
+    faves = favourite.getFavourites(os.path.join(path, FILENAME), 1)   
 
     if len(faves) < 1:
-        thumb = thumb if (thumb != None) else ICON
+        thumb  = thumb  if (thumb  != None) else ICON
         fanart = fanart if (fanart != None) else FANART
         return thumb, fanart
 
     tFave = faves[0][1]
     fFave = favourite.getFanart(faves[0][2])
 
-    thumb = thumb if (thumb != None) else tFave
+    thumb  = thumb  if (thumb  != None) else tFave
     fanart = fanart if (fanart != None) else fFave
 
     fanart = fanart if (fanart and len(fanart) > 0) else FANART
@@ -975,27 +943,24 @@ def getFolderThumb(path, isXBMC=False):
     return thumb, fanart
 
 
+
 def getViewType():
-    # logic to obtain viewtype inspired by lambda
-    path = 'special://skin/'
+    #logic to obtain viewtype inspired by lambda
+    path  = 'special://skin/'
     addon = os.path.join(path, 'addon.xml')
-    xml = sfile.read(addon).replace('\n', '').replace('\t', '')
+    xml   = sfile.read(addon).replace('\n','').replace('\t','')
 
-    try:
-        src = re.compile('defaultresolution="(.+?)"').findall(xml)[0]
-    except:
-        src = re.compile('<res.+?folder="(.+?)"').findall(xml)[0]
+    try:    src = re.compile('defaultresolution="(.+?)"').findall(xml)[0]
+    except: src = re.compile('<res.+?folder="(.+?)"').findall(xml)[0]
 
-    types = ['MyVideoNav.xml', 'MyMusicNav.xml', 'MyPrograms.xml',
-             'Includes_View_Modes.xml', 'IncludesViews.xml']
+    types = ['MyVideoNav.xml', 'MyMusicNav.xml', 'MyPrograms.xml', 'Includes_View_Modes.xml', 'IncludesViews.xml']
     views = []
 
     for type in types:
         view = os.path.join(path, src, type)
-        view = sfile.read(view).replace('\n', '').replace('\t', '')
+        view = sfile.read(view).replace('\n','').replace('\t','')
         try:
-            view = re.compile(
-                '<views>(.+?)</views>').findall(view)[0].split(',')
+            view = re.compile('<views>(.+?)</views>').findall(view)[0].split(',')
             for v in view:
                 v = int(v)
                 if v not in views:
@@ -1015,8 +980,8 @@ def getViewType():
 def get_params(path):
     import urllib
     params = {}
-    path = path.split('?', 1)[-1]
-    pairs = path.split('&')
+    path   = path.split('?', 1)[-1]
+    pairs  = path.split('&')
 
     for pair in pairs:
         split = pair.split('=')
@@ -1031,23 +996,22 @@ def convertDictToURL(dict):
     text = ''
     for label in dict:
         value = dict[label]
-
-        try:
+           
+        try:   
             value = str(value)
         except Exception, e:
-            try:
-                value = value.encode('utf-8')
+            try:    
+                value = value.encode('utf-8') 
             except Exception, e:
                 value = ''
-
+            
         if len(value) == 0:
             continue
 
         if len(text) > 0:
             text += '&'
 
-        text += '%s=%s' % (label,
-                           urllib.quote_plus(value.replace('\n', '\\n')))
+        text += '%s=%s' % (label, urllib.quote_plus(value.replace('\n', '\\n')))
 
     return text
 
@@ -1066,11 +1030,9 @@ def convertURLToDict(url):
     for label in url:
         value = url[label]
 
-        if label == 'castandrole':
-            try:
-                value = eval(value)
-            except:
-                value = ''
+        if label=='castandrole':
+            try:    value = eval(value)
+            except: value = ''
 
         if len(value) == 0:
             continue
@@ -1081,7 +1043,7 @@ def convertURLToDict(url):
 
 
 def setKodiSetting(setting, value):
-    import json as simplejson
+    import json as simplejson 
     setting = '"%s"' % setting
 
     if isinstance(value, list):
@@ -1089,8 +1051,8 @@ def setKodiSetting(setting, value):
         for item in value:
             text += '"%s",' % str(item)
 
-        text = text[:-1]
-        text = '[%s]' % text
+        text  = text[:-1]
+        text  = '[%s]' % text
         value = text
 
     elif isinstance(value, bool):
@@ -1099,86 +1061,31 @@ def setKodiSetting(setting, value):
     elif not isinstance(value, int):
         value = '"%s"' % value
 
-    query = '{"jsonrpc":"2.0", "method":"Settings.SetSettingValue","params":{"setting":%s,"value":%s}, "id":1}' % (
-        setting, value)
+    query = '{"jsonrpc":"2.0", "method":"Settings.SetSettingValue","params":{"setting":%s,"value":%s}, "id":1}' % (setting, value)
     Log(query)
     response = xbmc.executeJSONRPC(query)
     Log(response)
 
 
 def getKodiSetting(setting):
-    import json as simplejson
+    import json as simplejson 
     try:
         setting = '"%s"' % setting
-
-        query = '{"jsonrpc":"2.0", "method":"Settings.GetSettingValue","params":{"setting":%s}, "id":1}' % (
-            setting)
+ 
+        query = '{"jsonrpc":"2.0", "method":"Settings.GetSettingValue","params":{"setting":%s}, "id":1}' % (setting)
         Log(query)
         response = xbmc.executeJSONRPC(query)
         Log(response)
 
-        response = simplejson.loads(response)
+        response = simplejson.loads(response)                
 
         if response.has_key('result'):
             if response['result'].has_key('value'):
-                return response['result']['value']
+                return response ['result']['value'] 
     except:
         pass
 
     return None
-
-
-def addon_enabled(id):
-    if id != '':
-        response = addon_details(id, fields=['enabled', 'installed'])
-        if ('enabled' or 'installed') in response:
-            if response['enabled']:
-                return True
-    return False
-
-
-def addon_details(addon_id, fields=None):
-    """
-    :param addon_id: Any addon id as string
-    :param fields: Possible fields as list [
-      "name",
-      "version",
-      "summary",
-      "description",
-      "path",
-      "author",
-      "thumbnail",
-      "disclaimer",
-      "fanart",
-      "dependencies",
-      "broken",
-      "extrainfo",
-      "rating",
-      "enabled",
-      "installed"
-    ]
-    Default argument: ["enabled"]
-    :return: Dictionary
-    """
-
-    if fields is None:
-        fields = ["enabled"]
-
-    command = {
-        "jsonrpc": "2.0", "method": "Addons.GetAddonDetails", "id": 1, "params": {
-            "addonid": addon_id, "properties": fields
-        }
-    }
-
-    result = json_rpc(command)
-    if 'result' in result:
-        if 'addon' in result['result']:
-            result = result['result']['addon']
-
-    elif 'error' in result:
-        result = result['error']['message']
-
-    return result
 
 
 def changeSkin(skin):
@@ -1187,26 +1094,19 @@ def changeSkin(skin):
     if getKodiSetting('lookandfeel.skin') == skin:
         return
 
-    #=========================================================================
-    # installed = xbmc.getCondVisibility('System.HasAddon(%s)' % skin) == 1
-    #=========================================================================
-    installed = addon_enabled(skin)
+    installed = xbmc.getCondVisibility('System.HasAddon(%s)' % skin) == 1
 
     if not installed:
-        count = 10 * 10  # 10 seconds
+        count = 10 * 10 #10 seconds
         xbmc.executebuiltin('UpdateLocalAddons')
         while not installed and count > 0:
             count -= 1
             xbmc.sleep(100)
-            installed = addon_enabled(skin)
-            #==================================================================
-            # installed = xbmc.getCondVisibility(
-            #     'System.HasAddon(%s)' % skin) == 1
-            #==================================================================
+            installed = xbmc.getCondVisibility('System.HasAddon(%s)' % skin) == 1
 
     if not installed:
         return
-
+        
     setKodiSetting('lookandfeel.skin', skin)
 
     while xbmc.getCondVisibility('Window.IsActive(yesnodialog)') == 0:

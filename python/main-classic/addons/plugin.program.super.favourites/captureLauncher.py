@@ -18,10 +18,8 @@
 #  http://www.gnu.org/copyleft/gpl.html
 #
 
-import os
-
-import utils
 import xbmc
+import os
 
 
 def deleteFile(path):
@@ -29,51 +27,46 @@ def deleteFile(path):
 
     tries = 5
     while xbmcvfs.exists(path) and tries > 0:
-        tries -= 1
-        try:
-            xbmcvfs.delete(path)
-        except:
-            xbmc.sleep(500)
+        tries -= 1 
+        try:    xbmcvfs.delete(path)
+        except: xbmc.sleep(500)
 
 
 def cleanup():
     try:
         #import inspect
         #script = inspect.getfile(inspect.currentframe())
-        # deleteFile(script)
+        #deleteFile(script)
 
-        KEYMAP_HOT = 'super_favourites_hot.xml'
+        KEYMAP_HOT  = 'super_favourites_hot.xml'
         KEYMAP_MENU = 'super_favourites_menu.xml'
 
         deleteFile(os.path.join('special://profile/keymaps', KEYMAP_HOT))
         deleteFile(os.path.join('special://profile/keymaps', KEYMAP_MENU))
 
         xbmc.sleep(1000)
-        xbmc.executebuiltin('Action(reloadkeymaps)')
+        xbmc.executebuiltin('Action(reloadkeymaps)')  
 
     except:
         pass
 
     xbmc.executebuiltin('Action(ContextMenu)')
-
+    
 
 def main():
     try:
         import xbmc
-        if utils.addon_enabled('plugin.program.super.favourites'):
-            #==================================================================
-            # if xbmc.getCondVisibility('System.HasAddon(%s)' % 'plugin.program.super.favourites') == 1:
-            #==================================================================
+
+        if xbmc.getCondVisibility('System.HasAddon(%s)' % 'plugin.program.super.favourites') == 1:        
             cmd = 'runscript(special://home/addons/plugin.program.super.favourites/capture.py)'
             xbmc.executebuiltin(cmd)
 
             return
 
-    except Exception, e:
+    except Exception, e:        
         xbmc.log('Super Favourites : Error in captureLauncher.py')
         xbmc.log(str(e))
 
     cleanup()
-
 
 main()

@@ -266,8 +266,7 @@ class MainGui(xbmcgui.WindowXMLDialog):
             fanart = favourite.getFanart(cmd) 
             desc   = favourite.getOption(cmd, 'desc')
             mode   = favourite.getOption(cmd, 'mode')
-            import sys;sys.path.append(r'/home/george/.eclipse/360744286_linux_gtk_x86_64/plugins/org.python.pydev.core_7.5.0.202001101138/pysrc')
-            import pydevd;pydevd.settrace('localhost', stdoutToServer=True, stderrToServer=True)
+
             cmd = favourite.removeSFOptions(cmd)
 
             listitem.setProperty('Path',   cmd)

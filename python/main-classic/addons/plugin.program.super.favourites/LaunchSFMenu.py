@@ -17,21 +17,17 @@
 #  the Free Software Foundation, 675 Mass Ave, Cambridge, MA 02139, USA.
 #  http://www.gnu.org/copyleft/gpl.html
 #
-
+  
 
 def main():
     try:
         import xbmc
-        import utils
 
-        if utils.addon_enabled('plugin.program.super.favourites'):
-            #==================================================================
-            # if xbmc.getCondVisibility('System.HasAddon(%s)' % 'plugin.program.super.favourites') == 1:
-            #==================================================================
+        if xbmc.getCondVisibility('System.HasAddon(%s)' % 'plugin.program.super.favourites') == 1:        
             cmd = 'runscript(special://home/addons/plugin.program.super.favourites/capture.py,LaunchSFMenu)'
             xbmc.executebuiltin(cmd)
 
-    except Exception as e:
+    except Exception, e:        
         xbmc.log('Super Favourites : Error in LaunchSFMenu.py')
         xbmc.log(str(e))
 

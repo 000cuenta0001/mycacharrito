@@ -43,7 +43,7 @@
     <setting type="sep" visible="true" />			>
 		
     <setting id="SHOW_STARTUP_TXT"   type="bool"  label="30221"  default="false" />	
-    <setting id="STARTUP_TXT"        type="text"  label="30222"  default="[COLOR chartreuse][B]Por favor introduzca el mensaje de inicio[CR]le gustaría mostrar[/B][/COLOR]" visible="eq(-1,true)"/>	
+    <setting id="STARTUP_TXT"        type="text"  label="30222"  default="[COLOR chartreuse][B]Please enter the startup message[CR]you would like to display[/B][/COLOR]" visible="eq(-1,true)"/>	
 		
     <setting type="sep" visible="true" />
 		
