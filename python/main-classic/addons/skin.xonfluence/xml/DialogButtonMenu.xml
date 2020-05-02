@@ -125,8 +125,8 @@
                     <focusedcolor>white</focusedcolor>
                     <align>center</align>
                     <textwidth>435</textwidth>
-                    <onclick condition="!Skin.HasSetting(RestartNotReboot)">Reset()</onclick>
-                    <onclick condition="Skin.HasSetting(RestartNotReboot)">RestartApp()</onclick>
+                    <onclick condition="!Skin.HasSetting(RestartNotReboot)">Reboot</onclick>
+                    <onclick condition="Skin.HasSetting(RestartNotReboot)">Reboot</onclick>
                     <pulseonselect>no</pulseonselect>
                     <font>font13</font>
                     <label>13013</label>
