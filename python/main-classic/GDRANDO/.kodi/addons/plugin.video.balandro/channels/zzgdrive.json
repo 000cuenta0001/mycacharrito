@@ -1,0 +1,15 @@
+{
+  "id": "zzgdrive",
+  "name": "zzGDrive",
+  "thumbnail": "",
+
+  "active": true,
+
+  "searchable": false,
+  "search_types": ["movie"],
+
+  "categories": ["movie"],
+  "language": ["cast", "lat", "vose"],
+
+  "notes": "Lista privada de películas en Google Drive. Buscador propio dentro del canal por cada TeamDrive."
+}
