@@ -27,6 +27,7 @@
 # The Big Bang Theory - S12E03.avi
 # The Big Bang Theory - s12e04.mkv
 # The Big Bang Theory - T12E05.mkv
+# The Big Bang Theory (2007) - T12E06.mkv
 
 # --------------------------------------------------------------
 
@@ -35,6 +36,14 @@
 ID_FOLDERS_TVSHOWS = [
     ('1kBkzN3gpz4te1qpbqZFha_LwvhP3a6-4', 'Series'),
     ('1EJ8aSCS6GO_Y3ueWhDa8cOUndRH7iihL', 'Series Infantiles'),
+	('1yuiTcHfOa2X0mm3pqk_311RdiPHPSzbN', 'Series'),
+    ('1dTmmBe1XsAUy7c40B0K-yrmlkQNeL0hP', 'Series Infantiles'),
+	('16DbwsywSc76zAMx--pgAwr2-g52ChKq2', 'Series'),
+    ('1xnQ5vsKQ48BhQlmPDWsb3jx4TKhn2SBN', 'series de dibujos'),
+	('1KZaQxaKludZj2R8dk89RT9BVIakD1GT0', 'Continuing'),
+    ('1GP0iw0JEywkSnE3qvNb8FkZn-2_OJqKr', 'Dibujos'),
+	('1UXpL4XCrHwJkWgTjVVrybJrUSrbV30qs', 'Ended'),
+    ('1OirzSSgDN0hJ5TeW2Kbwqt7b3tOw7FQN', 'Series'),
 ]
 
 ID_FOLDERS_SHORTCUTS = [
@@ -46,7 +55,7 @@ ID_FOLDERS_SHORTCUTS = [
     ('1Bms4hlLmEdAQilUw8RY42HY43EiDvtB4', '4K'),
 ]
 
-GENEROS = ['Acción', 'Animación', 'Aventura', 'Bélica', 'Ciencia ficción', 'Comedia', 'Crimen', 'Drama', 'Familia', 'Fantasía', 'Historia', 'Misterio', 'Música', 'Romance', 'Suspense', 'Terror']
+GENEROS = ['Anime', 'Acción', 'Animación', 'Aventura', 'Bélica', 'Ciencia ficción', 'Comedia', 'Crimen', 'Documental', 'Drama', 'Familia', 'Fantasía', 'Guerra', 'Historia', 'Infantil', 'Intriga', 'Misterio', 'Música', 'Romance', 'Suspense', 'Terror', 'Thriller', 'Western']
 
 PERPAGE = 10 # películas por página (No pasar de 30 por la limitación de llamadas a tmdb)
 
@@ -246,23 +255,36 @@ def list_all(item):
         title = f['name']
         title = re.sub('\.\w+$', '', title) # quitar extensión
 
-        tipo = 'movie'
-        year = scrapertools.find_single_match(title, '\((\d{4})\)')
-        if year:
-            aux = title.split('(%s)' % year)
-            title = aux[0].strip()
-            info = aux[1].replace('...','').strip()
-            titulo = '%s [COLOR red]%s[/COLOR]' % (title, info)
-            title = title.replace('Copia de ', '')
-        else:
-            year = '-'
+        s_e = scrapertools.find_single_match(title, '(?i)((?:S|T)(\d+)E(\d+))')
+        if not s_e: s_e = scrapertools.find_single_match(title, '(?i)((\d+)x(\d+))')
+        if s_e:
+            tipo = 'tvshow'
             titulo = title
-            s_e = scrapertools.find_single_match(title, '(?i) - (?:S|T)(\d+)E(\d+)')
-            if s_e:
-                tipo = 'tvshow'
-                title = title.split(' - ')[0].strip()
-                season = s_e[0]
-                episode = s_e[1]
+            if ' -' in title: title = title.split(' -')[0].strip()
+            elif '- ' in title: title = title.split('- ')[0].strip()
+            if s_e[0] in title: title = title.split(s_e[0])[0].strip()
+            if not title: title = titulo
+
+            season = s_e[1]
+            episode = s_e[2]
+            year = scrapertools.find_single_match(title, '\((\d{4})\)')
+            if year: 
+                title = title.replace('(%s)' % year, '').strip()
+                titulo = titulo.replace('(%s)' % year, '').strip()
+            else: 
+                year = '-'
+        else:
+            tipo = 'movie'
+            year = scrapertools.find_single_match(title, '\((\d{4})\)')
+            if year:
+                aux = title.split('(%s)' % year)
+                title = aux[0].strip()
+                info = aux[1].replace('...','').strip()
+                titulo = '%s [COLOR red]%s[/COLOR]' % (title, info)
+            else:
+                year = '-'
+                titulo = title
+        title = title.replace('Copia de ', '')
 
         if tipo == 'movie':
             itemlist.append(item.clone( action='findvideos', title=titulo, file_id=f['id'],
