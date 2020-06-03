@@ -44,6 +44,7 @@ ID_FOLDERS_TVSHOWS = [
     ('1GP0iw0JEywkSnE3qvNb8FkZn-2_OJqKr', 'Dibujos'),
 	('1UXpL4XCrHwJkWgTjVVrybJrUSrbV30qs', 'Ended'),
     ('1OirzSSgDN0hJ5TeW2Kbwqt7b3tOw7FQN', 'Series'),
+	('1iJGhawSKjQB-1P1rlzqL0D5U0b-fwfKv', 'SERIES'),
 ]
 
 ID_FOLDERS_SHORTCUTS = [
