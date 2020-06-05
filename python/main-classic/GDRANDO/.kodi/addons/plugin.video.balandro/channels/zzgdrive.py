@@ -2,7 +2,7 @@
 
 # Canal privado para acceso a GDrive
 
-# Requiere haber añadido manualmente estas claves en settings.xml (copiarlas del settings.xml del addon gdrive habiendo hecho el enroll)
+# Requiere haber añadido manualmente estas claves en settings.xml (copiarlas del settings.xml del addon gdrive habiendo hecho allí el enroll)
 # <setting id="gdrive1_client_id">...</setting>
 # <setting id="gdrive1_client_secret">...</setting>
 # <setting id="gdrive1_code">...</setting>
@@ -14,10 +14,12 @@
 
 # - Los vídeos de películas deberían tener esta nomenclatura: Título de la peli (año) [géneros] [calidad]
 #   (título y año requeridos para acceder a TMDB. géneros y calidad opcionales)
-# - Los vídeos de episodios deberían tener esta nomenclatura: Título de la serie - SnnEnn (o TnnEnn) - título del episodio
+# - Los vídeos de episodios deberían tener esta nomenclatura: Título de la serie - SnnEnn (o TnnEnn o nnXnn) - título del episodio
 #   (título de serie y Nº de temporada y episodio requeridos para acceder a TMDB. título del episodio opcional)
+#   Los vídeos de episodios se identifican por tener SnnEnn o TnnEnn o nnXnn (S,E,T,X pueden ser en mayúsculas o minúsculas, nn números con 1 o 2 cifras)
 # - Las series deberían estar dentro de ciertas carpetas (ID_FOLDERS_TVSHOWS) y tener subcarpetas tipo Season NN (o Temporada NN o Temp NN)
 #   (preferiblemente indicar (año) en las carpetas con el nombre de la serie para detectar mejor en TMDB)
+#   Ej: Series/The Big Bang Theory (2007)/Temporada 12/
 # - ...
 
 # Ejemplos:
@@ -28,10 +30,30 @@
 # The Big Bang Theory - s12e04.mkv
 # The Big Bang Theory - T12E05.mkv
 # The Big Bang Theory (2007) - T12E06.mkv
+# The Big Bang Theory - 12x05.mkv
+
+# Notas:
+# - La búsqueda en GD tiene en cuenta los acentos. Ej: Si una peli se titula 101 dálmatas, no se encuentra buscando dalmatas, hay que buscar dálmatas.
 
 # --------------------------------------------------------------
 
 # Parámetros configurables:
+
+# - Indicar en ID_FOLDERS_TVSHOWS las carpetas que contienen series con la estructura de carpetas requerida. Asignar [] si no se usa.
+#   (ver los ids de las carpetas en Google Drive, e indicar parejas de ('id', 'nombre') para cada carpeta)
+
+# - Indicar en ID_FOLDERS_SHORTCUTS las carpetas a las que se quiere crear un acceso directo. Asignar [] si no se usa.
+#   (ver los ids de las carpetas en Google Drive, e indicar parejas de ('id', 'nombre') para cada carpeta)
+
+# - Indicar en TAGS_GENEROS los tags de géneros por los que buscar en los vídeos. Asignar [] si no se usa.
+#   (requiere que los nombres de los ficheros tengan esos géneros escritos)
+
+# - Indicar en TAGS_CALIDADES los tags de calidades por los que buscar en los vídeos. Asignar [] si no se usa.
+#   (requiere que los nombres de los ficheros tengan esas calidades escritas)
+
+# - Asignar un número en PERPAGE para indicar los elementos por página que se quieren mostrar.
+#   (cuanto más alto, más tardará en mostrarse la página por los accesos a TMDB)
+
 
 ID_FOLDERS_TVSHOWS = [
     ('1kBkzN3gpz4te1qpbqZFha_LwvhP3a6-4', 'Series'),
@@ -44,7 +66,14 @@ ID_FOLDERS_TVSHOWS = [
     ('1GP0iw0JEywkSnE3qvNb8FkZn-2_OJqKr', 'Dibujos'),
 	('1UXpL4XCrHwJkWgTjVVrybJrUSrbV30qs', 'Ended'),
     ('1OirzSSgDN0hJ5TeW2Kbwqt7b3tOw7FQN', 'Series'),
-	('1iJGhawSKjQB-1P1rlzqL0D5U0b-fwfKv', 'SERIES'),
+	('13l0PapQVwOdevnrOj_LVP5w5KStZuh4O', 'Series Infantiles'),
+	('1NTlQoawA_UCpUl6FhzC0H4PXzTvCuXY0', 'Series animación'),
+	('1c1hce95usQ2A4m1-Kikqlm3Tv6pgUEWp', 'SERIES SD'),
+	('1-VLh2TzoKynsFjdE6-4U52vTsb_F5AUn', '1999 Y ANTERIORES'),
+	('1UxU9e2T6pCQvgXX0qehE5AH9EKuN9zHR', '2000-2009'),
+	('1o0MnyNufyrslD4SJ7QPoOnfFRhmTTsZl', '2010 A 2019'),
+	('13zxBBZFq_1iOqwXZJCwh74lven5v2Xnr', '2020 Y SIGUIENTES'),
+	('1oxIGzqJk8WBhBGNtir6S32m8OTJ70CqQ', 'SUBIDAS PENDIENTES DE CLASIFICAR'),
 ]
 
 ID_FOLDERS_SHORTCUTS = [
@@ -56,9 +85,14 @@ ID_FOLDERS_SHORTCUTS = [
     ('1Bms4hlLmEdAQilUw8RY42HY43EiDvtB4', '4K'),
 ]
 
-GENEROS = ['Anime', 'Acción', 'Animación', 'Aventura', 'Bélica', 'Ciencia ficción', 'Comedia', 'Crimen', 'Documental', 'Drama', 'Familia', 'Fantasía', 'Guerra', 'Historia', 'Infantil', 'Intriga', 'Misterio', 'Música', 'Romance', 'Suspense', 'Terror', 'Thriller', 'Western']
+TAGS_GENEROS = ['Anime', 'Acción', 'Animación', 'Aventura', 'Bélica', 'Ciencia ficción', 'Comedia', 'Crimen', 'Documental', 'Drama', 'Familia', 'Fantasía', 'Guerra', 'Historia', 'Infantil', 'Intriga', 'Misterio', 'Música', 'Romance', 'Suspense', 'Terror', 'Thriller', 'Western']
+
+TAGS_CALIDADES = ['4K', '1080p', '720p', '480p', '360p']
 
 PERPAGE = 10 # películas por página (No pasar de 30 por la limitación de llamadas a tmdb)
+
+COLOR_FOLDERS_TVSHOWS = 'yellow'
+COLOR_FOLDERS_SHORTCUTS = 'cyan'
 
 # --------------------------------------------------------------
 
@@ -89,42 +123,57 @@ def mainlist_drives(item):
     
     gd = gdrive('gdrive1')
     drives = gd.getDrives()
-    if not drives:
+    if drives is None:
         platformtools.dialog_notification('Acceso a GDrive', 'Falla el login!')
         return itemlist
-    
-    itemlist.append(item.clone( title = '(usuario)', action = 'list_drive', drive_id = 'root', drive_name = '(usuario)' ))
-    itemlist.append(item.clone( title = '(compartido)', action = 'list_drive', drive_id = None, drive_name = '(compartido)' ))
+
+    plot = 'Acceso a todo lo que el usuario tiene permiso (propio, compartido y drives), y acceso directo a carpetas predefinidas.'
+    itemlist.append(item.clone( title = 'Acceso Global', action = 'list_drive', drive_id = None, drive_name = 'global', plot=plot ))
+
+    plot = 'Acceso sólo a los ficheros/carpetas del propio usuario o que le hayan compartido.'
+    itemlist.append(item.clone( title = 'Acceso Usuario', action = 'list_drive', drive_id = 'root', drive_name = 'usuario', plot=plot ))
+
+    plot = 'Acceso sólo a los ficheros/carpetas que hay en este drive.'
     for drive_id, drive_name in drives:
-        itemlist.append(item.clone( title = drive_name, action = 'list_drive', drive_id = drive_id, drive_name = drive_name ))
+        itemlist.append(item.clone( title = 'Acceso Drive: ' + drive_name, action = 'list_drive', drive_id = drive_id, drive_name = drive_name, plot=plot ))
 
     return itemlist
-
 
 
 def list_drive(item):
     logger.info()
     itemlist = []
 
-    item.category = item.drive_name
+    item.category = 'GD_' + item.drive_name
 
     itemlist.append(item.clone( title = 'Últimos vídeos', action = 'list_all', drive_q = "", nextPageToken=None ))
 
     itemlist.append(item.clone( title = 'Por años', action = 'anios' ))
 
-    itemlist.append(item.clone( title = 'Por géneros', action = 'generos' ))
+    if len(TAGS_GENEROS) > 0:
+        itemlist.append(item.clone( title = 'Por géneros', action = 'generos' ))
 
-    itemlist.append(item.clone( title = 'Por carpetas', action = 'carpetas', drive_parent = '' ))
+    if len(TAGS_CALIDADES) > 0:
+        itemlist.append(item.clone( title = 'Por calidades', action = 'calidades' ))
 
-    itemlist.append(item.clone( title = 'Buscar vídeo ...', action = 'search', search_type = 'movie' ))
-    if len(ID_FOLDERS_TVSHOWS) > 0:
-        itemlist.append(item.clone( title = 'Buscar serie ...', action = 'search', search_type = 'tvshow' ))
+    itemlist.append(item.clone( title = 'Buscar vídeos ...', action = 'search', search_type = 'movie' ))
 
-    for fid, fname in ID_FOLDERS_TVSHOWS:
-        itemlist.append(item.clone( title = fname, action = 'carpeta_series', drive_parent = fid ))
+    if not item.drive_id:
+        for fid, fname in ID_FOLDERS_SHORTCUTS:
+            itemlist.append(item.clone( title = '[COLOR %s]%s[/COLOR]' % (COLOR_FOLDERS_SHORTCUTS, fname), action = 'carpetas', drive_parent = fid ))
 
-    for fid, fname in ID_FOLDERS_SHORTCUTS:
-        itemlist.append(item.clone( title = fname, action = 'carpetas', drive_parent = fid ))
+        for fid, fname in ID_FOLDERS_TVSHOWS:
+            itemlist.append(item.clone( title = '[COLOR %s]%s[/COLOR]' % (COLOR_FOLDERS_TVSHOWS, fname), action = 'carpeta_series', drive_parent = fid ))
+
+        if len(ID_FOLDERS_TVSHOWS) > 0:
+            itemlist.append(item.clone( title = 'Buscar series ...', action = 'search', search_type = 'tvshow' ))
+
+    elif item.drive_id == 'root':
+        itemlist.append(item.clone( title = 'Carpetas propias del usuario', action = 'carpetas', drive_parent = 'root' ))
+        itemlist.append(item.clone( title = 'Carpetas compartidas con el usuario', action = 'carpetas', drive_parent = '' ))
+
+    else:
+        itemlist.append(item.clone( title = 'Carpetas del drive ' + item.drive_name, action = 'carpetas', drive_parent = '' ))
 
     return itemlist
 
@@ -146,10 +195,20 @@ def generos(item):
     logger.info()
     itemlist = []
 
-    for x in GENEROS:
+    for x in TAGS_GENEROS:
         itemlist.append(item.clone( title=x, action='list_all', drive_q = "name+contains+'(%s)'" % urllib.quote_plus(x) ))
 
     return itemlist
+
+def calidades(item):
+    logger.info()
+    itemlist = []
+
+    for x in TAGS_CALIDADES:
+        itemlist.append(item.clone( title=x, action='list_all', drive_q = "name+contains+'(%s)'" % urllib.quote_plus(x) ))
+
+    return itemlist
+
 
 
 def carpetas(item):
@@ -159,8 +218,8 @@ def carpetas(item):
     q = "mimeType+=+'application/vnd.google-apps.folder'+and+trashed%3Dfalse"
 
     if item.drive_parent: q += "+and+'"+str(item.drive_parent)+"'+in+parents"
+    elif item.drive_id == 'root': q += "+and+sharedWithMe%3Dtrue"
     elif item.drive_id: q += "+and+'"+str(item.drive_id)+"'+in+parents"
-    else: q += "+and+sharedWithMe%3Dtrue"
 
     gd = gdrive('gdrive1')
     files = gd.getFiles(item.drive_id, q=q, nextPageToken=item.nextPageToken, perpage=50, orden='name')
@@ -243,6 +302,7 @@ def list_all(item):
 
     if item.drive_q: q += "+and+" + item.drive_q
     if item.drive_parent: q += "+and+" + "'"+str(item.drive_parent)+"'+in+parents"
+    else: q += "+and+modifiedTime>'1970-01-01T12:00:00'" # si no se accede por carpeta, descartar ficheros con fecha de modificación errónea pq quedan al principio
 
     orden = 'name' if item.drive_parent else 'modifiedTime+desc'
 
@@ -341,7 +401,7 @@ def findvideos(item):
 def search_series(item):
     logger.info()
     itemlist = []
-    
+
     q = "mimeType+=+'application/vnd.google-apps.folder'+and+trashed%3Dfalse"
 
     if len(ID_FOLDERS_TVSHOWS) > 0:
@@ -353,7 +413,6 @@ def search_series(item):
 
     if item.drive_q: 
         q += "+and+" + item.drive_q
-
 
     gd = gdrive('gdrive1')
     files = gd.getFiles(item.drive_id, q=q, nextPageToken=item.nextPageToken, perpage=PERPAGE, orden='name')

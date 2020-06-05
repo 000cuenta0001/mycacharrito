@@ -16,7 +16,7 @@
     You should have received a copy of the GNU General Public License
     along with this program.  If not, see <http://www.gnu.org/licenses/>.
 
-
+	Customized for only videos in Balandro addon
 '''
 
 # cloudservice - required python modules
@@ -210,10 +210,10 @@ class gdrive(object):
               response = urllib2.urlopen(req)
             except urllib2.URLError, e:
               logger.error(str(e))
-              return drives
+              return None
           else:
             logger.error(str(e))
-            return drives
+            return None
 
         response_data = response.read()
         response.close()
@@ -236,13 +236,15 @@ class gdrive(object):
     #   returns: array of drive files
     ##
     def getFiles(self, drive_id=None, q=None, nextPageToken=None, perpage=10, orden='modifiedTime+desc'):
-        if drive_id and drive_id != 'root': url_parms = 'corpora=drive&driveId='+drive_id
-        else: url_parms = 'corpora=user'
+
+        if drive_id == 'root': url_parms = 'corpora=user&includeItemsFromAllDrives=false&supportsAllDrives=true'
+        elif not drive_id: url_parms = 'corpora=allDrives&includeItemsFromAllDrives=true&supportsAllDrives=true'
+        else: url_parms = 'corpora=drive&driveId='+drive_id+'&includeItemsFromAllDrives=true&supportsAllDrives=true'
 
         # retrieve all items
-        url = self.API_URL +'files?'+url_parms+'&includeItemsFromAllDrives=true&supportsAllDrives=true'
+        url = self.API_URL +'files?'+url_parms
         url += '&pageSize=' + str(perpage)
-        if q: url += "&q=" + q #TODO? encode/quote ?
+        if q: url += "&q=" + q #TODO? asegurar encode/quote ?
         if orden: url += '&orderBy=' + orden
         if nextPageToken: url += "&pageToken=" + nextPageToken
         # ~ url += '&fields=files/id%2Cfiles/name'
