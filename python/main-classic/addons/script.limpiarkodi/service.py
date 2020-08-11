@@ -76,8 +76,6 @@ for dirpath2, dirnames2, filenames2 in os.walk(thumbnails):
 total_sizetext2 = "%.0f" % (total_size2/1024000.0)
 
 if int(total_sizetext2) > filesize_thumb:
-    choice2 = xbmcgui.Dialog().yesno("[COLOR=red]AutoLimpiar[/COLOR]", 'La Carpeta Imagenes tiene [COLOR red]' + str(total_sizetext2) + ' MB   [/COLOR]', 'La carpeta se puede limpiar sin problemas para ahorrar espacio ...', 'Desea Eliminarlas?', yeslabel='Si',nolabel='No')
-    if choice2 == 1:
-        control.deleteThumbnails()
+    control.deleteThumbnails()
 
 xbmc.executebuiltin('XBMC.Notification(%s, %s, %s, %s)' % ('Limpiar Kodi',  'Packages: '+ str(total_sizetext) +  ' MB'  ' - Images: ' + str(total_sizetext2) + ' MB' , '5000', iconpath))
