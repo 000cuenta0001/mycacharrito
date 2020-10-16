@@ -56,16 +56,9 @@
 
 
 ID_FOLDERS_TVSHOWS = [
-    ('1kBkzN3gpz4te1qpbqZFha_LwvhP3a6-4', 'Series'),
-    ('1EJ8aSCS6GO_Y3ueWhDa8cOUndRH7iihL', 'Series Infantiles'),
-	('1yuiTcHfOa2X0mm3pqk_311RdiPHPSzbN', 'Series'),
-    ('1dTmmBe1XsAUy7c40B0K-yrmlkQNeL0hP', 'Series Infantiles'),
-	('16DbwsywSc76zAMx--pgAwr2-g52ChKq2', 'Series'),
-    ('1xnQ5vsKQ48BhQlmPDWsb3jx4TKhn2SBN', 'series de dibujos'),
-	('1KZaQxaKludZj2R8dk89RT9BVIakD1GT0', 'Continuing'),
-    ('1GP0iw0JEywkSnE3qvNb8FkZn-2_OJqKr', 'Dibujos'),
-	('1UXpL4XCrHwJkWgTjVVrybJrUSrbV30qs', 'Ended'),
-    ('1OirzSSgDN0hJ5TeW2Kbwqt7b3tOw7FQN', 'Series'),
+    ('14hX3fSZI858iwASZMLuhUiN0RvvdOBoG', 'Series'),
+	('1pww1Oq3ERcfuDhcK61BFuGb0CT9JEei7', 'Series Infantiles'),
+	('1jZ_S4o8T2830ZOch24pYnEuKrvYF3v0T', 'Series'),
 	('13l0PapQVwOdevnrOj_LVP5w5KStZuh4O', 'Series Infantiles'),
 	('1NTlQoawA_UCpUl6FhzC0H4PXzTvCuXY0', 'Series animación'),
 	('1c1hce95usQ2A4m1-Kikqlm3Tv6pgUEWp', 'SERIES SD'),
@@ -74,8 +67,6 @@ ID_FOLDERS_TVSHOWS = [
 	('1o0MnyNufyrslD4SJ7QPoOnfFRhmTTsZl', '2010 A 2019'),
 	('13zxBBZFq_1iOqwXZJCwh74lven5v2Xnr', '2020 Y SIGUIENTES'),
 	('1oxIGzqJk8WBhBGNtir6S32m8OTJ70CqQ', 'SUBIDAS PENDIENTES DE CLASIFICAR'),
-	('1-L-TRn7n4gacWMDB3VyBqRG_ChSlsLwk', 'MEDUSA SERIES'),
-	('1MqNl05QqG5NDaCHMaTS4UxKyZdzZHPfC', 'PLEX SERIES'),
 ]
 
 ID_FOLDERS_SHORTCUTS = [
