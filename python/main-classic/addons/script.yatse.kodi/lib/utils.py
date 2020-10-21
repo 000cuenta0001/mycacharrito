@@ -1,8 +1,8 @@
 # -*- coding: utf-8 -*-
 import logging
 import re
-
 import sys
+
 import xbmc
 import xbmcaddon
 import xbmcgui
@@ -93,6 +93,9 @@ def play_url(url, action, meta_data=None, use_adaptive=False):
             list_item.setProperty('inputstreamaddon', 'inputstream.adaptive')
             list_item.setProperty('inputstream.adaptive.manifest_type', 'mpd')
     if url:
+        if get_setting('skipSslVerification') == 'true' and url.startswith('https'):
+            url = '%s|verifypeer=false' % url
+
         if (action == 'play') or (not xbmc.Player().isPlaying()):
             logger.info(u'Playing url: %s' % url)
             # Clear both playlist but only fill video as mixed playlist will work and audio will correctly play
@@ -164,7 +167,10 @@ def get_kodi_list_item(meta_data):
         list_item.setLabel(meta_data['title'])
         item_info['title'] = meta_data['title']
     if 'thumbnail' in meta_data:
-        list_item.setThumbnailImage(meta_data['thumbnail'])
+        if KODI_VERSION >= 19:
+            list_item.setArt({'poster': meta_data['thumbnail'], 'thumb': meta_data['thumbnail']})
+        else:
+            list_item.setThumbnailImage(meta_data['thumbnail'])
     if 'duration' in meta_data:
         item_info['duration'] = meta_data['duration']
     if 'url' in meta_data:
