@@ -4,7 +4,7 @@
 # ------------------------------------------------------------
 
 import threading
-from platformcode import config
+from platformcode import config, logger
 
 import xbmc, time
 
@@ -13,17 +13,21 @@ import xbmc, time
 # -------------------------
 def comprobar_actualizaciones():
     if config.get_setting('addon_update_atstart', default=False):
+        interval = int(config.get_setting('addon_update_interval', default='2')) * 3600 # horas convertidas a segundos
 
-        interval = int(config.get_setting('addon_update_interval', default='24')) * 3600 # horas convertidas a segundos
+        from platformcode import updater
 
         monitor = xbmc.Monitor()
         while not monitor.abortRequested():
             if config.get_setting('addon_update_atstart', default=True): # por si se desactiva con el servicio ejecutándose
                 lastscrap = config.get_setting('addon_update_lastscrap', default='')
                 if lastscrap == '' or float(lastscrap) + interval <= time.time():
-                    from platformcode import updater
+                    logger.info('Toca comprobar actualizaciones de fixs')
                     updater.check_addon_updates(verbose=config.get_setting('addon_update_verbose', default=False))
                     config.set_setting('addon_update_lastscrap', str(time.time()))
+                else:
+                    logger.info('No toca comprobar actualizaciones de fixs')
+                    logger.info('Interval: %s Lastscrap: %s Now: %s, When: %s' % (interval, lastscrap, time.time(), float(lastscrap) + interval))
 
             if monitor.waitForAbort(3600):
                 break
