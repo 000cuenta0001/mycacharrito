@@ -8,6 +8,9 @@ from platformcode import config, logger
 
 import xbmc, time
 
+logger.info('pipcat custom version!')
+logger.error('pipcat no es un error!')
+
 
 # Comprobar actualizaciones solamente una vez al iniciar Kodi, no es necesario dejar el servicio corriendo (o sí para dispositivos siempre encendidos !?)
 # -------------------------
