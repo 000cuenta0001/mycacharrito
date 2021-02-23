@@ -369,7 +369,7 @@
     <setting id="AddonSetFive.5.Label" type="string"></setting>
     <setting id="AddonSetNine.1.Path" type="string"></setting>
     <setting id="SubPictures.10.Label" type="string"></setting>
-    <setting id="HomeItem.1.Label" type="string">Movistar +</setting>
+    <setting id="HomeItem.1.Label" type="string">Vomistar +</setting>
     <setting id="screensaver.digitalclock.coloncolor" type="string"></setting>
     <setting id="AddonSetOne.1.Label" type="string"></setting>
     <setting id="AddonSetOne.1.Icon" type="string"></setting>
