@@ -116,9 +116,10 @@ def location(loc):
     return locs, locids
 
 def get_data(api, search):
+    headers = {'user-agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.72 Safari/537.36'}
     url = api % search
     try:
-        response = requests.get(url)
+        response = requests.get(url, headers=headers, timeout=10)
         return response.json()
     except:
         return
@@ -183,9 +184,10 @@ def properties(response, loc, locid):
         set_property('Current.Visibility'    , str(round(data['observation']['visibility'],2)) + ' mi')
         set_property('Current.Pressure'      , str(round(data['observation']['barometricPressure'],2)) + ' inHg')
     else:
-        set_property('Current.Visibility'        , str(round(1.60934 * data['observation']['visibility'],2)) + ' km')
+        set_property('Current.Visibility'    , str(round(1.60934 * data['observation']['visibility'],2)) + ' km')
         set_property('Current.Pressure'      , str(int(round((33.864 * data['observation']['barometricPressure'])))) + ' mbar')
-    set_property('Current.Precipitation'     , str(data['observation']['precipitationProbability']) + '%')
+    if 'precipitationProbability' in data['observation']:
+        set_property('Current.Precipitation' , str(data['observation']['precipitationProbability']) + '%')
 #forecast - extended
     set_property('Forecast.City'            , data['location']['displayName'])
     set_property('Forecast.Country'         , data['location']['countryName'])
