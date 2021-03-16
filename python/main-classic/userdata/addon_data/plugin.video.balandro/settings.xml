@@ -1,0 +1,142 @@
+<settings>
+    <setting id="addon_tracking_atstart" value="false" />
+    <setting id="addon_tracking_doit" value="" />
+    <setting id="addon_tracking_interval" value="12" />
+    <setting id="addon_tracking_lastscrap" value="" />
+    <setting id="addon_tracking_verbose" value="false" />
+    <setting id="addon_update_atstart" value="true" />
+    <setting id="addon_update_doit" value="" />
+    <setting id="addon_update_lastscrap" value="1615883460.94" />
+    <setting id="addon_update_verbose" value="false" />
+    <setting id="adults_password" value="" />
+    <setting id="autoplay" value="false" />
+    <setting id="autoplay_channels_discarded" value="" />
+    <setting id="autoplay_max_links" value="10" />
+    <setting id="autoplay_one_link" value="true" />
+    <setting id="block_size" value="1" />
+    <setting id="channel_cinecalidad_dominio" value="" />
+    <setting id="channel_cinecalidad_proxies" value="3.124.194.230:9008, 194.37.98.117:3128, 194.37.98.119:3128, 138.199.31.68:3128, 194.37.98.116:3128, 82.137.244.75:3128, 198.50.163.192:3129, 3.114.241.246:8080, 180.183.158.96:8080, 91.108.140.131:8080" />
+    <setting id="channel_cinecalidad_proxytools_provider" value="All-providers" />
+    <setting id="channel_cinetux_proxies" value="3.124.194.230:9008, 84.17.51.237:3128, 138.199.31.66:3128, 138.199.31.67:3128, 194.37.98.123:3128, 194.37.98.124:3128, 194.37.98.117:3128, 194.37.98.115:3128, 194.37.98.119:3128, 176.241.129.113:3128" />
+    <setting id="channel_cinetux_proxytools_provider" value="All-providers" />
+    <setting id="channel_cliver_proxies" value="138.199.31.70:3128, 62.210.203.211:8080, 138.199.31.68:3128, 138.68.141.150:8080, 3.124.194.230:9008, 151.80.199.89:3129, 100.24.216.83:80, 84.17.51.234:3128, 138.199.31.66:3128, 194.37.98.117:3128" />
+    <setting id="channel_cliver_proxytools_provider" value="All-providers" />
+    <setting id="channel_cuevana3_proxies" value="138.199.31.70:3128, 138.199.31.68:3128, 138.199.31.67:3128, 51.158.119.88:8761, 138.199.31.66:3128, 176.241.129.113:3128, 96.47.231.58:8020, 176.113.73.101:3128, 176.113.73.104:3128, 3.114.241.246:8080" />
+    <setting id="channel_cuevana3_proxytools_provider" value="All-providers" />
+    <setting id="channel_documaniatv_rua" value="" />
+    <setting id="channel_hdfull_dominio" value="https://hdfull.org/" />
+    <setting id="channel_hdfull_proxies" value="176.241.129.113:3128, 51.158.68.68:8811, 93.93.198.6:6666, 52.177.134.79:3128, 51.158.119.88:8761, 3.141.186.75:3128, 51.158.119.88:8811, 51.158.99.51:8811, 176.113.73.102:3128, 151.106.34.139:1080" />
+    <setting id="channel_hdfull_proxytools_provider" value="All-providers" />
+    <setting id="channel_pelisplay_proxies" value="181.189.243.190:999, 51.159.24.172:3161, 51.159.24.172:3156" />
+    <setting id="channel_pelisplay_proxytools_provider" value="All-providers" />
+    <setting id="channel_pelisvips_proxies" value="138.199.31.67:3128, 138.199.31.68:3128, 194.37.98.117:3128, 194.37.98.124:3128, 138.199.31.70:3128, 194.37.98.123:3128, 178.62.224.151:8080, 194.37.98.116:3128, 51.158.119.88:8761, 191.235.72.144:8000" />
+    <setting id="channel_pelisvips_proxytools_provider" value="All-providers" />
+    <setting id="channel_playview_proxies" value="62.210.203.211:8080, 151.80.199.89:3129, 138.199.31.68:3128, 51.158.119.88:8761, 84.17.51.234:3128, 104.43.230.151:3128, 51.158.68.133:8811, 191.235.72.144:8000, 100.24.216.83:80, 176.113.73.96:3128" />
+    <setting id="channel_playview_proxytools_provider" value="All-providers" />
+    <setting id="channel_repelis_proxies" value="138.199.31.66:3128, 138.199.31.67:3128, 138.199.31.68:3128, 194.37.98.125:3128, 194.37.98.124:3128, 84.17.51.237:3128, 138.199.31.70:3128, 51.158.119.88:8761, 194.37.98.123:3128, 51.158.165.18:8811" />
+    <setting id="channel_repelis_proxytools_provider" value="All-providers" />
+    <setting id="channel_seriemega_proxies" value="138.199.31.67:3128, 62.210.203.211:8080, 194.37.98.123:3128, 194.37.98.116:3128, 51.158.165.18:8811, 176.241.129.113:3128, 84.17.51.236:3128, 138.199.31.66:3128, 138.199.31.68:3128, 51.158.180.179:8811" />
+    <setting id="channel_seriemega_proxytools_provider" value="All-providers" />
+    <setting id="channels_link_main" value="false" />
+    <setting id="channels_link_pyse" value="false" />
+    <setting id="channels_list_order" value="true" />
+    <setting id="channels_list_prefe_color" value="[COLOR gold]gold[/COLOR]" />
+    <setting id="channels_list_status" value="0" />
+    <setting id="chrome_last_version" value="89.0.4389.90" />
+    <setting id="cliente_torrent" value="Elementum" />
+    <setting id="colorear_enlaces_play" value="true" />
+    <setting id="context_download_color" value="[COLOR orange]orange[/COLOR]" />
+    <setting id="context_search_exact_color" value="[COLOR gold]gold[/COLOR]" />
+    <setting id="context_search_similar_color" value="[COLOR yellow]yellow[/COLOR]" />
+    <setting id="context_tracking_color" value="[COLOR blue]blue[/COLOR]" />
+    <setting id="context_trailer_color" value="[COLOR pink]pink[/COLOR]" />
+    <setting id="debug" value="0" />
+    <setting id="descartar_anime" value="false" />
+    <setting id="descartar_xxx" value="false" />
+    <setting id="downloadpath" value="" />
+    <setting id="gdrive1_auth_access_token" value="ya29.a0AfH6SMD1aqz9FORze84y-fQm-2zZUjTLG-dsRhhFQMEoUN253SVg9bGw3LNVMOip9J7r37wOCz0DCKKBXAinqCVpGqJ7amBGZhrfIuu9Dbje481C9ev7Qis4eVA9Vn5IPpTnkdLkAgIjtBMIqmoiGCAAS3iFlQM" />
+    <setting id="gdrive1_auth_refresh_token" value="1/yf72Un7vsUml6OnjqgvUp_ohORAeRH8ds6Bw9VHHsxs" />
+    <setting id="gdrive1_client_id" value="909414799149-bmor9fdo805tl6f03kgrumd3d9req512.apps.googleusercontent.com" />
+    <setting id="gdrive1_client_secret" value="1HKlrCOkXlzhuRfbwe4TlE8w" />
+    <setting id="gdrive1_code" value="4/mACPY__owxb6l8uICMDBdgrAkXWtL69SmBJ2CQur3FyiSAapOw1JdkU" />
+    <setting id="gdrive1_passcode" value="" />
+    <setting id="gdrive1_password" value="" />
+    <setting id="gdrive1_resumepoint" value="1" />
+    <setting id="gdrive1_spreadsheetname" value="" />
+    <setting id="gdrive1_type" value="3" />
+    <setting id="gdrive1_url" value="" />
+    <setting id="gdrive1_username" value="ztemita" />
+    <setting id="httptools_timeout" value="15" />
+    <setting id="list_info_order" value="3" />
+    <setting id="list_languages_color" value="[COLOR red]red[/COLOR]" />
+    <setting id="list_movie_color" value="[COLOR white]white[/COLOR]" />
+    <setting id="list_qualities_color" value="[COLOR limegreen]limegreen[/COLOR]" />
+    <setting id="list_show_year" value="3" />
+    <setting id="list_tvshow_color" value="[COLOR white]white[/COLOR]" />
+    <setting id="list_year_color" value="[COLOR gray]gray[/COLOR]" />
+    <setting id="max_buffer" value="5" />
+    <setting id="max_connections" value="4" />
+    <setting id="notification_beep" value="true" />
+    <setting id="notification_d_ok" value="false" />
+    <setting id="part_size" value="1" />
+    <setting id="play_age_color" value="[COLOR deepskyblue]deepskyblue[/COLOR]" />
+    <setting id="play_language_color" value="[COLOR red]red[/COLOR]" />
+    <setting id="play_other_color" value="[COLOR white]white[/COLOR]" />
+    <setting id="play_quality_color" value="[COLOR limegreen]limegreen[/COLOR]" />
+    <setting id="play_server_color" value="[COLOR gold]gold[/COLOR]" />
+    <setting id="preferencia_idioma_esp" value="1" />
+    <setting id="preferencia_idioma_lat" value="2" />
+    <setting id="preferencia_idioma_vos" value="3" />
+    <setting id="proxies_auto" value="true" />
+    <setting id="proxies_help" value="true" />
+    <setting id="proxies_limit" value="true" />
+    <setting id="proxies_list" value="false" />
+    <setting id="proxies_maximo" value="true" />
+    <setting id="proxies_paises" value="false" />
+    <setting id="proxies_provider" value="10" />
+    <setting id="proxies_tipos" value="false" />
+    <setting id="proxies_validos" value="true" />
+    <setting id="search_extra_main" value="false" />
+    <setting id="search_last_all" value="poder absoluto" />
+    <setting id="search_last_movie" value="matrix" />
+    <setting id="search_limit_by_channel" value="2" />
+    <setting id="search_multithread" value="true" />
+    <setting id="search_no_channels" value="false" />
+    <setting id="search_no_proxies" value="false" />
+    <setting id="search_no_results" value="false" />
+    <setting id="search_only_prefered" value="false" />
+    <setting id="search_show_last" value="false" />
+    <setting id="servers_discarded" value="" />
+    <setting id="servers_preferred" value="vidtodo,mega" />
+    <setting id="servers_sort_quality" value="0" />
+    <setting id="servers_unfavored" value="" />
+    <setting id="show_changelog" value="" />
+    <setting id="show_help_faq" value="" />
+    <setting id="show_help_proxies" value="" />
+    <setting id="show_help_settings" value="" />
+    <setting id="show_help_tips" value="" />
+    <setting id="show_help_tracking" value="" />
+    <setting id="show_help_tracking_update" value="" />
+    <setting id="show_help_use" value="" />
+    <setting id="tmdb_cache" value="true" />
+    <setting id="tmdb_cache_expire" value="1" />
+    <setting id="tmdb_clean_db_cache" value="" />
+    <setting id="tmdb_disabled" value="false" />
+    <setting id="tmdb_drop_db_cache" value="" />
+    <setting id="tmdb_plus_info" value="false" />
+    <setting id="tmdb_threads" value="20" />
+    <setting id="tracking_confirm_tmdbid" value="false" />
+    <setting id="tracking_current_dbname" value="default" />
+    <setting id="tracking_order_episodes" value="1" />
+    <setting id="tracking_order_movies" value="0" />
+    <setting id="tracking_order_tvshows" value="0" />
+    <setting id="tracking_perpage_episodes" value="10" />
+    <setting id="tracking_perpage_movies" value="20" />
+    <setting id="tracking_perpage_tvshows" value="20" />
+    <setting id="tracking_viewmode_episodes" value="0" />
+    <setting id="tracking_viewmode_movies" value="0" />
+    <setting id="tracking_viewmode_seasons" value="0" />
+    <setting id="tracking_viewmode_tvshows" value="0" />
+    <setting id="tracking_weberror_dialog" value="true" />
+    <setting id="ver_stable_chrome" value="true" />
+</settings>
