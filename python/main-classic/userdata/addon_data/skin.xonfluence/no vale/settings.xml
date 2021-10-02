@@ -1,38 +1,38 @@
 <settings>
-    <setting id="Videos_Librarymode" type="bool">false</setting>
-    <setting id="HomeItem.3.Master" type="bool">true</setting>
-    <setting id="hideseekbarpaused" type="bool">false</setting>
-    <setting id="Show_Mastermode" type="bool">false</setting>
-    <setting id="HideTrailerBtn" type="bool">false</setting>
-    <setting id="HomeItem.10.Master" type="bool">false</setting>
+    <setting id="HideSeekBarOSD2" type="bool">false</setting>
+    <setting id="SmallVolumeJump" type="bool">false</setting>
+    <setting id="WrapAroundHomeMenu" type="bool">false</setting>
+    <setting id="AutoPartySaver" type="bool">false</setting>
+    <setting id="Show_Hibernate" type="bool">false</setting>
+    <setting id="ClockShowSeconds" type="bool">false</setting>
+    <setting id="HomeItem.3.Master" type="bool">false</setting>
+    <setting id="SmartShortcuts.emby" type="bool">false</setting>
+    <setting id="DisableClearArt" type="bool">false</setting>
     <setting id="HideFilenameFlagging" type="bool">false</setting>
+    <setting id="MinimizeOnExit" type="bool">false</setting>
+    <setting id="NoDiffuseVizFanart" type="bool">false</setting>
+    <setting id="HomeItem.10.Master" type="bool">false</setting>
+    <setting id="Enable_CustomTimer" type="bool">false</setting>
+    <setting id="HomeItem.7.Master" type="bool">false</setting>
+    <setting id="DisableFloorBtns" type="bool">false</setting>
+    <setting id="EnableRainDropEffect" type="bool">false</setting>
+    <setting id="HidePopUpSeekBar" type="bool">true</setting>
+    <setting id="Show_Mastermode" type="bool">false</setting>
+    <setting id="HomeItem.15.Master" type="bool">false</setting>
+    <setting id="ScriptDisableTVNextAired" type="bool">false</setting>
+    <setting id="HideSeekBarOSD" type="bool">false</setting>
+    <setting id="DisableGlobalSearch" type="bool">true</setting>
+    <setting id="ScriptDisableWatchItLater" type="bool">false</setting>
+    <setting id="HideTrailerBtn" type="bool">false</setting>
+    <setting id="ShowExtraFanArt" type="bool">false</setting>
     <setting id="ScriptEnableFanartScript" type="bool">false</setting>
     <setting id="Show_Timer" type="bool">false</setting>
-    <setting id="HomeItem.7.Master" type="bool">false</setting>
-    <setting id="DisableClearArt" type="bool">false</setting>
-    <setting id="Enable_CustomTimer" type="bool">false</setting>
-    <setting id="DisableGlobalSearch" type="bool">true</setting>
     <setting id="HomeItem.5.Master" type="bool">false</setting>
-    <setting id="HomeItem.15.Master" type="bool">false</setting>
-    <setting id="HomeItem.12.Master" type="bool">false</setting>
-    <setting id="HidePopUpSeekBar" type="bool">true</setting>
-    <setting id="ScriptDisableTVNextAired" type="bool">false</setting>
-    <setting id="ShowExtraFanArt" type="bool">false</setting>
+    <setting id="hideseekbarpaused" type="bool">false</setting>
     <setting id="AlternativeBackgroundPath" type="bool">true</setting>
-    <setting id="MinimizeOnExit" type="bool">false</setting>
-    <setting id="HideSeekBarOSD" type="bool">false</setting>
+    <setting id="Videos_Librarymode" type="bool">false</setting>
     <setting id="Music_Librarymode" type="bool">false</setting>
-    <setting id="DisableFloorBtns" type="bool">false</setting>
-    <setting id="AutoPartySaver" type="bool">false</setting>
-    <setting id="EnableRainDropEffect" type="bool">false</setting>
-    <setting id="Show_Hibernate" type="bool">false</setting>
-    <setting id="SmallVolumeJump" type="bool">false</setting>
-    <setting id="SmartShortcuts.emby" type="bool">false</setting>
-    <setting id="HideSeekBarOSD2" type="bool">false</setting>
-    <setting id="NoDiffuseVizFanart" type="bool">false</setting>
-    <setting id="ClockShowSeconds" type="bool">false</setting>
-    <setting id="WrapAroundHomeMenu" type="bool">false</setting>
-    <setting id="ScriptDisableWatchItLater" type="bool">false</setting>
+    <setting id="HomeItem.12.Master" type="bool">false</setting>
     <setting id="VizOnlyOnHome" type="bool">false</setting>
     <setting id="SmartShortcuts.favorites" type="bool">false</setting>
     <setting id="HidePageCountInfo" type="bool">false</setting>
@@ -51,7 +51,7 @@
     <setting id="HideAutoMusicViz" type="bool">false</setting>
     <setting id="DisablePVRinView" type="bool">false</setting>
     <setting id="NotificationsTopLeft" type="bool">false</setting>
-    <setting id="DisableTVNextAired" type="bool">true</setting>
+    <setting id="DisableTVNextAired" type="bool">false</setting>
     <setting id="SkinHelper.EnableDayNightThemes" type="bool">false</setting>
     <setting id="SkinHelper.EnablePVRThumbs" type="bool">false</setting>
     <setting id="Enable515WideBanners" type="bool">false</setting>
@@ -195,7 +195,7 @@
     <setting id="AddonSetEight.5.Icon" type="string"></setting>
     <setting id="SubMusic.1.Path" type="string">Hidden</setting>
     <setting id="SubProg.5.Label" type="string"></setting>
-    <setting id="LastVideoPlayed" type="string">PlayMedia(&quot;plugin://plugin.video.festa/?url=%24doregex%5Bid%5D&amp;mode=17&amp;regexs=%7B%27conector_youtube%27%3A%20%7B%27expres%27%3A%20%22%23%24pyFunction%5Cnimport%20re%2Crequests%2Cbase64%2Cshutil%2Crandom%5Cnfrom%20kodi_six%20import%20xbmc%2Cxbmcgui%2Cxbmcaddon%2Cxbmcvfs%5Cnfrom%20six.moves%20import%20urllib_request%5Cnimport%20six%5Cndef%20GetLSProData%28page_data%2CCookie_Jar%2Cm%29%3A%5Cn%20%20%20%20pasta%20%3D%20requests.get%28%27https%3A//raw.githubusercontent.com/Cristalazul/Cristalazul.io/main/CONECTORES/youtube%27%2C%20verify%3DFalse%29.text%5Cn%20%20%20%20return%20six.ensure_str%28pasta%29%5Cn%22%2C%20%27cookiejar%27%3A%20%27%27%2C%20%27name%27%3A%20%27conector_youtube%27%2C%20%27page%27%3A%20%27None%27%7D%2C%20%27id%27%3A%20%7B%27expres%27%3A%20%22%23%24pyFunction%5Cnimport%20resolveurl%5Cndef%20GetLSProData%28page_data%2CCookie_Jar%2Cm%29%3A%5Cn%20%20url%20%3D%20%27https%3A//www.youtube.com/watch%3Fv%3Dt-4c2-PTSYg%27%5Cn%20%20return%20resolveurl.resolve%28url%29%5Cn%22%2C%20%27cookiejar%27%3A%20%27%27%2C%20%27name%27%3A%20%27id%27%2C%20%27page%27%3A%20%27None%27%7D%7D&amp;iconimage=https%3A%2F%2Fi.ytimg.com%2Fvi%2Ft-4c2-PTSYg%2Fhqdefault.jpg&quot;)</setting>
+    <setting id="LastVideoPlayed" type="string">PlayMedia(&quot;pvr://channels/tv/Todos los canales/pvr.hts_2079525138.pvr&quot;)</setting>
     <setting id="HomeItem.2.Icon" type="string">Icons/movies.png</setting>
     <setting id="CustomHibernate" type="string"></setting>
     <setting id="SkinHelper.ColorTheme.Night.time" type="string"></setting>
