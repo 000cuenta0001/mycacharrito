@@ -10,6 +10,9 @@ import xbmcgui
 import xbmcaddon
 import xbmcvfs
 
+import datetime
+import re
+
 ADDON = xbmcaddon.Addon()
 ADDONNAME = ADDON.getAddonInfo('name')
 ADDONID = ADDON.getAddonInfo('id')
@@ -24,7 +27,9 @@ sys.path.append(RESOURCE)
 from utils import *
 
 LCURL = 'https://www.yahoo.com/news/_tdnews/api/resource/WeatherSearch;text=%s'
-FCURL = 'https://www.yahoo.com/news/_tdnews/api/resource/WeatherService;woeids=%%5B%s%%5D'
+FCURL = 'https://www.yahoo.com/news/_tdnews/api/resource/WeatherService;crumb=%s;woeids=%%5B%s%%5D'
+
+HEADERS = {'user-agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.72 Safari/537.36'}
 
 socket.setdefaulttimeout(10)
 
@@ -115,20 +120,52 @@ def location(loc):
             locids.append(str(item['woeid']))
     return locs, locids
 
-def get_data(api, search):
-    headers = {'user-agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.72 Safari/537.36'}
-    url = api % search
+def get_data(api, search, cookie='', crumb=''):
     try:
-        response = requests.get(url, headers=headers, timeout=10)
+        if cookie:
+            api = api % (crumb, search)
+            response = requests.get(api, headers=HEADERS, cookies=dict(B=cookie), timeout=10)
+        else:
+            api = api % search
+            response = requests.get(api, headers=HEADERS, timeout=10)           
         return response.json()
     except:
         return
 
 def forecast(loc, locid):
+    yahoo = 'https://www.yahoo.com/news/weather/'
+    cookie_path =  xbmc.translatePath('special://profile/addon_data/' + ADDONID + '/cookies.txt').decode('utf-8')
+    if xbmcvfs.exists(cookie_path):
+       fd = open(cookie_path, "r")
+       cookie_data = fd.read() 
+       cookie = cookie_data.split()[0]
+       expireDate = cookie_data.split()[1]
+       crumb = cookie_data.split()[2]
+       fd.close()
+    else:
+        expireDate = ''
+    nowDate = datetime.date.today().strftime("%d-%b-%Y") 
+    if (expireDate == '') or (expireDate <= nowDate):
+        retry = 0
+        while (retry < 6) and (not MONITOR.abortRequested()):
+            response = requests.get(yahoo, headers=HEADERS, timeout=10)
+            if response.status_code == 200:
+                break
+            else:
+                self.MONITOR.waitForAbort(10)
+                retry += 1
+            log('getting cookie failed')
+        cookie = response.cookies['B']
+        match = re.search('WeatherStore":{"crumb":"(.*?)","weathers', response.text, re.IGNORECASE)
+        crumb = match.group(1)
+        expire_date = response.headers['Set-Cookie'].split()[2]
+        fd = open(cookie_path, "w")
+        fd.write(cookie + ' ' + expire_date + ' ' + crumb)
+        fd.close()
     log('weather location: %s' % locid)
     retry = 0
     while (retry < 10) and (not MONITOR.abortRequested()):
-        data = get_data(FCURL, locid)
+        data = get_data(FCURL, locid, cookie, crumb)
         if data:
             # response
             retry = 10
