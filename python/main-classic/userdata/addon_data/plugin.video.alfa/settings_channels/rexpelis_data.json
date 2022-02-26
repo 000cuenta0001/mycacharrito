@@ -1,0 +1,11 @@
+{
+    "settings": {
+        "filter_languages": 0, 
+        "include_in_global_search": true, 
+        "include_in_newest_infantiles": true, 
+        "include_in_newest_latino": true, 
+        "include_in_newest_peliculas": true, 
+        "include_in_newest_terror": true, 
+        "modo_grafico": true
+    }
+}

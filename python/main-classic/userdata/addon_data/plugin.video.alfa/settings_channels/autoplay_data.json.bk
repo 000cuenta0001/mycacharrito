@@ -1,0 +1,356 @@
+{
+    "AUTOPLAY": {
+        "AUTOPLAY": {}, 
+        "cinecalidad": {
+            "quality": [
+                "480p", 
+                "360p", 
+                "default", 
+                "720p", 
+                "240p", 
+                "1080p"
+            ], 
+            "servers": [
+                "uptobox", 
+                "vidbull", 
+                "filescdn", 
+                "okru", 
+                "directo", 
+                "thevideos", 
+                "pcloud", 
+                "usersfiles", 
+                "yourupload", 
+                "nowvideo", 
+                "openload", 
+                "userscloud"
+            ], 
+            "settings": {
+                "active": false, 
+                "custom_quality": false, 
+                "custom_servers": false, 
+                "priority": 0, 
+                "quality_1": 0, 
+                "quality_2": 1, 
+                "quality_3": 2, 
+                "server_1": 0, 
+                "server_2": 1, 
+                "server_3": 2
+            }
+        }, 
+        "dontorrent": {
+            "quality": [
+                "default"
+            ], 
+            "servers": [
+                "torrent"
+            ], 
+            "settings": {
+                "active": false, 
+                "custom_quality": false, 
+                "custom_servers": false, 
+                "plan_b": true, 
+                "priority": 0, 
+                "quality_1": 0, 
+                "quality_2": 0, 
+                "quality_3": 0, 
+                "server_1": 0, 
+                "server_2": 0, 
+                "server_3": 0
+            }
+        }, 
+        "estadepelis": {
+            "quality": [
+                "default"
+            ], 
+            "servers": [
+                "yourupload", 
+                "sendvid", 
+                "openload", 
+                "senvid"
+            ], 
+            "settings": {
+                "active": false, 
+                "custom_quality": false, 
+                "custom_servers": false, 
+                "priority": 0, 
+                "quality_1": 0, 
+                "quality_2": 0, 
+                "quality_3": 0, 
+                "server_1": 0, 
+                "server_2": 1, 
+                "server_3": 2
+            }
+        }, 
+        "estrenosgo": {
+            "quality": [
+                "default", 
+                "HD-RIP [/COLOR][COLOR white][01:42 h]", 
+                "Hdrip [/COLOR][COLOR white][01:42 h]"
+            ], 
+            "servers": [
+                "torrent"
+            ], 
+            "settings": {
+                "active": true, 
+                "custom_quality": false, 
+                "custom_servers": true, 
+                "plan_b": false, 
+                "priority": 0, 
+                "quality_1": 0, 
+                "quality_2": 0, 
+                "quality_3": 0, 
+                "server_1": 0, 
+                "server_2": 0, 
+                "server_3": 0
+            }
+        }, 
+        "hdfull": {
+            "quality": [
+                "HD1080", 
+                "HD720", 
+                "HDTV", 
+                "DVDRIP", 
+                "RHDTV", 
+                "DVDSCR", 
+                "default"
+            ], 
+            "servers": [
+                "flix555", 
+                "clipwatching", 
+                "verystream", 
+                "gamovideo", 
+                "powvideo", 
+                "streamplay", 
+                "vidoza", 
+                "vidtodo", 
+                "openload", 
+                "uptobox"
+            ], 
+            "settings": {
+                "active": false, 
+                "custom_quality": false, 
+                "custom_servers": false, 
+                "plan_b": true, 
+                "priority": 0, 
+                "quality_1": 0, 
+                "quality_2": 1, 
+                "quality_3": 2, 
+                "server_1": 0, 
+                "server_2": 1, 
+                "server_3": 2
+            }
+        }, 
+        "locopelis": {
+            "quality": [
+                "default"
+            ], 
+            "servers": [
+                "openload"
+            ], 
+            "settings": {
+                "active": false, 
+                "custom_quality": false, 
+                "custom_servers": false, 
+                "priority": 0, 
+                "quality_1": 0, 
+                "quality_2": 0, 
+                "quality_3": 0, 
+                "server_1": 0, 
+                "server_2": 0, 
+                "server_3": 0
+            }
+        }, 
+        "newpct1": {
+            "quality": [
+                "default", 
+                "HDTV 720p AC3 5.1 [/COLOR][COLOR white][00:45 h]"
+            ], 
+            "servers": [
+                "torrent", 
+                "streamz", 
+                "flashx"
+            ], 
+            "settings": {
+                "active": true, 
+                "custom_quality": false, 
+                "custom_servers": true, 
+                "plan_b": false, 
+                "priority": 0, 
+                "quality_1": 0, 
+                "quality_2": 0, 
+                "quality_3": 0, 
+                "server_1": 0, 
+                "server_2": 0, 
+                "server_3": 0
+            }
+        }, 
+        "pelisplay": {
+            "quality": [
+                "default"
+            ], 
+            "servers": [
+                "rapidvideo", 
+                "streamango", 
+                "fastplay", 
+                "openload"
+            ], 
+            "settings": {
+                "active": false, 
+                "custom_quality": false, 
+                "custom_servers": false, 
+                "plan_b": true, 
+                "priority": 0, 
+                "quality_1": 0, 
+                "quality_2": 0, 
+                "quality_3": 0, 
+                "server_1": 0, 
+                "server_2": 1, 
+                "server_3": 2
+            }
+        }, 
+        "pelisplus": {
+            "quality": [
+                "480p", 
+                "360p", 
+                "default", 
+                "720p", 
+                "240p", 
+                "1080p"
+            ], 
+            "servers": [
+                "thevideos", 
+                "gvideo", 
+                "openload"
+            ], 
+            "settings": {
+                "active": false, 
+                "custom_quality": false, 
+                "custom_servers": false, 
+                "priority": 0, 
+                "quality_1": 0, 
+                "quality_2": 1, 
+                "quality_3": 2, 
+                "server_1": 0, 
+                "server_2": 1, 
+                "server_3": 2
+            }
+        }, 
+        "seriespapaya": {
+            "quality": [
+                "360p", 
+                "480p", 
+                "720p HD", 
+                "1080p HD", 
+                "default"
+            ], 
+            "servers": [
+                "powvideo", 
+                "streamplay", 
+                "filebebo", 
+                "flashx", 
+                "gamovideo", 
+                "nowvideo", 
+                "openload", 
+                "streamango", 
+                "streamcloud", 
+                "vidzi", 
+                "clipwatching"
+            ], 
+            "settings": {
+                "active": false, 
+                "custom_quality": false, 
+                "custom_servers": false, 
+                "plan_b": true, 
+                "priority": 0, 
+                "quality_1": 0, 
+                "quality_2": 1, 
+                "quality_3": 2, 
+                "server_1": 0, 
+                "server_2": 1, 
+                "server_3": 2
+            }
+        }, 
+        "verpeliculasnuevas": {
+            "quality": [
+                "default", 
+                "DVD", 
+                "HQ", 
+                "HD-1080", 
+                "CAM", 
+                "HD"
+            ], 
+            "servers": [
+                "streaminto", 
+                "powvideo", 
+                "thevideos", 
+                "streamplay", 
+                "yourupload", 
+                "openload", 
+                "directo", 
+                "netutv", 
+                "netu", 
+                "vidabc", 
+                "thevideome"
+            ], 
+            "settings": {
+                "active": false, 
+                "custom_quality": false, 
+                "custom_servers": false, 
+                "priority": 0, 
+                "quality_1": 0, 
+                "quality_2": 1, 
+                "quality_3": 2, 
+                "server_1": 0, 
+                "server_2": 1, 
+                "server_3": 2
+            }
+        }
+    }
+}ervers": false, 
+                "plan_b": true, 
+                "priority": 0, 
+                "quality_1": 0, 
+                "quality_2": 1, 
+                "quality_3": 2, 
+                "server_1": 0, 
+                "server_2": 1, 
+                "server_3": 2
+            }
+        }, 
+        "verpeliculasnuevas": {
+            "quality": [
+                "default", 
+                "DVD", 
+                "HQ", 
+                "HD-1080", 
+                "CAM", 
+                "HD"
+            ], 
+            "servers": [
+                "streaminto", 
+                "powvideo", 
+                "thevideos", 
+                "streamplay", 
+                "yourupload", 
+                "openload", 
+                "directo", 
+                "netutv", 
+                "netu", 
+                "vidabc", 
+                "thevideome"
+            ], 
+            "settings": {
+                "active": false, 
+                "custom_quality": false, 
+                "custom_servers": false, 
+                "priority": 0, 
+                "quality_1": 0, 
+                "quality_2": 1, 
+                "quality_3": 2, 
+                "server_1": 0, 
+                "server_2": 1, 
+                "server_3": 2
+            }
+        }
+    }
+}

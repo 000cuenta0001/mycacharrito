@@ -1,0 +1,10 @@
+{
+    "settings": {
+        "filter_languages": 0, 
+        "include_in_global_search": false, 
+        "modo_grafico": true, 
+        "pseudo_titulos": true, 
+        "seleccionar_ult_temporadda_activa": true, 
+        "timeout_downloadpage": 5
+    }
+}

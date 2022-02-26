@@ -1,0 +1,9 @@
+{
+    "settings": {
+        "comprueba_enlaces_num": 1, 
+        "epsxfolder": 0, 
+        "filter_languages": 0, 
+        "include_in_global_search": true, 
+        "include_in_newest_anime": true
+    }
+}

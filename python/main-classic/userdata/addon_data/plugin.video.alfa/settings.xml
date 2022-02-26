@@ -5,12 +5,11 @@
     <setting id="adult_aux_intro_password" value="" />
     <setting id="adult_aux_new_password1" value="" />
     <setting id="adult_aux_new_password2" value="" />
-    <setting id="adult_mode" value="1" />
-    <setting id="adult_password" value="0000" />
+    <setting id="adult_mode" value="0" />
     <setting id="adult_request_password" value="true" />
+    <setting id="alfa_version" value="3.6.3" />
     <setting id="alternative_web_access" value="false" />
     <setting id="assistant_auto_install" value="" />
-    <setting id="assistant_binary" value="false" />
     <setting id="assistant_custom_address" value="" />
     <setting id="assistant_flag_install" value="true" />
     <setting id="assistant_manual_install" value="" />
@@ -18,72 +17,58 @@
     <setting id="autoplay" value="false" />
     <setting id="autoplay_qlty" value="Alta" />
     <setting id="caching" value="true" />
-    <setting id="cast_color" value="[COLOR white]white[/COLOR]" />
     <setting id="category" value="Peliculas" />
     <setting id="cf_assistant_bl_expiration" value="30" />
     <setting id="cf_assistant_ua" value="" />
     <setting id="channel_language" value="all" />
-    <setting id="chrome_ua_version" value="95.0.4638.54" />
+    <setting id="chrome_ua_version" value="98.0.4758.102" />
     <setting id="color_test" value="" />
     <setting id="custom_start" value="false" />
-    <setting id="debug" value="true" />
+    <setting id="debug" value="false" />
     <setting id="default_action" value="2" />
     <setting id="downloadlistpath" value="special://profile/addon_data/plugin.video.alfa/downloads/list" />
     <setting id="downloadpath" value="special://profile/addon_data/plugin.video.alfa/downloads" />
     <setting id="extended_info" value="false" />
-    <setting id="faster_item_serialization" value="false" />
     <setting id="folder_movies" value="CINE" />
     <setting id="folder_tvshows" value="SERIES" />
     <setting id="forceview" value="false" />
     <setting id="frequents" value="false" />
     <setting id="frequents_folder" value="false" />
-    <setting id="hidepremium" value="true" />
+    <setting id="hidepremium" value="false" />
     <setting id="httptools_timeout" value="15" />
     <setting id="icon_set" value="default" />
     <setting id="infoplus" value="true" />
     <setting id="infoplus_set" value="Sin animación" />
     <setting id="install_trakt" value="true" />
     <setting id="is_rooted_device" value="check" />
-    <setting id="lat_color" value="[COLOR white]white[/COLOR]" />
-    <setting id="library_color" value="[COLOR white]white[/COLOR]" />
     <setting id="lista_activa" value="alfavorites-default.json" />
     <setting id="max_frequents" value="5" />
     <setting id="max_frequents_folder" value="0" />
-    <setting id="movie_color" value="[COLOR white]white[/COLOR]" />
     <setting id="news_start" value="false" />
     <setting id="next_ep" value="1" />
     <setting id="next_ep_seconds" value="30" />
     <setting id="next_ep_type" value="false" />
-    <setting id="no_update_color" value="[COLOR white]white[/COLOR]" />
     <setting id="player_mode" value="0" />
-    <setting id="preset_style" value="Estilo 1" />
-    <setting id="preset_style_switch" value="true" />
-    <setting id="proxy_CF_addr" value="NDIuMTU5LjkxLjI0ODo4MDgw" />
-    <setting id="proxy_CF_list" value="Wyc0Ni42MS4xOTQuMTY2OjgwODAnLCAnMTU0LjcyLjE5OS4yMDI6NDEyMDEnLCAnNjQuMTI0LjM4LjE0Mjo4MDgwJywgJzIwLjgxLjEwNi4xODA6ODg4OCcsICcxMDkuMjM3LjE5NS4xNjg6MzEyOCcsICcyMTAuMjIwLjY3LjYwOjgwODAnLCAnMTIwLjI0MS4zNy4yMDQ6Nzg5MCcsICcxMTUuNzkuMTk4LjE4OjU1NDQzJywgJzY0LjEyNC4zOC4xMzg6ODA4MCcsICc1LjE4My43MS4xNDU6MzkzMDUnLCAnMjA3LjI0NC4yMjcuMTY5OjQ0MycsICc2NC4xMjQuMzguMTM5OjgwODAnLCAnNjQuMTI0LjM4LjE0MDo4MDgwJywgJzY0LjEyNC4zOC4xMjU6ODA4MCdd" />
+    <setting id="proxy_CF_addr" value="ODkuMjA1LjExMy42ODo4MDgw" />
+    <setting id="proxy_CF_list" value="WyczNy4yOS44MC4xNjE6ODA4MCcsICcxMTkuMjguMzAuMTU5OjYwMDgwJywgJzExMy4xNjAuMzcuMTUyOjUzMjgxJywgJzEuMTgwLjE1Ni4yMjY6NjUwMDEnXQ==" />
     <setting id="proxy_active" value="VHJ1ZQ==" />
-    <setting id="proxy_addr" value="MTA5LjIzNy4xOTUuMTY4OjMxMjg=" />
-    <setting id="proxy_channel_bloqued" value="eydtYWRlaW50b3JyZW50Lm9yZyc6ICdQcm94eVdlYicsICdhbGxjYWxpZGFkLmxhJzogJ1Byb3h5V2ViJywgJ3BsYXl2aWV3LmlvJzogJ1Byb3h5V2ViJywgJ2ZhbnBlbGlzLm9yZyc6ICdQcm94eVdlYicsICd1bHRyYXBlbGljdWxhc2hkLmNvbSc6ICdQcm94eVdlYicsICdwY3RyZWxvYWQxLmNvbSc6ICdQcm94eVdlYicsICdwZWxpc3BsdXNoZC5uZXQnOiAnUHJveHlXZWInLCAncGN0bWl4MS5jb20nOiAnUHJveHlXZWInLCAnY3VldmFuYTMuaW8nOiAnUHJveHlXZWInLCAncGVsaXN2aXBzLmNvbSc6ICdQcm94eVdlYicsICdjaW5ldHV4Lm51JzogJ1Byb3h5V2ViJywgJ21lam9ydG9ycmVudC5vbmUnOiAnUHJveHlXZWInLCAnYXBpLmN1ZXZhbmEzLmlvJzogJ1Byb3h5V2ViJywgJ3BlbGlzcGxheS5jbyc6ICdQcm94eVdlYicsICdnbnVsYS5udSc6ICdQcm94eUNGJywgJ2NsaXZlci50byc6ICdPTicsICdzdWJ0b3JyZW50cy5ueic6ICdQcm94eVdlYicsICdkaXZ4dG90YWwubnonOiAnUHJveHlXZWInLCAneXRzLm14JzogJ1Byb3h5V2ViJywgJ3BlbGlzcGx1cy5tZSc6ICdQcm94eVdlYicsICdwY3RmZW5peC5jb20nOiAnUHJveHlXZWInLCAncGVsaXNncmF0aXMubnUnOiAnUHJveHlXZWInLCAncGVsaXNwbGFuZXQuY29tJzogJ1Byb3h5V2ViJywgJ2RpbG8ubnUnOiAnUHJveHlXZWInLCAnbWVqb3J0b3JyZW50by5pbmZvJzogJ1Byb3h5V2ViJywgJ2Jsb2dkZXBlbGlzLnR2JzogJ1Byb3h5V2ViJ30=" />
+    <setting id="proxy_addr" value="MTE5LjI4LjMwLjE1OTo2MDA4MA==" />
+    <setting id="proxy_channel_bloqued" value="eydhcGkuY3VldmFuYTMuaW8nOiAnUHJveHlXZWInLCAnZ251bGEubnUnOiAnUHJveHlXZWI6Y3JveHlwcm94eS5jb20nLCAncGxheXZpZXcuaW8nOiAnUHJveHlXZWInLCAnY2xpdmVyLnRvJzogJ1Byb3h5V2ViOmNyb3h5cHJveHkuY29tJywgJ2ZhbnBlbGlzLm9yZyc6ICdQcm94eVdlYicsICdlbnRyZXBlbGljdWxhc3lzZXJpZXMubnUnOiAnUHJveHlXZWInLCAneXRzLm14JzogJ1Byb3h5V2ViJywgJ3BlbGlzcGx1cy5tZSc6ICdQcm94eVdlYicsICdwZWxpc3BsYXkuY28nOiAnUHJveHlXZWInLCAncGVsaXNncmF0aXMubnUnOiAnUHJveHlXZWInLCAnYWxsY2FsaWRhZC5hYyc6ICdQcm94eVdlYicsICdtZWpvcnRvcnJlbnQub25lJzogJ1Byb3h5V2ViJywgJ2FsbHBlbGljdWxhcy5hYyc6ICdQcm94eVdlYicsICdjdWV2YW5hMy5pbyc6ICdQcm94eVdlYicsICdkaWxvLm51JzogJ1Byb3h5V2ViJywgJ2NpbmV0dXgubnUnOiAnUHJveHlXZWInLCAncGVsaXNwbHVzaGQubmV0JzogJ1Byb3h5V2ViJywgJ2ZhbnBlbGlzLmFjJzogJ1Byb3h5V2ViJ30=" />
     <setting id="proxy_dev" value="dXNlcg==" />
-    <setting id="proxy_list" value="WycxMDkuMjM3LjE5NS4xNjg6MzEyOCcsICc1LjE4My43MS4xNDU6MzkzMDUnLCAnMjAuODEuMTA2LjE4MDo4ODg4JywgJzY0LjEyNC4zOC4xMzk6ODA4MCcsICc2NC4xMjQuMzguMTI1OjgwODAnLCAnMjA3LjI0NC4yMjcuMTY5OjQ0MycsICcxNTQuNzIuMTk5LjIwMjo0MTIwMScsICc2NC4xMjQuMzguMTQwOjgwODAnLCAnMTE1Ljc5LjE5OC4xODo1NTQ0MycsICc2NC4xMjQuMzguMTM4OjgwODAnLCAnNDYuNjEuMTk0LjE2Njo4MDgwJywgJzY0LjEyNC4zOC4xNDI6ODA4MCcsICcxMjAuMjQxLjM3LjIwNDo3ODkwJywgJzIxMC4yMjAuNjcuNjA6ODA4MCdd" />
-    <setting id="proxy_web_name" value="d2VicHJveHkudG8=" />
-    <setting id="proxy_white_list" value="eydtYWRlaW50b3JyZW50Lm9yZyc6ICdQcm94eVdlYicsICdhbGxjYWxpZGFkLmxhJzogJ1Byb3h5V2ViJywgJ3BsYXl2aWV3LmlvJzogJ1Byb3h5V2ViJywgJ2ZhbnBlbGlzLm9yZyc6ICdQcm94eVdlYicsICd1bHRyYXBlbGljdWxhc2hkLmNvbSc6ICdQcm94eVdlYicsICdwY3RyZWxvYWQxLmNvbSc6ICdQcm94eVdlYicsICdwZWxpc3BsYXkuY28nOiAnUHJveHlXZWInLCAncGN0bWl4MS5jb20nOiAnUHJveHlXZWInLCAnY3VldmFuYTMuaW8nOiAnUHJveHlXZWInLCAncGVsaXN2aXBzLmNvbSc6ICdQcm94eVdlYicsICdjaW5ldHV4Lm51JzogJ1Byb3h5V2ViJywgJ2FwaS5jdWV2YW5hMy5pbyc6ICdQcm94eVdlYicsICdtZWpvcnRvcnJlbnQub25lJzogJ1Byb3h5V2ViJywgJ2dudWxhLm51JzogJ1Byb3h5Q0YnLCAnZGl2eHRvdGFsLm56JzogJ1Byb3h5V2ViJywgJ3N1YnRvcnJlbnRzLm56JzogJ1Byb3h5V2ViJywgJ21lam9ydG9ycmVudG8uaW5mbyc6ICdQcm94eVdlYicsICdwZWxpc3BsdXMubWUnOiAnUHJveHlXZWInLCAncGN0ZmVuaXguY29tJzogJ1Byb3h5V2ViJywgJ3BlbGlzcGx1c2hkLm5ldCc6ICdQcm94eVdlYicsICdwZWxpc2dyYXRpcy5udSc6ICdQcm94eVdlYicsICdwZWxpc3BsYW5ldC5jb20nOiAnUHJveHlXZWInLCAnZGlsby5udSc6ICdQcm94eVdlYicsICd5dHMubXgnOiAnUHJveHlXZWInLCAnYmxvZ2RlcGVsaXMudHYnOiAnUHJveHlXZWInfQ==" />
-    <setting id="proxy_zip" value="Q291bnRyeTogRVMgLyBPcGVyYXRvcjogSmF6eiBUZWxlY29tIFMuQS4gLyBBU046IDEyNDc5IC8gUi5Db2RlOiAyMDAgLyBEYXRhOiAgLyBXZWJfaXA6IGh0dHBzOi8vYXBpLmlwLnNiL2dlb2lw" />
-    <setting id="quality_color" value="[COLOR white]white[/COLOR]" />
-    <setting id="rating_1_color" value="[COLOR white]white[/COLOR]" />
-    <setting id="rating_2_color" value="[COLOR white]white[/COLOR]" />
-    <setting id="rating_3_color" value="[COLOR white]white[/COLOR]" />
+    <setting id="proxy_list" value="WycxMTkuMjguMzAuMTU5OjYwMDgwJywgJzM3LjI5LjgwLjE2MTo4MDgwJywgJzExMy4xNjAuMzcuMTUyOjUzMjgxJywgJzEuMTgwLjE1Ni4yMjY6NjUwMDEnXQ==" />
+    <setting id="proxy_web_name" value="aGlkZS5tZQ==" />
+    <setting id="proxy_white_list" value="eydwbGF5dmlldy5pbyc6ICdQcm94eVdlYicsICdmYW5wZWxpcy5vcmcnOiAnUHJveHlXZWInLCAnZW50cmVwZWxpY3VsYXN5c2VyaWVzLm51JzogJ1Byb3h5V2ViJywgJ3BlbGlzcGx1c2hkLm5ldCc6ICdQcm94eVdlYicsICdhbGxjYWxpZGFkLmFjJzogJ1Byb3h5V2ViJywgJ2N1ZXZhbmEzLmlvJzogJ1Byb3h5V2ViJywgJ2NpbmV0dXgubnUnOiAnUHJveHlXZWInLCAnbWVqb3J0b3JyZW50Lm9uZSc6ICdQcm94eVdlYicsICdhcGkuY3VldmFuYTMuaW8nOiAnUHJveHlXZWInLCAncGVsaXNwbGF5LmNvJzogJ1Byb3h5V2ViJywgJ2dudWxhLm51JzogJ1Byb3h5V2ViOmNyb3h5cHJveHkuY29tJywgJ2NsaXZlci50byc6ICdQcm94eVdlYjpjcm94eXByb3h5LmNvbScsICdwZWxpc3BsdXMubWUnOiAnUHJveHlXZWInLCAnYWxscGVsaWN1bGFzLmFjJzogJ1Byb3h5V2ViJywgJ2RpbG8ubnUnOiAnUHJveHlXZWInLCAneXRzLm14JzogJ1Byb3h5V2ViJywgJ3BlbGlzZ3JhdGlzLm51JzogJ1Byb3h5V2ViJywgJ2ZhbnBlbGlzLmFjJzogJ1Byb3h5V2ViJ30=" />
+    <setting id="proxy_zip" value="Q291bnRyeTogRVMgLyBPcGVyYXRvcjogQVMxMjQ3OSBPcmFuZ2UgRXNwYWduZSBTQSAvIEFTTjogQVMxMjQ3OSBPcmFuZ2UgRXNwYWduZSBTQSAvIFIuQ29kZTogMjAwIC8gRGF0YTogIC8gV2ViX2lwOiBodHRwOi8vaXAtYXBpLmNvbS9qc29uLw==" />
     <setting id="resolve_priority" value="0" />
     <setting id="resolve_stop" value="true" />
     <setting id="second_language" value="No" />
-    <setting id="server_color" value="[COLOR white]white[/COLOR]" />
     <setting id="settings_path" value="special://profile/addon_data/plugin.video.alfa/settings_channels" />
     <setting id="shortcut_key" value="" />
     <setting id="show_fixes" value="false" />
     <setting id="show_once" value="true" />
     <setting id="start_page" value="false" />
-    <setting id="subtitle_name" value="La Fortuna 1x5 [COLOR greenyellow]Episodio 5[COLOR] [COLOR darkgrey][CAST] [COLOR] [COLOR blue](Visto)[COLOR]" />
+    <setting id="subtitle_name" value="Power Book IV Force - 1x02 [COLOR greenyellow]King of the Goddamn Hill[COLOR] [COLOR darkgrey][CAST] [LAT] [VOSE] [VOS] [VO] [COLOR]" />
     <setting id="thumbnail_type" value="2" />
-    <setting id="title_color" value="false" />
     <setting id="tmdb_active" value="true" />
     <setting id="tmdb_cache" value="true" />
     <setting id="tmdb_cache_expire" value="1" />
@@ -92,15 +77,9 @@
     <setting id="tmdb_plus_info" value="false" />
     <setting id="tmdb_threads" value="20" />
     <setting id="trakt_sync" value="false" />
-    <setting id="tvshow_color" value="[COLOR white]white[/COLOR]" />
     <setting id="unify" value="false" />
-    <setting id="update_color" value="[COLOR white]white[/COLOR]" />
     <setting id="video_thumbnail_type" value="0" />
-    <setting id="videolibrary_kodi" value="false" />
-    <setting id="videolibrary_kodi_flag" value="1" />
+    <setting id="videolibrary_kodi" value="true" />
+    <setting id="videolibrary_kodi_flag" value="0" />
     <setting id="videolibrarypath" value="special://profile/addon_data/plugin.video.alfa/videolibrary" />
-    <setting id="vo_color" value="[COLOR white]white[/COLOR]" />
-    <setting id="vos_color" value="[COLOR white]white[/COLOR]" />
-    <setting id="vose_color" value="[COLOR white]white[/COLOR]" />
-    <setting id="year_color" value="[COLOR white]white[/COLOR]" />
 </settings>

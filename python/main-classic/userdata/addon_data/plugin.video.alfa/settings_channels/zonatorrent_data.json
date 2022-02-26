@@ -1,0 +1,18 @@
+{
+    "settings": {
+        "auto_download_new": false, 
+        "auto_download_new_all": false, 
+        "emergency_urls": 1, 
+        "emergency_urls_torrents": true, 
+        "filter_languages": 0, 
+        "include_in_global_search": true, 
+        "include_in_newest_infantiles": true, 
+        "include_in_newest_peliculas": true, 
+        "include_in_newest_terror": true, 
+        "include_in_newest_torrent": true, 
+        "modo_grafico": true, 
+        "pseudo_titulos": true, 
+        "seleccionar_ult_temporadda_activa": true, 
+        "timeout_downloadpage": 5
+    }
+}

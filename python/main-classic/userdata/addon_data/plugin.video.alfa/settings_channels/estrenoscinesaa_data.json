@@ -1,0 +1,8 @@
+{
+    "settings": {
+        "comprueba_enlaces": false, 
+        "comprueba_enlaces_num": 1, 
+        "include_in_global_search": false, 
+        "modo_grafico": true
+    }
+}

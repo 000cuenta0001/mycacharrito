@@ -1,0 +1,7 @@
+{
+    "settings": {
+        "include_in_newest_peliculas": true, 
+        "modo_grafico": true, 
+        "perfil": 3
+    }
+}

@@ -1,0 +1,12 @@
+{
+    "settings": {
+        "episodios_x_pag": 2, 
+        "include_in_global_search": true, 
+        "include_in_newest_latino": true, 
+        "include_in_newest_peliculas": true, 
+        "include_in_newest_series": true, 
+        "include_in_newest_terror": true, 
+        "perfil": 2, 
+        "temporada_o_todos": true
+    }
+}
