@@ -59,6 +59,7 @@ ID_FOLDERS_TVSHOWS = [
 	('1lDuMkMtwFOXMu1SuGsxf_W0pLT_46bvR', 'ANTERIORES 2020'),
 	('1wvawPjb7f_ClS20UEOygU1FMm8H_q8_d', 'NUEVAS 2020'),
 	('1tXnIcLcN70XIAld42wxeJ3xq4FMbIAP-', 'Series Documentales'),
+	('1pww1Oq3ERcfuDhcK61BFuGb0CT9JEei7', 'Series Infantiles'),
 ]
 
 ID_FOLDERS_SHORTCUTS = [
