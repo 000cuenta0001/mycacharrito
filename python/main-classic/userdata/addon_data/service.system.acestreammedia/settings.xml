@@ -7,7 +7,7 @@
     <setting id="disk_cache_limit">5</setting>
     <setting id="is_debug">true</setting>
     <setting id="is_experiment" default="true">false</setting>
-    <setting id="live_buffer_time">60</setting>
+    <setting id="live_buffer_time">5</setting>
     <setting id="live_cache_type">memory</setting>
     <setting id="login" default="true">ACESTREAM_LOGIN</setting>
     <setting id="max_connects">500</setting>
