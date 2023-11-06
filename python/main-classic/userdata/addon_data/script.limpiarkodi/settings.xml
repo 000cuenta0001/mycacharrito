@@ -1,8 +1,0 @@
-<settings version="2">
-    <setting id="autoclean" default="true">false</setting>
-    <setting id="filesize_alert">10</setting>
-    <setting id="filesizethumb_alert">200</setting>
-    <setting id="packagenumbers_alert">5</setting>
-    <setting id="palantir" default="true">false</setting>
-    <setting id="update" default="true">false</setting>
-</settings>
