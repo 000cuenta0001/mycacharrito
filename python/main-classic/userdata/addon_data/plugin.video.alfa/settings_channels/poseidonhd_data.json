@@ -1,0 +1,16 @@
+{
+    "settings": {
+        "comprueba_enlaces": false, 
+        "comprueba_enlaces_num": 1, 
+        "current_host": "https://www.poseidonhd2.co/", 
+        "filter_languages": 0, 
+        "include_in_global_search": true, 
+        "include_in_newest_infantiles": true, 
+        "include_in_newest_peliculas": true, 
+        "include_in_newest_terror": true, 
+        "modo_grafico": true, 
+        "modo_grafico_lang": 0, 
+        "season_colapse": true, 
+        "seleccionar_ult_temporadda_activa": true
+    }
+}

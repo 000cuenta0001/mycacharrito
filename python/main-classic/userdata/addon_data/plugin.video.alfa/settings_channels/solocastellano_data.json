@@ -1,0 +1,11 @@
+{
+    "settings": {
+        "current_host": "", 
+        "filter_languages": 0, 
+        "include_in_global_search": false, 
+        "include_in_newest_castellano": true, 
+        "include_in_newest_infantiles": true, 
+        "include_in_newest_peliculas": true, 
+        "include_in_newest_terror": true
+    }
+}

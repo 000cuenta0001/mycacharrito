@@ -1,0 +1,14 @@
+{
+    "settings": {
+        "current_host": "", 
+        "filter_languages": 0, 
+        "include_in_global_search": true, 
+        "include_in_newest_castellano": true, 
+        "include_in_newest_infantiles": false, 
+        "include_in_newest_latino": true, 
+        "include_in_newest_peliculas": true, 
+        "include_in_newest_terror": true, 
+        "modo_grafico": true, 
+        "perfil": 3
+    }
+}

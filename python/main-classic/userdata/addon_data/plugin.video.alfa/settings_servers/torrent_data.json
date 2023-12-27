@@ -1,0 +1,31 @@
+{
+    "settings": {
+        "CAPTURE_THRU_BROWSER_in_use": "", 
+        "LIBTORRENT_in_use": false, 
+        "UNRAR_in_use": false, 
+        "acorta-link.com": "", 
+        "acortar24.xyz": "", 
+        "allow_seeding": false, 
+        "black_list": false, 
+        "bt_buffer": null, 
+        "bt_download_path": "/storage/.kodi/userdata/addon_data/plugin.video.alfa/downloads", 
+        "btdigg_status": false, 
+        "capture_thru_browser_path": "", 
+        "elementum_dl": "", 
+        "favorites_servers_list": 0, 
+        "libtorrent_error": "", 
+        "libtorrent_path": "/storage/.kodi/userdata/addon_data/plugin.video.alfa/bin", 
+        "libtorrent_version": "linux_armv7/1.1.1", 
+        "magnet2torrent": false, 
+        "mct_background_download": false, 
+        "mct_buffer": "50", 
+        "mct_download_limit": "", 
+        "mct_download_path": "/storage/.kodi/userdata/addon_data/plugin.video.alfa/downloads", 
+        "mct_rar_unpack": false, 
+        "torrent_cached_list": [], 
+        "torrent_client": 3, 
+        "torrest_advise": false, 
+        "unrar_device": "linux__osmc_arm", 
+        "unrar_path": "/storage/.kodi/userdata/addon_data/plugin.video.alfa/bin/unrar"
+    }
+}

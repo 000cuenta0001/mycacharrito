@@ -1,0 +1,10 @@
+{
+    "settings": {
+        "current_host": "", 
+        "include_in_global_search": true, 
+        "include_in_newest_peliculas": true, 
+        "include_in_newest_terror": true, 
+        "modo_grafico": true, 
+        "perfil": 3
+    }
+}

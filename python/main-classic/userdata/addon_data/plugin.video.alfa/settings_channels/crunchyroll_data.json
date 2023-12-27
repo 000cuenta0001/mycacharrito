@@ -1,0 +1,11 @@
+{
+    "settings": {
+        "crunchyrollidioma": 6, 
+        "crunchyrollsub": 6, 
+        "current_host": "", 
+        "include_in_global_search": false, 
+        "perfil": 3, 
+        "proxy_spain": false, 
+        "proxy_usa": false
+    }
+}

@@ -1,0 +1,18 @@
+{
+    "settings": {
+        "auto_download_new": false, 
+        "auto_download_new_all": false, 
+        "current_host": "", 
+        "domain_name": "https://zooqle.torrentbay.to/", 
+        "filter_languages": 0, 
+        "include_in_global_search": true, 
+        "include_in_newest_peliculas": true, 
+        "include_in_newest_series": true, 
+        "max_items_one_quality": 10, 
+        "max_items_per_quality": 3, 
+        "modo_grafico": true, 
+        "pseudo_titulos": true, 
+        "seleccionar_ult_temporadda_activa": true, 
+        "timeout_downloadpage": 5
+    }
+}

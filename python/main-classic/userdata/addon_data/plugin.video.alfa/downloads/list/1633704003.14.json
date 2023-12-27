@@ -1,0 +1,120 @@
+{
+    "action": "menu", 
+    "alive": "ok", 
+    "category": "Pctmix1", 
+    "channel": "downloads", 
+    "channel_host": "https://pctmix1.com/", 
+    "clean_plot": "Salvor planta cara a una enemiga del Imperio. Los Hermanos D\u00eda y Descenso tienen un desacuerdo, mientras el Hermano Despunte debe lidiar con su verdad.", 
+    "contentAction": "play", 
+    "contentChannel": "newpct1", 
+    "context": "['buscar_trailer']", 
+    "downloadCompleted": 0, 
+    "downloadFilename": ":BT: /Foundation - Temporada 1 [HDTV 720p][Cap.104][AC3 5.1 Castellano][www.maxitorrent.com]/Foundation - Temporada 1 [HDTV 720p][Cap.104][AC3 5.1 Castellano][www.maxitorrent.com].rar", 
+    "downloadProgress": 100, 
+    "downloadQueued": 3, 
+    "downloadServer": {
+        "server": "torrent", 
+        "url": "/storage/.kodi/userdata/addon_data/plugin.video.alfa/videolibrary/temp_torrents_Alfa/305327100ccd1bd887e7843eb9e6e43af1a8e8f1.torrent"
+    }, 
+    "downloadSize": 0, 
+    "downloadStatus": 5, 
+    "extra": "episodios", 
+    "fanart": "https://image.tmdb.org/t/p/original/uAWB8qOs7L6zGTwxAbeT97AsJk6.jpg", 
+    "from_title": "Fundacion", 
+    "infoLabels": {
+        "IMDBNumber": "tt0804484", 
+        "aired": "08/10/2021", 
+        "castandrole": [
+            [
+                "Daniel MacPherson", 
+                "Hugo"
+            ], 
+            [
+                "Jared Harris", 
+                "Hari Seldon"
+            ], 
+            [
+                "Laura Birn", 
+                "Demerzel"
+            ], 
+            [
+                "Leah Harvey", 
+                "Salvor"
+            ], 
+            [
+                "Lee Pace", 
+                "Brother Day"
+            ], 
+            [
+                "Lou Llobell", 
+                "Gaal Dornick"
+            ], 
+            [
+                "Terrence Mann", 
+                "Brother Dusk"
+            ]
+        ], 
+        "country": "EEUU, US", 
+        "director": "Alex Graves", 
+        "duration": 4140, 
+        "episode": 4, 
+        "episodio_air_date": "08/10/2021", 
+        "episodio_imagen": "https://image.tmdb.org/t/p/original/k0sNoraOGogMPnzn68Ws973PtEN.jpg", 
+        "episodio_sinopsis": "Salvor planta cara a una enemiga del Imperio. Los Hermanos D\u00eda y Descenso tienen un desacuerdo, mientras el Hermano Despunte debe lidiar con su verdad.", 
+        "episodio_titulo": "B\u00e1rbaros a las puertas", 
+        "fanart": "https://image.tmdb.org/t/p/original/uAWB8qOs7L6zGTwxAbeT97AsJk6.jpg", 
+        "genre": "Sci-Fi & Fantasy, Drama", 
+        "homepage": "https://tv.apple.com/show/umc.cmc.5983fipzqbicvrve6jdfep4x3", 
+        "imdb_id": "tt0804484", 
+        "in_production": true, 
+        "last_air_date": "2021-10-01", 
+        "mediatype": "episode", 
+        "number_of_episodes": 10, 
+        "number_of_seasons": 1, 
+        "original_language": "en", 
+        "originaltitle": "Foundation", 
+        "plot": "Salvor planta cara a una enemiga del Imperio. Los Hermanos D\u00eda y Descenso tienen un desacuerdo, mientras el Hermano Despunte debe lidiar con su verdad.", 
+        "popularity": 546.04300000000001, 
+        "poster_path": "https://image.tmdb.org/t/p/original/k0sNoraOGogMPnzn68Ws973PtEN.jpg", 
+        "premiered": "23/09/2021", 
+        "quality": "HDTV 720p AC3 5.1", 
+        "rating": 8.3000000000000007, 
+        "season": 1, 
+        "status": "Returning Series", 
+        "studio": "Apple TV+", 
+        "temporada_air_date": "23/09/2021", 
+        "temporada_nombre": "Temporada 1", 
+        "temporada_num_episodios": 10, 
+        "temporada_poster": "https://image.tmdb.org/t/p/original/t9TriotLj4h9KkCzdv6mszD9ZfM.jpg", 
+        "temporada_sinopsis": "Basada en la saga de Isaac Asimov, Fundaci\u00f3n retrata a un grupo de exiliados de la galaxia en su \u00e9pica misi\u00f3n de salvar a la humanidad y reconstruir la civilizaci\u00f3n.", 
+        "thumbnail": "https://image.tmdb.org/t/p/original/t9TriotLj4h9KkCzdv6mszD9ZfM.jpg", 
+        "title": "B\u00e1rbaros a las puertas", 
+        "tmdb_id": "93740", 
+        "tvdb_id": "366972", 
+        "tvshowtitle": "Fundacion", 
+        "type": "Scripted", 
+        "votes": 159, 
+        "writer": "David S. Goyer, Josh Friedman", 
+        "year": "2021"
+    }, 
+    "language": [
+        "CAST"
+    ], 
+    "password": "www.atomixHQ.com", 
+    "path": "1633704003.14.json", 
+    "plan_b": true, 
+    "server": "torrent", 
+    "thumbnail": "https://image.tmdb.org/t/p/original/k0sNoraOGogMPnzn68Ws973PtEN.jpg", 
+    "title": "[[COLOR yellow]?[/COLOR]] [COLOR yellow][Torrent][/COLOR] [COLOR limegreen][HDTV 720p AC3 5.1][/COLOR] [COLOR red]['CAST'][/COLOR] [[COLOR magenta][B]RAR-[/B][/COLOR]1,29 G\u00b7B]", 
+    "torr_folder": "Foundation - Temporada 1 [HDTV 720p][Cap.104][AC3 5.1 Castellano][www.maxitorrent.com]", 
+    "torrent_info": "[[COLOR magenta][B]RAR-[/B][/COLOR]1,29 G\u00b7B]", 
+    "url": "/storage/.kodi/userdata/addon_data/plugin.video.alfa/videolibrary/temp_torrents_Alfa/305327100ccd1bd887e7843eb9e6e43af1a8e8f1.torrent", 
+    "url_control": "https://pctmix1.com/descargar-torrent/159354_-1633689437-Foundation---Temporada-1--HDTV-720p-AC3-5-1/", 
+    "url_quality_alt": [
+        [
+            "https://pctmix1.com/descargar/serie-1080p/fundacion/temporada-1/capitulo-04/", 
+            "HDTV 1080p AC3 5.1"
+        ]
+    ], 
+    "url_tvshow": "https://pctmix1.com/series-hd/fundacion/7526"
+}

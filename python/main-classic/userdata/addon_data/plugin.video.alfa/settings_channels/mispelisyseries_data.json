@@ -1,0 +1,24 @@
+{
+    "settings": {
+        "clonenewpct1_excluir1_enlaces_descargas": 0, 
+        "clonenewpct1_excluir1_enlaces_veronline": 9, 
+        "clonenewpct1_excluir2_enlaces_descargas": 0, 
+        "clonenewpct1_excluir2_enlaces_veronline": 12, 
+        "clonenewpct1_excluir3_enlaces_descargas": 0, 
+        "clonenewpct1_excluir3_enlaces_veronline": 20, 
+        "clonenewpct1_excluir4_enlaces_descargas": 0, 
+        "clonenewpct1_excluir4_enlaces_veronline": 0, 
+        "clonenewpct1_excluir5_enlaces_descargas": 0, 
+        "clonenewpct1_excluir5_enlaces_veronline": 0, 
+        "clonenewpct1_ver_enlaces_descargas": 0, 
+        "clonenewpct1_ver_enlaces_veronline": 1, 
+        "clonenewpct1_verificar_enlaces_descargas": 1, 
+        "clonenewpct1_verificar_enlaces_descargas_validos": true, 
+        "clonenewpct1_verificar_enlaces_veronline": 1, 
+        "clonenewpct1_verificar_enlaces_veronline_validos": true, 
+        "current_host": "", 
+        "include_in_global_search": false, 
+        "modo_grafico": true, 
+        "seleccionar_ult_temporadda_activa": true
+    }
+}

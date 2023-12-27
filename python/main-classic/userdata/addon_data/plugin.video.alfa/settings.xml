@@ -1,0 +1,172 @@
+<settings version="2">
+    <setting id="addon_outdated_message">true</setting>
+    <setting id="addon_quasar_update" default="true">false</setting>
+    <setting id="addon_update_message" default="true">false</setting>
+    <setting id="addon_update_timer">0</setting>
+    <setting id="adult_aux_intro_password" default="true"></setting>
+    <setting id="adult_aux_new_password1" default="true"></setting>
+    <setting id="adult_aux_new_password2" default="true"></setting>
+    <setting id="adult_mode" default="true">0</setting>
+    <setting id="adult_request_password">true</setting>
+    <setting id="alfa_version" default="true">3.9.16</setting>
+    <setting id="alternative_web_access" default="true">false</setting>
+    <setting id="assistant_auto_install" default="true"></setting>
+    <setting id="assistant_custom_address">100.67.68.97</setting>
+    <setting id="assistant_flag_install">false</setting>
+    <setting id="assistant_manual_install" default="true"></setting>
+    <setting id="assistant_mode">otro</setting>
+    <setting id="assistant_remote_status" default="true">192.168.0.10|[&apos;Ruta_a_Kodi_cliente_remoto&apos;,]</setting>
+    <setting id="assistant_version" default="true">1.3.90</setting>
+    <setting id="autoplay" default="true">false</setting>
+    <setting id="autoplay_qlty" default="true">0</setting>
+    <setting id="caching">true</setting>
+    <setting id="cast_color" default="true">[COLOR orange]orange[/COLOR]</setting>
+    <setting id="category" default="true">70137</setting>
+    <setting id="cf_assistant_bl_expiration">5</setting>
+    <setting id="cf_assistant_ua" default="true"></setting>
+    <setting id="channel_language" default="true">0</setting>
+    <setting id="chrome_ua_version">120.0.6099.129</setting>
+    <setting id="color_test" default="true"></setting>
+    <setting id="current_host" default="true">1</setting>
+    <setting id="custom_start" default="true">false</setting>
+    <setting id="date_real" default="true">2023-12-26</setting>
+    <setting id="debug">true</setting>
+    <setting id="default_action">2</setting>
+    <setting id="downloadlistpath">special://profile/addon_data/plugin.video.alfa/downloads/list</setting>
+    <setting id="downloadpath">special://profile/addon_data/plugin.video.alfa/downloads</setting>
+    <setting id="downloads_alternate_system" default="true">false</setting>
+    <setting id="downloads_block_size">1</setting>
+    <setting id="downloads_browser">false</setting>
+    <setting id="downloads_library_add" default="true">false</setting>
+    <setting id="downloads_library_move" default="true">false</setting>
+    <setting id="downloads_max_buffer">10</setting>
+    <setting id="downloads_max_connections">4</setting>
+    <setting id="downloads_part_size">1</setting>
+    <setting id="downloads_show_torrent_paths">true</setting>
+    <setting id="downloads_sort_servers" default="true">0</setting>
+    <setting id="downloads_sort_servers_language" default="true">0</setting>
+    <setting id="downloads_sort_servers_quality" default="true">0</setting>
+    <setting id="downloads_sort_servers_speed">true</setting>
+    <setting id="extended_info" default="true">false</setting>
+    <setting id="external_vpn" default="true">false</setting>
+    <setting id="folder_movies" default="true">CINE</setting>
+    <setting id="folder_tvshows" default="true">SERIES</setting>
+    <setting id="forceview" default="true">false</setting>
+    <setting id="frequents" default="true">false</setting>
+    <setting id="frequents_folder" default="true">false</setting>
+    <setting id="hidepremium">true</setting>
+    <setting id="httptools_timeout">15</setting>
+    <setting id="icon_set" default="true">default</setting>
+    <setting id="infoplus">true</setting>
+    <setting id="infoplus_set" default="true">70129</setting>
+    <setting id="install_trakt" default="true">true</setting>
+    <setting id="is_rooted_device" default="true">check</setting>
+    <setting id="lat_color" default="true">[COLOR deepskyblue]deepskyblue[/COLOR]</setting>
+    <setting id="library_color" default="true">[COLOR yellow]yellow[/COLOR]</setting>
+    <setting id="lista_activa" default="true">alfavorites-default.json</setting>
+    <setting id="max_frequents">5</setting>
+    <setting id="max_frequents_folder" default="true">0</setting>
+    <setting id="movie_color" default="true">[COLOR deepskyblue]deepskyblue[/COLOR]</setting>
+    <setting id="news_max_workers" default="true">0</setting>
+    <setting id="news_range" default="true">0</setting>
+    <setting id="news_start" default="true">false</setting>
+    <setting id="next_ep">1</setting>
+    <setting id="next_ep_seconds">30</setting>
+    <setting id="next_ep_type" default="true">false</setting>
+    <setting id="no_update_color" default="true">[COLOR red]red[/COLOR]</setting>
+    <setting id="player_mode" default="true">0</setting>
+    <setting id="preset_style" default="true">Estilo 2</setting>
+    <setting id="preset_style_switch" default="true">true</setting>
+    <setting id="proxy_active" default="true">VHJ1ZQ==</setting>
+    <setting id="proxy_addr" default="true">MzQuNDIuMTgwLjE5Mjo4MDgw</setting>
+    <setting id="proxy_CF_addr" default="true">MzQuNDIuMTgwLjE5Mjo4MDgw</setting>
+    <setting id="proxy_CF_list" default="true">WyczNC40Mi4xODAuMTkyOjgwODAnLCAnODkuNTguNDguMjIwOjEwMDA2JywgJzQ1Ljg3LjY4LjQ6MTUzMjEnLCAnMTkwLjYzLjM1LjMwOjk4MTInXQ==</setting>
+    <setting id="proxy_channel_bloqued" default="true">eydhbGxwZWxpY3VsYXMuc2UnOiAnUHJveHlXZWI6Y3JveHlwcm94eS5jb20nLCAnbWlyYXBlbGljdWxhc2RlLmNvbSc6ICdQcm94eUNGJywgJ3N1YnRvcnJlbnRzLmV1JzogJ1Byb3h5V2ViOmNyb3h5cHJveHkuY29tJywgJ2hkZnVsbC5pdCc6ICdQcm94eVdlYjpjcm94eXByb3h5LmNvbScsICdob21lY2luZS50dic6ICdQcm94eVdlYjpjcm94eXByb3h5LmNvbScsICdkaXZ4dG90YWwubW92JzogJ1Byb3h5V2ViOmNyb3h5cHJveHkuY29tJywgJ2hlbmFvamFyYS5jb20nOiAnUHJveHlXZWI6Y3JveHlwcm94eS5jb20nLCAncGVsaXNwbHVzLnRvJzogJ1Byb3h5V2ViOmNyb3h5cHJveHkuY29tJywgJ2FuaW1lZmVuaXgudHYnOiAnUHJveHlDRicsICdoZGZ1bGwucXVlc3QnOiAnUHJveHlDRicsICdncmFudG9ycmVudC5wbSc6ICdQcm94eVdlYjpjcm94eXByb3h5LmNvbScsICdncmFudG9ycmVudC53Zic6ICdQcm94eVdlYjpjcm94eXByb3h5LmNvbScsICdhbGxjYWxpZGFkLnJlJzogJ1Byb3h5Q0YnLCAnaGQtZnVsbC5vbmUnOiAnUHJveHlDRicsICdwZWxpc2ZsaXgubG9hbic6ICdQcm94eVdlYjpjcm94eXByb3h5LmNvbScsICdzZXJpZXNmbGl4LmxhdCc6ICdQcm94eVdlYjpjcm94eXByb3h5LmNvbScsICdlcy5yZWR0dWJlLmNvbSc6ICdQcm94eVdlYjpjcm94eXByb3h5LmNvbScsICdwZWxpc21hcmF0b24ubnUnOiAnUHJveHlXZWI6Y3JveHlwcm94eS5jb20nLCAnbWVqb3J0b3JyZW50LnJpcCc6ICdQcm94eVdlYjpjcm94eXByb3h5LmNvbScsICdmaWxtb3Zlcy5uZXQnOiAnUHJveHlXZWI6Y3JveHlwcm94eS5jb20nLCAnZ251bGEubnUnOiAnUHJveHlXZWI6Y3JveHlwcm94eS5jb20nLCAncGVsaXNmbGl4LnNob3cnOiAnUHJveHlXZWI6Y3JveHlwcm94eS5jb20nLCAnY3VldmFuYTMuY2gnOiAnUHJveHlXZWI6Y3JveHlwcm94eS5jb20nLCAncmVkdHViZS5jb20nOiAnUHJveHlXZWI6Y3JveHlwcm94eS5jb20nLCAnY3VldmFuYTJlc3Bhbm9sLm5ldCc6ICdQcm94eVdlYjpjcm94eXByb3h5LmNvbScsICdpdG9ycmVudHMub3JnJzogJ1Byb3h5V2ViOmNyb3h5cHJveHkuY29tJywgJ2FuaW1lb25saW5lLm5pbmphJzogJ1Byb3h5Q0YnLCAnaGRmdWxsLnNicyc6ICdQcm94eUNGJywgJ3VwdG9zdHJlYW0uY29tJzogJ1Byb3h5V2ViOmNyb3h5cHJveHkuY29tJywgJ2RpbG8ubnUnOiAnUHJveHlXZWI6Y3JveHlwcm94eS5jb20nLCAncGVsaXN4ZC5jb20nOiAnUHJveHlDRid9</setting>
+    <setting id="proxy_dev" default="true">dXNlcg==</setting>
+    <setting id="proxy_list" default="true">WyczNC40Mi4xODAuMTkyOjgwODAnLCAnODkuNTguNDguMjIwOjEwMDA2JywgJzQ1Ljg3LjY4LjQ6MTUzMjEnLCAnMTkwLjYzLjM1LjMwOjk4MTInXQ==</setting>
+    <setting id="proxy_web_name" default="true">aGlkZS5tZQ==</setting>
+    <setting id="proxy_white_list" default="true">eydjaW5lMjRoLm9ubGluZSc6ICdQcm94eUNGJywgJ2VudHJlcGVsaWN1bGFzeXNlcmllcy5ueic6ICdQcm94eVdlYjpjcm94eXByb3h5LmNvbScsICdoZGZ1bGwuaXQnOiAnUHJveHlXZWI6Y3JveHlwcm94eS5jb20nLCAnaG9tZWNpbmUudHYnOiAnUHJveHlXZWI6Y3JveHlwcm94eS5jb20nLCAncGVsaXNwbHVzLnRvJzogJ1Byb3h5V2ViOmNyb3h5cHJveHkuY29tJywgJ2dyYW50b3JyZW50LndmJzogJ1Byb3h5V2ViOmNyb3h5cHJveHkuY29tJywgJ21pcmFwZWxpY3VsYXNkZS5jb20nOiAnUHJveHlDRicsICdjdWV2YW5hMi5pY3UnOiAnUHJveHlXZWI6Y3JveHlwcm94eS5jb20nLCAnZ251bGEubnUnOiAnUHJveHlXZWI6Y3JveHlwcm94eS5jb20nLCAnZXp0di5saSc6ICdQcm94eVdlYjpjcm94eXByb3h5LmNvbScsICdpdG9ycmVudHMub3JnJzogJ1Byb3h5V2ViOmNyb3h5cHJveHkuY29tJywgJ2ZpbGVzLmdyYW50b3JyZW50LnBtJzogJ1Byb3h5V2ViOmNyb3h5cHJveHkuY29tJywgJ2VzLnJlZHR1YmUuY29tJzogJ1Byb3h5V2ViOmNyb3h5cHJveHkuY29tJywgJ2FuaW1lb25saW5lLm5pbmphJzogJ1Byb3h5Q0YnLCAnaGRmdWxsLnNicyc6ICdQcm94eUNGJywgJ3VwdG9zdHJlYW0uY29tJzogJ1Byb3h5V2ViOmNyb3h5cHJveHkuY29tJywgJ3BlbGlzeGQuY29tJzogJ1Byb3h5Q0YnLCAnYWxscGVsaWN1bGFzLnNlJzogJ1Byb3h5V2ViOmNyb3h5cHJveHkuY29tJywgJ3llc3RvcnJlbnQub3JnJzogJ1Byb3h5V2ViOmNyb3h5cHJveHkuY29tJywgJ3RvZG90b3JyZW50cy5vcmcnOiAnUHJveHlXZWI6Y3JveHlwcm94eS5jb20nLCAnc3VidG9ycmVudHMuZXUnOiAnUHJveHlXZWI6Y3JveHlwcm94eS5jb20nLCAnYWxsY2FsaWRhZC5yZSc6ICdQcm94eUNGJywgJ3JlZHR1YmUuY29tJzogJ1Byb3h5V2ViOmNyb3h5cHJveHkuY29tJywgJ2Rpdnh0b3RhbC5tb3YnOiAnUHJveHlXZWI6Y3JveHlwcm94eS5jb20nLCAnaGVuYW9qYXJhLmNvbSc6ICdQcm94eVdlYjpjcm94eXByb3h5LmNvbScsICdwbGF5dmlldy5ibG9nJzogJ1Byb3h5V2ViOmNyb3h5cHJveHkuY29tJywgJ2FuaW1lZmVuaXgudHYnOiAnUHJveHlDRicsICdoZGZ1bGwucXVlc3QnOiAnUHJveHlDRicsICdncmFudG9ycmVudC5wbSc6ICdQcm94eVdlYjpjcm94eXByb3h5LmNvbScsICdoZGZ1bGwudG9kYXknOiAnUHJveHlXZWI6Y3JveHlwcm94eS5jb20nLCAncGVsaXNwYW5kYS53aW4nOiAnUHJveHlXZWI6Y3JveHlwcm94eS5jb20nLCAnaGQtZnVsbC5vbmUnOiAnUHJveHlDRicsICdwZWxpc2ZsaXgubG9hbic6ICdQcm94eVdlYjpjcm94eXByb3h5LmNvbScsICdzZXJpZXNmbGl4LmxhdCc6ICdQcm94eVdlYjpjcm94eXByb3h5LmNvbScsICdwZWxpc21hcmF0b24ubnUnOiAnUHJveHlXZWI6Y3JveHlwcm94eS5jb20nLCAnbWVqb3J0b3JyZW50LnJpcCc6ICdQcm94eVdlYjpjcm94eXByb3h5LmNvbScsICdmaWxtb3Zlcy5uZXQnOiAnUHJveHlXZWI6Y3JveHlwcm94eS5jb20nLCAnY3VldmFuYTMuY2gnOiAnUHJveHlXZWI6Y3JveHlwcm94eS5jb20nLCAnZWxpdGV0b3JyZW50LmNvbSc6ICdQcm94eVdlYjpoaWRlLm1lJywgJ2N1ZXZhbmEyZXNwYW5vbC5uZXQnOiAnUHJveHlXZWI6Y3JveHlwcm94eS5jb20nLCAncGVsaXNmbGl4LnNob3cnOiAnUHJveHlXZWI6Y3JveHlwcm94eS5jb20nLCAnbWVnYXhzZXJpZS5tZSc6ICdQcm94eUNGJywgJ21pdG9ycmVudC5tZSc6ICdQcm94eVdlYjpjcm94eXByb3h5LmNvbScsICdkaWxvLm51JzogJ1Byb3h5V2ViOmNyb3h5cHJveHkuY29tJ30=</setting>
+    <setting id="proxy_zip" default="true">Q291bnRyeTogRVMgLyBPcGVyYXRvcjogVm9kYWZvbmUgU3BhaW4gLyBBU046IDEyNDMwIC8gUi5Db2RlOiAyMDAgLyBEYXRhOiAgLyBXZWJfaXA6IGh0dHBzOi8vYXBpLmlwLnNiL2dlb2lw</setting>
+    <setting id="quality_color" default="true">[COLOR salmon]salmon[/COLOR]</setting>
+    <setting id="rating_1_color" default="true">[COLOR red]red[/COLOR]</setting>
+    <setting id="rating_2_color" default="true">[COLOR white]white[/COLOR]</setting>
+    <setting id="rating_3_color" default="true">[COLOR gold]gold[/COLOR]</setting>
+    <setting id="report_started" default="true">false</setting>
+    <setting id="resolve_priority" default="true">0</setting>
+    <setting id="resolve_stop">true</setting>
+    <setting id="search_last_searched" default="true"></setting>
+    <setting id="search_max_workers" default="true">0</setting>
+    <setting id="search_remember_last">true</setting>
+    <setting id="search_result_mode" default="true">0</setting>
+    <setting id="search_save_limit">10</setting>
+    <setting id="search_saved_list" default="true"></setting>
+    <setting id="season_holidays" default="true">2</setting>
+    <setting id="second_language" default="true">0</setting>
+    <setting id="server_color" default="true">[COLOR white]white[/COLOR]</setting>
+    <setting id="settings_path" default="true">special://profile/addon_data/plugin.video.alfa/settings_channels</setting>
+    <setting id="shortcut_key" default="true"></setting>
+    <setting id="show_fixes">true</setting>
+    <setting id="show_once" default="true">true</setting>
+    <setting id="start_page" default="true">false</setting>
+    <setting id="subtitle_name" default="true">Ted Lasso 3x1 [COLOR greenyellow]Smells Like Mean Spirit[COLOR] [COLOR darkgrey][CAST] [VOSE] [VOS] [VO] [COLOR]</setting>
+    <setting id="thumbnail_type">2</setting>
+    <setting id="title_color" default="true">true</setting>
+    <setting id="tmdb_active" default="true">true</setting>
+    <setting id="tmdb_cache">true</setting>
+    <setting id="tmdb_cache_expire">1</setting>
+    <setting id="tmdb_clean_db_cache" default="true"></setting>
+    <setting id="tmdb_lang" default="true">0</setting>
+    <setting id="tmdb_plus_info" default="true">false</setting>
+    <setting id="tmdb_threads">20</setting>
+    <setting id="torrent_quality" default="true">0</setting>
+    <setting id="trakt_sync" default="true">false</setting>
+    <setting id="tvshow_color" default="true">[COLOR goldenrod]goldenrod[/COLOR]</setting>
+    <setting id="unify" default="true">false</setting>
+    <setting id="update_color" default="true">[COLOR gold]gold[/COLOR]</setting>
+    <setting id="video_thumbnail_type" default="true">0</setting>
+    <setting id="videolibrary_add_last_season_only" default="true">false</setting>
+    <setting id="videolibrary_ask_playback_channel" default="true">false</setting>
+    <setting id="videolibrary_auto_sync_kodi">true</setting>
+    <setting id="videolibrary_backup" default="true"></setting>
+    <setting id="videolibrary_content_search_locations" default="true">0</setting>
+    <setting id="videolibrary_daily_update_delay">1</setting>
+    <setting id="videolibrary_daily_update_delay_2">1</setting>
+    <setting id="videolibrary_enable_filters" default="true">false</setting>
+    <setting id="videolibrary_filters" default="true"></setting>
+    <setting id="videolibrary_kodi">true</setting>
+    <setting id="videolibrary_kodi_flag" default="true">0</setting>
+    <setting id="videolibrary_lowercase_title_in_content_folder" default="true">false</setting>
+    <setting id="videolibrary_mark_as_watched">true</setting>
+    <setting id="videolibrary_max_links" default="true">0</setting>
+    <setting id="videolibrary_merge_seasons">1</setting>
+    <setting id="videolibrary_movies_scraper" default="true">0</setting>
+    <setting id="videolibrary_original_title_in_content_folder" default="true">0</setting>
+    <setting id="videolibrary_remove_channel_name" default="true">false</setting>
+    <setting id="videolibrary_scan_after_backup" default="true">false</setting>
+    <setting id="videolibrary_shorter_window_texts" default="true">false</setting>
+    <setting id="videolibrary_show_all_seasons_entry">true</setting>
+    <setting id="videolibrary_trakt_sync_after_watching" default="true">false</setting>
+    <setting id="videolibrary_trakt_sync_new_tvshows" default="true">false</setting>
+    <setting id="videolibrary_trakt_sync_new_tvshows_delay">true</setting>
+    <setting id="videolibrary_trakt_sync_notification">true</setting>
+    <setting id="videolibrary_tvdb_english_fallback">true</setting>
+    <setting id="videolibrary_tvshows_scraper" default="true">0</setting>
+    <setting id="videolibrary_tvshows_update_mode" default="true">0</setting>
+    <setting id="videolibrary_update" default="true">1</setting>
+    <setting id="videolibrary_update_wait" default="true">0</setting>
+    <setting id="videolibrary_verify_playcount" default="true">false</setting>
+    <setting id="videolibrary_watched_setting">3</setting>
+    <setting id="videolibrary_white_list_order" default="true">false</setting>
+    <setting id="videolibrary_window_type" default="true">0</setting>
+    <setting id="videolibrary_xbmc_db_host" default="true"></setting>
+    <setting id="videolibrary_xbmc_db_location" default="true">0</setting>
+    <setting id="videolibrary_xbmc_db_port" default="true"></setting>
+    <setting id="videolibrarypath">special://profile/addon_data/plugin.video.alfa/videolibrary</setting>
+    <setting id="vo_color" default="true">[COLOR firebrick]firebrick[/COLOR]</setting>
+    <setting id="vos_color" default="true">[COLOR red]red[/COLOR]</setting>
+    <setting id="vose_color" default="true">[COLOR yellow]yellow[/COLOR]</setting>
+    <setting id="wishlist_autoscan" default="true">false</setting>
+    <setting id="wishlist_autoscan_timer">3</setting>
+    <setting id="xml_repaired" default="true">1</setting>
+    <setting id="year_color" default="true">[COLOR yellow]yellow[/COLOR]</setting>
+</settings>

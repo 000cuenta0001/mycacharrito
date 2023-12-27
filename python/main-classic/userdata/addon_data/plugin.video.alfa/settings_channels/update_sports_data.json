@@ -1,0 +1,10 @@
+{
+    "settings": {
+        "automatico": true, 
+        "current_host": "", 
+        "folder_update": true, 
+        "noupdate": false, 
+        "primeruso": false, 
+        "updater": 0
+    }
+}

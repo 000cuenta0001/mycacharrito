@@ -1,0 +1,22 @@
+{
+    "settings": {
+        "auto_download_new": false, 
+        "auto_download_new_all": false, 
+        "cookie_ren": true, 
+        "current_host": "https://www1.grantorrent.wf/", 
+        "emergency_urls": 1, 
+        "emergency_urls_torrents": true, 
+        "filter_languages": 0, 
+        "include_in_global_search": true, 
+        "include_in_newest_4k": true, 
+        "include_in_newest_peliculas": true, 
+        "include_in_newest_series": true, 
+        "modo_grafico": true, 
+        "modo_grafico_lang": 0, 
+        "pseudo_titulos": true, 
+        "season_colapse": true, 
+        "seleccionar_serie_temporada": 0, 
+        "seleccionar_ult_temporadda_activa": true, 
+        "timeout_downloadpage": 15
+    }
+}
