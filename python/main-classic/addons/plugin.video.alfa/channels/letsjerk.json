@@ -1,0 +1,15 @@
+{
+  "id": "letsjerk",
+  "name": "letsjerk",
+  "active": true,
+  "adult": true,
+  "language": ["*"],
+  "thumbnail": "https://i.postimg.cc/NMMH92ss/letsjerk.png",
+  "banner": "",
+  "fanart": "",
+  "categories": [
+    "adult"
+  ],
+  "settings": [
+  ]
+}

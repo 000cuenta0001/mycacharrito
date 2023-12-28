@@ -1,0 +1,458 @@
+{
+    "movie": {
+        "tt0450188": {
+            "IMDBNumber": "tt0450188", 
+            "castandrole": [
+                [
+                    "Agathe Bodin", 
+                    "Suzanne"
+                ], 
+                [
+                    "Alain Figlarz", 
+                    "Boxing trainer"
+                ], 
+                [
+                    "Alban Casterman", 
+                    "Charles Aznavour"
+                ], 
+                [
+                    "Andr\u00e9 Penvern", 
+                    "Jacques Canetti"
+                ], 
+                [
+                    "Ashley Wanninger", 
+                    "Lepl\u00e9e's assistant"
+                ], 
+                [
+                    "Aubert Fenoy", 
+                    "Michel Emer"
+                ], 
+                [
+                    "Caroline Raynaud", 
+                    "Ginou"
+                ], 
+                [
+                    "Caroline Silhol", 
+                    "Marlene Dietrich"
+                ], 
+                [
+                    "Catherine All\u00e9gret", 
+                    "Louise Gassion"
+                ], 
+                [
+                    "Chantal Bronner", 
+                    "Josette"
+                ], 
+                [
+                    "Christophe Kourotchkine", 
+                    "Civilian policeman"
+                ], 
+                [
+                    "Christophe Odent", 
+                    "Dr. Bernay"
+                ], 
+                [
+                    "Christopher Gunning", 
+                    "Orchestra conductor"
+                ], 
+                [
+                    "Clotilde Courau", 
+                    "Annetta Gassion"
+                ], 
+                [
+                    "Cylia Malki", 
+                    "Philipo"
+                ], 
+                [
+                    "Denis M\u00e9nochet", 
+                    "Journalist in Orly"
+                ], 
+                [
+                    "Diana Stewart", 
+                    "American woman"
+                ], 
+                [
+                    "Dominique Bettenfeld", 
+                    "Albert"
+                ], 
+                [
+                    "Dominique Paturel", 
+                    "Lucien Roupp"
+                ], 
+                [
+                    "Emmanuelle Seigner", 
+                    "Titine"
+                ], 
+                [
+                    "Emy L\u00e9vy", 
+                    "Brothel girl"
+                ], 
+                [
+                    "Eric Franquelin", 
+                    "Etienne"
+                ], 
+                [
+                    "Fabien Duval", 
+                    "Policeman"
+                ], 
+                [
+                    "Farida Amrouche", 
+                    "A\u00efcha"
+                ], 
+                [
+                    "Fedele Papalia", 
+                    "Diner waiter"
+                ], 
+                [
+                    "Garrick Hagon", 
+                    "American doctor"
+                ], 
+                [
+                    "G\u00e9rard Depardieu", 
+                    "Louis Lepl\u00e9e"
+                ], 
+                [
+                    "Harry Hadden-Paton", 
+                    "Doug Davis"
+                ], 
+                [
+                    "Jan Ku\u017eelka", 
+                    "Brothel customer"
+                ], 
+                [
+                    "Jan Pavel Filipensk\u00fd", 
+                    "Fire eater"
+                ], 
+                [
+                    "Jarom\u00edr Jane\u010dek", 
+                    "Show manager in Dreux"
+                ], 
+                [
+                    "Jaroslav V\u00edzner", 
+                    "New year's eve man"
+                ], 
+                [
+                    "Jean-Jacques Desplanque", 
+                    "Tony Zale"
+                ], 
+                [
+                    "Jean-Paul Muel", 
+                    "Bruno Coquatrix"
+                ], 
+                [
+                    "Jean-Paul Rouve", 
+                    "Louis Gassion"
+                ], 
+                [
+                    "Jean-Pierre Martins", 
+                    "Marcel Cerdan"
+                ], 
+                [
+                    "Jil Aigrot", 
+                    "Edith Piaf (singing voice)"
+                ], 
+                [
+                    "Josette M\u00e9nard", 
+                    "Mamy"
+                ], 
+                [
+                    "Laura Stainkrycer", 
+                    "Brothel girl"
+                ], 
+                [
+                    "Laurence Gormezano", 
+                    "Brasserie waitress"
+                ], 
+                [
+                    "Laurent Olmedo", 
+                    "Jacques Pills"
+                ], 
+                [
+                    "Laurent Schilling", 
+                    "Claude"
+                ], 
+                [
+                    "Lenka Kourilova", 
+                    "O'Dett audience member"
+                ], 
+                [
+                    "Liliane Cebrian", 
+                    "Palm reader"
+                ], 
+                [
+                    "Lucie B\u0159ezovsk\u00e1", 
+                    "Brothel girl"
+                ], 
+                [
+                    "Manon Chevallier", 
+                    "Edith - 5 years old"
+                ], 
+                [
+                    "Marc Barb\u00e9", 
+                    "Raymond Asso"
+                ], 
+                [
+                    "Marc Chapiteau", 
+                    "Mitty Goldin"
+                ], 
+                [
+                    "Marc Gannot", 
+                    "Marc Bonel"
+                ], 
+                [
+                    "Marek Va\u0161ut", 
+                    "Docteur in Belleville (uncredited)"
+                ], 
+                [
+                    "Marie-Armelle Deguy", 
+                    "Marguerite Monnot"
+                ], 
+                [
+                    "Mario Hacquard", 
+                    "Charles Dumont"
+                ], 
+                [
+                    "Marion Cotillard", 
+                    "Edith Piaf"
+                ], 
+                [
+                    "Martin Janis", 
+                    "Jean Mermoz"
+                ], 
+                [
+                    "Martin Sochor", 
+                    "O'Dett audience member"
+                ], 
+                [
+                    "Mathias Honor\u00e9", 
+                    "Mr. Loyal"
+                ], 
+                [
+                    "Maureen Demidof", 
+                    "Marcelle"
+                ], 
+                [
+                    "Nathalie Cox", 
+                    "Pin-up"
+                ], 
+                [
+                    "Nathalie Dorval", 
+                    "Mireille"
+                ], 
+                [
+                    "Nicholas Pritchard", 
+                    "Jameson"
+                ], 
+                [
+                    "Nicolas Simon", 
+                    "Journalist by the church"
+                ], 
+                [
+                    "Nicole Dubois", 
+                    "Seamstress"
+                ], 
+                [
+                    "Olivier Carbone", 
+                    "Transvestite"
+                ], 
+                [
+                    "Olivier Cruveiller", 
+                    "Inspector Guillaume"
+                ], 
+                [
+                    "Olivier Raoux", 
+                    "Waiter"
+                ], 
+                [
+                    "Pascal Greggory", 
+                    "Louis Barrier"
+                ], 
+                [
+                    "Pascal Mottier", 
+                    "Boy"
+                ], 
+                [
+                    "Paulina N\u011bmcov\u00e1", 
+                    "American journalist"
+                ], 
+                [
+                    "Pauline Burlet", 
+                    "Edith - 10 years old"
+                ], 
+                [
+                    "Philippe Bricard", 
+                    "Man in Lannes"
+                ], 
+                [
+                    "Pier Luigi Colombetti", 
+                    "Brasserie owner"
+                ], 
+                [
+                    "Pierre Derenne", 
+                    "P'tit Louis"
+                ], 
+                [
+                    "Pierre Peyrichout", 
+                    "Journalist"
+                ], 
+                [
+                    "Robert Neb\u0159ensk\u00fd", 
+                    "Doctor in Dreux"
+                ], 
+                [
+                    "Robert Paturel", 
+                    "Boxing ring corner-man"
+                ], 
+                [
+                    "Rodolphe Saulnier", 
+                    "Barman"
+                ], 
+                [
+                    "Sylvie Testud", 
+                    "Simone \"M\u00f4mone\" Berteaut"
+                ], 
+                [
+                    "S\u00e9bastien Tavel", 
+                    "Interviewer"
+                ], 
+                [
+                    "Thierry Gibault", 
+                    "Ostende doctor"
+                ], 
+                [
+                    "Val\u00e9rie Moreau", 
+                    "Jeanne"
+                ], 
+                [
+                    "Vladim\u00edr Javorsk\u00fd", 
+                    "Street spectator"
+                ], 
+                [
+                    "V\u011bra Havelkov\u00e1", 
+                    "Brothel girl"
+                ], 
+                [
+                    "William Armstrong", 
+                    "Clifford Fisher"
+                ], 
+                [
+                    "Zdena Herfortov\u00e1", 
+                    "Woman Etoile Cafe"
+                ], 
+                [
+                    "\u00c9dith Le Merdy", 
+                    "Simone Margantin"
+                ], 
+                [
+                    "\u00c9lisabeth Commelin", 
+                    "Danielle Bonel"
+                ]
+            ], 
+            "country": "Francia, Gran Breta\u00f1a, Rep\u00fablica Checa", 
+            "director": "Olivier Dahan", 
+            "duration": 8400, 
+            "fanart": "https://image.tmdb.org/t/p/original/aVuVbxgZDbtX3vm9yJGh5yw8LxR.jpg", 
+            "genre": "M\u00fasica, Drama", 
+            "homepage": "http://www.tfmdistribution.com/lamome/lamome.htm", 
+            "imdb_id": "tt0450188", 
+            "original_language": "fr", 
+            "originaltitle": "La M\u00f4me", 
+            "plot": "Biograf\u00eda de la famosa cantante francesa Edith Piaf (1915-1963): su infancia, su adolescencia y su ascensi\u00f3n a la gloria. De los barrios bajos de Par\u00eds al \u00e9xito de Nueva York, la vida de Edith Piaf fue una lucha por sobrevivir y amar. Creci\u00f3 en medio de la pobreza, pero su voz m\u00e1gica y sus apasionados romances y amistades con las grandes personalidades de la \u00e9poca (Yves Montand, Jean Cocteau, Charles Aznavour, Marlene Dietrich, Marcel Cerdan) hicieron de ella una estrella mundial.", 
+            "popularity": 9.4420000000000002, 
+            "quality": "DVDRIP", 
+            "rating": 7.5, 
+            "release_date": "14/02/2007", 
+            "status": "Released", 
+            "tagline": "La extraordinaria vida de Edith Piaf", 
+            "thumbnail": "https://image.tmdb.org/t/p/original/95OY2RFI2eKFRXdrJHnxdFKRYn.jpg", 
+            "title": "La vida en rosa (Edith Piaf)", 
+            "tmdb_id": "1407", 
+            "url_scraper": [
+                "https://www.themoviedb.org/movie/1407"
+            ], 
+            "votes": 1185, 
+            "writer": "Isabelle Sobelman, Olivier Dahan", 
+            "year": 2007
+        }
+    }, 
+    "tvshow": {
+        "tt11737520": {
+            "IMDBNumber": "tt11737520", 
+            "aired": "31/08/2023", 
+            "castandrole": [
+                [
+                    "Emily Rudd", 
+                    "Nami"
+                ], 
+                [
+                    "I\u00f1aki Godoy", 
+                    "Monkey D. Luffy"
+                ], 
+                [
+                    "Jacob Gibson", 
+                    "Usopp"
+                ], 
+                [
+                    "Jeff Ward", 
+                    "Buggy the Clown"
+                ], 
+                [
+                    "Mackenyu", 
+                    "Roronoa Zoro"
+                ], 
+                [
+                    "Morgan Davies", 
+                    "Koby"
+                ], 
+                [
+                    "Taz Skylar", 
+                    "Sanji"
+                ], 
+                [
+                    "Vincent Regan", 
+                    "Vice Admiral Garp"
+                ]
+            ], 
+            "country": "EEUU, Sud\u00e1frica, US", 
+            "director": "Emma Sullivan, Josef Wladyka", 
+            "fanart": "https://image.tmdb.org/t/p/original/ac9qFnVrUzhzMjEW2sAiyPDce8w.jpg", 
+            "genre": "Action & Adventure, Sci-Fi & Fantasy", 
+            "homepage": "https://www.netflix.com/title/80217863", 
+            "imdb_id": "tt11737520", 
+            "in_production": true, 
+            "last_air_date": "2023-08-31", 
+            "last_episode_to_air": 8, 
+            "last_series_episode_to_air": "1x8", 
+            "mediatype": "tvshow", 
+            "number_of_episodes": 8, 
+            "number_of_seasons": 1, 
+            "original_language": "en", 
+            "originaltitle": "ONE PIECE", 
+            "plot": "El joven pirata Monkey D. Luffy y su variopinta tripulaci\u00f3n emprenden un viaje \u00e9pico en busca de un tesoro.", 
+            "popularity": 474.53100000000001, 
+            "poster_path": "https://image.tmdb.org/t/p/original/kzuzfuWJ0uzFkrsNuHHaWsk4G7w.jpg", 
+            "premiered": "31/08/2023", 
+            "rating": 8.1219999999999999, 
+            "season": 1, 
+            "status": "Returning Series", 
+            "studio": "Netflix", 
+            "temporada_air_date": "31/08/2023", 
+            "temporada_nombre": "Temporada 1", 
+            "temporada_num_episodios": 8, 
+            "temporada_poster": "https://image.tmdb.org/t/p/original/kzuzfuWJ0uzFkrsNuHHaWsk4G7w.jpg", 
+            "thumbnail": "https://image.tmdb.org/t/p/original/fsQ2KHbZk12z3h3dba2ActMEudj.jpg", 
+            "title": "ONE PIECE", 
+            "tmdb_id": "111110", 
+            "tvdb_id": "392276", 
+            "tvshowtitle": "ONE PIECE", 
+            "type": "Scripted", 
+            "url_scraper": [
+                "https://www.themoviedb.org/tv/111110", 
+                "https://thetvdb.com/index.php?tab=series&id=392276"
+            ], 
+            "votes": 168, 
+            "writer": "Allison Weintraub, Lindsay Gelfand, Matt Owens, Steven Maeda", 
+            "year": 2023
+        }
+    }
+}
