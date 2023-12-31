@@ -1,9 +1,0 @@
-{
-    "settings": {
-        "max_workers": 0, 
-        "multithread": true, 
-        "news_range": 0, 
-        "perfil": 0, 
-        "result_mode": 2
-    }
-}
