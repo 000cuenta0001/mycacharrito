@@ -61,7 +61,7 @@ if docker ps -a --format '{{.Names}}' | grep -q '^ace_proxy$'; then
 fi
 
 # Levantar contenedor final con configuración wgcf
-docker run -d --name wgcf --privileged --cap-add net_admin --sysctl net.ipv6.conf.all.disable_ipv6=0 -v /lib/modules:/lib/modules -v $(pwd)/wgcf:/wgcf -p 8000:8000 -p 8621:8621 -p 6878:6878 neilpang/wgcf-docker sh -c "sed -i -e '/^Address =/n; /^Address =/d' -e 's/AllowedIPs = 0.0.0.0\\/0/AllowedIPs = 0.0.0.0\\/1/' -e 's/AllowedIPs = ::\\/0/AllowedIPs = ::\\/1/' -e '/^DNS =/d' -e '/^MTU =/d' /wgcf/wgcf-profile.conf && cp /wgcf/wgcf-profile.conf /etc/wireguard/wgcf.conf && wg-quick up wgcf && tail -f /dev/null"
+docker run -d --name wgcf --privileged --cap-add net_admin --sysctl net.ipv6.conf.all.disable_ipv6=0 -v /lib/modules:/lib/modules -v $(pwd)/wgcf:/wgcf -p 8000:8000 -p 8621:8621 -p 6878:6878 --restart unless-stopped neilpang/wgcf-docker sh -c "sed -i -e '/^Address =/n; /^Address =/d' -e 's/AllowedIPs = 0.0.0.0\\/0/AllowedIPs = 0.0.0.0\\/1/' -e 's/AllowedIPs = ::\\/0/AllowedIPs = ::\\/1/' -e '/^DNS =/d' -e '/^MTU =/d' /wgcf/wgcf-profile.conf && cp /wgcf/wgcf-profile.conf /etc/wireguard/wgcf.conf && wg-quick up wgcf && tail -f /dev/null"
 echo "10. Levantado contenedor final 'wgcf'"
 
 # Levantar contenedor aceproxy
