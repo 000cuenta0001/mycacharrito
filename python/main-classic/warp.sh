@@ -33,7 +33,7 @@ echo "5. Creado directorio 'wgcf'"
 # Verificar y eliminar el contenedor wgcfconf si existe
 if $DOCKER ps -a --format '{{.Names}}' | grep -q '^wgcfconf$'; then
     $DOCKER stop wgcfconf
-    $DOCKER rm wgcfconf
+    $DOCKER rm -v wgcfconf
     echo "6. Detenido y eliminado contenedor 'wgcfconf'"
 fi
 
@@ -50,14 +50,14 @@ echo "7. Ejecutado contenedor 'wgcfconf' y esperado a su término"
 # Verificar y eliminar el contenedor wgcf si existe
 if $DOCKER ps -a --format '{{.Names}}' | grep -q '^wgcf$'; then
     $DOCKER stop wgcf
-    $DOCKER rm wgcf
+    $DOCKER rm -v wgcf
     echo "8. Detenido y eliminado contenedor 'wgcf'"
 fi
 
 # Verificar y eliminar el contenedor ace_proxy si existe
 if $DOCKER ps -a --format '{{.Names}}' | grep -q '^ace_proxy$'; then
     $DOCKER stop ace_proxy
-    $DOCKER rm ace_proxy
+    $DOCKER rm -v ace_proxy
     echo "9. Detenido y eliminado contenedor 'ace_proxy'"
 fi
 
