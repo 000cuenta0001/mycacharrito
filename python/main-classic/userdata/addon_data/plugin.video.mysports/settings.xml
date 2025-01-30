@@ -1,0 +1,50 @@
+<settings version="2">
+    <setting id="agenda_link_all" default="true">false</setting>
+    <setting id="hours_cache_agenda">0</setting>
+    <setting id="hours_cache_links">0</setting>
+    <setting id="last_id" default="true">ec29289b0b14756e686c03a501bae1efa05be70c</setting>
+    <setting id="log_messages">true</setting>
+    <setting id="max_items_agenda">50</setting>
+    <setting id="show_acb">true</setting>
+    <setting id="show_ala" default="true">false</setting>
+    <setting id="show_atb" default="true">false</setting>
+    <setting id="show_atm" default="true">false</setting>
+    <setting id="show_betis" default="true">false</setting>
+    <setting id="show_boxeo">true</setting>
+    <setting id="show_cadiz" default="true">false</setting>
+    <setting id="show_cel" default="true">false</setting>
+    <setting id="show_champions">true</setting>
+    <setting id="show_coches" default="true">false</setting>
+    <setting id="show_conference">true</setting>
+    <setting id="show_copa">true</setting>
+    <setting id="show_empty_play" default="true">false</setting>
+    <setting id="show_esp" default="true">false</setting>
+    <setting id="show_euroleague">true</setting>
+    <setting id="show_europaleague">true</setting>
+    <setting id="show_f1">true</setting>
+    <setting id="show_fcb" default="true">false</setting>
+    <setting id="show_geta" default="true">false</setting>
+    <setting id="show_girona" default="true">false</setting>
+    <setting id="show_golf" default="true">false</setting>
+    <setting id="show_history">false</setting>
+    <setting id="show_lega" default="true">false</setting>
+    <setting id="show_liga">true</setting>
+    <setting id="show_lp" default="true">false</setting>
+    <setting id="show_mall" default="true">false</setting>
+    <setting id="show_mma">true</setting>
+    <setting id="show_motogp">false</setting>
+    <setting id="show_motos">true</setting>
+    <setting id="show_motos2" default="true">false</setting>
+    <setting id="show_motos3" default="true">false</setting>
+    <setting id="show_osa" default="true">false</setting>
+    <setting id="show_premier">true</setting>
+    <setting id="show_rayo" default="true">false</setting>
+    <setting id="show_rm" default="true">false</setting>
+    <setting id="show_rs" default="true">false</setting>
+    <setting id="show_segunda">true</setting>
+    <setting id="show_sev" default="true">false</setting>
+    <setting id="show_tenis">true</setting>
+    <setting id="show_val" default="true">false</setting>
+    <setting id="show_vall" default="true">false</setting>
+    <setting id="show_vill" default="true">false</setting>
+</settings>
