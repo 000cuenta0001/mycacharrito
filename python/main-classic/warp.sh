@@ -7,7 +7,7 @@ docker rm -f ace_proxy wgcf 2>/dev/null  echo "No se encontraron los contenedore
 
 # Eliminar imagen específica
 echo "Eliminando imagen ef1f/raspberry_ace_proxy..."
-docker rmi -f ef1f/raspberry_ace_proxy 2>/dev/null  echo "La imagen ef1f/raspberry_ace_proxy no existe."
+docker rmi -f futebas/acestream-engine-arm:3.2.7.6 2>/dev/null  echo "La imagen futebas/acestream-engine-arm:3.2.7.6 no existe."
 
 # Limpiar imágenes dangling (sin tag)
 echo "Eliminando imágenes <none>..."
@@ -109,5 +109,5 @@ $DOCKER run -d --name wgcf --privileged --cap-add net_admin --sysctl net.ipv6.co
 echo "10. Levantado contenedor final 'wgcf'"
 
 # Levantar contenedor aceproxy
-$DOCKER run -d --name ace_proxy --network container:wgcf --privileged --restart unless-stopped futebas/acestream-engine-arm:3.2.7.6
+$DOCKER run -d --name ace_proxy --network container:wgcf --privileged --restart unless-stopped jopsis/acestream:arm32
 echo "11. Levantado contenedor 'ace_proxy'"
