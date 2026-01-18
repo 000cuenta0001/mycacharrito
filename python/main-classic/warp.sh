@@ -2,8 +2,8 @@
 DOCKER="/storage/.kodi/addons/service.system.docker/bin/docker"
 
 # Eliminar contenedores específicos si existen
-echo "Eliminando contenedores ace_proxy y wgcf..."
-docker rm -f ace_proxy wgcf 2>/dev/null  echo "No se encontraron los contenedores."
+echo "Eliminando imagen jopsis..."
+docker rmi -f jopsis/acestream:arm32 2>/dev/null  echo "La imagen futebas/jopsis/acestream:arm32 no existe."
 
 # Eliminar imagen específica
 echo "Eliminando imagen ef1f/raspberry_ace_proxy..."
@@ -109,5 +109,5 @@ $DOCKER run -d --name wgcf --privileged --cap-add net_admin --sysctl net.ipv6.co
 echo "10. Levantado contenedor final 'wgcf'"
 
 # Levantar contenedor aceproxy
-$DOCKER run -d --name ace_proxy --network container:wgcf --privileged --restart unless-stopped jopsis/acestream:arm32
+$DOCKER run -d --name ace_proxy --network container:wgcf --privileged --restart unless-stopped roheji8181/aceserve:arm32
 echo "11. Levantado contenedor 'ace_proxy'"
