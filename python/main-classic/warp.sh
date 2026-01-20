@@ -109,5 +109,5 @@ $DOCKER run -d --name wgcf --privileged --cap-add net_admin --sysctl net.ipv6.co
 echo "10. Levantado contenedor final 'wgcf'"
 
 # Levantar contenedor aceproxy
-$DOCKER run -d --name ace_proxy --network container:wgcf --privileged --restart unless-stopped roheji8181/aceserve:arm32
+$DOCKER run -d --name ace_proxy --network container:wgcf --privileged --restart unless-stopped --log-driver=none roheji8181/aceserve:arm32
 echo "11. Levantado contenedor 'ace_proxy'"
