@@ -1,0 +1,36 @@
+<addon id="plugin.video.totalsports"
+       name="TOTALSPORTS"
+       version="1.0.1"
+       provider-name="Blade Runner">
+
+    <!-- Plugin -->
+    <extension point="xbmc.python.pluginsource"
+               library="resources/lib/main.py">
+        <provides>video</provides>
+    </extension>
+
+    <!-- METADATA KODI 19+ -->
+    <extension point="kodi.addon.metadata">
+        <summary lang="es">TOTALSPORTS</summary>
+        <description lang="es">
+            TOTALSPORTS
+        </description>
+        <assets>
+            <icon>icon.png</icon>
+            <fanart>fanart.jpg</fanart>
+        </assets>
+        <platform>all</platform>
+    </extension>
+
+    <!-- METADATA KODI 18 (LEGACY) -->
+    <extension point="xbmc.addon.metadata">
+        <summary>TOTALSPORTS</summary>
+        <description>
+            TOTALSPORTS
+        </description>
+        <icon>icon.png</icon>
+        <fanart>fanart.jpg</fanart>
+        <platform>all</platform>
+    </extension>
+
+</addon>
